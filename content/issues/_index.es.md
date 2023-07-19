@@ -1,4 +1,0 @@
----
-type: issue
-title: Issues
----
