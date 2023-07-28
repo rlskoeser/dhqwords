@@ -92,3 +92,32 @@ body.issue {
 
     ul { list-style: none; }
 }
+
+
+/* dhq overrides */
+body.issue .issue-summary {
+    min-height: auto;
+}
+
+
+.issue .article-summary {
+    width: 100%;
+    margin: 2em 0;
+    .shaper, .bg-text {
+        display: none;
+    }
+    p {
+        max-width: none;
+    }
+}
+
+/* categories are dhq keywords; use color & weight to differentiate */
+.categories .tag {
+    font-weight: bolder;    
+}
+body.article .categories .tag {
+    color: $darkest-purple;  // light background
+}
+.article-short-summary .categories .tag {
+    color: $light-purple;  // dark background
+}

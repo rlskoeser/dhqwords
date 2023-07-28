@@ -12,6 +12,14 @@
             margin: 0 auto;
         }
     }
+    h1 {
+        background: $purple;
+        color: $off-white;
+        text-transform: lowercase;
+        margin: 0 auto;
+        padding: 1.5em 0;
+        text-align: center;
+    }
 
     // ensure "read more" link is clickable
     .issue-summary .summary .more {

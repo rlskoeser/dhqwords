@@ -70,7 +70,22 @@ body > header {
                 left: rem(6px);
             }
 
-            a:focus, a:active {
+           
+
+            // TODO: where to customize?
+            a {
+                text-direction: sideways;
+                writing-mode: vertical-lr;
+                transform: rotate(180deg);
+                text-transform: lowercase;
+                color: $off-white;
+                font-size: rem(22px);                 
+                padding-bottom: rem(10px);
+                margin-left: -8px;
+            }
+
+             a:focus, a:active {
+                color: $off-white;
                 border-left-width: 4px;
             }
         }
