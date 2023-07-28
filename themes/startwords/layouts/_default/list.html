@@ -1,0 +1,33 @@
+{{ define "main" }}
+<main>
+    <div class="grid">
+        <div class="container">
+  <article>
+    <h1>{{ .Title }}</h1>
+    <section>
+      {{- .Content -}}
+    </section>
+    <section>
+
+      {{ range .Pages }}
+      {{/* range .Paginator.Pages */}}
+        <div>
+          <a href="{{ .RelPermalink}}">{{ .Title }}</a>
+          {{ .Date | time.Format "2006" }}
+          {{/* .Render "summary" */}}
+
+          <ul>
+            {{ range .Pages }}
+            <li><a href="{{ .RelPermalink}}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+</div>
+</div>
+</main>
+{{ end }}
