@@ -8,10 +8,14 @@
 
 {{ define "main" }}
 <main>
-    <h1 class="sr-only">{{ .Site.Title }}</h1>
+    {{/* if not logotype */}}
+    <h1>{{ .Site.Title }}</h1>
+    {{/* if logotype */}}
+    {{/*  <h1 class="sr-only">{{ .Site.Title }}</h1>
     <div class="logotype">
-        <img alt="" src="/logotype.svg" />
-    </div>
+        {{ .Site.Title }}
+        {# <img alt="" src="/logotype.svg" /> #}
+    </div> */}}
     <div class="issue-summary inverted grid">
 
         <div class="container">
