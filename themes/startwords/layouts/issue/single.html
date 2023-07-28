@@ -12,15 +12,23 @@
         <div class="container">
             <span class="number">{{ i18n "issue" }} {{ .Params.number }}</span>
             <h1 class="theme">{{ .Params.theme }}</h1>
+            {{ if .Content }}
             <div class="summary">
                 {{ .Content }}
                 {{ partial "intro-authors" . }}
                 {{ partial "translators" . }}
             </div>
+
             <a href="#features" class="chevron highlight-focus">
                 <img src="/img/chevron.svg" alt="skip to featured content"/>
             </a>
             {{ partial "translations.html" . }}
+            {{ end }}
+            {{/* for dhq, find introduction and render teaser or abstract */}}
+            {{ range where .Pages ".Params.dhqtype" "introduction" }}
+                {{ .Render "summary" }}
+            {{ end }}
+
         </div>
 
     </div>
