@@ -77,6 +77,8 @@ find them by size:
 
     <xsl:value-of select="concat('---', $br)"/>
 
+    <!-- TODO: if article is in preview, set hugo article to draft -->
+
     <!-- todo: handle abstract and teaser -->
 
     <!-- todo: set order and clusters based on:
