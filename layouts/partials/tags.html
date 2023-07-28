@@ -1,0 +1,10 @@
+<ul class="categories tags">
+    {{ range .Params.categories }}
+    <li><span class="tag">{{ . }}</span></li> {{/* should eventually link to tags page */}}
+    {{ end }}
+</ul>
+<ul class="tags">
+    {{ range .Params.tags }}
+    <li><span class="tag">{{ . }}</span></li> {{/* should eventually link to tags page */}}
+    {{ end }}
+</ul>
