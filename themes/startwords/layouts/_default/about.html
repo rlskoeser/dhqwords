@@ -11,6 +11,7 @@
         <div class="text-container">
             {{ with .Content }}{{ . }}{{ end }}
 
+            {{ if .Params.masthead }}
             <div class="masthead">
                 <h2>{{ i18n "masthead" }}</h2>
 
@@ -35,6 +36,7 @@
                 {{ end }}
             </div>
         </div>
+        {{ end }}
     </div>
 </main>
 {{ end }}
