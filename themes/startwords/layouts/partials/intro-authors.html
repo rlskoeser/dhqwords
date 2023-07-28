@@ -1,6 +1,7 @@
 {{/* display author(s) for issue introduction */}}
 {{/* get introduction authors from current page OR default language issue */}}
 {{ $authors := newScratch }}
+{{ $authors.Set "authors" slice }}
 {{ if .Params.authors }}
     {{ $authors.Set "authors" .Params.authors }}
 {{ else }}
