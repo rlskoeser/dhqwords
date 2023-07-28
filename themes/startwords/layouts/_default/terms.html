@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main>
+    <div class="grid">
+        <div class="container">
+
+ <h1>{{- .Title -}}</h1>
+
+  {{ with .Content }}
+    <div>{{ . }}</div>
+    {{ end }}
+      <section class="tags">
+        <ul>
+          {{ range .Data.Terms.Alphabetical }}
+          <li>
+            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}
+            <span class="count">({{ .Count }})</span></a>
+           </li>
+          {{ end }}
+        </ul>
+</section>
+</div>
+</div>
+</main>
+{{ end }}
