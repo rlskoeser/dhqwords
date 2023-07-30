@@ -21,6 +21,9 @@ Additionally, it converts <p>, <head>, <hi>, <code>, and <ref> elements to their
 <xsl:variable name="lt" select="'&lt;'" />
 <xsl:variable name="gt" select="'&gt;'" />
 
+<!-- todo: set path via xsl param? lookup relative to article? -->
+<xsl:variable name="dhqtoc" select="document('../dhq-journal/toc/toc.xml')"/>
+
 <!-- run on all from one script? 
 <xsl:template name="main">
   <xsl:for-each select="collection('.?select=*.xml;recurse=yes')">
@@ -65,6 +68,13 @@ find them by size:
     <xsl:variable name="volume" select="tei:TEI/tei:teiHeader//tei:publicationStmt/ tei:idno[@type='volume']"/>    
     <xsl:variable name="issue" select="tei:TEI/tei:teiHeader//tei:publicationStmt/tei:idno[@type='issue']"/>    
 
+    <!-- find toc for the issue that contains this article -->
+    <xsl:variable name="journaltoc" select="$dhqtoc//journal[.//item/@id=$articleID]"/>
+    <!-- <xsl:variable name="articletoc" select="$dhqtoc//item[@id=$articleID]"/>     -->
+    <!-- determine order within issue based on number of proceeding articles -->
+    <xsl:variable name="articleOrder" select="count($journaltoc//item[following::item[@id=$articleID]]) + 1"/>   
+    <xsl:variable name="preview" select="$journaltoc/@preview"/>
+
     <!-- match dhq url structure somewhat: vol/vol#/issue#/article#/ -->
     <xsl:variable name="outputDirectory" select="concat('content/vol/', number($volume), '/', number($issue))"/>    
 
@@ -93,20 +103,21 @@ find them by size:
       <xsl:with-param name="lang" select="$lang"></xsl:with-param>
     </xsl:apply-templates>
 
-
-    <xsl:value-of select="concat('---', $br)"/>
-
-    <!-- TODO: if article is in preview, set hugo article to draft -->
-
-
-    <!-- todo: handle abstract and teaser -->
-
-    <!-- todo: set order and clusters based on:
+    <!-- metadata based on dhq toc -->
+    <xsl:value-of select="fn:field('order', string($articleOrder))"/>
+    <!-- if article/issue is in preview, set hugo article to draft -->    
+    <xsl:if test="$preview = 'true'">
+      <xsl:value-of select="fn:field('draft', 'true')"/>
+    </xsl:if>
+    <!-- still todo: set cluster this article belongs to based on toc
       dhq-journal/toc/toc.xml
 
       - one issue can have multiple clusters
       - list cluster editors
     -->
+    <xsl:value-of select="concat('---', $br)"/>
+
+    <!-- todo: handle abstract and teaser -->
 
     <!-- content for current language -->
     <!-- <xsl:apply-templates select="/tei:text/tei:body"/> -->
