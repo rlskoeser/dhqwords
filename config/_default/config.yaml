@@ -82,9 +82,7 @@ languages:
     weight: 2
     params:
       license_text: Atribución 4.0 Internacional (CC BY 4.0)
-      description: >-
-        Una publicación periódica de investigación publicada irregularmente por
-        el Centro de Humanidades Digitales de Princeton.
+      description: ""
       available_in: Disponible en Español
     menu:
       footer:
@@ -94,6 +92,13 @@ languages:
         - name: Authors
           url: authors/
           weight: 30
+  fr:
+    languageName: Francais
+    weight: 3
+    params:
+      license_text: Atribución 4.0 Internacional (CC BY 4.0)
+      description: ""
+      available_in: Disponible en Español
 
 
 markup:
