@@ -2,6 +2,7 @@
 
 import glob
 import os.path
+import shutil
 import subprocess
 from pathlib import Path
 import yaml
@@ -27,9 +28,31 @@ def convert_articles():
             continue
 
         # convert xslt to article markdown
-        completed = subprocess.run(["saxon", article, "tei-to-hugo.xslt"])
+        # completed = subprocess.run(["saxon", article, "tei-to-hugo.xslt"])
+        completed = subprocess.run(
+            ["node_modules/.bin/xslt3", "-s:%s" % article, "-xsl:tei-to-hugo.xslt"],
+            capture_output=True,
+            text=True,
+        )
         if completed.returncode != 0:
             print("error transforming %s" % article)
+        else:
+            # print xslt output
+            print(completed.stdout)
+            article_resource_dir = os.path.join(os.path.dirname(article), "resources")
+            if os.path.exists(article_resource_dir):
+                print("resource directory exists")
+
+                lines = completed.stdout.split("\n")
+                # xslt outputs markdown file(s); use to get directory
+                try:
+                    markdown_file = [l for l in lines if l.endswith(".md")][0]
+                    output_dir = os.path.dirname(markdown_file)
+                    print("markdown: %s; output_dir: %s" % (markdown_file, output_dir))
+                    # copy entire resource directory
+                    shutil.copytree(article_resource_dir, "%s/resources" % output_dir)
+                except IndexError:
+                    print("** could not determine output directory")
 
         # create issue index files for each issue dir
         # create vol files for each vol
@@ -50,7 +73,15 @@ def create_issue_indexes():
     # numeric volume dirs
     for voldir in Path("content/vol").iterdir():
         if voldir.is_dir():
-            vol_number = int(os.path.basename(voldir))
+            try:
+                vol_number = int(os.path.basename(voldir))
+            except ValueError:
+                # if not numeric, we don't want it
+                # (NaN folder created from some articles; preview/vol unset?)
+                print("removing %s" % voldir)
+                shutil.rmtree(voldir)
+                continue
+
             print(voldir, vol_number)
             vol_index = voldir / "_index.md"
             vol_info = {
@@ -79,5 +110,5 @@ def create_issue_indexes():
 
 
 if __name__ == "__main__":
-    # convert_articles()
+    convert_articles()  # NOTE: this is slow
     create_issue_indexes()
