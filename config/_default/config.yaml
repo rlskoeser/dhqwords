@@ -2,8 +2,7 @@ baseURL: 'https://startwords.cdh.princeton.edu/'
 title: DHQwords
 theme: startwords
 copyright: >-
-  This work is licensed under a Creative Commons Attribution 4.0 International
-  License.
+  This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
 enableEmoji: true
 # googleAnalytics:
 enableRobotsTXT: true
@@ -33,20 +32,26 @@ outputs:
     - ATOM
   page:
     - HTML
-    - TXT
+    # - TXT  # disable plaintext article version created in SW
 
 menu:
   footer:
     - name: About
       url: about/
       weight: 20
-    - name: Authors
-      url: authors/
+    - name: Keywords
+      url: categories/
       weight: 30
+    - name: Tags
+      url: tags/
+      weight: 3
+    # - name: Authors
+    #   url: authors/
+    #   weight: 30
 
 
 Author:
-  name: Center for Digital Humanities at Princeton
+  name:
   email: cdh-info@princeton.edu
 
 params:
@@ -56,7 +61,7 @@ params:
   dateformNum: '2006-01-02'
   dateformNumTime: '2006-01-02 15:04 -0700'
   license: 'http://creativecommons.org/licenses/by/4.0/'
-  license_text: Creative Commons Attribution 4.0 International License
+  license_text: Creative Commons Attribution No-Derivatives 4.0 International License
   images:
     - social.png
   description: >-
@@ -81,7 +86,7 @@ languages:
     languageName: Español
     weight: 2
     params:
-      license_text: Atribución 4.0 Internacional (CC BY 4.0)
+      license_text: Atribución-SinDerivadas 4.0 Internacional. (CC BY ND 4.0)
       description: ""
       available_in: Disponible en Español
     menu:
@@ -89,16 +94,24 @@ languages:
         - name: Acerca de
           url: /es/acerca-de/
           weight: 20
-        - name: Authors
-          url: authors/
-          weight: 30
-  fr:
-    languageName: Francais
+        - name: Keywords
+          url: categories/
+  #       - name: Authors
+  #         url: authors/
+  #         weight: 30
+  # fr:
+    languageName: français
     weight: 3
     params:
-      license_text: Atribución 4.0 Internacional (CC BY 4.0)
+      license_text: Pas de Modification 4.0 International. (CC BY ND 4.0)
       description: ""
       available_in: Disponible en Español
+  pt:
+    languageName: Portuguese
+    weight: 4
+    params:
+      license_text: Atribuição-SemDerivações 4.0 Internacional. (CC BY ND 4.0)
+
 
 
 markup:
