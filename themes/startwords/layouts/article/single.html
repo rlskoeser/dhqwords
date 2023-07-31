@@ -100,7 +100,15 @@
             </section>
 
             <div class="text-container">
-            {{ .Content }}
+                {{ if eq .Params.translationType "translation_stub" }}
+                <p>{{ .Params.abstract }}</p>
+                <hr/>
+                <i>
+                    {{ .Content }}
+                </i>
+                {{ else }}
+                    {{ .Content }}
+                {{ end }}
             </div>
         </div>
     </article>
