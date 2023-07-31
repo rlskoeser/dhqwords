@@ -48,6 +48,16 @@ find them by size:
 
 -->
 
+  <xsl:function name="fn:langcode">
+    <!-- convert tei language to language code; at least one case where
+    'sp' is used instead of 'es' -->
+    <xsl:param name="lang"/>
+    <xsl:choose>
+      <xsl:when test="$lang = 'sp'">es</xsl:when>
+      <xsl:otherwise><xsl:value-of select="$lang"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
 
   <!-- Template for the root element -->
   <xsl:template match="/">
@@ -64,7 +74,7 @@ find them by size:
        -->
 
     <!-- <xsl:variable name="articleYear" select="substring-before($articleDate, '-')"/> -->
-    <xsl:variable name="articleID" select="tei:TEI/tei:teiHeader//tei:publicationStmt/tei:idno[@type='DHQarticle-id']"/>    
+    <xsl:variable name="articleID" select="normalize-space(tei:TEI/tei:teiHeader//tei:publicationStmt/tei:idno[@type='DHQarticle-id'])"/>    
     <xsl:variable name="volume" select="tei:TEI/tei:teiHeader//tei:publicationStmt/ tei:idno[@type='volume']"/>    
     <xsl:variable name="issue" select="tei:TEI/tei:teiHeader//tei:publicationStmt/tei:idno[@type='issue']"/>    
 
@@ -79,7 +89,7 @@ find them by size:
     <xsl:variable name="outputDirectory" select="concat('content/vol/', number($volume), '/', number($issue))"/>    
 
      <xsl:for-each select="tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language">
-          <xsl:variable name="lang" select="@ident"/>
+          <xsl:variable name="lang" select="fn:langcode(@ident)"/>
       <xsl:value-of select="concat('Converting language: ', $lang, ' (', @extent, ')', $br)"/>
       <!-- output into a leaf page bundle so we can include assets -->
           <xsl:variable name="outputFilename" select="concat($outputDirectory, '/', $articleID, '/index.', $lang, '.md')"/>
@@ -173,7 +183,8 @@ find them by size:
     <!-- dhq type (article/editorial) -->
     <!-- at least one article has articletype repeated; get the first -->
     <xsl:value-of select="fn:field('dhqtype', tei:fileDesc/tei:publicationStmt/dhq:articleType[1])"/>    
-    <xsl:value-of select="fn:quotedField('title', tei:fileDesc/tei:titleStmt/tei:title[@xml:lang = $lang])"/>
+    <!-- take title with language if present, but fallback to any title -->
+    <xsl:value-of select="fn:quotedField('title', (tei:fileDesc/tei:titleStmt/tei:title[@xml:lang = $lang]|tei:fileDesc/tei:titleStmt/tei:title)[1])"/>
     <xsl:value-of select="fn:field('date', tei:fileDesc/tei:publicationStmt/tei:date/@when)"/>
     <!-- quote to preserve leading zeroes -->
     <xsl:value-of select="fn:quotedField('article_id', tei:fileDesc/tei:publicationStmt/tei:idno[@type='DHQarticle-id'])"/>
@@ -184,7 +195,7 @@ find them by size:
     <xsl:value-of select="concat('authors:', $br)"/>
     <xsl:apply-templates select="tei:fileDesc/tei:titleStmt/dhq:authorInfo" mode="metadata"/>
     <!-- todo: include translators and whether original/translation/stub -->
-   <xsl:value-of select="fn:field('translastionType', $translationType)"/>
+   <xsl:value-of select="fn:field('translationType', $translationType)"/>
     <!-- keyword lists; map dhq keywords to categories and author keywords to tags -->
     <xsl:apply-templates select="tei:profileDesc//tei:keywords[@scheme='#dhq_keywords']"/>
     <xsl:apply-templates select="tei:profileDesc//tei:keywords[@scheme='#authorial_keywords']"/>
@@ -355,21 +366,25 @@ find them by size:
   <xsl:template match="tei:figure[tei:graphic]">
     <!-- generate something like this:
         {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->    
-    <xsl:variable name="src" select="substring-after(tei:graphic/@url, 'resources/')"/>
+
     <xsl:variable name="title">
       <xsl:apply-templates select="tei:head"/>
     </xsl:variable>
     <xsl:variable name="description">    
       <xsl:apply-templates select="tei:figDesc"/>      
     </xsl:variable>
-    <xsl:value-of select="concat('{{', $lt, ' figure src=', $quote, $src, $quote, ' ')"/>
-    <xsl:if test="$title">
-      <xsl:value-of select="concat('caption=', $quote, fn:textparam($title), $quote, ' ')"/>
-    </xsl:if>
-    <xsl:if test="$description">
-      <xsl:value-of select="concat('alt=', $quote, fn:textparam($description), $quote, ' ')"/>
-    </xsl:if>
-    <xsl:value-of select="concat(' ', $gt, '}}', $br, $br)"/>
+    <!-- some figures have multiple graphics; output one shortcode for each -->
+    <xsl:for-each select="tei:graphic">
+      <xsl:variable name="src" select="substring-after(@url, 'resources/')"/>      
+      <xsl:value-of select="concat($br, '{{', $lt, ' figure src=', $quote, $src, $quote, ' ')"/>
+      <xsl:if test="$title">
+        <xsl:value-of select="concat('caption=', $quote, fn:textparam($title), $quote, ' ')"/>
+      </xsl:if>
+      <xsl:if test="$description">
+        <xsl:value-of select="concat('alt=', $quote, fn:textparam($description), $quote, ' ')"/>
+      </xsl:if>
+      <xsl:value-of select="concat(' ', $gt, '}}', $br, $br)"/>
+    </xsl:for-each>
   </xsl:template>
 
 <!-- todo: handle figure with media instead of graphic; 
@@ -384,7 +399,7 @@ find them by size:
     <xsl:choose>
       <xsl:when test="contains(tei:media/@url, 'vimeo')">      
         <xsl:variable name="vimeo_id" select="tokenize(tei:media/@url, '/')[last()]"/>
-        <xsl:value-of select="concat('{{', $lt, ' vimeo id=', $quote, $vimeo_id, $quote, ' title=', $quote, fn:textparam(tei:head), $quote, ' ', $gt, '}}', $br, $br)"/>
+        <xsl:value-of select="concat($br, '{{', $lt, ' vimeo id=', $quote, $vimeo_id, $quote, ' title=', $quote, fn:textparam(tei:head), $quote, ' ', $gt, '}}', $br, $br)"/>
       </xsl:when>
 
       <!-- todo: handle other video and audio -->
@@ -406,8 +421,28 @@ find them by size:
   </xsl:template>
 
   <!-- Template for code -->
+  <!-- todo: use <eg lang='xml'> similarly; check for others -->
+  <!-- eg lang: xml, nohighlight, code-general, json, javascript, java, fortran, python, c++
+  nohighlight looks like just pre-formatted text -->
+  <xsl:template match="tei:code[@lang]|tei:eg">
+    <!-- assuming should always be block -->
+    <xsl:variable name="start">
+    <xsl:choose>
+      <xsl:when test="@lang = 'nohighlight' or @lang = 'code-general'">
+      <xsl:value-of select="concat($br, '```', $br)"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat($br, '```', @lang, $br)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="end" select="concat($br, '```', $br)"/>
+    <xsl:value-of select="fn:wrap($start, ., $end)"/>    
+  </xsl:template>
+
+  <!-- code with no lang: assuming inline -->
   <xsl:template match="tei:code">
-    <xsl:value-of select="fn:wrap('`', .)"/>    
+    <xsl:value-of select="fn:wrap('`', ., '`')"/>    
   </xsl:template>
 
    <xsl:template match="tei:soCalled|tei:quote[@rend='inline']|tei:title[@rend='quotes']">
@@ -422,6 +457,32 @@ find them by size:
     </xsl:attribute>
     <xsl:apply-templates/>
     <xsl:text>]</xsl:text>
+  </xsl:template>
+
+  <!-- handle tables; convert to html since easier -->
+  <!-- fixme: not working... -->
+  <xsl:template match="tei:table">
+    <table>
+      <xsl:apply-templates/>
+    </table>
+  </xsl:template>
+  <xsl:template match="tei:table/tei:head">  
+    <caption><xsl:apply-templates/></caption>
+  </xsl:template>
+  <xsl:template match="tei:table/tei:row">    
+    <tr><xsl:apply-templates/></tr>
+  </xsl:template>
+  <xsl:template match="tei:table/tei:row[@role='label']/tei:cell">      
+    <th><xsl:apply-templates/></th>    
+  </xsl:template>
+  <xsl:template match="tei:table/tei:row/tei:cell" priority="2">      
+    <td><xsl:apply-templates/></td>    
+  </xsl:template>
+
+
+  <!-- don't normalize space inside code/eg -->
+  <xsl:template match="tei:code/text()|tei:eg/text()">
+    <xsl:apply-templates select="."/>    
   </xsl:template>
 
   <xsl:template match="text()" priority="2">
