@@ -7,10 +7,34 @@ import subprocess
 from pathlib import Path
 import yaml
 
+from eulxml import xmlmap
+
 
 # make param
 # use base path?
 path = "../dhq-journal/articles/"
+
+
+class TocCluster(xmlmap.XmlObject):
+    title = xmlmap.StringField("title", normalize=True)
+    editors = xmlmap.StringField("editors", normalize=True)
+
+
+class TocIssue(xmlmap.XmlObject):
+    vol = xmlmap.StringField("@vol")
+    issue = xmlmap.StringField("@issue")
+    preview = xmlmap.StringField("@preview")
+    title = xmlmap.StringField("title")
+    clusters = xmlmap.NodeListField("cluster", TocCluster)
+
+
+class DhqToc(xmlmap.XmlObject):
+    issues = xmlmap.NodeListField("//journal", TocIssue)
+
+    def get_issue(self, vol, issue):
+        for i in self.issues:
+            if i.vol == str(vol) and i.issue == str(issue):
+                return i
 
 
 def convert_articles():
@@ -41,7 +65,7 @@ def convert_articles():
             print(completed.stdout)
             article_resource_dir = os.path.join(os.path.dirname(article), "resources")
             if os.path.exists(article_resource_dir):
-                print("resource directory exists")
+                print("resource directory %s exists" % article_resource_dir)
 
                 lines = completed.stdout.split("\n")
                 # xslt outputs markdown file(s); use to get directory
@@ -49,8 +73,12 @@ def convert_articles():
                     markdown_file = [l for l in lines if l.endswith(".md")][0]
                     output_dir = os.path.dirname(markdown_file)
                     print("markdown: %s; output_dir: %s" % (markdown_file, output_dir))
-                    # copy entire resource directory
-                    shutil.copytree(article_resource_dir, "%s/resources" % output_dir)
+                    # for now, assume if it exists we already copied it
+                    if not os.path.exists(output_dir):
+                        # copy entire resource directory
+                        shutil.copytree(
+                            article_resource_dir, "%s/resources" % output_dir
+                        )
                 except IndexError:
                     print("** could not determine output directory")
 
@@ -64,6 +92,10 @@ def to_hugo_metadata(info):
 
 
 def create_issue_indexes():
+    dhqtoc = xmlmap.load_xmlobject_from_file(
+        "../dhq-journal/toc/toc.xml", xmlclass=DhqToc
+    )
+
     vol_index = "content/vol/_index.md"
     # if not os.path.exists(vol_index):
     # update whether exists it or not
@@ -94,8 +126,11 @@ def create_issue_indexes():
             vol_index.write_text(to_hugo_metadata(vol_info))
 
             for issue in voldir.iterdir():
+                # TODO: need to make translated issue indexes
+                # for issues with articles in other languages
                 if issue.is_dir():
                     print(issue)
+                    # TODO: need an index for each language in the issue?
                     issue_index = issue / "_index.md"
                     issue_number = int(os.path.basename(issue))
                     issue_title = "%d.%d" % (vol_number, issue_number)
@@ -104,8 +139,22 @@ def create_issue_indexes():
                         "layout": "single",
                         "title": "Issue %s" % issue_title,
                         "number": issue_title,
-                        # TODO: get date from articles
+                        # TODO: get actual date from articles?
                     }
+                    tocinfo = dhqtoc.get_issue(vol_number, issue_number)
+                    # get cluster and preview/draft from toc
+                    if tocinfo:
+                        if tocinfo.preview:
+                            issue_info["draft"] = "true"
+                        if tocinfo.clusters:
+                            clusters = {}
+                            for i, c in enumerate(tocinfo.clusters):
+                                clusters[f"cluster{i + 1}"] = {
+                                    "title": str(c.title),
+                                    "editors": str(c.editors),
+                                }
+
+                            issue_info["clusters"] = clusters
                     issue_index.write_text(to_hugo_metadata(issue_info))
 
 
