@@ -169,15 +169,17 @@ body.article article, body.page article {
         }
 
         // flourished section break
+
         hr {
-            background-image: url("/img/logos/startwords.svg");
-            margin-top: rem(22px);
-            margin-bottom: rem(22px);
-            height: rem(22px);
-            border: 0;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
+//            background-image: url("/img/logos/startwords.svg");
+            margin-top: rem(32px);
+            margin-bottom: rem(32px);
+            // height: rem(22px);
+            border: 1px solid $red;
+            // border: ;
+            // background-repeat: no-repeat;
+            // background-size: contain;
+            // background-position: center;
         }
 
         // pull quotes
