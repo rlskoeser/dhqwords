@@ -1,7 +1,8 @@
 /* footer styles */
 
 // variables
-$footer-height: rem(100px);
+// $footer-height: rem(100px);
+$footer-height: rem(130px);  /* make room for more menu items */
 
 body > footer {
     height: $footer-height;
@@ -69,8 +70,9 @@ body > footer {
 
     .license img {
         @media (min-width: $breakpoint-m) {
-            width: rem(38px);
-            height: rem(20px);
+            // width: rem(120px);
+            height: 1.5rem;
+            width: auto;
         }
     }
 
