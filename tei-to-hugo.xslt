@@ -138,6 +138,10 @@ find them by size:
     <!-- <xsl:apply-templates select="/tei:text/tei:body"/> -->
     <xsl:apply-templates select="//tei:text[@xml:lang = $lang]/tei:body"/>    
 
+    <!-- output bibliography (any language aware/specific ? ) -->
+    <xsl:apply-templates select="//tei:back/tei:listBibl"/>    
+
+
       </xsl:result-document>
 
       </xsl:for-each>
@@ -326,8 +330,21 @@ find them by size:
 
 
 <xsl:template match="tei:ptr">
+<xsl:choose>
+  <xsl:when test="starts-with(@target, '#')">
+    <!-- fixme: getting the label isn't working; use target for now; would a key work? -->
+    <xsl:variable name="label" select="ancestor::tei:TEI//tei:bibl[@xml:id = substring-after(@target, '#')]/@label">
+    </xsl:variable>
+    <!-- use target as label for now -->
+    <xsl:value-of select="concat($lt, 'a class=', $quote, 'footnote-ref', $quote, ' href=', $quote, @target, $quote, $gt, ' [', substring-after(@target, '#'), '] ', $lt, '/a', $gt)"/>
+    <!-- assume internal link is a bibliography ref; output as a footnote -->
+    <!-- <xsl:value-of select="concat('[^', substring-after(@target, '#'), ']')"/>     -->
+  </xsl:when>
+  <xsl:otherwise>
   <!-- ptr with no text uses url for link text -->
   <xsl:value-of select="concat('[', @target, '](', @target, ')')"/>
+</xsl:otherwise>
+</xsl:choose>
 </xsl:template>
 
 
@@ -414,6 +431,34 @@ find them by size:
     </xsl:template>
 
 
+  <xsl:template match="tei:listBibl">
+    <xsl:value-of select="concat('## Bibliography', $br, $br, $lt, 'ul', $gt, $br)"/>
+    <xsl:apply-templates/>
+                    <!-- <bibl label="Bennett 2010" xml:id="bennett2010" key="bennett2010b">Bennett, Jane. <title rend="italic">Vibrant Matter: A Political Ecology of Things</title>. Duke University Press, Raleigh, North Carolina (2010).</bibl> -->
+    <xsl:value-of select="concat($br, $lt, '/ul', $gt, $br)"/>
+  </xsl:template>
+
+  <xsl:template match="tei:listBibl/tei:bibl">  
+    <!-- <xsl:value-of select="concat($lt, 'li id=', $quote, 'fn:', @xml:id, $quote, $gt)"/>         -->
+    <xsl:value-of select="concat($lt, 'li id=', $quote, @xml:id, $quote, $gt)"/>    
+        <xsl:apply-templates/>
+    <xsl:value-of select="concat($br, $lt, '/li', $gt, $br)"/>
+
+    <!-- output as markdown footnotes 
+    <xsl:value-of select="concat($br, '[^', @xml:id, ']: ')" />  
+    <xsl:apply-templates/>
+    <xsl:value-of select="$br"/>
+    -->
+  </xsl:template>
+
+  <!-- links in bibl need to be html since we're generating html bibliography -->
+  <xsl:template match="tei:bibl/tei:ref">
+    <xsl:variable name="label">
+        <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:value-of select="concat($lt, 'a href=', $quote, @target, $quote, $gt, $label, $lt, '/a', $gt)"/>        
+  </xsl:template>
+
 
   <!-- Template for emphasis -->
   <xsl:template match="tei:hi[@rend='italic']|tei:title[@rend='italic']|tei:emph|tei:bibl[@style='italic']">
@@ -454,14 +499,12 @@ find them by size:
     <xsl:value-of select="fn:wrap('“', ., '”')"/>        
   </xsl:template>
 
-  <!-- Template for links -->
-  <xsl:template match="tei:ref[@type='web']">
-    <xsl:text>[</xsl:text>
-    <xsl:attribute name="href">
-      <xsl:value-of select="@target"/>
-    </xsl:attribute>
-    <xsl:apply-templates/>
-    <xsl:text>]</xsl:text>
+  <!-- convert links to markdown links -->
+  <xsl:template match="tei:ref">
+    <xsl:variable name="label">
+        <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:value-of select="concat('[', $label, '](', @target, ')')"/>
   </xsl:template>
 
   <!-- handle tables; convert to html since easier -->
@@ -485,8 +528,8 @@ find them by size:
   </xsl:template>
 
 
-  <!-- don't normalize space inside code/eg -->
-  <xsl:template match="tei:code/text()|tei:eg/text()">
+  <!-- don't normalize space inside code/eg, bibl -->
+  <xsl:template match="tei:code/text()|tei:eg/text()|tei:bibl/text()">
     <xsl:apply-templates select="."/>    
   </xsl:template>
 

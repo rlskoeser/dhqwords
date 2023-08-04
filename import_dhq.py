@@ -164,5 +164,5 @@ def create_issue_indexes():
 
 
 if __name__ == "__main__":
-    # convert_articles()  # NOTE: this is slow
+    convert_articles()  # NOTE: this is slow
     create_issue_indexes()

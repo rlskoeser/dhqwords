@@ -51,7 +51,7 @@
     {{/* articles that are not part of a cluster */}}
   {{ $regularArticles := where $articles ".Params.cluster" "eq" nil }}
    {{/* invert if there is an even number of clusters */}}
-   {{ $inverted := modBool (len .Params.clusters) 2}}
+   {{ $inverted := or (not .Params.clusters) (modBool (len .Params.clusters) 2)}}
     <section id="features" aria-label="{{ i18n "features" }}" class="{{ if $inverted }}inverted {{ end }}grid">
         <div class="wide-container">
         {{ range where $regularArticles ".Params.dhqtype" "ne" "review" }}
