@@ -1,0 +1,248 @@
+---
+type: article
+dhqtype: article
+title: "Editorializing the Greek Anthology: The palatin manuscript as a collective imaginary"
+date: 2020-03-20
+article_id: "000447"
+volume: 014
+issue: 1
+authors:
+- Marcello Vitali-Rosati
+- Servanne Monjour
+- Joana Casenave
+- Elsa Bouchard
+- Margot Mellet
+translationType: original
+tags:
+- Digital Classics
+- Digital Edition
+- Palatine Anthology
+- Anthological Imaginary
+- Editorialization
+- Collaborative Process
+abstract: |
+   The Palatine Anthology (PA) Project, coordinated by the Canada Research Chair on digital textualities directed by Marcello Vitali-Rosati, collaborates with several international partners, including Italian and French schools, in order to establish a collaborative critical digital edition and a multilingual translation of all the PA's epigrams. In particular, our project aims to further develop this edition of the PA, thereby demonstrating the philological, editorial and pedagogic challenges involved in compiling the diverse fragments of this collection of Greek epigrams. Since its discovery in 1606 by Claude Saumaise in the Palatina Library of Heidelberg in Germany , the PA manuscript (Codex Palatinus 23) has considerably influenced literature and art. As we know it today, the Anthology is the result of successive compilations, modifications, additions, and rearrangements by the compilers. Meleager's collection is a collection of epigrams compiled in the first century B.C., which represents the original source of what is known today as the Greek Anthology . This collection, called The Garland, was not randomly arranged, but according to a series of particular organizational principles . The PA challenges the concept of an oeuvre – as a unified and cohesive body of work –, insofar as it brings together 4 000 epigrams written by more than one hundred different authors from over sixteen centuries of literary production (from the Byzantine empire to the 10th century AD). If we cannot consider the Anthology as a unified and cohesive work, how do we account for it in an edition? To these questions, the digital environment presents tools and possibilities allowing us to organize our research, and ultimately work towards finding some answers. In an attempt to provide tangible solutions to the difficulty of assembling such a fragmented body of work the PA Project harnesses digital tools. We have created an open database searchable via an API that allows one to transcribe the manuscript, propose translations, align translations, transcribe scholia, and link epigrams both to each other and to external literary and artistic references. We aim to demonstrate the importance of philological approaches to texts; redefine the boundaries between scholarly and amateur practices; connect contemporary readers and scholars with Classical texts; supplement the Perseus project; and harness the potential of semantic web technologies. We aim to shed light on the many ways to engage with textual objects, to conceive of a multiple reception of the anthological imaginary . The interface of our digital platform does intend for users to propose such reading pathways and weak ties , because it enables them to associate an epigram with a reference (textual, iconographic, musical, cinematographic, and others) and thereby demonstrate a collective engagement with the epigram . This demonstrates how collective imaginaries are able to enrich our understanding of the anthological material. By enabling the users to engage with this otherwise elusive literary object, the Greek epigrams, and with a cultural object, our project enables contemporary readers to engage with the digital possibilities in order to visualize a collective imaginary or topoï , and to contribute to philological research on the origins and influences of the PA .
+teaser: "How might texts written in Antinquity resonate in our networked digital culture?"
+order: 6
+---
+
+# 
+
+
+
+## Introduction
+
+Digital environments are characterized by a kind of writing wherein fragments are constantly reorganized and reformatted in order to establish new structures of meaning. Sentences and information are in fact intended to be recovered, recontextualized, “rearchived” (in Frenchredocumentarisation)<a class="footnote-ref" href="#zacklad2010"> [zacklad2010] </a>in collages or pastiches sometimes produced by algorithms. These new types of writing can recall a long-standing literary form: the anthology, a tradition that Milad Doueihi argues represents the spirit of contemporary digital culture<a class="footnote-ref" href="#doueihi2011"> [doueihi2011] </a>. In this way, digital environments are able to provide a new structuring of content, to such an extent that we believe the anthological form bears a structural resemblance to the digital. The anthological form in fact proves to be difficult to characterize and categorize: its constitutive heterogeneity creates tensions relating to the idea of a literary “oeuvre” as a unified whole. The first example of an anthology is often identified as the Garland of Meleager, a collection of epigrams composed in the first century BC which represents the primary source of what is now called the Greek Anthology. This composition is, in itself, the anthology of anthologies: it is the foundation of an anterior collection, that of Simonides of Ceos (556-468 BC) dating from the 5th century BC. The Garland of Meleager thereby constitutes the first collection of epigrams to be united in a single volume, prevailing as the canonical model of the literary genre that is the anthology.
+
+The Palatine manuscript assembles epigrams produced over the course of over sixteen centuries, written by more than one hundred authors. Almost all collections of Greek epigrams have been preserved through a single manuscript: Codex Palatinus 23, kept at Heidelberg<a class="footnote-ref" href="#cod2018"> [cod2018] </a>. Understanding the diversity of such a collection becomes increasingly relevant over time. If we cannot consider the Anthology to be a unified “literary” work, how do we describe it? What are the possible ways that we can read a text produced in antiquity? To answer this questions, we have initiated the project of a “collaborative edition” of the Anthology which operates outside of the confines posed by mainstream digital scholarly publishing. Within this project, we consider that the characteristics of the digital environment, new forms of writing, and notably the concept of editorialization discussed in this article are best equipped to conceptually unravel the nature of the anthological form, in particular via the establishment of an open and collaborative edition.
+
+The collaborative approach thereby benefits from digitally open and collaborative methods allowing an international community to read, interpret and comment on the Palatine manuscript according to the theory of collective intelligence<a class="footnote-ref" href="#levy1994"> [levy1994] </a>. Since the Palatine manuscript is a collection of heterogeneous texts, it is difficult to fully grasp the collective values, beliefs, attitudes, and postures – herein referred to as collective imaginaries or topoï – associated with the Anthology. In this way, traditional publishing methods limit our capacity to interpret collective imaginaries – common and perceived “truths” – associated with the text. Our digital edition moves away from singular interpretations of the Palatine Anthology (PA) and proposes to understand the plural meanings and possibilities associated with reading the classical epigrams.
+
+In this article, we will present the theoretical basis and editorial foundations (observations regarding the contemporary editorial milieu) adopted by the PA project, as well as the methodological and technical processes put in place to meet the particular challenges posed by our objectives. Therefore, this article aims to outline our academic posture regarding a digital approach to antique literature, an approach which enhances both the interpretative possibilities – for both scholarly and non-scholarly readers – of the Palatine manuscript. Our main thesis is that the Anthology should not be considered a unified, uniform and coherent body of work. Rather, it assembles various texts produced over many centuries by numerous authors and thereby represents a dynamic and open collective imaginary. Before clarifying this thesis, we will first describe the problematic nature of the definition of the Anthology and then outline the complex history relating to the publication of the PA.
+
+
+
+
+## Greek Anthology: a problematic definition
+
+One of the first concerns a publisher encounters when he or she examines the textual material of the Greek Anthology is how to define it. One could define the Greek Anthology as a collection of epigrams compiled in the 10thcentury. In fact, the editions of this text are based on the Codex Palatinus 23, a manuscript dating from around 940 AD, stored in the Palatine Library of Heidelberg (leaflets can be found at the BNF under the symbol Suppl. Gr. 384), discovered in 1606 by Claude Saumaise. This collection is based on a previous Anthology, composed about a half a century prior by Constantin Cephalas. To date, it is understood that most of the epigrams found in the Codex Palatinus 23 derive from the work of Cephalas<a class="footnote-ref" href="#aubreton1968"> [aubreton1968] </a>. Therefore, the Greek Anthology fundamentally refers to the Palatine Anthology. Most current editions (Paton, Waltz) enable us to understand the complexity of the corpus. Indeed, in addition to the fifteen books of the Anthology that correspond to the division of the Codex Palatinus 23 that can be found in the 1916 Loeb edition produced by Paton (or in the 1972 Belles Lettres edition produced by Waltz), these two sets add volume XVI under the title of Appendix Planudea. Maxime Planude had composed his own Anthology in 1301<a class="footnote-ref" href="#aubreton1968"> [aubreton1968] </a>, and it includes some of the epigrams of the Codex Palatinus 23 to which other epigrams not present in this first manuscript were added.
+
+We therefore consider the Greek Anthology an object reconstructeda posterioriby modern editors who, in reconstructing the Greek Anthology, attempt to give a somewhat exhaustive account of the Greek epigrammatic. But we must go back a little further in our chronology to the work of Cephalas, whose work is based on earlier sources, the most notable of which are the Garland of Meleager, the Garland of Philip of Thessalonica and the Garland of Agathias of Myrina, dating from the 1stcentury BC, the 1stcentury AD, and the 6thcentury AD, respectively<a class="footnote-ref" href="#gutzwiller1997"> [gutzwiller1997] </a>. In accordance with contemporary taste during the Hellenistic period, Meleager, who composed the first collection of epigrams together in a single volume ( _Anthologie Grecque. Première Partie. Texte établi et Traduit Par Pierre Waltz_ 1928, XI), says, “to weave” with these texts “a wreath of flowers” (literal translation of the Greekanthologia). In the preface of his crown - which we find at the beginning of book IV of the Codex Palatinus 23 - Meleager lists these poets by comparing each of them with a flower:
+> 
+Μοῦσα φίλα, τίνι τάνδε φέρεις πάγκαρπον ἀοιδάν; / ἢ τίς ὁ καὶ τεύξας ὑµνοθετᾶν στέφανον; / Ἄνυσε µὲν Μελέαγρος, ἀριζάλῳ δὲ Διοκλεῖ / µναµόσυνον ταύταν ἐξεπόνησε χάριν, / πολλὰ µὲν ἐµπλέξας Ἀνύτης κρίνα, πολλὰ δὲ Μοιροῦς / λείρια, καὶ Σαπφοῦς βαιὰ µέν, ἀλλὰ ῥόδα
+
+To whom, dear Muse, do you bring these varied fruits of song, or who was it who wrought this garland of poets? The work was Meleager's; he produced this gift as a keepsake for the illustrious Diocles. He wove in many red lilies of Anyte, and many white lilies of Moero; a few of Sappho, but they are roses.
+
+<a class="footnote-ref" href="#paton1916"> [paton1916] </a>
+
+The material harvested by Meleager is composed of texts, the first of which can be traced back to poets from the 6thcentury BC (eg Sappho) or the 5th(Simonide, one of the first poets to consider the epigram as a literary genre) up to Meleager himself, who inserts into his work several texts from his hand<a class="footnote-ref" href="#gutzwiller2007"> [gutzwiller2007] </a>. Following the anthological contributions of Meleager, scholars continued over the centuries to add new epigrams to the old material. The Anthology became a growing compilation that surpassed the temporal constraints usually relating to literary work. Some texts are, literally, epigrams. That is, they are short and sometimes witty texts designed to be inscribed on objects, tombs or buildings<a class="footnote-ref" href="#pfeiffer1968"> [pfeiffer1968] </a>. Most epigrams are, however, poems that appropriate the epigraphic format by subverting their function: they are not real inscriptions, but poems that stylistically imitate the first inscriptions. Indeed, it could have been as early as the 1stcentury BC that the epigram became a recognized literary form. The popularity of this form exploded during the Hellenistic period when great literary figures like Callimachus and Asclepiades became prolific epigrammatists<a class="footnote-ref" href="#gutzwiller1998"> [gutzwiller1998] </a>. We can only understand the meaning of this literary form by considering it as a living and moving material, as an open oeuvre, one which has resonated among many literary imaginaries across different societies and throughout different periods in history, from archaic Greek culture to Byzantine society. Over the centuries, epigrammatists have written their own texts as per the tradition developed by their predecessors[^1] .
+
+As a whole, the Anthology initially assembled texts from the 6thcentury BC, only to add, in the 10thcentury AD, more than a hundred poets - including several anonymous poets - who wrote in the interim period, that is over the course of sixteen centuries. The editorial history of the Anthology is, as we will now outline, extremely complex and layered.
+
+
+
+
+## Critical editions of the Anthology
+
+Since the discovery of the manuscript in Heidelberg by Claude Saumaise in 1606, many critical editions of the Anthology have been published.
+
+Claude Saumaise – who never achieved his goal of producing a critical edition of the Palatine Anthology –, produced a collation of the P23 manuscript and composed a set of critical notes. These notes were used for the first time at the end of the 18thcentury, in order to conceive of the PA prior to its edition. Thus, between 1772 and 1776, Richard-François-Philippe Brunck produced the first complete edition of the Palatine Anthology in his _Analecta veterum poetarum Graecorum_ , which he published in three volumes. In this edition<a class="footnote-ref" href="#tyrtee1772"> [tyrtee1772] </a>, the epigrams do not follow the order of the original manuscript. Instead, they are chronologically grouped according to the author's name. Friedrich Jacobs took over Brunck's work a few years later and arranged the epigrams according to the same structure, grouping them into 13 volumes under the general title _Anthologia Graeca sive, Poetarum graecorum lusus ex recensione Brunckii_ . This is his first critical edition of the Anthology, published in Leipzig between 1794 and 1814<a class="footnote-ref" href="#jacobs1794"> [jacobs1794] </a>.
+
+Between 1813 and 1817, Jacobs edited a second critical edition of the Anthology, this time arranged in three volumes<a class="footnote-ref" href="#jacobs1813"> [jacobs1813] </a>. The first two volumes include the epigrams of the Palatine Anthology, arranged in the order of the Palatine manuscript, to which are added the appendix of Planude's epigrams, as well as 394 pieces from the ancient authors. In the third volume, the critical notes and indices have been arranged. This second edition was based on the careful collation of the text, although its compilation was not based on the Palatine manuscript, but rather on the copy of J. Spaletti<a class="footnote-ref" href="#waltz1928"> [waltz1928] </a>.
+
+Along with these philological works, critical studies of the Anthology and its manuscript tradition continue to multiply. Johann-Friedrich Dübner integrates such research in an edition published between 1864 and 1877, borrowing and developing different aspects of Jacobs' organization method. He thus edited the epigrams of the fifteen books of the Palatine Anthology, and added a Latin translation, an Appendix Planudea, and an appendix gathering the epigrams of the ancient authors, under the general title _Epigrammatum Anthologia palatina cum Planudeis and appendix nova epigrammatum veterum ex libris and marmoribus_ <a class="footnote-ref" href="#dubner1864"> [dubner1864] </a>.
+
+It is precisely during the 19thcentury that philology is endowed with stable scientific methods. 20thcentury philologists working on the Anthology claim to represent these same critical currents. Two major critical editions then emerged: that of WR Paton, published by the Loeb Classical Library in 1916-1918, and that of Pierre Waltz, published in _Belles Lettres_ and continued, after the death of the philologist, by Jean Irigoin, Robert Aubreton and Felix Buffière. This edition (1928-1980) comprises thirteen volumes.
+
+WR Paton's edition relies on the manuscript of the Palatin Anthology as well as that of the Planude Anthology, demonstrating how certain philological variants, observed in the other sources, differ from the conceived text<a class="footnote-ref" href="#paton1916"> [paton1916] </a>. It also includes the lemmata in the conceiving text and accompanies its edition by an English translation of the epigrams. Pierre Waltz also wished to include, in his edition of the Greek Anthology, not only the epigrams of the Palatinus as well as those of the collection of Planude, but also the epigrams drawn from the papyrus and the metric inscriptions. It therefore takes into account the whole manuscript tradition of the Greek Anthology, but prioritizes the Palatinus manuscript text in order to establish the epigram texts contained in this collection. In the critical notes accompanying his text, he comprehensively outlines the philological variants<a class="footnote-ref" href="#waltz1928"> [waltz1928] </a>.
+
+The UTET editions in Turin have recently published a last edition made up of the work of Fabrizio Conca, Nario Marzi and Giuseppe Zanetto, published in three volumes between 2005 and 2011 that propose an Italian translation of the text<a class="footnote-ref" href="#conca2005"> [conca2005] </a>. This complex and layered history – filled with additions, republications, translations, and scholarly comments – demonstrates the need for alternative editorial means of presenting the Anthology.
+
+These different critical editions all agree on the prevalence of the Codex Palatinus 23, choosing it systematically as their main source. At the same time, they wish to synthesize the Greek epigrammatic work, including the annex pieces. Thus, philologists try to account for the character both of the abundant and scattered collections of epigrams and their editorial work to show the complexity induced by the anthological nature of these texts.
+
+Strangely, none of the existing critical editions systematically conceive the text of the scholia[^2] despite their abundance in the Palatine manuscript. These scholia play a fundamental role in the text, especially when we consider the anthological form: scholia organise and enable a rich set of internal references by building intertextuality within the anthological material. They relate epigrams that mention the same characters (for example, a scholium may inform the reader that two love poems were written to the same person) or connect the epigrams of the same author. Let us take, for example, the scholia attached to the epigram 5.19 “τοῦ αὐτοῦ ἔρωτ (α) ἀλλόκοτον” : while the same author refers to this epigram, it also contains intertextual ties to another epigram. They also provide precise information on the composition and constitution of the anthological corpus, specifying the sources of the textual material. For example, the very first scholia of Book IV explain that the first poem of the book is the preface to the Garland of Meleager, but it also gives us a number of biographical details. It is still the scholia that teach us that the source of the Codex Palatinus 23 is the Anthology of Constantine Cephalas. Last but not least, scholia establish thematic links between different epigrams, thus drawing a relating of topoi whose influence has proven vital in both artistic and literary history. We understand, therefore, how scholia – a feature heretofore neglected by publishers of the Anthology – complement our understanding of the contents and meaning behind the texts, as well as the essence of the anthological structure. This approach proposes that we understand the anthological structure as a format which supports and displays an entire literary imaginary.
+
+
+
+
+## The anthological imaginary
+
+In our project, we consider that the Anthology should not be considered as a coherent and self-contained literary work but as a document relating to a dynamic and open collective, literary imaginary: as an open text, the PA performs via its intertextual structure and contemporary readers ought to be able to appropriate this structure through referential associations. This hypothesis is the reason for our pursuit of a new, digital means of presenting the Anthology, and it draws on three considerations:
+As the above described history of the Anthology demonstrates, the form – orgenre– has evolved over centuries and is thus, intrinsically, a continually evolving collaborative work.In terms of content, it is fundamentally characterized as heterogeneous (in terms of its form and themes, in particular).The purpose of the Anthology is to refuse semantic closure — that is, to enable the works that it compiles to continue to find new meanings, to establish links with one another over time according to various methodologies and approaches.
+
+
+
+By examining the history of the Anthology, its philogical complexity, we observe that it is less a unified work (or aunit), than the outcome of a stratification of texts. Over a hundred poets across more than sixteen centuries<a class="footnote-ref" href="#cameron1993"> [cameron1993] </a>have contributed to its creation. In fact, in terms of content, the Anthology is essentially heterogeneous, testifying to the personal preferences and subjectivity of each contributor. Alongside the few “real” inscriptions (here we adopt reference to the etymological origin of the termepigram) appearing in the Anthology, there are innumerable epigrams created from scratch to integrate into the Anthology, which is therefore transformed in literary play. On the formal plane, the elegiac couplet (the epigrammatic privileged form) coexists with other metrical forms (iambic trimmers, dactyl hexameters, etc.). The range of themes is spread from erotic epigrams to Christian epigrams, bearing witness to developing societal tastes and concerns over time.
+
+The texts establish a dialogue with one another over time. This dialogue, which weaves in and out of the work, complements the Anthology's structural heterogeneity<a class="footnote-ref" href="#gutzwiller1998"> [gutzwiller1998] </a>. Thanks to the scholia in particular, we observe the highlighting of topoi that not only reappear throughout the manuscript, but have also had a strong resonance in literature, from medieval troubadour songs to contemporary music and Hollywood movies. Consider, for example, the topos of the Carpe diem, very present in Hellenistic epigrams like those of Asclepiades (see AP 5.85), later taken up in the _Odes_ of Horace, and whose traces are also found in the poetry of Ronsard ( _Sonnets for Hélène_ ) and Laurent de Médicis ( _The Triumph of Bacchus and Ariadne_ ), in the songs of Brassens ( _Saturn_ ), or even in the movie _Dead Poets Society_ . Thus, the Anthology essentially refuses any closure and, on the contrary, encourages a continual expansion and development of the text and its references. Even today, the Anthology remains an open text that internally refers to other pieces present in the manuscript, while also echoing external texts potentially related to the material of the Codex Palatinus.
+
+The material of the Anthology still inhabits our literary topoi far beyond the explicit references made to its texts. To publish them implies an attempt to account for its circulation over a millennium, the diversity of the material involved as well as the richness and heterogeneity of the references between the texts.
+
+For a modern reader, we believe that it is important to be able to represent the various (internal and external) connections that the works of the Anthology establish with one another. In other words, in order to edit this rich and complex anthological imaginary, we must be able to represent and do justice to the plurality of meanings possible. But how do you represent to a modern reader such richness and complexity? The traditional methodologies and experiences of scholarly publishing do not seem appropriate to harness and express the complexity of the Anthology. Indeed, while it is quite possible to contextualize the text of the Palatine manuscript and to make a critical edition of it, it is very difficult to give an account of the overall cultural value of this material, and in particular of the impact it has had on collective imaginaries over the centuries. In other words, we could, of course, make a critical edition of the Codex Palatinus, but it is impossible to do this in the case of the Greek Anthology because this work abounds in references, contexts and implications. The interpretative limits of the Anthology are endless.
+
+
+
+
+## Editorialization: an open, collaborative, and interactive solution to editing the Anthology?
+
+How does one publish the anthological imaginary? In order to answer this question, it seems appropriate to refer to the theory of editorialization. This theory proved to be useful in understanding how the dynamics of production and the circulation of contents, in a digital environment, help us interpret and propose an edition of an object such as the Anthology. Editorialization then became a founding principle of our editorial approach.
+
+The termeditorialisationhas come to be used in the last decade by French-speaking scholars to refer to the production and circulation of content in digital environments<a class="footnote-ref" href="#vitalirosati2018"> [vitalirosati2018] </a>. However, it is sometimes difficult to grasp the exact meaning that researchers attribute to this concept. To give a precise definition, we can say that:
+> Editorialization is the set of dynamics that produce and structure digital space. These dynamics can be understood as the interactions of individual and collective actions within a particular digital environment.
+<a class="footnote-ref" href="#vitalirosati2018"> [vitalirosati2018] </a>In other words, editorialization is an open and collective process, which produces contents and visions of the world that organize our relationship to reality.
+
+In this sense, the theory of editorialization can help us to understand the essence of the Greek Anthology as an alternative to traditionnal edition. Indeed, this textual material is an open and collective process, which is not unified but has nevertheless played a large role in forming and transforming the social imaginary relating to literature. The arrangement of editorialization mechanisms found in the Codex Palatinus is one possible way to understand anthological culture<a class="footnote-ref" href="#crane2009"> [crane2009] </a>. The following three aspects of the concept of editorialization have proven to be the most relevant in fulfilling our goal:
+Editorialization is not a closed process, but an open and dynamic one, where content that circulates in digital environments can always be used, modified and reused, to fulfill another function. This is exactly what characterizes the process of conceiving the PA prior to its edition, as we have analyzed it.Editorialization is a collective process, as is the Anthology, and because neither has a single author, the result is textual material made up of a multiplicity of voices and hands.Editorialization is a process that cannot be controlled because it frees itself from its own instigators and goes beyond the objectives leading to its creation in the first place.
+
+
+
+It is on these theoretical foundations that we have built the collaborative publishing project of the Anthology. We have specifically designed a digital environment in which scholarly publishing is conceived as a form of editorialization: an open process, based on the interaction between different teams of researchers and other contributors (a contributive model) and which invites each participant to appropriate the textual material and modulate it or use it according to his or her own needs and wishes. These interactive priorities move well beyond the scientific requirements of a traditional scholarly edition.
+
+
+
+
+## Methodology and technical aspects
+
+From a methodological and technical point of view, we decided to set up a digital infrastructure that best reflects the theoretical hypotheses previously described. The desire to leave the canonical paradigm of scholarly publishing led us to make three strategic choices:
+Create an open database queryable via API.Allow a free structure of data (that allows data to be structured in many ways), to avoid imposing a predetermined epistemological approach.Encourage communities to collaborate on heuristic and editing tools.
+
+
+
+The choice of an open database, searchable by an API, participates in the very nature of the anthological model, which ultimately relies on an aggregation of fragments selected by an author or a compiler. In the same way, we chose to structure data in JSON rather than XML / epidoc. This decision may seem to break the rules of the digital critical edition, but we believe that it stimulates the appropriation and reconfiguration of the contents, in harmony with the spirit of the Anthology. The static structure of the JSON, unlike the tree structure of the XML / epidoc, allows the contributor/editor to reorganize data according to different paradigms of interpretation.
+
+Finally, just as the poets of the Anthology have done over the centuries, our model aims to stimulate exchanges and interactivity between contributors. We have created a digital editorial environment based on a collaborative and interactive logic, in order to establish a community of contributors. In particular, we have launched a vast educational project, in partnership with secondary schools teaching the Ancient Greek language. Supervised by their teachers, several groups of pupils translate the Greek text and publish it online. This project has many educational advantages:
+language learning;text analysis;learning digital publishing tools.
+
+
+
+In addition to being a unique learning opportunity for the secondary student, the work produced by this less scholarly community facilitates the task of the scientific community by supplying usable contents for research. In addition, this collaboration is based on a strong epistemological positioning, since it erases the boundaries between the work of the scientific community and the contribution of novices. This part of the project resonates entirely with the theoretical and methodological positioning recommended in the Digital Classics<a class="footnote-ref" href="#terras2010"> [terras2010] </a><a class="footnote-ref" href="#blackwell2009"> [blackwell2009] </a>. As explained above, the very idea of “truth” of the text - that is usually based on a critical or genealogical approach - is not, in the case of our editorial project, an objective to be achieved. On the contrary, we seek to bring out the pluralities of perception of the textual material - because it is this plurality, at the origin of the collective imaginary woven by and around the Palatine Anthology, which constitutes, according to us, the essence of this text.
+
+Thanks to its multiple tables, our database should allow us to pursue and complete the philosophy specific to the anthological genre, highlighting not only the intertextual connections - as an hypertextual relation, the possibility of any text of a return to another older text<a class="footnote-ref" href="#genette1982"> [genette1982] </a>, but also the networks of references built through the centuries, between the anthological texts and any other cultural or artistic object<a class="footnote-ref" href="#coffee2012"> [coffee2012] </a>. On our contributive platform, we find different translations. For example, we include a word-by-word translation faithful to the literal meaning of the text as well as a literary translation prioritizing its more poetic and figurative connotations. The translations are provided in several languages, mainly English, French and Italian. These different translations emphasize the importance of the appropriation of textual material. The Anthology and its contents have also proven capable of crossing time and space: its temporal and spatial circulation was enabled during the Hellenistic period by the fact that the Greek, as ‪Koiné dialektos, ‬was a universal language. That is to say that we deem it essential that translations be included so that the text may continue to circulate across several academic disciplines and places.
+
+
+
+
+## Description of the editorial infrastructure
+
+Our infrastructure can be described according to three aspects:
+The relational database;The API;The different displays made from the API.
+
+
+
+The database is built from the notion of entity, the epigram, in a repository aligned to the Perseus URIs (Uniform Resource Identifier) which constitutes the textual unit. Each entity corresponds to an epigram, understood as an anthological fragment and not as a textual manifestation attached to a specific manuscript or edition. This entity then takes shape in various textual manifestations. In our database, we can therefore associate each entity with several pieces of information and, first and foremost, with text versions of the epigram. Our epistemological model leads us to consider the different versions of the Greek text in the same set of possible translations. All these versions can be aligned with each other, thanks to a software editor that we have developped and which allows us to compare the Greek texts and the different translations. Each entity can be attributed to one or several authors, and can be tagged by keywords, which include information on the themes of epigrams, on literary genres, on the characters mentioned, or on the reading path established by users. Each entity can also be linked to one or more scholia, either the original Greek or a modern translation. Entities can also be associated by any API users with iconographic material or other texts that echo with the corresponding epigram. This possibility allows us to underline as previously defined the “weak links” between the text and artistic works, in order to enrich the anthological material. If we go back to the example mentioned above, we can insert, in the database itself, the links between the epigram of Asclepiad - which evokes the topos ofCarpe Diem- and the famous _Ode_ of Horace or the poem of Laurent de Médicis. Finally, each entity can be aligned with the facsimile of the corresponding manuscript.
+
+The database is exposed in JSON through an API, which makes it possible to carry out queries to display the data, as well as to enrich a preexisting entry.
+
+The API obviously allows several forms of appropriation of textual material. As an example, in the case of our project, we propose a “scientific display” , which makes it possible to visualize all the information available on the base, a public display, which offers a navigation by thematic reading paths (these paths being conceived of in order to narrativize a group of epigrams), and finally, a Twitter bot which posts epigrams on the social network, associating them with the corresponding image of the manuscript.
+
+
+
+
+## Expected benefits
+
+Our project is currently in its third year of development. We have since witnessed the enthusiasm of various communities (scholarly, educational, contemporary readers) involved in the editorial activity of this project. The project thereby resonates beyond the academic sphere. The potential for appropriation of the Greek Anthology by contemporary readers is therefore very strong and proves the vitality of this material in contemporary culture. This is a work of the Digital Humanities. We adopt, in particular, the approach prescribed by the Digital Classics as it relates to the critical editorialization of ancient texts. We thereby wish to promote, through the use of digital tools, an appropriation of such texts by contemporary readers<a class="footnote-ref" href="#solomon1993"> [solomon1993] </a><a class="footnote-ref" href="#bodard2016"> [bodard2016] </a>. Given its current development, we can identify four expected benefits of the project:
+Although our project is primarily an experiment in Digital Classics and our publishing model is a prototype, we are convinced of its potential as a reusable model for other projects because it develops and improves the preexisting philological approach and embraces the nature of the anthological form.By opening the users of the API to the world of Greek epigrams and related literary or artistic objects, our project enables contemporary readers to not only appreciate, engage with, and enjoy ancient texts, but to participate in contributing and in developing collective understandings of these texts. In addition to being exposed to new meanings associated with the Greek Anthology, users are able to demonstrate how literary topoi develop and adapts across centuries. The API imitates the notion of a collective imaginary because both insist on plural meanings, development, dialogue and the mutual influence of ideas.By renewing the classic philological approach, we have shifted the boundaries between scholarly practices and those of the novice, both in terms of production and dissemination of editorial content. The boundaries between scholar and novice now must undergo reconsideration.It goes without saying that our project not only contributes, but also promotes the advancement of knowledge, therefore serving the interests of the scientific community. The role that the novice plays in our approach takes into account the way in which our database can also be structured in scientific ways. In particular, our project contributes to improve the Perseus database (our partner) by contributing further information, as it will collect, in xml / epidoc format, all the texts, translations and alignments produced, as well as other relevant information, thanks to queries on the API (at the moment, Perseus does not have, for instance, French, English and Italian translations of the epigrams, nor the Greek text of the scholia)<a class="footnote-ref" href="#crane1992"> [crane1992] </a>. In addition, the project contributes to the production of semantic data thanks to the alignment of our data with linked data repositories<a class="footnote-ref" href="#romanello2009"> [romanello2009] </a>. The API queries Wikidata ad hoc to retrieve existing data (for example, information about an author or a city). All the data collected on the platform will then be reinserted on Wikidata via the API.
+
+
+
+In accordance with the principles of the Digital Classics and Digital Humanities<a class="footnote-ref" href="#schreibman2016"> [schreibman2016] </a>, we are contributing to encyclopedic projects by playing an active role in the pooling of knowledge.
+
+
+[^1]: For examples pertaining to the repetition of certain epigrammatic motifs, we refer to the exemplary study of Tarán 1979.
+[^2]: It should be noted that in the critical notes accompanying his edition, Pierre Waltz points out the most important scholia<a class="footnote-ref" href="#waltz1928"> [waltz1928] </a>.## Bibliography
+
+<ul>
+<li id="anacreon901">Anacreon, et al. 901-1000 _Codicis Anthologiæ Palatini Pars Altera [XIV-XV, — Fol. 615-662]_ . Manuscript, 1000 901.<a href="https://gallica.bnf.fr/ark:/12148/btv1b8470199g">https://gallica.bnf.fr/ark:/12148/btv1b8470199g</a>. Gallica.bnf.fr.
+</li>
+<li id="aubreton1968">Aubreton, Robert. 1968. “La Tradition manuscrite des épigrammes de l'Anthologie Palatine” . _Revue Des Études Anciennes_ 70 (1): 32–82.<a href="https://doi.org/10.3406/rea.1968.3808">https://doi.org/10.3406/rea.1968.3808</a>.
+</li>
+<li id="blackwell2009">Blackwell, Christopher and Thomas Martin. 2009. “Technology, Collaboration, and Undergraduate Research.” Digital Humanities Quarterly 3 (1).<a href="http://digitalhumanities.org/dhq/vol/3/1/000024/000024.html">http://digitalhumanities.org/dhq/vol/3/1/000024/000024.html</a>.
+</li>
+<li id="blum1991">Blum, Rudolf. 1991. Kallimachos: The Alexandrian Library and the Origins of Bibliography. Translated by Hans H. Wellisch. Wisconsin Studies in Classics. Madison (Wis.): the University of Wisconsin press.
+</li>
+<li id="bodard2016">Bodard, Gabriel, and Simon Mahony. 2016. Digital Research in the Study of Classical Antiquity. London: Routledge.<a href="http://www.tandfebooks.com/isbn/9781315577210">http://www.tandfebooks.com/isbn/9781315577210</a>.
+</li>
+<li id="brunck1772">Brunck, Richard François. 1772. Analecta Veterum Poetarum Graecorum. I.G. Bauer et socium
+</li>
+<li id="cameron1993">Cameron, Alan. 1993. The Greek Anthology: From Meleager to Planudes. Oxford: Clarendon press.
+</li>
+<li id="cod2018"> “Cod. Pal. Graec. 23 Anthologia Palatina (Konstantinopel, 2. Hälfte 9. Jh. Und 1. Hälfte 10. Jh.) 805.” n.d. Accessed May 11, 2018.<a href="http://digi.ub.uni-heidelberg.de/diglit/cpgraec23">http://digi.ub.uni-heidelberg.de/diglit/cpgraec23</a>.
+</li>
+<li id="coffee2012">Coffee, Neil, Jean-Pierre Koenig, Shakthi Poornima, Roelant Ossewaarde, Christopher Forstall, and Sarah Jacobson. 2012. “Intertextuality in the Digital Age.” Transactions of the American Philological Association 142 (2): 383–422. doi:10.1353/apa.2012.0010.
+</li>
+<li id="conca2005">Conca, Fabrizio, Mario Marzi, and Giuseppe Zanetto, eds. 2005. Antologia Palatina. Classici Greci. Torino: UTET.
+</li>
+<li id="crane1992">Crane, Gregory, ed. 1992. Perseus One Point Zero Manual: Interactive Sources and Studies on Ancient Greece. Spiral edition. New Haven: Yale Univ Pr.
+</li>
+<li id="crane2009">Crane, Gregory, Brent Seales, and Melissa Terras. 2009. “Cyberinfrastructure for Classical Philology.” Digital Humanities Quarterly 003 (1).
+</li>
+<li id="derose1997">DeRose, Steven J., David G. Durand, Elli Mylonas, and Allen H. Renear. 1997. “What Is Text, Really?” SIGDOC Asterisk J. Comput. Doc. 21 (3):1–24.<a href="https://doi.org/10.1145/264842.264843">https://doi.org/10.1145/264842.264843</a>.
+</li>
+<li id="doueihi2011">Doueihi, Milad. 2011. Pour un humanisme numérique. Paris: Seuil.
+</li>
+<li id="dubner1864">Dübner, Jean-Frédéric, Friedrich Jacobs, and Edme Cougny, eds. 1864. Epigrammatum Anthologia Palatina: Cum Planudeis et Appendice Nova Epigrammatum Veterum Ex Libris et Marmoribus Ductorum Annotatione Inedita Boissonadii, Chardonis de La Rochette, Bothii, Partim Inedita Jacobsii, Metrica Versione Hugonis Grotii et Apparatu Critico. Parisiis: A. F. Didot. http://gallica.bnf.fr/ark:/12148/bpt6k6220123k.
+</li>
+<li id="genette1982">Genette, Gérard. 1982. Palimpseste. Éditions du Seuil. Paris.
+</li>
+<li id="granovetter1983">Granovetter, Mark. 1983. “The Strength of Weak Ties: A Network Theory Revisited.” Sociological Theory 1:201.<a href="https://doi.org/10.2307/202051">https://doi.org/10.2307/202051</a>.
+</li>
+<li id="gutzwiller1997">Gutzwiller, Kathryn. 1997. “The Poetics of Editing in Meleager’s Garland.” Transactions of the American Philological Association (1974-) 127: 169–200. doi:10.2307/284391.
+</li>
+<li id="gutzwiller1998">Gutzwiller, Kathryn. 1998. Poetic Garlands: Hellenistic Epigrams in Context. Hellenistic Culture and Society 28. Berkeley Los Angeles London: University of California press.
+</li>
+<li id="gutzwiller2007">Gutzwiller, Kathryn. 2007. A Guide to Hellenistic Literature. Blackwell Guides to Classical Literature. Malden (Mass.): Blackwell.
+</li>
+<li id="jacobs1794">Jacobs, Friedrich. 1794. Anthologia Graeca, Sive Poetarum Graecorum Lusus, Ex Recensione Brunckii... Indices et Commentarium Adjecit Fridericus Jacobs. Lipsiae: in bibliopolio Dyckio.
+</li>
+<li id="jacobs1813">Jacobs, Friedrich. 1813. Anthologia graeca ad fidem codicis olim palatini. 3 vol. Lipsiae: in libraria Dyckiana.
+</li>
+<li id="jordanous2012">Jordanous, Anna, K. Faith Lawrence, Mark Hedges, and Charlotte Tupman. 2012. “Exploring Manuscripts: Sharing Ancient Wisdoms Across the Semantic Web.” In Proceedings of the 2Nd International Conference on Web Intelligence, Mining and Semantics, 44:1–44:12. WIMS ’12. New York, NY, USA: ACM.<a href="https://doi.org/10.1145/2254129.2254184">https://doi.org/10.1145/2254129.2254184</a>.
+</li>
+<li id="levy1994">Lévy, Pierre. 1994. L’intelligence collective: pour une anthropologie du cyberspace. Paris: Éd. la Découverte.
+</li>
+<li id="paton1916">Paton, W. R. 1916. The Greek Anthology. London; New York: W. Heinemann ; G.P. Putnam’s Sons.
+</li>
+<li id="paton2014">Paton, W.R. 2014. Loeb Classical Library. Cambridge; London: Harvard University Press.
+</li>
+<li id="pfeiffer1968">Pfeiffer, Rudolf. 1968. History of Classical Scholarship from the Beginnings to the End of the Hellenistic Age. Rudolf Pfeiffer. Oxford: Clarendon press.
+</li>
+<li id="romanello2009">Romanello, Matteo, Monica Berti, Federico Boschetti. 2009. “Rethinking Critical Editions of Fragmentary Texts by Ontologies.” In ELPUB 2009: 13th International Conference on Electronic Publishing: Rethinking Electronic Publishing: Innovation in Communication Paradigms and Technologies, 155–74. Milan, Italy.<a href="http://www.perseus.tufts.edu/publications/elpub2009.pdf">http://www.perseus.tufts.edu/publications/elpub2009.pdf</a>.
+</li>
+<li id="schreibman2016">Schreibman, Susan, Raymond George Siemens, and John Unsworth. 2016. A New Companion to Digital Humanities. Blackwell Publishing Professional.
+</li>
+<li id="solomon1993">Solomon, Jon. 1993. Accessing antiquity: the computerization of classical studies. University of Arizona Press.<a href="https://experts.illinois.edu/en/publications/accessing-antiquity-the-computerization-of-classical-studies">https://experts.illinois.edu/en/publications/accessing-antiquity-the-computerization-of-classical-studies</a>.
+</li>
+<li id="tarán1979">Tarán, Sonya Lida. 1979. _The Art of Variation in the Hellenistic Epigram._ Brill.
+</li>
+<li id="terras2010">Terras, Melissa. 2010. “The Digital Classicist: Disciplinary Focus and Interdisciplinary Vision.” In Digital Research in the Study of Classical Antiquity. By Gabriel Bodard and Simon Mahony. Ashgate.<a href="http://www.ucl.ac.uk/infostudies/melissa-terras/research/Chapter_10_Terras.pdf">http://www.ucl.ac.uk/infostudies/melissa-terras/research/Chapter_10_Terras.pdf</a>.
+</li>
+<li id="tyrtee1772">Tyrtée, and Théocrite. 1772. Analecta Veterum Poetarum Graecorum, Editore Rich. Fr. Phil. Brunck... Argentorati.
+</li>
+<li id="vitalirosati2018">Vitali-Rosati, Marcello. 2018. On Editorialization: Structuring Space and Authority in the Digital Age. Theory on Demand 26. Amsterdam: Institute of Network Cultures.<a href="http://networkcultures.org/blog/publication/tod-26-on-editorialization-structuring-space-and-authority-in-the-digital-age/">http://networkcultures.org/blog/publication/tod-26-on-editorialization-structuring-space-and-authority-in-the-digital-age/</a>.
+</li>
+<li id="waltz1928">Waltz, Pierre. 1928. Anthologie Grecque. Paris: Société d’édition “les Belles Lettres” impr. Durand.
+</li>
+<li id="zacklad2010">Zacklad, Manuel. 2010. “Document Numérique, Entre Permanence et Mutations.” In. Paris: Europia Productions.
+</li>
+
+</ul>
