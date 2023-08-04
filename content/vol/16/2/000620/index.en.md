@@ -1,0 +1,337 @@
+---
+type: article
+dhqtype: article
+title: "Linking Data and Disciplines: Interdisciplinary brokering in digital humanities research"
+date: 2022-06-25
+article_id: "000620"
+volume: 016
+issue: 2
+authors:
+- Sabrina Sauer
+- Berber Hagedoorn
+translationType: original
+abstract: |
+   Interdisciplinary collaboration within digital humanities research requires brokering and boundary-crossing work. This article maps interdisciplinary exchanges between computer scientists, media scholars and information scientists to explicate how interdisciplinary brokering affects knowledge and tool production in the digital humanities. The analysis of qualitative data collected during a 17 month-long digital humanities research pilot - set to collaboratively test a digital Linked Open Data (LOD) search tool - provides insights into the exploratory search behaviour of a total of 122 (digital) humanities scholars, and how these insights informed brokering work within an interdisciplinary research team. The article argues that interdisciplinary collaboration first and foremost requires disciplinary recognition in order to succeed, and demonstrates how practical, empirical research insights - in this case about user research - mobilize interdisciplinary decision-making processes. Conclusions indicate in what ways computational tools and collaboration affect knowledge production, and suggest that understanding the stakes of digital humanities research with digital audio-visual sources requires an integrated perspective characterized by both theoretical interdisciplinary discussions and their empirical, practical application. The article furthermore concludes that digital humanities brokering and boundary work should not only revolve around tool development, but also requires self-reflexivity in aligning epistemological chasms between disciplines by means of collaborative translation practices.
+teaser: "Mapping interdisciplinary exchanges between computer scientists, media scholars, and information scientists via a collaborative test of a Linked Open Data search tool."
+order: 16
+---
+
+
+
+## Introduction
+
+Productive interdisciplinary collaboration is high on research agendas of funding organisations, especially those organisations looking to stimulate digital humanities research[^1] . Stimulating collaboration between computer scientists and humanities scholars could potentially lead to insights that are of interest to both disciplines; humanities-oriented reflections on big data analysis can help understandings of its cultural significance, whilst computational analyses of cultural data potentially enrich humanities research about large batches of cultural data. However, as this article shows, interdisciplinary collaboration is often messy and wrought with misunderstanding<a class="footnote-ref" href="#vangorp2019"> [vangorp2019] </a>, and a great deal of time and effort is spent on trying to create a common agenda as researchers work to comply with goals that are of importance to their own disciplinary concerns. The central argument of this article is that successful interdisciplinary collaboration requires disciplinary recognition if it is to be a fruitful endeavour.
+
+Interdisciplinarinessdoes not warrant immediate celebration. It is important to acknowledge that doing interdisciplinary work requires translation work: specifically, an adaptation of research insights to make sense within another disciplinary perspective, in order to reach conclusions that prove productive to all researchers and disciplines involved. Overcoming epistemological differences between disciplines often makes conflict inevitable within interdisciplinary digital humanities projects<a class="footnote-ref" href="#poole2018"> [poole2018] </a>. This is why interdisciplinary research should include self-reflexivity in the process of collaboration (see also<a class="footnote-ref" href="#hagedoorn2018"> [hagedoorn2018] </a>) and thereby pay attention to the outcomes and also the “practice of interdisciplinary collaboration” <a class="footnote-ref" href="#vangorp2019"> [vangorp2019] </a>.
+
+This article presents insights into such interdisciplinary digital humanities practices. It delves into a particular case of interdisciplinary translation work to explicate the particularities of what we refer to as interdisciplinary brokering work. The case centres on the collaboration practices of a team of computer scientists, information scientists and media scholars who, over the course of 17 months, user tested and fine-tuned a digital tool as part of a digital humanities pilot study. Throughout this study, the tool became the basis for interdisciplinary knowledge exchange, much like aboundary object<a class="footnote-ref" href="#star1989"> [star1989] </a>. Furthermore, the team’s brokering and negotiation efforts about insights drawn from user testing illustrate that, while such insights are a product of interdisciplinary meaning-making, these insights are also more strongly guided by the project’s deliverable goals than by concerns about usability.
+
+The tool that became the team’s boundary object, is the Linked Open Data (LOD) exploratory search browser DIVE+[^2] , which is part of the CLARIAH Media Suite[^3] research environment<a class="footnote-ref" href="#martinez2017"> [martinez2017] </a>. DIVE+ is a digital cultural heritage browser which aims to support scholars during the first, exploratory, phase of their research by allowing them to create and savesearch narrativesas sequences of search results, connected by scholars in a separate navigation and bookmarking pane in the search browser (see Figure 2). The CLARIAH Media Suite gives access to important Dutch national audiovisual archives and is part of the overarching CLARIAH infrastructure, which is the Dutch national counterpart to the international CLARIN and DARIAH research infrastructures. CLARIAH “develops, facilitates, and stimulates the use of Digital Humanities resources and infrastructures” <a class="footnote-ref" href="#clariah2022"> [clariah2022] </a>, and offers tools and data for humanities and social sciences research.
+
+Insights into the team’s interdisciplinary collaboration practices are drawn from qualitative data that was collected during a 17 month-long digital humanities research pilot study (2017-2018) that investigated how effectively DIVE+ supported the digital research practices of humanities scholars. Throughout the research study the authors collected data about humanities scholars’ digital search practices by means of focus groups, search tasks and think-aloud protocols, surveys, and questionnaires of in total 122 participants. The authors then traced how these user insights shaped both the development of DIVE+ as well the interdisciplinarity collaboration within the research team.
+
+As the title of this article suggests, brokering plays a key role in grasping the interdisciplinary collaboration within this pilot. Brokering is not simply a metaphor for collaboration. Admittedly borrowed from Innovation Studies<a class="footnote-ref" href="#hargadon1997"> [hargadon1997] </a>, brokering draws attention to how, in the contemporary marketplace of ideas, understanding the negotiation between parties or actors is key to explain why certain ideas are embraced or discarded. The concept also conjures up recent debates about how neoliberalism has permeated digital humanities research, and what universities’ and funding agencies’ large-scale investment in the computational turn indicates about the role of cultural critique and hermeneutics within (digital) humanities research<a class="footnote-ref" href="#allington2016"> [allington2016] </a><a class="footnote-ref" href="#liu2012"> [liu2012] </a><a class="footnote-ref" href="#nowviskie2016"> [nowviskie2016] </a>.
+
+In this case, brokering takes the shape of a brokering community practice<a class="footnote-ref" href="#wenger1998"> [wenger1998] </a><a class="footnote-ref" href="#henry2012"> [henry2012] </a>in which collaborators “[negotiate] their own activities and identities, [while shaping] the relationships between their communities of practice” <a class="footnote-ref" href="#beddoes2011"> [beddoes2011] </a>. The analysis of this practice focuses on how insights uncovered during the pilot – i.e. insights into how humanities scholars actually search in and explore digital archives while using DIVE+ – inform team collaborations and decision-making processes, both on the level of the tool (adjusting for instance its interface, and functionality to align with user needs) and on the level of interdisciplinary research collaboration (e.g., in working to create academic and a project-related research output). We relate this back to how brokering practices reflect who ‘wins’ within the marketplace of ideas by focusing on humanities scholars, who are deemed to have increasingly less agency in digital humanities due to their insistence on close reading, hermeneutic tradition, and interpretation<a class="footnote-ref" href="#allington2016"> [allington2016] </a>. In our case, humanities scholars were involved as part of the interdisciplinary project team, and as the tool’s targeted user group.
+
+This article’s second goal is to connect our qualitative user studies’ insights to interdisciplinary concerns about how knowledge is explored, produced, and disseminated by means of computational tools and digital humanities research practices. This objective relates to prior studies about scholarly research processes and how these may “inform the development of research environments for digital scholarship in the humanities” <a class="footnote-ref" href="#gradmann2015"> [gradmann2015] </a><a class="footnote-ref" href="#bron2012"> [bron2012] </a>. It is particularly valuable to scholars working on the disciplinary boundary of computer science and the humanities, who grapple with issues of how to translate humanities’ concepts and concerns into computational terms.
+
+In the next section (Section 2) we present the theoretical framework used to analyse the collected data. The methodological section (Section 3) shows how we related qualitative data collection and grounded theory to answer overarching questions about collaboration and brokering practices. Section 4 presents the analysis, with reflections about interdisciplinary brokering and translation work on two levels: (1) the project level, where team meetings and debates indicate the necessity of both theoretical interdisciplinary discussions and their empirical, practical application when doing digital humanities work and, (2) the tool level, and the role played by insights drawn from the pilot’s user studies in the team collaboration practices. We conclude in section 5 with a discussion of how our analysis at the user study level maps onto larger interdisciplinary concerns.
+
+It is important to note that while the user study provides qualitative insights into the exploratory search behaviour of 122 users, and that the documented research team collaboration was analysed in order to better understand how interdisciplinary research within the digital humanities works, this study does have clear limitations. We used a mixed-method approach to conduct our qualitative research. This choice was informed by both methodological and practical concerns: we wanted to triangulate insights, while simultaneously adapting our methods to specific research settings. This is why think-aloud protocols were supplemented with questionnaires, research diaries and focus group sessions. This mixed-method approach relied on the team’s collective expertise and as a result helped to translate project insights into new knowledge for dissemination within the different researchers’ respective fields of Computer Science, Media Studies and Information Science.
+
+
+
+
+## 2. Theoretical framework
+
+
+
+## 2.1 Collaboration as brokering work
+
+Digital humanities research is characterised as interdisciplinary, and works at the boundaries of what are considered computational sciences and the humanities. More often than not, digital humanities are described in terms of how the computational turn has taken effect in the humanities, thereby mirroring all-encompassing processes of the datafication of modern society<a class="footnote-ref" href="#schafer2017"> [schafer2017] </a>. In this article, we look at what this computational work means for the boundaries between disciplines, in terms of interdisciplinary collaboration practices. Collaboration between different disciplines and different skill-sets is key in digital humanities projects<a class="footnote-ref" href="#vangorp2019"> [vangorp2019] </a><a class="footnote-ref" href="#klein2015"> [klein2015] </a><a class="footnote-ref" href="#hayles2012"> [hayles2012] </a><a class="footnote-ref" href="#masson2017"> [masson2017] </a>. With collaboration comes the need for translations of concepts and methods. Furthermore, and especially within disciplines that focus on negotiations between actors to delineate how technological artefacts are developed, brokering work itself is recognized as a shaping actor<a class="footnote-ref" href="#oldenziel2006"> [oldenziel2006] </a>, even at the level of project management<a class="footnote-ref" href="#tabak2017"> [tabak2017] </a><a class="footnote-ref" href="#gradmann2015"> [gradmann2015] </a>.
+
+Masson describes two trends in digital humanities research that relate to the core objectives of this paper: (1) the critical engagement with digital tools and data, and (2) the growing tendency to refer to digital humanities research as transdisciplinary, drawing into focus the work of creating a “shared conceptual framework” <a class="footnote-ref" href="#masson2017"> [masson2017] </a>by collaborating disciplines. Transdisciplinarity contrasts with interdisciplinary and multidisciplinarity in the sense that the former is transformative, while interdisciplinarity is concerned with linking and integrating, and multidisciplinarity juxtaposes disciplines<a class="footnote-ref" href="#klein2010"> [klein2010] </a>. Transdisciplinary research may emerge from interdisciplinary collaboration, when “fundamental epistemological shifts occur” <a class="footnote-ref" href="#austin2008"> [austin2008] </a>.
+
+Our study engages with both of Masson’s digital humanities trends. The analysis shows how, in our project, critical tool engagement informs the collaborative brokering practice of an interdisciplinary research team. Tool user testing not only informs tool development, but also fundamentally shapes the interdisciplinary team’s negotiation practices, especially regarding what is deemed important or within the scope of the research project for each involved researcher and represented discipline. Ultimately, the analysis shows that while this project was interdisciplinary, it never transcended disciplinary concerns to realize a shared conceptual – transdisciplinary – space.
+
+The research project did, however, rely on a shared material space: DIVE+, the tool that was further developed and tested within the project. Drawing into focus the brokering practices on both the tool and project levels creates a conceptual framework that is empirically, practically, observable; shared project objectives lead to tests and alterations of, and reflections on DIVE+ as a boundary object<a class="footnote-ref" href="#star1989"> [star1989] </a>or a “working artefact” <a class="footnote-ref" href="#suchman2002"> [suchman2002] </a>). Boundary objects are defined as objects “both adaptable to different viewpoints and robust enough to maintain identity across them” <a class="footnote-ref" href="#star1989"> [star1989] </a>.
+
+We work in line with Rieder and Rohle’s ([2012](#rieder2012)) argument that interdisciplinary digital humanities research should “establish areas of collaboration between the disciplines and to foster the development of practical solutions for interaction” <a class="footnote-ref" href="#rieder2012"> [rieder2012] </a>at the level of methodology. We analyse documented team meetings, and methodological and technological choices that flowed from these meetings as brokering practices to better understand how such an area of collaboration was formed in action. The team collectively documented meetings in a shared online file as part of project management efforts. The content of this file underlines that interdisciplinary collaboration requires a constant eagerness to engage in brokering practices.
+
+Here, brokering work takes the shape of translation[^4] ; of finding words to express concepts and translating these into a set of interface and data requirements. Recognizing translations as negotiations between disciplinary perspectives, and revisiting documentation of interactions between members of different disciplines through the conceptual lens of brokering, enables us to trace the work that goes into realizing interdisciplinary collaboration within digital humanities projects, and the work that goes into fine-tuning a technological artefact.
+
+
+
+
+## 2.2 The boundary object DIVE+: Exploratory search and narrative creation
+
+Drawing out this brokering work shows how collaborators work across disciplines by material engagement with the tool DIVE+ as a boundary object. DIVE+ is an open linked exploratory search browser that facilitates the exploration of diverse archival and museum collections, and allows researchers to investigate how different media objects, events, people and concepts can be compared, connected, and contextualized. Within Library and Information Sciences, the process of information search and retrieval has been described as consisting of different phases, including exploration. Kuhlthau proposes a six-stage model of information searching, that relates search stages to phases of uncertainty, and observes that “the model reveals a search process in which a person is seeking meaning in the course of seeking information” <a class="footnote-ref" href="#kuhlthau2017"> [kuhlthau2017] </a>. Exploration is described as the third stage, in which a searcher experiences adipof confidence after having selected a number of interesting sources. Exploration leads to feelings of uncertainty, as a user encounters sources that do not “fit smoothly with previously held constructs” <a class="footnote-ref" href="#kuhlthau2017"> [kuhlthau2017] </a>. Exploration and exploratory search are investigatory activities triggered by a user’s need and willingness to learn and develop new knowledge<a class="footnote-ref" href="#marchionini2006"> [marchionini2006] </a><a class="footnote-ref" href="#mirizzi2010"> [mirizzi2010] </a>. White and Roth furthermore emphasize that exploratory searchers “aim to solve complex problems” and that exploratory search itself is “open-ended, persistent, and multi-faceted” ([2009](#white2009)). Exploratory search can therefore be regarded as an iterative process, likened to solving puzzles<a class="footnote-ref" href="#sauer2016"> [sauer2016] </a>or playing games<a class="footnote-ref" href="#wilson2017"> [wilson2017] </a>.
+
+In defining how to optimally support exploratory search, Marchionini ([2006](#marchionini2006)) describes a system much like DIVE+ that affords user exploration and visualization of relationships between different entities and data facets (topic, time, space, data format). DIVE+ aspires to create ‘search narratives’ by presenting for instance events that are shared across linked data sets. However, as we will discuss in the analysis section, the mismatch between the search narratives afforded by DIVE+’s use of LOD and humanities scholars’ understanding of ‘narrative’ demonstrates the precarity of transdisciplinary presumptions.
+
+
+
+
+## 2.3 Exploration afforded by Linked Open Data
+
+Facilitating data exploration by means of linked open data (LOD) allows users to discover connections across linked data sets<a class="footnote-ref" href="#pattuelli2017"> [pattuelli2017] </a>. Transposing and matching vocabularies of different data collections grants insights into individual collections as well as enable the definition of new research questions about hitherto digitally unconnected materials. Of course, providing new ways to explore these afforded connections relies on translations grounded in specific assumptions. First, there is invisible but very real work done at the data level to translate collections into LOD: adapting explorable entities to facilitate connections across different collections. Second, the notion that LOD will allow new discoveries, or the formulation of new research questions (prompted by surprising visualised connections), is based on the conviction that patterns in data lead to new knowledge<a class="footnote-ref" href="#bod2013"> [bod2013] </a>and that knowledge is no longer entity-centric, but rather, relationship-centric<a class="footnote-ref" href="#voskarides2018"> [voskarides2018] </a>[^5] .
+
+Recent digital humanities research has also focused on discovery by means of exploratory search. Jähnichen et al. ([2017](#jahnichen2017)) focus on visual topic modelling of large collections of historical digitised materials to enhance exploratory search processes, while Muiser ([2017](#muiser2017)) employed user-centred design case studies to optimize exploration of digital cultural heritage collections. The possibilities explicitly offered by LOD are furthermore documented by Lampert and Southwick ([2013](#lampert2013)) who argue that LOD will not only change search processes, but also shift (librarian) skills and the conception of access to digital collections.
+
+This article presents the results of our user study focused on exploratory search and LOD, while connecting user study insights to overarching observations made about interdisciplinary collaboration in terms of brokering practices. We are not only interested in how users can form new research questions and encounter research ideas as they engage in exploratory search with LOD, but also draw attention to a parallel between LOD and interdisciplinary collaboration. Exploring LOD is similar to exploring interdisciplinary research possibilities; both happen between what Klein refers to as the Boundary Object and the Interactional Expertise Trading Zones, that include linguistic exchanges generating “interlanguage and interactional expertise” <a class="footnote-ref" href="#klein2015"> [klein2015] </a>. Mapping and transposing vocabularies across digital heritage collections and making these vocabularies explorable via the DIVE+ browser marks collaborations within both zones at the same time. DIVE+ becomes a boundary object for these collections (at the data level), while also performing the function of boundary object for the collaborating disciplines. The zone of interactional expertise is engaged by addressing user interactions with the browser. LOD allows new unforeseen connections between entities and documents. Meanwhile, interdisciplinary collaborations are expected to link and connect disciplinary ideas. On both levels, there are of course also challenges and obstacles to the fruition of these new connections. The present study details these to provide insights at both the project and interdisciplinary level.
+
+
+
+
+
+## 3. Methodology
+
+
+
+## 3.1 Documenting collaboration
+
+Digital humanities research is often project-based<a class="footnote-ref" href="#tabak2017"> [tabak2017] </a>. Project management therefore plays an important role, also when analysing how collaboration is structured. The object of the research pilot was to investigate how DIVE+ supports exploratory search practices of media researchers, especially when these researchers investigate narrative creation about unexpected media events, such as natural disasters or terrorist attacks<a class="footnote-ref" href="#hagedoorn2018"> [hagedoorn2018] </a>. User insight would lead to recommendations to further fine-tune the browser.
+
+The project team, consisting of eight researchers from the fields of Computer Science, Media Studies, and Information Science, met virtually on a bi-weekly basis to discuss project deliverables, tool development, planned user studies, and research insight dissemination efforts. Meetings lasted between 30 and 60 minutes, and were documented in an online shared document. This shared document served as a research diary, chronicling the research project’s issues, concerns, and milestones in a bi-weekly rhythm. This document is analysed to discern recurring themes, ideas, and joint research objectives in order to help understand how the team gave meaning to DIVE+ as the project’s boundary object.
+
+
+
+
+## 3.2 User research: documenting user stories to understand exploratory search with linked data
+
+Research diaries were also part of the mixed-methods approach used to undertake user research. A total of 122 (digital) humanities scholars took part in these studies, between May 2017 and January 2018. A number of methods were combined to triangulate results; individually, users were given exploratory search tasks, answered surveys and (post-task) questionnaires about their experiences. This was combined with collaborative tasks, where small groups worked together to create posters about their search experiences and their ideas about exploratory search. User studies were conducted by means of interactive workshops hosted at different universities to include the users’ actual work settings.
+
+The tasks were performed on personal laptops or university computers. During two sessions, the tasks were accompanied by think-aloud protocols which were recorded and subsequently transcribed. Search histories were saved and exported by the user and users filled out a post task questionnaire. In other sessions, tasks were not accompanied by a think-aloud protocol, but by a questionnaire. This was done to not disturb other users in the room, as they were completing tasks in a single, larger, space.
+
+The task assignment was followed by a focus group discussion. During the discussion, users shared their experiences of searching with exploratory search tools, including DIVE+. These sessions were concluded with a poster session. Users worked together in small groups of 3-4 people to draw their research process and trajectory. The main question they all worked with was: How would you visualize your research journey, and what is the (ideal) role of exploratory search in this process? During plenary sessions posters were discussed and research findings displayed (Figure 1).
+
+{{< figure src="images/figure1.jpg" caption="Visualized search journey poster" alt="Hand drawn image of a flowchart demonstrating the search journey. The word \"idea\" is in the middle with spanning branches"  >}}
+
+
+
+
+
+
+## 4. Analysis
+
+The first part of the analysis focuses on the research team’s brokering and translation work and then thus turns to how this work was informed by user research insights. These insights formed part of the team’s shared goals, but also became the space in which different research interests and negotiations came to the fore. Lastly, the analysis draws on insights about the collaboration and user research to focus on the necessity of both theoretical interdisciplinary discussions and their empirical, practical application when doing digital humanities work.
+
+
+
+
+## 4.1 Collaboration affects knowledge production; interactional expertise, brokering and translation
+
+The interdisciplinary research team met virtually 27 times on a bi-weekly basis between March 2017 and July 2018. This team consisted of two computer scientists, one information scientist, and two media studies scholars. A data scientist and programmer joined the bi-weekly team meetings on a more ad-hoc basis. Team discussions focused on project goals: (1) how to execute user testing with the DIVE+ browser in order to better understand how (digital) humanities scholars can use exploratory search tools as part of their research practices; (2) how to optimize the DIVE+ browser in terms of its user interface (UI) and its integration into the overarching CLARIAH Media Suite; and (3) tool and project dissemination efforts at conferences and in publications.
+
+Meeting minutes were shared within the team, and archived online. These minutes serve as an overview of the project, project management, and are an artefact onto itself. A grounded analysis of these minutes shows that discussions were for instance not primarily about DIVE+’s UI, but also focused on project management (to indicate, of the 239 coded lines, 50 were labelled ‘project management’, only superseded by 51 times that the UI was topic of discussion).
+
+At a first glance, this interdisciplinary collaboration focused on discussing project timelines, deliverables and key milestones. Issues with DIVE+ functionality, testing and its integration into the Media Suite were also discussed at length. Following Klein, and Star and Griesemer, DIVE+ was the project’s boundary object and its trading zone of interaction from the outset. Discussions revolved around how to investigate the ways in which DIVE+ supports exploration, how to translate insights about use into browser and interface changes, and how to disseminate research insights more broadly (discussed 24 times during the 27 meetings).
+
+Klein discusses the “interactional expertise trading zone” where “interdisciplinary work includes linguistic exchange that generates interlanguage and interactional expertise” <a class="footnote-ref" href="#klein2015"> [klein2015] </a>. In the team meetings, this exchange centred around discussing the possibilities of LOD, and how users could be asked to reflect on the usefulness of LOD via the DIVE+ search browser. Specifically, what methods could be used to understand user engagement with DIVE+, and how users understand the tool and LOD?
+
+The team settled on a mixed-method approach that used exploratory search tasks and think-aloud protocols (used more commonly in human computer interaction studies), as well as research diaries and focus groups (that are employed more readily in qualitative social science and humanities research). The mixed-method approach relied on the team’s collective expertise. This is not trivial: specific experts are involved in the project because they are experts in specific user research methodologies, and are willing to contribute this expertise for the project’s collective benefit. Conversely, these methods were also chosen because these specifically helped the involved researchers translate project insights into new knowledge for dissemination within their respective fields.
+
+Translating the findings from the user studies into requirements for DIVE+ necessitated another step in the collaboration process, in which interdisciplinary collaboration led to clashes in epistemological outlook and understanding. For example, the tensions over the meaning and use of the term ‘narrative’ between researchers based in the humanities and those in computational science exemplify the type of translation problems that can arise during interdisciplinary collaboration.
+
+Whereas the media studies researchers relied on thick descriptions of what ‘narrative’ means to the users in order to reflect on the role of narrativization in research practices, their user study work also needed to lead to user interface recommendations, as well as recommendations for the overarching Media Suite. In other words, user feedback and reflections had to be translated into material suggestions, as per the project’s objectives. A clear example of this are the team discussions about and the understanding of what ‘narrative’ means in the context of users’ research practices within DIVE+, and what this difference in meaning-attribution means in terms of interface functionality and design. For instance, not all users that partook in the user studies were comfortable with the notion that they create narratives while doing research. As one (media) historian notes: “I believe that the narrative metaphor does not really apply to my research, because I do not produce sequential data, but rather a meta-structure, which cannot be told as a story” (Respondent B-P17) . Yet for media researchers who are interested in audio-visual production processes, such as image researchers, creating narratives is part of their core research work. Narrative is thus a multi-interpretable container term that cannot easily be translated in a one-size fits all UI.
+
+On the level of the search browser, the developers of DIVE+ referred to generated exploration paths as ‘search narratives’, as these ‘retell’ the user’s search history. This, however, lead to user misunderstandings over how they can become storytellers without being able to annotate, add, or shuffle the search results within the exploration path. For the humanities researchers on the interdisciplinary team, ‘narrative’ was also closely connected to the desire to meaningfully edit or comment upon search results. The humanities scholars struggled to view ‘auto-generated narratives’ as research stories; without a way to add an interpretation to the narrative, the humanities users felt a lack of agency over the research narrative.
+
+To the involved information and computer scientists however, the concept of ‘narrative’ was irrevocably tied to a user’s search history. Ultimately, the research team’s media scholars suggested to change this notion of a ‘search narrative’ to a ‘search journey’, thereby preventing future misunderstandings between team members and between the team and the test users. The dispute over a term like ‘narrative’ shows that developing a shared vocabulary means discussing disciplinary differences.
+
+A similar discussion emerged about the idea of how DIVE+ was to be an ‘event-centric’ browser. Initially, the browser included the option to search for events. However, in large part because of the ambiguity of this concept (when is something an event?), this idea was eventually abandoned. Discussions over terms such as ‘narrative’ and ‘event’ were followed up with a collective re-interpreting or translating of the term from the point of view of the users, in order to make alterations to the search browser and UI that would reflect this user interpretation and to avoid what has been referred to as the “I-methodology” <a class="footnote-ref" href="#akrich1995"> [akrich1995] </a>, where “designers consider themselves as representative of the users” <a class="footnote-ref" href="#oudshoorn2004"> [oudshoorn2004] </a>.
+
+This translation work is part of the brokering that the collaborating researchers engaged in. Beyond translation, brokering also means convincing the other team members of how users seemed to interpret their interactions with DIVE+ and with LOD. In this case, the discussions about the meaning of ‘narrative’ and ‘event’ that users attributed to these terms gained more agency in the brokering practice: the epistemological outlook and interpretations of the users involved in tool testing became key to material or technological changes in the browser. The data that was collected as part of the user studies becomes part of an interactional expertise trading zone; it is not only DIVE+ that connects the members of the research team as a boundary object, but also the data that is collected about DIVE+ and its use (and possible subsequent analysis of that data to publish about the project!) that gives the team discussions, and decisions, its momentum. This data is also part of the negotiation. In order to zoom in further on how this negotiation actually took shape, we now turn to a close analysis of how our collected user research data shaped the interdisciplinary collaborative work.
+
+
+
+
+## 4.2 User/tool interactions: Linked Data and Exploratory Search user insights as part of interdisciplinary brokering
+
+Using DIVE+, users can explore relations between 1,231.688 entities from 4 digital or digitized heritage collections[^6] when they use DIVE+. Links between entities are visualized by showing a snapshot of the retrieved ‘media object’, descriptions of the media object, the people, locations, and concepts linked to that entity, and how these can be further explored. Users can collect data by adding an entity of interest to their ‘exploration path’, or by bookmarking the entity for further investigation. They can subsequently save, load and export their exploration paths into their overarching CLARIAH personal ‘workspace’ to be able to peruse these throughout their research process.
+
+Users saw benefits in using DIVE+ to explore collections, and recognized its potential to support the discovery of new research ideas and topics:
+>  _DIVE+’s way of linking information allows you to start with a wide search term and then click through to other or related aspects of it. It enables some free association, which can trigger research questions_ 
+(Respondent A-G2)
+>  _[It] makes source selection a bit more random, giving the researcher a chance to find sources that other methods might not reveal_ 
+(Respondent X-P12)
+
+The DIVE+ interface allows users to search for keywords, persons, and locations within 4 collections. Clicking on a search result provides a more detailed description of an entity, or, for example, allows the user to play the audio-visual file that contains the search query. This gives, as one user reports, searching with DIVE+, a sense of “just diving in without knowing what you will end up with” (Respondent B-P12). The fact that connections between entities are made visible is one of the described strengths of the browser, as it “lets you see connections and thus shows you the meaning of AV content” (Respondent A-P18).
+
+Connections are deemed valuable when they can be contextualized; researchers see the tool as useful to gain a quick overview of how entities are related, and what kinds of materials are accessible and related to particular search queries. At the same time, they miss context to ground the material as “real connections still have to be made in an old and traditional way… in the mind of the researcher. (...) It is more about the metadata than about the actual content” (Respondent B-P2). Users also indicate that while the browser could potentially spark new research questions, this is hampered by the lack of transparency about _why_ certain entities are related: DIVE+’s UI does not inherently explicate the connections it draws across LOD entities for the user. This also relates to questions that arose in the focus group discussions after using DIVE+: how are entities labelled as events in the tool, what is an event? Based on the user feedback, the DIVE+UI was adapted to give users the possibility to contextualize data by sorting search results by collection. This affords users a clearer view of what they are exploring.
+
+The user-reported need to ground the data, whether within the context of collection, historical parameters, or a particular label (as a ‘concept’, for example), mirrors boyd and Crawford’s insights about Big Data analysis ([2013](#crawford2013)). Without context, data loses its meaning: “The ability to represent relationships between people as a graph does not mean that they convey equivalent information” <a class="footnote-ref" href="#boyd2012"> [boyd2012] </a>.
+
+The overall responses of the users indicate that DIVE+ could potentially support exploration, because it offers an alternative way to interact with different data collections. However, users also felt that the tool lacks direct research benefits because searching with DIVE+ is time consuming, has a steep learning curve, and its search functions are counter-intuitive. Users further questioned what kind of knowledge is afforded by linked data. We will expand on this last observation, because it directly mirrors our findings about brokering as translation and consensus-making within interdisciplinary work.
+
+One of the premises of DIVE+ is that, by offering exploration of entities across 4 different collections, researchers may encounter materials in new ways, which will allow researchers to ask new questions. This idea was supported by user feedback, as exploratory search is deemed to “[allow] the adaptation of research questions in an iterative fashion” (Respondent A-P1). However, exploration is limited by the knowledge graph that these collections, together, create. In other words, search is limited by the ways in which entities have been made discoverable, and how these have been labelled (e.g., as persons). The micro-granularity of search that is afforded by linked data would seem to allow more fine-grained search results. Yet, for the users this meant that they became more sceptical of what they were finding. Who, after all, is doing the labelling? In other words, apart from voicing a need for (collection) context to be able to interpret what they were seeing, users were questioning the transparency of the search results, and who was defining terms and setting boundaries around these objects. Within DIVE+ and interdisciplinary research alike, the tensions manifested within the boundaries of the conversation as much as within its content.
+
+
+
+
+## 4.2.1 Negotiations: The role of visualization in narrative creation
+
+The visualized exploration path, or search narrative (Figure 2), was deemed helpful to keep track of what was found before and to trace how users came to certain materials. Users could see the potential usefulness of this feature, especially to revisit previously examined materials.
+
+{{< figure src="images/figure2.png" caption="DIVE+ Exploration path. Searching for ‘Beatrix’ leads to an event ‘De bouw van het schip de ‘Prinses Beatrix’’ (construction of the ship ‘Princess Beatrix’) which is connected to the entity ‘Prinses Beatrix’ after whom the ship was named. Source figure:[https://diveplus.frontwise.com/](https://diveplus.frontwise.com/)" alt="Screenshot of the Dive interface showing a search path for \"beatrix\""  >}}
+
+
+However, as stated previously, referring to the collected search history as a narrative seemed less intuitive to the users than referring to this feature as a search journey. The actual narrative, it was deemed, is related to the historical narrative that the user is trying to form about a set of events in the past. Yet, users saw possibilities to enhance the exploration path functionalities by incorporating the possibility to add annotations; adding notes about how the user sees connections between two suggested linked entities enables the researcher to feel that they are creating narratives. Key to this understanding of narrative creation is the sense that annotation gives the user the “powerful tool and an important strategy not only to tell events, but above all to interpret them and therefore to attribute meaning, relevance and to understand reality with more awareness and to transform it” (Respondent E-P7) . Giving researchers the agency to annotate created exploration paths into narratives more readily integrates the tool into existing research processes. This could be useful as “during the process of collecting data, the narrative might change, for media researchers might find information that changes their research question and primary focus” (Respondent E-P7).
+
+What the above observations indicate about how exploratory search offered by LOD affects knowledge production, is that knowledge production needs to be grounded in a clear context. The user studies show that (digital) humanities scholars greatly value visualizations of historical events in narratives, but still struggle with contextualizing the linked data presented in DIVE+. Adding user-generated annotations to the suggested connections between LOD entities will benefit their contextualization, as it would allow users to reflect on the entity, its source, and role within a possible research narrative.
+
+The user insights about the exploratory search afforded by DIVE+ and the visual representations of the search narrative or journey culminated in three tool recommendations that were devised by the authors, to allow for annotation of search results (to contextualize findings), to allow the export of search results so that a user can keep these as ‘notes’ during research, and to add a feature that allows users to shuffle search results in the search narrative. These features have been designed and implemented in the newest iteration of DIVE+; user research insights thus informed particular changes to the browser to ensure the tool aligns better with research and meaning-making practices of its foreseen users.
+
+
+
+
+## 5. Conclusion
+
+The objective of this article was to show how insights into the exploratory search behaviour of (digital) humanities scholars with the DIVE+ browser informed the brokering work of the interdisciplinary research team. The article also argues that successful interdisciplinary collaboration requires disciplinary recognition if it is to be considered a fruitful endeavour. The presented user study insights are a springboard for answers to related questions about knowledge production - and recognition - in the digital humanities. The insights help clarify how the research team project management efforts and collective user study analysis worked to negotiate meaning, methods and outcomes on both the level of the tools’ user interface and on the level of interdisciplinary collaboration.
+
+The user insights culminated in team discussions about how to further refine the concept of narrative in DIVE+. These discussions articulate the important role of critical interdisciplinary dialogue in digital humanities research throughout tool development and application. The recommendations primarily focused on refining DIVE+ to give the user a better sense of data context, as well as suggestions to improve user interaction and experience with the tool’s exploration path (visualizing the search narrative, or, as the scholars agreed to term it, the search journey of the user). Figure 3 and 4 show what these incremental changes look like in the current version of the tool.
+
+{{< figure src="images/figure3.png" caption="Feature to annotate the exploration path. Source figure:  [https://diveplus.frontwise.com/](https://diveplus.frontwise.com/)" alt="Screenshot of the Dive interface with the various features highlighted, including \"annotate\""  >}}
+
+
+{{< figure src="images/figure4.png" caption="DIVE+ interface, showing how the keyword search ‘Beatrix’ provides search results from different collections, such as ‘Beeld en Geluid’, that the user can use to sort search results by collection. Source figure:[https://diveplus.frontwise.com/](https://diveplus.frontwise.com/)" alt="Dive screenshot showing the results for the word \"beatrix\" with results across three collections"  >}}
+
+
+While these alterations were the result of user recommendations, they also reflect the outcome of the research team’s brokering - negotiation and translation - work.
+
+On the level of the tool DIVE+, the user studies therefore show that (digital) humanities scholars greatly value visualizations of events in narratives, but struggle with contextualizing the linked data presented in DIVE+. Granting users more agency in the creation of narratives, by allowing them to annotate related entities in the interface’s exploration path, is expected to support this contextualization process. On the level of collaboration between disciplines, the case shows that interdisciplinarity necessitates the ability to work together in a transdisciplinary manner. This means that interdisciplinary collaboration requires the forming of a shared conceptual or even community practice in which brokering takes the shape of not only discussing and negotiating about project management and deliverables, but also requires an almost literal translation of epistemological considerations, in this case about the meaning of a term such as ‘narrative’ or ‘event’.
+
+Overall, this then demands that researchers act in a self-reflexive manner throughout collaborations: sharing explicit awareness of how their disciplinary background shapes methodological considerations, their understanding of what is considered to be knowledge, and how the practice of collaborating shifts or does not shift these understandings. Masson’s observation that transdisciplinary work demands a “shared conceptual framework” <a class="footnote-ref" href="#masson2017"> [masson2017] </a>seems fitting here, with the additional observation that creating this framework demands active and open ‘exploration’ within the interdisciplinary team. In the interactional expertise trading zone, researchers from different disciplines need to broker their views, methods, and terminology, to reach consensus and move forward. The interdisciplinary dialogue around the boundary object DIVE+ gave meaning to this collaboration; without continuous brokering work, this project would not have led to fruitful insights about the user interface of DIVE+, about users’ perceptions of meaning-creation that are afforded by linked data, or about the collaboration itself.
+
+Yet, solely focusing on DIVE+ as a boundary object overlooks the important role played by the process of developing interactional expertise, of engaging in boundary work required to realize project deliverables that include an optimized exploratory search browser as a boundary object. The object seems to, also in project deliverables, take on a larger role: the tool is at the centre of conference presentations and publications, whereas the joint discussions and the collaborative work in producing the object are seemingly left aside. Tool development and project deliverables trump reflections about process. Admittedly, this seems inherent to work on any kind of research project. This is also why we feel it is important to connect a focus on (technical) deliverables to how the interdisciplinary team executed their project. While this focus on deliverables and tool recommendation realization seems to align with earlier mentioned ideas about digital humanities as a ‘neoliberal field’ that is focused on computation and the development of tools for tools’ sake, the project also illustrates that interpretation and reflections on interpretation matter within projects such as these. In the end, “it’s not what the software does, it’s what the user does” <a class="footnote-ref" href="#macleod2009"> [macleod2009] </a>. Analysing the work that goes into boundary work provides an opportunity to pick apart the fabric of much-valued interdisciplinary collaboration, to help pinpoint how researchers from different disciplines can understand one another.
+
+We would like to conclude with the observation that there is an interesting parallel between the technological affordances of LOD and interdisciplinary digital humanities research. Clearly, semantics play a decisive role in both: linked data allows for semantic linking of entities, and transdisciplinary collaboration is about brokering and translating terms and meanings in such a manner that the entire group understands something in a similar way. Drawing out how this interdisciplinary brokering takes shape in practice requires working towards a sociology of digital humanities; mapping interdisciplinary exchanges in practice. This, in turn, will also bolster an understanding of how semantic connections and linked data can further enrich knowledge creation and collaboration.
+
+
+
+
+## Funding
+
+This research was supported by the Netherlands Institute for Sound and Vision in the context of Berber Hagedoorn as Sound and Vision Researcher in Residence in 2016-2017 and the Netherlands Organisation for Scientific Research (NWO) under project number CI-14-25 as part of the MediaNow project. This research was also made possible by the CLARIAH-CORE project financed by NWO, with the Research Pilot Narrativizing Disruption.
+
+
+
+
+## Acknowledgments
+
+The authors would like to thank the anonymous reviewers for their helpful comments and suggestions, and Hanne Stegeman for her research assistance during data categorization.
+
+
+[^1]: For examples of calls for and reports on interdisciplinary research see for instance[https://www.nsf.gov/od/oia/additional_resources/interdisciplinary_research/support.jsp](https://www.nsf.gov/od/oia/additional_resources/interdisciplinary_research/support.jsp)or[https://www.scienceeurope.org/media/yv2huvp1/report-of-2018-science-europe-symposium-on-interdisciplinarity.pdf](https://www.scienceeurope.org/media/yv2huvp1/report-of-2018-science-europe-symposium-on-interdisciplinarity.pdf). For examples of recently funded interdisciplinary Digital Humanities research projects (in The Netherlands), please see:[https://www.nwo.nl/en/news/three-new-research-projects-interface-big-data-and-digital-humanities-relation-creative](https://www.nwo.nl/en/news/three-new-research-projects-interface-big-data-and-digital-humanities-relation-creative)and[https://www.clariah.nl/data](https://www.clariah.nl/data)(last accessed 16-1-2022).
+[^2]: See  [https://diveplus.frontwise.com/](https://diveplus.frontwise.com/). DIVE+ is an exploratory, event-centric linked open data browser that connects several digital cultural heritage collections<a class="footnote-ref" href="#deboer2015"> [deboer2015] </a><a class="footnote-ref" href="#deboer2017"> [deboer2017] </a>. The application seeks to support humanities scholars’ research by allowing serendipitous exploration and visualization of historical narratives found in cultural heritage collections.
+[^3]: [https://mediasuite.clariah.nl](https://mediasuite.clariah.nl)
+[^4]: In the sense that Callon ([1984](#callon1984)) discusses translation of interests, but stressing, in line with Star and Griesemer ([1989](#griesemer1989)), the work that goes into this translation. Latourian translation refers to ‘mediation, of ‘interpretation’ of objectives, expressed in the ‘languages’ of the different intermediaries engaged in a project/process of 'innovation’<a class="footnote-ref" href="#buzelin2007"> [buzelin2007] </a>.
+[^5]: Dimitrova et al.’s user study ([2013](#dimitrova2013)) uses task-based experiments to understand how linked semantic data supports exploratory search processes and concludes that semantic data browsers support serendipitous learning in users, as semantic links allow for the discovery of new facts by chance.
+[^6]: The Tropenmuseum (a museum of world cultures), Dutch newspaper archive Delpher, the Amsterdam Museum, and the Open Images collection of the Netherlands Institute for Sound and Vision.## Bibliography
+
+<ul>
+<li id="akrich1995">Akrich M. “User representations: Practices, methods and sociology.” In _Managing technology in society: The approach of constructive technology assessment_ , edited by A. Rip, T. J. Misa, and J. Schot, 167-84. London: Pinter Publishers (1995).
+</li>
+<li id="allington2016">Allington D, Brouillette S and Golumbia, D. _Neoliberal tools (and archives): A political history of digital humanities_ . LA Review of Books, 1 (2016).
+</li>
+<li id="austin2008">Austin W, Park C and Goble, E. “From interdisciplinary to transdisciplinary research: A case study.”   _Qualitative Health Research_ , 18(4), 557-564 (2008).
+</li>
+<li id="beddoes2011">Beddoes K. _Practices of brokering: Between STS and feminist engineering education research._ Doctoral dissertation, Virginia Tech (2011).
+</li>
+<li id="bod2013">Bod R. “Who's Afraid of Patterns? The Particular versus the Universal and the Meaning of Humanities 3.0.”  _BMGN-Low Countries Historical Review_ 128(4): 171-180 (2013).
+</li>
+<li id="boyd2012">Boyd D and Crawford K. “Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon.”   _Information, communication & society_  15(5): 662-679 (2012).
+</li>
+<li id="bron2012">Bron M, Van Gorp J, Nack F, et al. “A subjunctive exploratory search interface to support media studies researchers” . In: _Proceedings of the 35th international ACM SIGIR conference,_ pp. 425-434. ACM (2012).
+</li>
+<li id="buzelin2007">Buzelin H. “Translation studies, ethnography and the production of knowledge.” In: St-Pierre P and Kar PC (eds) _In Translation Reflections, Refractions, Transformations_ (Vol. 71). John Benjamins Publishing, p. 39 (2007).
+</li>
+<li id="chan2017">Chan A, Chenhall R, Kohn T, et al. “Interdisciplinary Collaboration and Brokerage in the Digital Humanities.”  _Digital Humanities Quarterly_ 11(3) (2017).
+</li>
+<li id="deboer2015">De Boer V, Oomen J, Inel O, et al. “DIVE into the event-based browsing of linked historical media.”  _Web Semantics: Science, Services and Agents on the World Wide Web_ 35: 152-158 (2015).
+</li>
+<li id="deboer2017">De Boer V, Melgar L, Inel O, et al. “Enriching Media Collections for Event-Based Exploration.” In: _Research Conference on Metadata and Semantics Research_ , pp. 189-201. Springer: Cham (2017).
+</li>
+<li id="callon1984">Callon M. “Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay.”  _The Sociological Review_ 32: 196-233 (1984).
+</li>
+<li id="clariah2022">CLARIAH.<a href="https://www.clariah.nl/">https://www.clariah.nl/</a>. Accessed on 5-1-2022 (2022).
+</li>
+<li id="dimitrova2013">Dimitrova V, Lau L, Thakker D, et al. “Exploring Exploratory Search: A User Study with Linked Semantic Data.” In: _Proceedings of the 2nd International Workshop on Intelligent Exploration of Semantic Data_ , p. 2. ACM (2013).
+</li>
+<li id="gradmann2015">Gradmann S, Hennicke S, Tschumpel G, et al. _Beyond Infrastructure! Modelling the Scholarly Domain_ (2015).
+</li>
+<li id="hagedoorn2018">Hagedoorn, B., & Sauer, S. “The researcher as storyteller: using digital tools for search and storytelling with audio-visual materials.”  _VIEW Journal of European Television History and Culture_ , 7(14), 150-170 (2018) 
+</li>
+<li id="hargadon1997">Hargadon A and Sutton RI. “Technology brokering and innovation in a product development firm.”   _Administrative science quarterly_ : 716-749 (1997).
+</li>
+<li id="hayles2012">Hayles NK. “How we think: Transforming power and digital technologies.” In:  _Understanding digital humanities_ . London: Palgrave Macmillan, pp. 42-66 (2012).
+</li>
+<li id="henry2012">Henry A and Mackenzie S. “Brokering communities of practice: A model of knowledge exchange and academic-practitioner collaboration developed in the context of community policing.”   _Police practice and research_ , 13(4): 315-328 (2012).
+</li>
+<li id="jahnichen2017">Jähnichen P, Oesterling P, Heyer G, et al. “Exploratory Search Through Visual Analysis of Topic Models.”  _Digital Humanities Quarterly_ 11(2) (2017).
+</li>
+<li id="kefalidou2016">Kefalidou G and Sharples S. “Encouraging serendipity in research: Designing technologies to support connection-making.”  _International Journal of Human-Computer Studies_ 89: 1–23. DOI: 10.1016/j.ijhcs.2016.01.003 (2016)
+</li>
+<li id="klein2010">Klein, JT. “A taxonomy of interdisciplinarity.”   _The Oxford handbook of interdisciplinarity,_  15, 15-30 (2010).
+</li>
+<li id="klein2015">Klein JT. _Interdisciplining_  _Digital Humanities - Boundary Work in an Emerging Field_ . Ann Arbor: University of Michigan Press (2015).
+</li>
+<li id="kuhlthau2017">Kuhlthau, C.C. “Information Search Process (ISP) Model.” In J.D. McDonald, M. Levine-Clark (Eds.) _Encyclopedia of Library and Information Sciences_ (4th ed.) (2017).
+</li>
+<li id="lampert2013">Lampert CK and Southwick SB. “Leading to Linking: Introducing Linked Data to Academic Library Digital Collections.”  _Journal of Library Metadata_ 13 (2-3): 230-253. DOI: <a href="https://doi.org/10.1080/19386389.2013.826095">10.1080/19386389.2013.826095</a>(2013).
+</li>
+<li id="liu2012">Liu AY. “Where is cultural criticism in the digital humanities?”  (pp. 490-509). eScholarship, University of California (2012).
+</li>
+<li id="macleod2009">MacLeod, H.  _Ignore Everybody: And 39 Other Keys to Creativity._ Penguin (2009).
+</li>
+<li id="marchionini2006">Marchionini G. “Exploratory search: from finding to understanding.”   _Communications of the ACM_ 49(4): 41-46 (2006).
+</li>
+<li id="martinez2017">Martínez Ortiz C, Ordelman R, Koolen M, et al. _From Tools to ‘Recipes’: Building a Media Suite within the Dutch Digital Humanities Infrastructure CLARIAH_ . Presented at the Digital Humanities Benelux, Utrecht, 3-5 July (2017).
+</li>
+<li id="masson2017">Masson E. “Humanistic Data Research: An Encounter between Epistemic Traditions.” In: Schäfer MT and Van Es KF (eds)  _The datafied society: Studying culture through data_ . Amsterdam University Press, pp. 25-38 (2017).
+</li>
+<li id="mirizzi2010">Mirizzi R, Bari P, Orabona V, et al. “From Exploratory Search to Web Search and back.” In: _Proceedings of the 3_ rd _workshop on Ph.D. students in information and knowledge management_ , Toronto _._ 30 October, pp. 39-46. ACM (2010).
+</li>
+<li id="muiser2017">Muiser IEC, Theune M, De Jong R, et al. “Supporting the Exploration of Online Cultural Heritage Collections: The Case of the Dutch Folktale Database.”  _Digital Humanities Quarterly_ 11(4) (2017).
+</li>
+<li id="nowviskie2016">Nowviskie B and McGann J. “Critiquing the Critique of the Digital Humanities.”  _The New Atlantis_ https://www.thenewatlantis.com/text-patterns/critiquing-critique-of-digital
+</li>
+<li id="oldenziel2006">Oldenziel R, De la Bruhèze AA and De Wit O. “Europe’s mediation junction: technology and consumer society in the 20th century.”  _History and Technology_ 21(1): 107-139. DOI: 10.1080/07341510500037578 (2006).
+</li>
+<li id="oudshoorn2004">Oudshoorn, N., Rommes, E., & Stienstra, M. “Configuring the user as everybody: Gender and design cultures in information and communication technologies.”   _Science, Technology, & Human Values,_  29(1), 30-63 (2004).
+</li>
+<li id="pattuelli2017">Pattuelli MC, Hwang K, and Miller M. “Accidental discovery, intentional inquiry: Leveraging linked data to uncover the women in jazz.”  _Digital Scholarship in the Humanities_ 4(1): 918–924 (2017).
+</li>
+<li id="poole2018">Poole, A. H., & Garwood, D. A. “Interdisciplinary scholarly collaboration in data-intensive, public-funded, international digital humanities project work.”   _Library & Information Science Research_ , 40(3-4), 184-193 (2018).
+</li>
+<li id="race2016">Race TM and Makri S (Eds.). _Accidental Information Discovery: Cultivating Serendipity in the Digital Age_ . Elsevier (2016).
+</li>
+<li id="rieder2012">Rieder B and Rohle T. “Digital Methods: Five Challenges.” In: Berry DM (ed) _Understanding Digital Humanities._ London: Palgrave Macmillan, pp. 67–84 (2012).
+</li>
+<li id="sauer2016">Sauer, S., & de Rijke, M. “Seeking serendipity: A living lab approach to understanding creative retrieval in broadcast media production.” In _Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval_ , Pisa. July, pp. 989-992. ACM (2016)
+</li>
+<li id="sengers2004">Sengers P. “The autonomous agency of STS: Boundary crossings between STS and Artificial Intelligence.”   _Social Studies of Science_ (2004).
+</li>
+<li id="schafer2017">Schäfer MT and Van Es KF. _The datafied society: Studying culture through data_ . Amsterdam University Press (2017).
+</li>
+<li id="star1989">Star SL and Griesemer JR. “Institutional Ecology, ‘Translations’ and Boundary Objects: Amateurs and Professionals in Berkeley ’s Museum of Vertebrate Zoology, 1907-39.”  _Social Studies of Science_ 19(3): 387–420 (1989).
+</li>
+<li id="suchman2002">Suchman L, Trigg R. and Blomberg J. “Working artefacts: ethnomethods of the prototype.”   _The British journal of sociology_ , 53(2): 163-179 (2002).
+</li>
+<li id="tabak2017">Tabak E. “A Hybrid Model for Managing DH Projects.”  _Digital Humanities Quarterly_ 11(1) (2017).
+</li>
+<li id="vangorp2019">Van Gorp, J., & Bron, M. “Building Bridges: Collaboration between Computer Sciences and Media Studies in a Television Archive Project.”   _DHQ: Digital Humanities Quarterly_ , 13(3) (2019).
+</li>
+<li id="vanoost2008">Van Oost E, Verhaegh S and Oudshoorn N. “From Innovation Community to Community Innovation: User-initiated Innovation in Wireless Leiden.”  _Science Technology, & Human Values_ 34(2): 182–205. DOI: 10.1177/0162243907311556 (2008).
+</li>
+<li id="voskarides2018">Voskarides N, Meij E, Reinanda R, et al. “Weakly-supervised Contextualization of Knowledge Graph Facts.” In: _Proceedings of the 41_ st _International ACM SIGIR Conference_ , Ann Arbor, July 8-12, pp. 765-774. ACM (2018).
+</li>
+<li id="wenger1998">Wenger E. _Communities of practice: Learning, meaning, and identity_ . Cambridge University Press (1998).
+</li>
+<li id="white2009">White, R. W., & Roth, R. A. “Exploratory search: Beyond the query-response paradigm. Synthesis lectures on information concepts, retrieval, and services,”  1(1), 1-98 (2009).
+</li>
+<li id="wilson2017">Wilson ML. “The Tetris model of resolving information needs within the information seeking process.” In: _Conference on Human Information Interaction and Retrieval CHIIR ’17_ . Oslo, March 7-11, pp. 147-154. ACM.
+</li>
+
+</ul>

@@ -1,0 +1,417 @@
+---
+type: article
+dhqtype: article
+title: "Underlying Sentiments in 1867: A Study of News Flows on the Execution of Emperor Maximilian I of Mexico in Digitized Newspaper Corpora"
+date: 2022-09-16
+article_id: "000649"
+volume: 016
+issue: 4
+authors:
+- Adán Israel Lerma Mayer
+- Ximena Gutierrez-Vasques
+- Ernesto Priani Saiso
+- Hannu Salmi
+translationType: original
+abstract: |
+   This article focuses on the international news flow regarding the execution of Maximilian, the Emperor of Mexico. The execution occurred in June 1867, but it received global attention only at the beginning of July when the news started to spread over the borders, via telegraph, and rapidly through the network of newspapers. The article concentrates on international news on Maximilian's execution between 5 and 20 July 1867. The aim of the study is both empirical and methodological. It explores the sentiments underlying the news about the execution and the regional differences in these sentiments on an empirical level. On a methodological level, the article investigates the strategies to analyze sentiments via newspaper corpora in a multilingual research setting. The study is based on optically recognized historical newspapers in three languages (German, Spanish and English), and four regions (Austria, Germany, Mexico, and the United States). Our analysis shows content variations in the corpora, mainly that news was framed differently in each studied region, indicating that the local perception of the event and political interests shaped the news. In our corpus, the Mexican press –published in the middle of a political crisis– tended towards a neutral stance, the Austrian and German papers mainly were negative, and the United States showed mixed sentiments on the incident.
+teaser: ""
+order: 5
+---
+
+
+
+## Introduction
+
+The execution of Maximillian, Emperor of Mexico, by the army of Benito Juarez in 1867 had international ramifications, and the world became polarized. The press around the globe reported it and rallied the population in favor or against the event. In this analysis, we explore the underlying sentiments and emotions embedded in the texts that circulated inthe press, as a case study of the project Oceanic Exchanges, whose aim was to uncover how the international was refracted through the local as news, applying text mining methods to a corpus of national digitized nineteenth-century newspapers.
+
+Our hypothesis is that regional emotional content variations of news reveal the political undertones and biases of information flows. The latter aspect is fostered by the fact that the execution of Maximilian was, from the outset, an incident that divided opinions.
+
+To that goal, we put together a corpus that includes digitized newspapers from different regions in North America and Europe, encompassing material from the actual arena of the execution, Mexico, from the country of Maximilian's ancestry, Austria as well as from the US and Germany[^1] that covered the news abundantly<a class="footnote-ref" href="#priani2019"> [priani2019] </a>. After dividing the corpus into geographical regions, we use quantitative methods –word frequency distributions and named entity recognition (NER)–to first look at the corpus. Then, using qualitative content analysis, we narrowed the information to compare the different regions. Finally, using automated sentiment analysis tools, we were able to compare the automatic analysis to the human one, showing a similar and clear sentimental trend in both methods depending on the geographical region: the Austrian/German press had a negative bias, while the Mexican newspapers showed a more positive picture, and the US showed mixed sentiments.
+
+The case of Maximilian is particularly illuminating from the perspective of global news flows since it happened soon after the inauguration of the transatlantic cable in a country that was fighting a civil war between liberals and conservatives. The execution news tells a story of control and manipulation over the flow of news and, at the same time, a story that could be wired and rapidly forwarded over the Atlantic.
+
+
+
+
+## Historical background
+
+In 1860, Mexico was broken. The War of Independence (1810) bankrupted the country and fuelled endless confrontations between liberals and conservatives, who came and went in the presidency during the century.
+
+Benito Juarez's introduction of the Reform Laws between 1855 and 1859 separated the Church from the State, suppressed military and religious tribunals, declared the nationalization of church properties, and introduced free press and civil registration, deepening the struggle between these political groups. In 1861, Benito Juárez, a liberal, was reelected to the presidency. With minimal financial resources, he decided to suspend the payment of debts and interests to Britain, Spain, and France.
+
+According to Josefina Zoraida Vázquez ([2007](#vazquez2007)), monarchists and conservatives living in Europe took advantage of this decision and proposed to Napoleon III the establishment of a Mexican monarchy. The idea that an Emperor could put an end to the turmoil was extensive among Mexican liberals and conservatives, as Duncan ([1996](#duncan1996)) has pointed out, and with that support, the emperor of France saw the opportunity to extend his influence over America and stop the growing power of the United States.
+
+On October 31, 1861, summoned by France, the three countries signed a treaty to block Mexico's ports on the Gulf of Mexico to pressure payment of the debt. After negotiations, Britain and Spain accepted new terms, but France refused and decided to invade Mexico.
+
+After a year of confrontations, the invaders took the capital. Juárez's government was exiled but continued a guerrilla-style confrontation all over the country. Two years later, on April 10, 1864, Maximilian of Habsburg –brother of the Austrian emperor Franz Joseph I and married to Charlotte of Belgium, daughter of King Leopold–, accepted the Mexican throne and traveled to the country.
+
+In the last months of 1865, circumstances changed. The end of the Civil War in the United States opened the doors to new credits to Juárez, which helped fortify his army. At the same time, the French army abandoned Mexico, and the Maximilian government went bankrupt and started losing battles and territory.
+
+In May 1867, Maximilian was captured –along with commanders Miguel Miramón and Tomás Mejía– by the Republican Army Commanded by Mariano Escobedo in the City of Querétaro in central México. Juárez and his Foreign Affairs secretary, Sebastian Lerdo de Tejada, resisted international pressure to exile Maximilian back to Europe in the following month. After a short trial, on June 19, 1867, Maximilian was executed at the Cerro de las Campanas, Querétaro, along with the last remaining commanders of the conservative army (Vanderwood 2010, 367-8). This execution resulted in an abundant flow of news analyzed in this article.
+
+
+
+
+## Corpora description
+
+Our corpus[^2] was obtained by searchingMaximilianandDeathin digitized European, Mexican, and United States newspaper collections (on the nature of these collections, see<a class="footnote-ref" href="#beals2020"> [beals2020] </a>). The US papers originated from Chronicling America, maintained by the Library of Congress, the Mexican papers from Hemeroteca Nacional Digital de México. For the German-language press, we drew on the Europeana dataset, which includes newspapers from Germany (Bayerische Staatsbibliothek, Hamburg State Library and Teßmann Library) and Austria (Österreichische Nationalbibliothek). In order to work with the German-language corpus, we automatically extracted the newspapers' publication city and further divided the corpus into two regional categories: German and Austrian, resulting in a final corpus of 1,382 news stories published between the 5th and 20th of July 1867. Although Maximilian's execution took place two weeks earlier, on June 19, 1867, the news did not break until later because of the control of the Juarez's army over the telegram around Queretaro and the flow of the news from there<a class="footnote-ref" href="#mendezmoreno1967"> [mendezmoreno1967] </a>.
+
+Neither the size of the corpora nor the OCR (Optical Character Recognition) quality was the same for all subcorpora. Cultural, political, and economic differences in each region affected the number of newspapers circulating. Mexico was going through a political crisis, and there was much control over the press. On the contrary, the United States had a lot of local newspapers. These differences result in an imbalance in news coverage, and therefore in the regional corpora. The US news occupies as much as 53.1% of the news coverage in the whole dataset. The proportion of the Austrian subcorpus is 12.6%, the German one 32.5 % and the Mexican one only 1.8 %.
+
+In addition to the imbalance of digitized contents, another common obstacle is the quality of the original OCR from each newspaper library (on the problem of OCR noise, see<a class="footnote-ref" href="#jarlbrink2017"> [jarlbrink2017] </a>). Each nation establishes its newspaper digitization methodology, determining the quality and how and what can be extracted from each source. The OCR processes have been different, including the scanning practices and OCR software and the quality of the original newspapers, the objects of scanning. In most cases, the scanning has been done from microfilm, not from paper, and the original typeset, characters, and font sizes cause variation in the quality of OCR.
+
+As a part of the Oceanic Exchanges Project, we decided to work with the OCR from each library without cleaning it. According to Beals and Bell ([2020](#beals2020)), the Oceanic Exchanges corpus OCR quality ranges between 60-85%, but it varies within each country's corpora. Nonetheless, as Ryan Cordell pointed out, “methods such as text mining rely not on the nineteenth-century newspapers themselves, but on those newspapers as a remediated by mass digitization, a phrase that shorthands elaborate systems of scholarship, preservation, bureaucracy, human labor, machine processes, and economics” <a class="footnote-ref" href="#cordell2017"> [cordell2017] </a>.
+
+However, following this path, we faced two challenges: one practical and one human. The practical challenge was that the US and Mexican subcorpora had poor OCR quality compared to the Austrian and German. The human challenge was that as an international team, participants from different countries have different scholarship cultures. The Mexican team, for example, was not familiar with working with dirty OCR and, because the corpus was not large, decided to transcribe all of their news items.
+
+We decided to work with the Mexican corpus as it was prepared by the Mexican team, respecting its work and effort. In the case of the US subcorpus, the automatic extraction included everything on the page, and there were no breaks between news stories and columns –like in the German and Austrian corpus. The raw data included the news item about Maximilian's death and any other news stories on the page, making it hard to work with. Since there were thousands of hits, we narrowed the information down through an automated process, i.e, filtering chunks of surrounding text (windows of words to the right and to the left) wereMaximilianis mentioned. This eliminated most of the unwanted information, although it was a superficial strategy prone to some noise. As we assume newspapers are remediated by mass digitization, we also assume that our corpus expresses how digital humanities are produced in global teams that must manage cultural and technological differences. Finally, Table 1 shows the size of the text corpora (in terms of number of words) that we used for our analysis.
+Corpora sizeCorpusTokensTypes (unique words)Austria (German)15401225590Germany (German)6876314495Mexico (Spanish)206734022US (English)27311533773
+
+
+
+## Methodology
+
+We employed several methodologies to study the sentiments and emotions in news stories that circulated in the press after the execution of Maximilian I, the Mexican emperor. First, we used existing digital tools that draw on NLP, a multidisciplinary field aiming to automatically process large amounts of natural language data, and we performed qualitative analysis of the automatically extracted named entities (discussed below). After this process, we analyzed the emotional contents of the corpora by drawing on such automatic NLP tools. In recent years, sentiment analysis has been applied to extensive collections of news, online product reviews, and other types of corpora. However, little attention has been paid to historical news documents<a class="footnote-ref" href="#sprugnoli2016"> [sprugnoli2016] </a>. Few works have applied sentiment analysis to drama plays, literary texts, and other types of historical sources<a class="footnote-ref" href="#schmidt2018a"> [schmidt2018a] </a><a class="footnote-ref" href="#schmidt2018b"> [schmidt2018b] </a><a class="footnote-ref" href="#kim2018"> [kim2018] </a>.
+
+In our case, we used automatic tools based on machine learning techniques to detect named entities and estimate a text's polarity. Thus, these systems are not based on explicit rules for each language; instead, they rely on statistical methods trained in large amounts of data. Particularly, we used Google Cloud[Natural Language API](https://cloud.google.com/natural-language), Python programming and the[NLTK toolkit](https://www.nltk.org/)to pre-process the documents and extract information.
+
+Our initial point of departure was to extract general statistics to explore the word frequency distributions in each subcorpus. This provided a general overview of the relevant terms in each region. It is essential to mention that the corpora were pre-processed, i.e., we tokenized it and filtered the stopwords that do not carry semantic content (prepositions, determiners, conjunctions, function words). We then used Named Entity Recognition (NER), Natural Language Processing (NLP) technology that automatically identifies words (or sequence of words) that belong to specific categories, i.e., abstract or physical entities denote proper names. Previously, these tools have been used to analyze nineteenth-century newspapers, but never in tandem to study news stories' underlying sentiments and emotions. For example, some international projects are using NLP to study big data corpora, as well as developing analytical and visualization tools, like the Media Monitoring of the Past (2020) and the NewsEye (2020) projects, as well as Gale's Digital Scholar Lab (2020), which offers several NLP tools for researchers.
+
+There is a growing body of knowledge about the use of Named Entity Recognition (NER) to analyze newspaper collections<a class="footnote-ref" href="#neudecker2014"> [neudecker2014] </a><a class="footnote-ref" href="#mac2015"> [mac2015] </a><a class="footnote-ref" href="#kettunen2017"> [kettunen2017] </a>. Likewise, there is an interest in identifying and making more robust computerized tools for historical newspapers analysis<a class="footnote-ref" href="#yang2011"> [yang2011] </a><a class="footnote-ref" href="#ehrmann2020"> [ehrmann2020] </a>.
+
+There are several approaches for performing NER tasks. In our case, we automatically identified the following entities in the documents: person, location, organization, event, consumer good, and others (using Google Cloud Natural Language API). We extracted named entities from the subcorpora of Austria, Mexico, Germany, USA. Once we automatically identified named entities for each subcorpus, we performed a manual selection of entities. This selection was based on three criteria: 1) frequency of the entity, 2) the entity appears in at least two regions, 3) it has historical significance –understood as it references an important event, person, location, or organization in the shooting of Maximilian.
+
+We identified the reduced set as "entities of interest." It was helpful to make a contrastive analysis across subcorpora, i.e., the different approaches to specific events, persons, locations, or organizations., depending on the country.
+
+To facilitate the analysis of these entities of interest, we extracted contexts for each entity in the text. We defined context as a window of 20 words to the left and the right of each entity (fixed size), as seen in Table 2. Moreover, we extracted a list of words that appear in similar contexts to each entity of interest using NLP techniques and the NLTK toolkit. Then, Google Translate API was used to automatically translate the extracted contexts into English. Since we were a multilingual team and we worked with a corpus in several languages, we chose English as the lingua franca to communicate and work. Early on, we decided to translate all the news stories into English, adding certain complications to the analysis, which were controlled but never entirely eliminated.
+An example of an named entity of interest (“execution”) in the Mexican subcorpusCity/RegionNewspaperDateOriginal ContextTranslated ContextCiudad de México, MéxicoMonitor Republicano05 July, 1867e militar y cumplido el plazo , fueron sacados los reos al patíbulo ; al llegar al lugar de la ejecución , se contuvo por orden del Supremo_Gobierno , que prorrogó el plazo por otros tres días . El 1and military and met the deadline, the prisoners were taken to the gallows; to get to the place of execution, it was held by order of Supremo_Gobierno, which extended the deadline for another three days. The 1
+Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Automatic sentiment analysis is the task of identifying and quantifying the polarity of an opinion expressed in a written text, e.g., positive or negative. This is done employing NLP and text mining techniques<a class="footnote-ref" href="#liu2012"> [liu2012] </a><a class="footnote-ref" href="#feldman2013"> [feldman2013] </a>.
+
+The automatic sentiment analysis provided a negative, positive or neutral sentimental score for the newspaper publications. This allowed us to determine if there were underlying differences between regions.Since we are using models already trained by Google Cloud Natural Language API, no external dictionaries of setiment/polarity words are needed to perform this task.
+
+We performed a qualitative content analysis<a class="footnote-ref" href="#fernandez2002"> [fernandez2002] </a>to identify attitudes, beliefs, wishes, values, and interest to understand the sentiments and emotions underlying the corpus' news stories and identify geographical differences. We extracted the textual contexts for the named entities for each region. Each entity was analyzed, and main sentiments and emotions were pinpointed by identifying words that carried emotional content, such asdisgust, horror, revulsionfor the entityexecution.This produced an organic identification of sentiment categories in the new stories selected by region, which allowed us to compare and contrast, thus understanding how Maximilian's death was perceived.
+
+It is worth mentioning that the used automatic tools are not explicitly adapted to specific domains such as historical news documents. However, these statistical methods can cope, to some extent, with language variation and diachrony. This means that they do not rely on fixed lexicons and rules. Instead, they focus on different features of the text to predict how likely it is that a token is a maned entity, e.g., the structure of the sentence, distributional semantics of the words, and training with millions of examples before. Due to this, our methodology does not entirely rely on the automatic tool's output, but it is complemented with a fine-grained qualitative analysis.
+
+
+
+
+## Results
+
+This section discusses the results obtained using statistical distributions, NER tools, content analysis, and automated sentiment analysis[^3] .
+
+{{< figure src="images/figure15.png" caption="Word clouds with the most frequent words (translated). Austria (top), Mexico (bottom)" alt="Two word clouds with blue, green, and purple text. The largest words in the Austria cloud are the works emperor, maximilian, and mexico while the largest words in the mexico cloud are maximiliano and mexico"  >}}
+
+
+{{< figure src="images/figure12.png" caption="Word clouds with the most frequent words (translated). Austria (top), Mexico (bottom)" alt="Two word clouds with blue, green, and purple text. The largest words in the Austria cloud are the works emperor, maximilian, and mexico while the largest words in the mexico cloud are maximiliano and mexico"  >}}
+
+
+We started by obtaining word frequency distributions for each region. Function words were automatically eliminated to work only with content-filled items. Just for the sake of illustration, Figure 1 shows word clouds with the most frequent words in Austria’s and Mexico’s corpora.
+
+Going into more detail, Figure 2 displays the relative frequency of the top 10 most frequent words per region. These plots show which concepts were the most used per region:maximilian,emperor,andmexicowere at the top of all of the regions, of course — followed by items such asgovernmentanddeath.Since this is what the news reports were about, they are expected.
+
+Nonetheless, the ones that are not repeated are also important to our study. For example, in Mexico's media,republic,president,andQueretaro–the city where Maximilian was apprehended and shot–, stand out, whileemperorimperial,majesty,andparisfrancehave more preponderance in the European press. In other words, this exposes a Eurocentric point of view: for the old continent, it was more important to refer to European cities and the idea of a Mexican Empire –since this was the power system held over there– while to Mexico’s press, Queretaro is an important city to the country, and the Republican president had just taken over.
+
+Given we only show the top 10 words, some terms may appear in every regional media but without the same relevance. Some European newspapers did use words likerepublic,but they got ranked lower in frequency. Likewise, terms likeemperorandempireare not ranked in the top 10 for Mexico's corpus but appear in lower frequency ranks, as seen in Figure 2.
+
+It is important to mention that the plots show relative frequencies to make them more easily comparable across corpora, i.e., each word count is divided by the total number of words in the current corpus. As mentioned, the data is unbalanced from the outset. The US material is abundant while other subcorpora are limited.
+
+{{< figure src="images/figure19.png" caption="Word frequency distributions per subcorpora (top 10)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure06.png" caption="Word frequency distributions per subcorpora (top 10)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure16.png" caption="Word frequency distributions per subcorpora (top 10)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure02.png" caption="Word frequency distributions per subcorpora (top 10)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+
+
+
+## Named Entity Recognition Tools
+
+As we mentioned before, we used NER techniques for a more detailed analysis by identifying the significant entities in each subcorpus. Since NER techniques enlist all entities in the subcorpora, meaning thousands of results, we decided to only focus on the 100 most frequent entities. Figures 3, 4, 5 and 6 in the following section show the named entities frequency distribution for each region.
+
+Although we revised the 100 most frequent entities, we only show the 30 most frequent entities on the plots for the sake of illustration. For complete results, see the repository.
+
+The range of absolute frequency values is larger in regions like Austria or Germany than in Mexico. This is due to the unbalanced nature of the corpora, i.e., the sociopolitical factors that impacted the amount of news produced in each country.
+
+The automatic NER techniques faced some problems when dealing with this corpora. Sometimes, the algorithm detected non-content words that did not provide relevant information, although they belonged to a specific NER category, e.g.,sir,man,mister.
+
+The algorithm was also affected by the OCR errors, since in some cases, it could mislabel broken words, e.g.,sp,gr,schorm,as named entities, registered in all regions to some extent. However, these mislabelings did not constitute a major problem since they were not within the most frequent named entities.
+
+Moreover, orthographic variations also had an impact on the frequency distributions. For instance, we could find entities like Mexico or Maximilian written differently and with different frequencies associated.
+
+In the end, we tried to be careful with all these considerations. We eliminated errors and normalized the variations to take them as a single entity.
+
+Table 3 shows the selectedentities of interestlist for the content analysis from all the entities. In order to obtain this list, first, all the most frequent items per entity were contrasted between regions. Then, those that appeared in several regions or were of high historical significance were selected.
+
+Although the entities were extracted in the original language, they were then translated into English. We extracted reduced lists of named entities for the Mexican, Austria, German subcorpora.
+Selected list named entitiesEntityEventPersonLocationOrganizationExecutionPresidentWorldArmyDeathEmperorCitySupreme GovernmentExpeditionPrinceRepublicMagnusCountryFrench People
+From these contexts, we found that there are many reprinted stories, especially in the regions of Austria and Germany. In other words, some articles reappeared in different newspapers, occurring both within and between regions. This points to the fact that there is a cultural resemblance among them, viewing Maximilian's shooting through a similar lens: a negative one in the European press. We found a similar situation in the United States newspaper. Table 4 shows an example of these repetitions. Meanwhile, in the Mexican press, this was not as common. This probably is the case because new information from far away was harder to get, and articles were reused.
+
+This implies that the emotions, at least in part, are a result of external factors. The newspaper's position is determined not just by an editorial decision but also by the need to fill space, lack of a correspondent, or the popularity of a particular text. This is also important to consider when analyzing the score from the automatic sentiment analysis because reprints will bias the results.
+Examples of reprints between newspapers of different regionsCity/RegionNewspaperDateOriginal ContextTranslated ContextFürth, GermanyDer Fortschritt (Der Fortschritt auf allen Gebieten des öffentlichen Lebens)06 July, 1867„ Der unglückliche Fürst , welcher von allen Mächten anerkannt war , wollte nach dem Abzug der Franzosen noch einen äußerste Versuch wagen , seine Anhänger zu retten . Indem er sich in einer fast une"The unfortunate prince, who was recognized by all the powers, wanted to venture a supreme test after the withdrawal of the French to save his followers. By almost une in aInnsbruck, AustriaInnsbrucker Nachrichten08 July,1867. Der unglückliche Fürst , welcher von allen Mächten anerkannt war , wollte nach dem Abzug der Franzosen noch einen äußersten Versuch wagen , seine Anhänger zu retten . Indem er sich in einer fast un, The unfortunate prince, who was recognized by all the powers, wanted to venture an extreme attempt after the withdrawal of the French to save his followers. By almost un in aClarksville, TN, USAClarksville Weekly Chronicle05 July,1867d to spar tbe life of Maximilian , but tb pressure from tbe Mexican leaders and people for bit execution wat to great that It would be almost impos sible to resis sending u 10 Aurope , out ine requesCharlotte, NC, USAThe Western Democrat09 July,1867d to spar tbe life of Maximilian , but tb pressure from tbe Mexican leaders and people for bit execution wat to great that It would be almost impossible to resis sending u 10 Aurope , out ine reques
+
+
+
+## Content Analysis
+
+To continue the analysis from the reduced list of entities, we did a qualitative content analysis<a class="footnote-ref" href="#fernandez2002"> [fernandez2002] </a>to understand the sentimental underlying per subcorpora qualitatively. These items are essential content words in Maximilian's shooting and expose how each region considered the news story particularly. The study of the entities of interest showed two different points of view about Maximilian's shooting: the Mexican press tends towards neutrality with a bit of positivity, and the European and United States press inclines to a neutral-negative position. For examples of each entity of interest, see appendices 1A-1J.
+
+For the category "event," four words were the most predominant in the analysis. These either appeared in all or most of the regions or refer to key aspects of the situation. Figure 3 shows the distribution of these entities within each subcorpora.
+
+{{< figure src="images/figure14.png" caption="Named entities (event) frequencies per subcorpora (top 30)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure07.png" caption="Named entities (event) frequencies per subcorpora (top 30)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure03.png" caption="Named entities (event) frequencies per subcorpora (top 30)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure20.png" caption="Named entities (event) frequencies per subcorpora (top 30)" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA"  >}}
+
+
+The wordexecution,for example, in the Mexican press, is used in terms of official governmental statements about the execution. Most of the published documents in Mexican newspapers are the telegrams sent between Mariano Escobedo, head of the military army in Queretaro, and Sebastian Lerdo de Tejada, Minister of State to President Juarez, in San Luis Potosi, discussing the procedure, trial, and shooting of Maximilian. We found few opinion pieces (op-ed) in the corpus, which leads us to think that there was governmental control of the press, not an unprecedented situation in Mexico. The situation is kept under control by publishing short, non-emotional telegrams, probably avoiding a more prominent international situation. After the breakthrough of telegram connections, international news events were often quickly reported through this technology that favored short notices: longer texts, with more emotional undertones and editorial considerations, came with a delay<a class="footnote-ref" href="#oiva2019"> [oiva2019] </a>.
+
+In the Austrian and German press, as well as in the United States newspapers, there is a clear negative sentiment towards the execution of Maximilian, and it is expressed through the use of adjectives such asdisgust,horror,revulsion,regrettable,tremendous sensation,without mercy,shameful,pain,sadness,vigorously protested. For example, Regensburger Anzeiger in Germany wrote:
+
+> Emperor Maximilian was handed his opponents in his sleep. The assassination of the Emperor Maximilian will excite general disgust. This infamous, arranged from Juarez (July 06, 1867).
+[^4] 
+Similarly, outlets from the United States expressed a negative sentiment by describing the execution with words likedenouncing crime against humanity,indignation,horror,brutal,infamous,question international law,compared toLouis XVI. In the Mexican press, the worddeathmainly refers to the death sentence in the published official telegrams. Sometimes, though, it exposed fake news from the time because they reported about Charlotte's death in Europe and Miramón succumbing to his war injuries. Both did not happen at the time, but they seem to help the official narrative emotionally.
+
+The German and Austrian press useddeathin different ways. Some reports exalt Maximilian's positive characteristics:honorable,good,noble,brave,amiable,chivalrous,prince. Others concentrate on blaming and finding out who was ultimately responsible for his death: Napoleon for abandoning him in Mexico or the United States for not stopping Juarez. The third type of news story was about European royals and dignitaries mourning. The US press paints his death as unfavorable by condemning it. The use ofexpeditionandcatastrophe(disaster) also alludes to sentiments. Expedition refers to England, Spain, and France's 1862 invasion of Mexico, which led to Maximilian's proclamation as emperor. German and Austrian newspapers, on the one hand, present some criticism towards the expedition, particularly towards France and Napoleon III. On the other, they call for an immediate new expedition to avenge the destiny of the Austrian Prince. The newspapers from the United States also use the termexpeditionto refer to the attack the European countries charged against Mexico but do not publish anything about a new expedition.
+
+In a similar matter,catastrophe– meaning an emotional disaster, not a natural one– is a window into the sentimental biases of the press. While theMexican Expeditionwas good, Maximilian's death is aMexican Disasterin the Austrian and German corpora. In other words, for some of the European press, an expedition that cost thousands of lives the death of one person is a disaster, but the killing of thousands of Mexicans during the war is an expedition. As seen in the previous analysis of entities, language indicates the newspapers' point of view (see Appendix 1c and 1d).
+
+Meanwhile in the Mexican press,expeditionandcatastrophewere found only once but were depicted differently: the expedition is unfortunate, and the results of the expedition were catastrophic. In other words, Maximilian's death is not perceived as a disaster. The English, Spanish and French invasion was a military intervention to the Mexican press, which became historically known as theFrench Intervention(see appendix 1e).
+
+For the entity of person, the most notable names or political figures that constantly appear in the news are president, Maximilian, prince, Magnus, and French people. Once again, they are used differently depending on the regional context (see Figure 4).
+
+{{< figure src="images/figure10.png" caption="Named entities (person) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure18.png" caption="Named entities (person) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure05.png" caption="Named entities (person) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure21.png" caption="Named entities (person) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+In the Mexican and USA press,presidentrefers to President Benito Juarez, while for the Austrian and German press, it mainly refers to the head of the legislative branches of European governments, for example, President Schneider of France's Corps Legislative; with very few allusions to President Juarez (see appendix 1f).
+
+> ness which “will now come back to it was brought. (Stormy interruption.) President Schneider: The last words de «honorable gentleman JnleS Favre could be facing the whole country” (Das Vaterland, Wien, July 13, 1867).[^5] 
+
+Since Juarez won the war against Maximilian, being referred to as President is expected, as happened in the USA press. But the European press never mentions Juarez as president, showing how newspapers use the title as a way to accept or refuse his authority. This does not mean that there are no occurrences, but they are rare.
+
+We found the opposite situation with the itememperor.While it is true that it is used in all regions, there are essential differences that contrast with the use of president. Primarily,emperorrefers to Maximilian and Franz Joseph of Austria and Napoleon III of France. Nonetheless, in the Mexican press, it is used to refer mostily to Maximilian and is followed by negative descriptors, such asusurper: the use of appellatives reveals the emotional underlying of news stories (see appendix 1g).
+
+A similar situation happens in the last three entities –prince,Magnus,andFrench people– (see appendix 1h).Prince,referring to Maximilian, usesunfortunate,noble,andbraveadjectives in the German and Austrian papers. In the Mexican publications, he is alluded to asprince of Europeor, in some cases, asprisoner prince.For the rest of the newspapers, the word is not associated with anything directly linked to Maximilian's death.
+
+Magnus was a central person to Maximilian's shooting because he was his lawyer during the trial. Many Mexican papers mentioned him because he was constantly talked about in governmental correspondence. He is also mentioned in other international newspapers because we detected a reprint of a letter he sent. Nonetheless, he does not appear among the first 100 frequently used person entities.
+
+French Peoplewas an interesting case because it is mainly used in the German-language newspapers to assign blame for abandoning Maximilian in Mexico to his death. It is also used similarly in the USA. In Mexico, this term does not appear. Both the mentioning or lack of it helped understand the underlying sentiment in news publications in this entity. For example,Juarez!does not appear among the most frequent terms in European newspapers. The algorithm probably causes this due to an OCR problem: parts of his name can be read often, but often cut. If the materials were cleaned, Juarez would probably become more prominent.
+
+Worldandcitywere the two most relevant location entities. Many cities are mentioned because they refer to the publishing place and important landmarks or battles, but allusions to Paris and Vienna were most common. In Mexico, the press refers to Queretaro constantly. The US papers mainly mention Mexico City. There were few references to the Cerro de la campana, where Maximilian was shot (figure 5).
+
+{{< figure src="images/figure17.png" caption="Named entities (location) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure24.png" caption="Named entities (location) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure26.png" caption="Named entities (location) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure23.png" caption="Named entities (location) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+In the Mexican papers, the entityworldis used to express that the world will understand or that the world mourns the death, but in the European press, the world is interror,condemns,loathes,or claims it was a murder. Also, there was a distinction between the civilized world and the barbarians and between the old and new world. There are allusions to a shock to the civilized, Christian, and old-world in the USA.
+
+Other entities asrepublicandcountryare persistent in some regions but not in others, although they appear in all the corpora (see appendix 1i). For example,republicis constantly alluded to in the Mexican press, especially the president, while this is rarely done in European material. The US press does acknowledge this form of government in Mexico. On the other hand, the country often does not appear in the Mexican newspapers, but it does in the Austrian next to words such asbarbariansormisfortune.This antagonism helps create a negative sentiment towards Maximilian's death. Nonetheless, since his shooting was perceived as a positive moment in Mexico, the negative adjectives and points of view are not frequent.
+
+> of justice but an act of Mexican revenge and one that will be deprecated by the whole civilized world . We reprobate the attempt to establish a foreign empire in Mexico , but feel pity for the two c (The Evening Argus, Rock Island IL, July 05, 1867)
+
+The last of the entities isorganization(figure 6). In this category, two items stood up:armyandSupreme governmentorgovernment (see appendix 1j). Each region gave more prevalence to different armies: in the Mexican press, most mentions are about theEjército del Norte,Marino Escobedo's North Division; for the German and Austrian press, most references are made to the French army abandoning Mexico and leaving Maximilian to his fate, while few mentions allude to Juarez's Liberal Army. Similarly, the Mexican press -and sometimes the US media-usesSupreme Governmentto write about Juarez's administration. . Meanwhile, in the European press, it primarily refers to the European governments.
+
+{{< figure src="images/figure17.png" caption="Named entities (organization) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure22.png" caption="Named entities (organization) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure08.png" caption="Named entities (organization) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+{{< figure src="images/figure13.png" caption="Named entities (organization) frequencies per subcorpora" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA"  >}}
+
+
+Once more, the different use of words depending on the region shows a bias towards specific themes or sentiments. While in Mexico,Supreme Governmentappears many times since that is how they referred to Juarez's government. In Europe, these words allude to the governments of that continent and only sometimes to the Mexican one. The same thing happens witharmy.In both instances, it is clear that, for the Europeans, what matters tends to be local issues, while in Mexico, Juarez dealings tend to be exalted.
+
+> I Mejía.- 21 1861.- General Mariano Escobedo Citizens division, chief corps of Norte.- Queretaro. ( To be continue ) . OFFICER. DOCUMENTS. About the trial of archiduqu(El Monitor, Ciudad de México, July 06, 1867)[^6] 
+
+> He then reminded again of the day in the previous year, where the withdrawal of the French army from Mexico, the only guarantee of the new throne, be already irrevocably decided> v (Neue Freie Presse, Wien, July 10, 1867)[^7] 
+
+
+
+
+## Automated Sentiment Analysis
+
+To complement the previous results, we explored emotions using a fully automated sentiment analysis that quantifies the sentiment trend in each newspaper story. We obtained a sentimental score for the newspaper publications, which allows us to know the general sentiment trend per region.
+
+Table 5 shows the average sentiment score per region — the more negative the values, the more negative the polarity. Likewise, positive values indicate positive sentiment polarity (zero represents neutrality).
+Average sentiment analysis score per regionRegionSentiment score(mean)SentimentStandard DeviationMexico+0.04Positive trend0.13Austria-0.04Negative trend0.13Germany-0.01Negative trend0.14USA-0.02Negative trend0.14
+The following bar charts (Figure 7) show a more detailed overview of the sentiment score by region. We have averaged the score of all news stories published by each newspaper in the different regions in these plots. Also, it can be observed how the number of sources varies in each region. The Austrians and Germans wrote many news stories showing a general tendency to one side of the sentiment continuum. For example, the Austrian bar chart has mostly negative stories, while the Mexican bar chart has mainly positive stories. We have excluded the USA from these visualizations since, for this particular case, we did not preserve the newspaper source information for each news story. This is due to the OCR cleaning and pre-processing steps involved in this specific database, where we had to filter just the text portions with relevant information about the Maximilian case. Still, the graph shows the sentiment distribution of the news stories, albeit without the name of the newspapers (see appendix 2).
+
+{{< figure src="images/figure11.png" caption="Positive and negative news stories for regional subcorpora." alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico"  >}}
+
+
+{{< figure src="images/figure01.png" caption="Positive and negative news stories for regional subcorpora." alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico"  >}}
+
+
+{{< figure src="images/figure09.png" caption="Positive and negative news stories for regional subcorpora." alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico"  >}}
+
+
+Table 5 shows this general tendency clearly. Mexican newspapers are inclined towards a positive direction, while European newspapers and those from the United States are prone to consider Maximilian's shooting as negative.. Meanwhile, the Mexican press shows an alliance with the government in power, meaning Juarez's republic. They only printed official statements and communications from the events, meaning telegraphic messages between Mariano Escobedo in Queretaro's battlefront and Sebastian Lerdo de Tejada –Minister of Foreign Affairs under Juarez– in San Luis Potosi. Since they are mostly short and to the point messages, the sentiment analysis results closer to neutrality. The United States, while it might not agree with the imperial governmental system, opposes the actions taken by Juarez. Therefore, news stories tend to focus on the negative aspects of the shooting. The German newspapers are less extreme than the Austrian ones, maybe because Maximilian was an Austrian prince.
+
+Nonetheless, the averages are very low since both sides are very close to neutrality. It should be considered that newspapers, as an institutional ethos, tend to strive for certain neutrality. Although not always achieved –like songs, poems and op-ed can be found– it does tend towards the middle and away from extreme views.
+
+In summary, the use of fully automated tools to measure sentiment in newspapers about Maximilian shooting provided similar results to the analysis previously done using other techniques –such as content analysis, obtaining the frequency of common words and named entities–, which shows that these digital techniques can identify the underlying ideological positions from each region. It is important to mention that the differences are small but significant enough to evidence the variations.
+
+
+
+
+## Conclusion
+
+This study has focused on the international news flows on the execution of Maximilian, the Emperor of Mexico. The execution took place in June 1867, and the news started to flow across borders at the beginning of July, reaching global readership through newspapers. The aim of this study has been twofold. First, the study concentrated on finding ways of analyzing sentiments in a multilingual research setting. Second, it was to investigate the regional differences in sentiments evoked by the execution in the press internationally.
+
+This study has explored the use of several digitized newspaper corpora on a transnational scale. It has drawn on newspapers from four regions: Austria, Germany, Mexico, and the United States in three languages. We selected the timeframe from 5 July to 20 July, extracted the news on the execution from the available corpora, and explored this multilingual data set with several strategies.
+
+Contentwise, our article has been the first study on the transnational reception of a significant news event of its time, the execution of the Emperor of Mexico. It has covered newspapers from two continents and four geographical regions. The case itself is illuminating from the perspective that it happened very near to the inauguration of the transatlantic telegraph cable and indicates how quickly news circulated. The execution was a politically loaded media event that aroused mixed feelings and ambiguous emotions. The execution was not only a domestic case to Mexico because the United States and some European countries were deeply involved in the affair. Our analysis shows content variations in the corpora, meaning that the news was framed differently in each studied region, indicating that the local perception of the event and polítical interests shaped the news. In our corpus, the Mexican press –published in the middle of a political crisis– tended towards a neutral stance, the Austrian and German papers mainly were negative, and the United States showed mixed sentiments on the incident.
+
+Our study faced two limitations that have to be addressed in most newspaper projects in the digital humanities. On the one hand, the size of each subcorpora varied because of cultural, political, and economic reasons. On the other hand, digitized newspapers have been optically recognized with an OCR software based on particular scanning practices, which produced differences in quality. However, we argue that it is possible to transgress the OCR problem and the multilingual nature of the data, as we have done, and conduct transnational research. We drew on quantitative solutions such as named-entity recognition, frequency distributions, and textual context analysis in conjunction with qualitative analysis. This permitted us to study the underlying sentiments in the newspapers from the nineteenth century. We have a significant outcome contrasting the result of automatic sentiment analysis tools combined with quantitative and qualitative analysis that suggested the automatic sentiment analysis tools results are trustworthy for our nineteenth-century newspaper corpus.
+
+
+
+
+## Appendix
+
+1- Examples of various entities of interest’s context, region, source and date.
+
+Appendix 1a. Context of the entity execution in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, MéxicoMonitor Republicano07 July, 1867DEL JUICIO DEL ARCHIDUQUE MAXIMILIANO , DE D. MIGUEL MIRAMON Y DE TOMAS MEJIA , Y ACERDA DE LA EJECUCION QUE SE VERIFICO EN QUERETARO EN 19 DE JUNIO A LAS SIETE LA MAÑANA . ( Continúa ) . República MJUDGMENT OF Archduke Maximillian, of Miguel Miramon and Tomas Mejia, and acerda of execution that took place in QUERETARO ON JUNE 19 AT SEVEN IN THE MORNING. ( Keep going ) . Republic MRegensburg, GermanyRegensburger Anzeiger06 July, 1867bare Stellung nachfolgen . Kaiser Maximilian wurde seinen Gegnern im Schlafe überliefert . Die Ermordung des Kaisers Maximilian wird allgemeinen Abscheu erregen . Diese infame , von Juarez angeordnetfollow bare position. Emperor Maximilian was handed his opponents in his sleep. The assassination of the Emperor Maximilian will excite general disgust. This infamous, arranged from JuarezWien, AustriaNeue Freie Presse07 July, 1867Tage nicht halten zu dürfen , an welchem der Moniteur die Schaudernachricht von Maximilian 'S Hinrichtung officiell bestätigte . Die Achtung vor dem , was sich ziemte , hat Herrn Thiers sehr richtignot being allowed to hold day on which the Moniteur the horror news of Maximilian 's execution confirmed officially. Respect for what became him, has M. Thiers very properlyPortland ME, USAThe Portland Daily Press08 July, 1867The Moniteur to-day has an article express ing detestation of the murder of Maximilian. In the Senate and Corps Legislatif, to-day, speeches were made denouncing the execution as a crime against civilization. Orders have b . n sent out suspending from their functions all French Consuls in the Mexican Republic. All festivities in this city have ceased, and all preparations for the forthcoming fetes have been abandoned out of respect to the memory of the ill-fitted Maximilian.
+Appendix 1b. Context of the entity death in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated Text
+Ciudad de México, México
+Boletín Republicano07 July, 18671867.- A las 12 h. y 10 ms. de la noche . C. ministro de relaciones.- El consejo ha condenado á muerte , por unanimidad , á los tres procesados . La causa ha pasado al asesor. — Escobedo . Telégrama.1867.- At 12 h. and 10 ms. of the night . C. Minister Relationship. The Council condemned to death, unanimously, the three defendants. The cause has passed the asesor.-Escobedo. Telegram.
+Ciudad de México, México
+Monitor Republicano13 July, 1867las familias de los generales y varias poblaciones . “ antes de morir le dieron la noticia de la muerte de Carlota , entonces proclamó : Hasta en esto me ayuda el cielo ” . A la familia de Miramón dejfamilies of generals and several towns. "Before dying gave him the news of the death of Carlota, then he proclaimed: Until this helps me in heaven." A family of Miramon Dej
+Ciudad de México, México
+Monitor Republicano18 July, 1867gualmente fusilados . Miramon habia sucumbido por sus heridas antes de la toma de la ciudad . La muerte lo sustrajo de la venganza de los juaristas . De los gefes mexicano que se habian unido al imperlso shot. Miramon had succumbed to his injuries before taking the city. Death subtracted from the vengeance of juaristas. The Mexican chiefs who had joined the imperWien, AustriaNeues Fremden-Blatt18 July, 1867n vertraut hatte . Die Befürchtung war nur zu sehr gerechtfertigt , daß dieser letzte Verrath den Tod des unglücklichen Prinzen zur Folge haben werde , dessen Absichten so edel waren , der aber leiden had trusted. The fear was justified only too well that this last betrayal will result in death of the unfortunate prince result, whose intentions were so noble, but the sufferingNeustadt, Haardt, GermanyPfälzischer Kurier07 July, 1867ndere zu wälzen . Im Senate hatte man am 5 dS . nichr übel Lust , die Vereinigten Staaten für den Tod Maximilians verantwortlich zu machen , weil dieselben daS Kaiftrthum in Mexiko nicht von Anfang ather to roll. In the Senate had at 5 dS. nichr good mind to make the United States responsible for the death of Maximilian, because the same tHe Kaiftrthum in Mexico not initially aMünchen, GermanyAllgemeine Zeitung09 July, 1867fulminanten Artikels gegen Napoleon III halber , in welchem dem Kaiser der Franzosen für die Erschießung Maximilians die diesseitige und jenseitige Verantwortung auf die Seele geladen und die Aburthbrilliant article against Napoleon III's sake, in which the French Emperor loaded for the Execution of Maximilian, the this side and the responsibility to the soul and the AburthMünchen, GermanyDer Bayerische Landbote07 July, 1867Tel . d. Korr . v. u. f. D. ) Frankreich . Paris , 2 . Juli , Abends . „ La Presse “ meldet : Der Tod des Kaisers Maximilian_von_Mexiko bestätigt sich . Der kaiserliche Hof wird durch 21 Tage TrauerTel. d. Corr. v. u. f. D.) France. Paris, second July evening. "La Presse" reports: The death of the Emperor Maximilian_von_Mexiko confirmed. The imperial court is 21 days mourningManitowoc WI, USAThe Manitowoc Pilot07 July, 1867Or leans‚Äî'To Count Wydenbruek : 1 conic from veracruz to telegraph you of the condemnation and death of tiic Emperor Maximilian on the 19th . President Ju e northward . Execution of Maximilian . Ne
+Appendix 1c. Context of the entity expedition in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextInnsbruck, AustriaInnsbrucker Nachrichten13 July, 1867ehre dieser traurigen Expedition ist , daß eö einer Kontrole und des Widerstandes bedarf . Die Expedition nach Mexiko wurde von Niemandem in Frankreich gebilligt , und dennoch ausgeführt . Sie hat 6 Jis honor this sad expedition that requires EE an Kontrole and resistance. The expedition to Mexico was endorsed by no one in France, and yet executed. She has 6 JZweibrücken, GermanyZweibrücker Wochenblatt13 July, 1867Budgets für 1868 . Thiers hielt seine Rede über Mexiko . Er führte aus , daß die mexikanische Expedition trotz des Widerspruchs der öffentlichen Meinung unternommen worden sei , und kam zu dem SchlußBudgets for the 1868th Thiers made his speech about Mexico. He pointed out that the Mexican expedition was undertaken in spite of the opposition of public opinion, and came to the conclusionWien, AustriaFremden-Blatt08 July, 1867r dung des französischen Gesandten in Mexiko sich bestätigte , die Ehre Frank reichs eine neue Expedition unabweislich fordere . Es ist indeß sehr zweifel haft , ob an maßgebender Stelle diese Ansichtr-making of the French ambassador in Mexico confirmed that honor Frank Reich urge a new expedition unavoidable. It is, however, very doubtful whether at decisive point this viewHamburg, GermanyBörsen-Halle15 July, 18672 Frankreich . ZJ_ Paris , den 12 . Juli . Es wäre nicht unmöglich , dab sich die mexicanische Expedition erneuern könnte . Diese Even tualität ist sogar nicht so unwahrscheinlich . Man hat hier noch2 France. ZJ_ Paris, the 12th July . It would not be impossible to dab the Mexican expedition might renew. This is even tualität even not so unlikely. One gets some
+Appendix 1d. Context of the entity catastrophe (disaster) in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextWien, AustriaDas Vaterland07 July, 1867n angelegt . Kaiser Max . ) Der „ Wdr . '' enthält einige Mittheilungen über die mexikanische Katastrophe , die dem Schreiben eines Reisen den entnommen sind , der au » Zalisco ( an der Westküste Mexn applied. Emperor Max. ) The "W dr. '' Contains some communications on the Mexican disaster that has been taken from the writing of a travel, the co »Zalisco (on the west coast MexKusel, GermanyPfälzer05 July, 1867Die „ Aschaffb . Ztg. “ Bringt in ihrem Leitartikel vom 2 . Juli : „ Die Katastrophe in Mexiko “ folgenden interessanten Satz : „ Bei der ritterlichen französischen Nation wird dThe "Aschaffb. Zeitung. "Bring in its editorial on the second July: "The disaster in Mexico" following interesting statement: "In the chivalrous French nation is d
+Appendix 1e. Context of the entity intervention and expedition in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, MéxicoEl Monitor Republicano09 July, 1867Este acontecimiento para Luis Napoleón es un rudo golpe, porque todas las testas coronadas echarán toda la culta sobre su trono de la desgraciada expedición y sus resultados todavía más desastrosos.This event for Luis Napoleón is a rude blow, because all the crowned heads will cast all the cult on his throne of the unfortunate expedition and its even more disastrous results.
+Ciudad de México, México
+El Monitor Republicano07 July, 1867
+Con objeto de que se forme el cuadro histórico de esta época tan completo como sea posible, damos á continuación el artículo que describe al difunto notable, no con intento de remover sus cenizas, sino que habiendo sido el móvil de cuantos sucesos han tenido lugar durante la intervencion y el imperio en nuestra patria, es indispensable vindicarla de cuantos cargos se le hacen, y por tanto citar repetidas veces al que ocasionó las tempestades políticas y sociales que la conmovieron
+In order to form the historical picture of this period as complete as possible, we give below the article that describes the notable deceased, not with the intent to remove his ashes, but having been the motive of how many events have taken place during the intervention and the empire in our homeland, it is indispensable to vindicate it of how many charges are made, and therefore to repeatedly mention the one that caused the political and social storms that moved her
+Appendix 1f. Context of the entity president in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, MexicoEl Monitor Republicano07 July, 1867hacer lo que seria prudente para un país como México . Tengo entera fe en la habilidad del Sr. Presidente Juarez , para que trate á Maximiliano de la manera mas benéfica para los intereses de México .do it would be wise for a country like Mexico. I have full faith in the ability of President Juarez to try to Maximilian of the most beneficial way for the interests of Mexico.Wien, AustriaDas Vaterland
+13 July, 1867
+heit gebracht wurde , welche « jetzt auf es zurückkommen wird . ( Stürmische Unterbrechung . ) Die letzten Worte de « ehrenwerthen Herrn JnleS Favre könnten vor dem ganzen Landeness which "will now come back to it was brought. (Stormy interruption.) President Schneider: The last words de «honorable gentleman JnleS Favre could be facing the whole countryMünchen, GermanyAllgemeine Zeitung
+06 July, 1867
+sfest wird morgen gefeiert , ( T. H. ) *Paris , 5 . Juli . Im gesetzgebenden Körper zeigte der Präsident den Tod des Kaisers Maximilian an . Der Moiteur habe schon gesprochen , aber der Präsident halsfest (T. H.) * Paris, 5 will be celebrated tomorrow. July . In the Legislature, the President pointed to the death of the Emperor Maximilian. The Moiteur have already spoken, but the president halClarksville TN, USAClarksville Weekly Chronicle
+05 July, 1867
+Cms to telegraph yon of tbe condemnation and death or the Emperor Maximilian on the 19th Inst President Juarez refuses to deliver np the body . Sined . GR0L1BR TEHIFF , Captain Austrian Sloop . Coun
+Appendix 1g. Context of the entity emperor in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, MéxicoEl Monitor Republicano18 July, 1867es que nos ha demostrado lo que valemos y lo que México está llamado á ser en el porvenir . EL EMPERADOR MAXIMILIANIO.- Con este título leemos en la Francia de Paris , del 13 de Junio , lo siguientehas shown us is that what we are worth and what Mexico is destined to be in the future. EMPEROR MAXIMILIANIO.- With this title we read in France in Paris, June 13, the followingCiudad de México, MéxicoEl Monitor Republicano16 July, 1867iaco osado , Por mexicanos viles escogido , El título á usurpar vino atrevido De nuestro rey , emperador deseado . Huyó el frances , rodó el usurpador , De vergüenza cubiertos y baldon , Para oprobioiaco daring, chosen by Mexican vile, usurping the title came daring of our king, emperor desired. He fled the French, rolled the usurper, covered shame and Baldon, a reproach
+Appendix 1h. Context of the entity prince, Magnus and French people in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, MéxicoBoletín Republicano07 July, 1867el Rey de Prusia , y todos los Monarcas de Europa , unidos por los vínculos de la sangre con el príncipe prisionero , a saber , su hermano el emperador de Austria , su prima la reina del Imperio BritáKing of Prussia, and all the monarchs of Europe, united by the ties of blood with the prisoner prince, namely, his brother the emperor of Austria, her cousin Queen Brita EmpireWien, AustriaDas Vaterland05 July, 1867had been constant companions. About the Gefangeunehmung and the process of the unfortunate prince a correspondent of the "New Aork Herald '' from Queretaro, 25th May WUR of La Cruzhad been constant companions. About the Gefangeunehmung and the process of the unfortunate prince a correspondent of the "New Aork Herald '' from Queretaro, 25th May WUR of La CruzWürzburg, GermanySchweinfurter Tagblatt07 July, 1867ndmoniteur “ meldet : Der Tod des Kaisers von Mexico wird officiell bestätigt . Der unglückliche Prinz wollte nach dem Abzug der Franzosen das Aeußerste versuchen , um sich mit seinen Parteigängern indmoniteur "reports: The death of the Emperor of Mexico is officially confirmed. The unfortunate prince wanted to try the utmost after the withdrawal of the French to come up with his partisans iCiudad de México, MéxicoBoletín Republicano06 July, 1867aro para San Luis Potosí.- Recibido a las 6 h. 15 ms. De la tarde , el 3 de junio de 1867.- Sr. Ministro Lerdo de Tejada . - Hoy he recibido un mensaje del Sr. Magnus , remitido anoche a las 7 de Tepearo for San Luis Potosí.- Received at 6 h. 15 ms. Afternoon on 3 June 1867.- Minister Lerdo de Tejada. - Today I received a message from Mr. Magnus, I sent last night at 7 TepeInnsbruck, GermanyInnsbrucker Nachrichten07 July, 1867Fellow-sufferer, nor downright devastating for the future of his reign withdrawal of the French from Mexico was able to shake him, he persevered in the self-chosen position, as alFellow-sufferer, nor downright devastating for the future of his reign withdrawal of the French from Mexico was able to shake him, he persevered in the self-chosen position, as alLandshut, GermanyLandshuter Zeitung05 July, 1867Uebernahme des mexikanischen Kaiserthrones hatte bestimmen lassen , war nun nah dem Abzuge der Franzosen si < h selbst überlassen . Männlih harrte er aus , männlih kämpfte er fort gegen die republikaTakeover of the Mexican Emperor throne had determined, was now close to the departure of the French si <h left to itself. Männlih he persevered, männlih he fought continuously against the republikaDelaware OH, USADelaware Gazette05 July, 1867ximilian has after all not been much to blame . He has been the unfortunate tool and dupe of the French Emperor whose skirts will bear his blood , and who is chiefly responsible lor the Mexican scheme
+Appendix 1i. Context of the entity country and republic in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, México
+Boletín Republicano
+
+05 July, 1867
+uchinas , Mejia a san_antonio y Marimon a otra iglesia . Los pocos habitantes que hay ahora en Querétaro , fanáticos como son todos por Mejía , se vistieron de luto ; las mujeres enjugaron la sangreuchinas, Mejia san_antonio and Marimon another church. The few inhabitants there now in Queretaro, like all fans by Mejia, dressed in mourning; women wiped away the bloodWien, AustriaNeue Freie Presse07 July, 1867d da » Grab aufschaufelten , in welches einige Monate später das Kaiserthum versenkt wurde . Alle Welt verdammt in den Ausdrücken des tiefsten Abscheues die Ermordung Maximilian 's , und auch der Moniid as "aufschaufelten grave into which the empire was sunk a few months later. The whole world condemned in the expressions of the deepest repugnance the murder Maximilian's, and also the MoniRock Island IL, USAThe Evening Argus05 July, 1867of justice but an act of Mexican revenge and one that will be deprecated by the whole civilized world . We reprobate the attempt to establish a foreign empire in Mexico , but feel pity for the two cCiudad de México, México
+Boletín Republicano
+
+06 July, 1867
+867 , . A las siete de la noche.- C. mariano Riva Palacio.- Querétaro.- El C. presidente de la República ha tomado en consideración el mensaje que nos dirigió vd . hoy , recibido a las tre sy media d867. A seven night. Marian C. Riva Palacio.- C. Querétaro.- The President has taken into consideration the message that directed us vd. Today, I received the tre s average dCanton MS, USAAmerican Citizen06 July, 1867ad . By this cruel and barbarous act , Juarez has , we believe , sealed the fate of the Mexican Republic . Mex ico , as an independent n ed with such men as Stephens , : Tooms , Jenkins , Johnston , eWien, AustriaFremden-Blatt05 July, 1867alle Gemüther auf 's Tiefste erschüttert . Ueberall , wo menschliches Fühlen nicht , wie in dem Lande der mexikanischen Barbaren , zu den ausnahmsweisen Tugenden zählt , überall in den civilirten Stall minds shaken on 's deepest. Wherever human feeling not like, one in the land of the Mexican barbarians to the exceptional virtues throughout the civilirten St
+Appendix 1j. Context of the entity army and government in different subcorpus
+City/RegionNewspaperDateOriginal TextTranslated TextCiudad de México, México
+Boletín Republicano
+
+07 July, 1867
+telegrama de ayer , que no puede permitir la entrada á Mexico de mi pedido , sin órden del Supremo_Gobierno . Deseo , señor presidente , se sirva ud . espedir esa órden , para que cuanto antes vengantelegram yesterday, which may not allow entry to Mexico of my order, without order of Supremo_Gobierno. I wish, Mr. President, will serve you. espedir this order, the sooner you comeWien, AustriaNeue Freie Presse07 July, 1867eues die Ermordung Maximilian 's , und auch der Moniteur konnte den Gefühlen der französischen Regierung den entsprechenden Ausdruck geben . Aber was der Moniteur gestern geredet , schießt über das Zew the murder Maximilian's, and even the Moniteur was able to give the corresponding expression to the feelings of the French government. But what the Moniteur spoke yesterday, overshoots the ZAschaffenburg, GermanyAschaffenburger Zeitung07 July, 1867ung der französischen Interessen der Regierung von Washington anvertraut . Andere europäische Regierungen haben ihre Vertreter aus Mexiko abberufen und wollen die Regierung des Juarez nicht anerkenneentrusted clothes the French interests of the government of Washington. Other European governments have recalled their representatives from Mexico and the government of Juarez do not recognizeClearfield PA, USARaftsman's Journal10 July, 1867wrs ordered to be carried into effect on the 16th . The execution was suspended by order of the supreme government until to day . It is now seven o'clock in the morning , at which time Maxim ilian ofCiudad de México, México
+El Monitor
+
+06 July, 1867
+yo 21 de 1861.- Mejía.- Ciudadanos general de división Mariano Escobedo , en jefe del cuerpo de ejército del Norte.- Querétaro . ( Continuará ) . OFICIAL . DOCUMENTOS . Acerca del juicio del archiduquI Mejía.- 21 1861.- General Mariano Escobedo Citizens division, chief corps of Norte.- Queretaro. ( To be continue ) . OFFICER. DOCUMENTS. About the trial of archiduquWienNeue Freie Presse10 July, 1867er dann wieder sich des Tages im vorigen Jahre erinnert , wo die Zurückziehung der französischen Armee aus Mexico , der einzigen Bürgschaft des neuen Thrones , be reits unwiderruflich beschlossen > vHe then reminded again of the day in the previous year, where the withdrawal of the French army from Mexico, the only guarantee of the new throne, be already irrevocably decided> v
+{{< figure src="images/figure04.png" caption="USA sentiment analysis bar chart (without newspaper names)" alt="A bar chart representing the sentiment score for the USA. The chart is vertical and has bars on both sides in blue."  >}}
+
+
+
+[^1]: It should be noted that in the 1860s, there was no Germany in the present understanding but independent states that formed the German Confederation. In 1867, the New German Confederation was born under the Prussian leadership, excluding Bavaria, Württemberg, Baden, and Hesse-Darmstadt (that joined the Confederation again in 1870). Austria, in turn, was a multilingual, multiethnic empire that reached many present-day areas, for example, Northern Italy, Slovenia, and Romania. We have used the expressions 'German' and 'Austrian region' to cover German-language papers from these areas.
+[^2]: For a complete access to our corpus as a CVS file see[https://zenodo.org/record/3451482](https://zenodo.org/record/3451482)<a class="footnote-ref" href="#priani2019"> [priani2019] </a>. All newspaper titles, dates, news items and cities can be consulted there.
+[^3]: The code for processing the data and the results can be consulted at[https://github.com/ximenina/OcEx_Maximilian](https://github.com/ximenina/OcEx_Maximilian)
+[^4]: Original text: “Kaiser Maximilian wurde seinen Gegnern im Schlafe überliefert . Die Ermordung des Kaisers Maximilian wird allgemeinen Abscheu erregen . Diese infame , von Juarez angeordnet” (Regensburger Anzeiger, Germany, July 06, 1867).
+[^5]: Original language: “heit gebracht wurde , welche « jetzt auf es zurückkommen wird . ( Stürmische Unterbrechung. ) Die letzten Worte de « ehrenwerthen Herrn JnleS Favre könnten vor dem ganzen Lande” (Das Vaterland, Wien, July 13, 1867).
+[^6]: Original text:yo 21 de 1861.- Mejía.- Ciudadanos general de división Mariano Escobedo , en jefe del cuerpo de ejército del Norte.- Querétaro . ( Continuará ) . OFICIAL . DOCUMENTOS . Acerca del juicio del archiduqu” (El Monitor, Ciudad de México, July 06, 1867)
+[^7]: Original text: “er dann wieder sich des Tages im vorigen Jahre erinnert , wo die Zurückziehung der französischen Armee aus Mexico , der einzigen Bürgschaft des neuen Thrones , be reits unwiderruflich beschlossen > v” (Neue Freie Presse, Wien, July 10, 1867)## Bibliography
+
+<ul>
+<li id="beals2020">Beals, Melodee and Emily Bell, “The Atlas of Digitised Newspapers and Metadata: Reports from Oceanic Exchanges.” Loughborough University, 5.5.2020,<a href="https://figshare.com/articles/online_resource/The_Atlas_of_Digitised_Newspapers_and_Metadata_Reports_from_Oceanic_Exchanges/11560059">https://figshare.com/articles/online_resource/The_Atlas_of_Digitised_Newspapers_and_Metadata_Reports_from_Oceanic_Exchanges/11560059</a>Accessed November 9, 2020.
+</li>
+<li id="cordell2017">Cordell, R. “‘Q i-jtb the Raven’: Taking Dirty OCR Seriously,.”  _Book History_ 20 (2017), 188-225
+</li>
+<li id="ehrmann2020">Ehrmann, M., Romanello, M., Bircher, S. & Clematide, S. “Introducing the CLEF 2020 HIPE Shared Task: Named Entity Recognition and Linking on Historical Newspapers.” . _European Conference on Information Retrieval ECIR 2020: Advances in Information Retrieval_ (2020): 524-532
+</li>
+<li id="feldman2013">Feldman, R. “Techniques and Applications for Sentiment Analysis.”  _Communications of the ACM_ , 56(4), (2013): 82-89.
+</li>
+<li id="fernandez2002">Fernández, F. “El análisis de contenido como ayuda metodológica para la investigación.” . _Ciencias Sociales_ , June, 2-96, (2002):35-53
+</li>
+<li id="gale2020">Gale Digital Scholar Lab (2020) Accessed July 11, 2020.<a href="https://www.gale.com/intl/primary-sources/digital-scholar-lab">https://www.gale.com/intl/primary-sources/digital-scholar-lab</a>
+</li>
+<li id="jarlbrink2017">Jarlbrink, J., Snickars, P. “Cultural Heritage as Digital Noise: Nineteenth Century Newspapers in the Digital Archive.”  _Journal of Documentation_ , 6 (2017):1228–1243.
+</li>
+<li id="kettunen2017">Kettunen, K., Mäkelä, E., Ruokolainen, T., Kuokkala J. & Löfberg, L “Old Content and Modern Tools – Searching Named Entities in a Finnish OCRed Historical Newspaper Collection 1771–1910.”  _Digital Humanities Quarterly_ , 11, 3, (2017)
+</li>
+<li id="kim2018">Kim, E., & Klinger, R. “A Survey on Sentiment and Emotion Analysis for Computational Literary Studies.”  _arXiv preprint_ arXiv:1808.03137 (2018).
+</li>
+<li id="liu2012">Liu, B. “Sentiment Analysis and Opinion Mining.”  _Synthesis Lectures on Human Language Technologies_ , 5(1), (2012): 1-167.
+</li>
+<li id="mac2015">Mac, K. S. & Cassidy, S. “Finding Names in Trove: Named Entity Recognition for Australian Historical Newspapers.” . In _Proceedings of Australasian Language Technology Association Workshop_ , (2015): 57−65.
+</li>
+<li id="mediamonitoring">Media Monitoring of the Past: Mining 200 years of historical newspapers (2020). Accessed July 11, 2020<a href="https://impresso-project.ch/">https://impresso-project.ch/</a>
+</li>
+<li id="mendezmoreno1967">Méndez Moreno, R. “El telégrafo en el destino nacional.”  _México Imprenta Arana_ (1967).
+</li>
+<li id="neudecker2014">Neudecker, C., Wilms, L., Jan Faber, W. & van Veen, T. “Large-scale refinement of digital historic newspapers with named entity recognition.” in _IFLA Newspapers/GENLOC Pre-Conference Satellite Meeting_ (2014)
+</li>
+<li id="newseye2020">NewsEye (2020) Accessed July 11, 2020.<a href="https://www.newseye.eu/">https://www.newseye.eu/</a>
+</li>
+<li id="oiva2019">Oiva, M., Nivala, A., Salmi, H., Latva, O., Jalava, M., Keck, J., Martínez Domínguez, L., Parker, J. “Spreading News in 1904: The Media Coverage of Nikolay Bobrikov’s Shooting.” Media History, (2019), DOI:<a href="https://doi.org/10.1080/13688804.2019.1652090">https://doi.org/10.1080/13688804.2019.1652090</a>
+</li>
+<li id="priani2019">Priani Saiso et al. _Intercambios oceánicos Minicorpus. Retrieved_ (2019). June 26, 2020, from<a href="https://zenodo.org/record/3451482">https://zenodo.org/record/3451482</a>
+</li>
+<li id="sprugnoli2016">Sprugnoli, R., Tonelli, S., Marchetti, A., & Moretti, G. “Towards Sentiment Analysis for Historical Texts.”  _Digital Scholarship in the Humanities_ , 31(4), (2016): 762-772.
+</li>
+<li id="schmidt2018a">Schmidt, T., & Burghardt, M. “An Evaluation of Lexicon-Based Sentiment Analysis Techniques for the Plays of gotthold ephraim lessing.” . _Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature_ (2018a):139-149.
+</li>
+<li id="schmidt2018b">Schmidt, T., Burghardt, M., & Dennerlein, K. “Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior.” (2018b).
+</li>
+<li id="vanderwood2010">Vanderwood, P. “Betterment for Whom? The Reform Period: 1855-75.” In W. H. Beezley and M. C. Meyer (eds), _The Oxford History of Mexico_ , Oxford, Oxford University Press (2010): 349-72
+</li>
+<li id="yang2011">Yang, T., Torget, A. & Milhacea, R. “Topic Modeling on Historical Newspapers.”  _Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities_ , (2011): 96–104,
+</li>
+
+</ul>
