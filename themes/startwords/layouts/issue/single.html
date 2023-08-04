@@ -11,7 +11,7 @@
     <div class="issue-summary grid">
         <div class="container">
             <span class="number">{{ i18n "issue" }} {{ .Params.number }}</span>
-            <h1 class="theme">{{ .Params.theme }}</h1>
+            {{/* theme needs to be shown with its cluster */}}
             {{ if .Content }}
             <div class="summary">
                 {{ .Content }}
@@ -24,15 +24,56 @@
             </a>
             {{ partial "translations.html" . }}
             {{ end }}
-            {{/* for dhq, find introduction and render teaser or abstract */}}
-            {{ range where .Pages ".Params.dhqtype" "introduction" }}
-                {{ .Render "summary" }}
-            {{ end }}
 
         </div>
 
     </div>
-    {{ partial "issue/features.html" . }}
+    {{/* list in order by cluster (if any) instead of using features template */}}
+    {{ $articles := .Pages.ByParam "order" }}
+
+    {{ range $index, $cluster := .Params.clusters }}
+        {{/* odd clusters should be inverted (dark bg); even should not */}}
+        {{ $inverted := not (modBool $index 2)}}
+        <section class="{{ if $inverted }}inverted{{ end }} grid">
+        <div class="wide-container">
+            <h2 class="theme">{{ $cluster.title }}</h2>
+            {{ with $cluster.editors }}
+                <p>Edited by {{ . }}</p>
+            {{ end }}
+            {{ $clusterArticles := where $articles ".Params.cluster" "eq" $cluster.title}}
+            {{ range $clusterArticles }}
+                {{ .Render "short_summary" }}
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    {{/* articles that are not part of a cluster */}}
+  {{ $regularArticles := where $articles ".Params.cluster" "eq" nil }}
+   {{/* invert if there is an even number of clusters */}}
+   {{ $inverted := modBool (len .Params.clusters) 2}}
+    <section id="features" aria-label="{{ i18n "features" }}" class="{{ if $inverted }}inverted {{ end }}grid">
+        <div class="wide-container">
+        {{ range where $regularArticles ".Params.dhqtype" "ne" "review" }}
+            {{ .Render "short_summary" }}
+        {{ end }}
+    </div>
+
+    {{/* reviews */}}
+    {{/* NOTE: there is a review type that is sometimes set in xml, but apparently
+    the xml toc can supercede that. }}
+    {{ $reviews := where $regularArticles ".Params.dhqtype" "eq" "review" }}
+    {{ with $reviews }}
+    <div class="snippets">
+         <h2>Reviews</h2>
+        {{ range . }}
+            {{ .Render "short_summary" }}
+        {{ end }}
+    </div>
+    </section>
+    {{ end }}
+
+    {{/* partial "issue/features.html" . */}}
 
     {{/* get contributor information from current page OR default language issue */}}
     {{ $credits := newScratch }}

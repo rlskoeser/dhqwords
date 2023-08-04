@@ -57,7 +57,10 @@
         <div class="grid">
             <header>
                 <p class="number"><a href="{{ cond .Site.Params.absoluteArticleLinks .Parent.Permalink  .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
-                <p class="theme">{{ .Parent.Params.theme }}</p>
+               {{/* <p class="theme">{{ .Parent.Params.theme }}</p> */}}
+               {{ with .Params.cluster }}
+                <p class="theme">{{ . }}</p>
+                {{ end }}
                 <h1>{{ .Params.Title }}</h1>
                 <p>{{ partial "authors" . }}</p>
                 <p>{{ partial "pubdate" . }}</p>

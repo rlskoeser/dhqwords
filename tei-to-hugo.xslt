@@ -80,10 +80,12 @@ find them by size:
 
     <!-- find toc for the issue that contains this article -->
     <xsl:variable name="journaltoc" select="$dhqtoc//journal[.//item/@id=$articleID]"/>
-    <!-- <xsl:variable name="articletoc" select="$dhqtoc//item[@id=$articleID]"/>     -->
+    <!-- <xsl:variable name="articletoc" select="$dhq//item[@id=$articleID]"/>     -->
     <!-- determine order within issue based on number of proceeding articles -->
     <xsl:variable name="articleOrder" select="count($journaltoc//item[following::item[@id=$articleID]]) + 1"/>   
     <xsl:variable name="preview" select="$journaltoc/@preview"/>
+    <!-- get cluster if this article belongs to one -->
+    <xsl:variable name="cluster" select="$journaltoc/cluster[.//item/@id=$articleID]"/>
 
     <!-- match dhq url structure somewhat: vol/vol#/issue#/article#/ -->
     <xsl:variable name="outputDirectory" select="concat('content/vol/', number($volume), '/', number($issue))"/>    
@@ -118,6 +120,9 @@ find them by size:
     <!-- if article/issue is in preview, set hugo article to draft -->    
     <xsl:if test="$preview = 'true'">
       <xsl:value-of select="fn:field('draft', 'true')"/>
+    </xsl:if>
+    <xsl:if test="$cluster">    
+      <xsl:value-of select="fn:quotedField('cluster', $cluster/title)"/>      
     </xsl:if>
     <!-- still todo: set cluster this article belongs to based on toc
       dhq-journal/toc/toc.xml

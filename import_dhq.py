@@ -148,16 +148,21 @@ def create_issue_indexes():
                             issue_info["draft"] = "true"
                         if tocinfo.clusters:
                             clusters = {}
+                            theme = []
                             for i, c in enumerate(tocinfo.clusters):
-                                clusters[f"cluster{i + 1}"] = {
+                                theme.append(str(c.title))
+                                # output a number for use in templates
+                                clusters[f"{i + 1}"] = {
                                     "title": str(c.title),
                                     "editors": str(c.editors),
                                 }
 
                             issue_info["clusters"] = clusters
+                            # use cluser title(s) as issue theme
+                            issue_info["theme"] = ", ".join(theme)
                     issue_index.write_text(to_hugo_metadata(issue_info))
 
 
 if __name__ == "__main__":
-    convert_articles()  # NOTE: this is slow
+    # convert_articles()  # NOTE: this is slow
     create_issue_indexes()

@@ -107,6 +107,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
+
     // secondary shadow is even larger and more transparent
     .bg-text.secondary {
         opacity: 3%;
@@ -234,7 +235,7 @@ $preview-height-xl: rem(250px);  // 1024px-
 
     clear: both;
     font-size: rem(16px);
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
 
     @media (min-width: $breakpoint-s) { font-size: rem(18px); }
 
@@ -265,3 +266,14 @@ $preview-height-xl: rem(250px);  // 1024px-
     }
 
 }
+
+.article-summary .teaser, .article-short-summary .teaser {
+    font-style: italic;
+    color: $dark-purple;  // light background
+    margin: 0.5rem 0 0.5rem 3rem;        
+    .inverted & {
+        color: $light-purple;  // dark background
+    }
+}
+
+

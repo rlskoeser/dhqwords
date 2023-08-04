@@ -31,7 +31,15 @@
             </p>
         </div>
     </div>
-    {{ partial "issue/features.html" $issue }}
+    {{/* just list in order instead of using features template */}}
+    <section id="features" aria-label="{{ i18n "features" }}" class="inverted grid">
+        <div class="wide-container">
+        {{ range sort $issue.Pages ".Params.order" }}
+            {{ .Render "short_summary" }}
+        {{ end }}
+    </div>
+    </section>
+
     {{ with .Site.GetPage "/about" }}
     <div class="content grid">
         <div class="text-container">

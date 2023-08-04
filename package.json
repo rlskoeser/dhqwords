@@ -10,7 +10,9 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "autoprefixer": "^9.8.4",
-    "postcss-cli": "^7.1.1"
+    "postcss-cli": "^7.1.1",
+    "saxon-js": "^2.5.0",
+    "xslt3": "^2.5.0"
   },
   "devDependencies": {
     "pagedjs": "^0.1.43",

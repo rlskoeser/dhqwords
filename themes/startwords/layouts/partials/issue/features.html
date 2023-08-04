@@ -32,6 +32,10 @@
                 <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{ partial "authors" . }}
                 {{ partial "tags" . }}
+
+                {{ with .Params.teaser }} {{/* TODO: styles? */}}
+                <p><i>{{ . }}</i></p>
+                {{ end }}
                 {{ partial "available_languages.html" . }}
             </div>
             {{ end }}

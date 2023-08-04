@@ -100,14 +100,23 @@ body.issue .issue-summary {
 }
 
 
-.issue .article-summary {
-    width: 100%;
-    margin: 2em 0;
-    .shaper, .bg-text {
-        display: none;
+.issue  {
+
+    /* theme/cluster title anywhere on issue page */
+    .theme { color: $grey; }
+    .inverted .theme {
+        color: $light-purple; 
     }
-    p {
-        max-width: none;
+
+    .article-summary {
+        width: 100%;
+        margin: 2em 0;
+        .shaper, .bg-text {
+            display: none;
+        }
+        p {
+            max-width: none;
+        }
     }
 }
 
@@ -118,6 +127,14 @@ body.issue .issue-summary {
 body.article .categories .tag {
     color: $darkest-purple;  // light background
 }
-.article-short-summary .categories .tag {
-    color: $light-purple;  // dark background
+.issue {
+    section:not(.inverted) .article-short-summary .tag {    
+        color: $dark-grey;
+    }    
+    .article-short-summary .categories .tag {    
+        color: $darkest-purple;  // light background        
+    }
+    .inverted .article-short-summary .categories .tag {
+        color: $light-purple;  // dark background
+    }
 }
