@@ -1,14 +1,17 @@
-# <div align="center"><img src="https://startwords.cdh.princeton.edu/logotype.svg" alt="Startwords"/></div>
+
+_DHQwords_ is a mashup of [DHQ](http://www.digitalhumanities.org/dhq/) (_Digital Humanities Quarterly_) and [_Startwords_](https://startwords.cdh.princeton.edu/).  
+
+Articles from _DHQ_ have been converted from TEI XML to markdown for publication as Hugo site using the _Startwords_ theme.
+
+_DHQ_ content is (generally) published under the [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license](https://creativecommons.org/licenses/by-nd/4.0/). Making that content available in a different format is expressly allowed by all CC licenses, including those with the No Derivatives clause. See the answer to [Can I take a CC-licensed work and use it in a different format?](https://creativecommons.org/faq/#can-i-take-a-cc-licensed-work-and-use-it-in-a-different-format) in the Creative Commons FAQ.
+
+_Startwords_ is a research periodical irregularly published by the [Center for Digital Humanities at Princeton](https://cdh.princeton.edu). Read more [about _Startwords_ editorial and technical work](https://startwords.cdh.princeton.edu/about/).
+
+---
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Hugo](https://img.shields.io/badge/hugo-0.101-blue.svg)](https://gohugo.io)
-![Node version](https://img.shields.io/badge/node-16-blue)
-
-_Startwords_ is a research periodical irregularly published by the [Center for Digital Humanities](cdh.princeton.edu/) at Princeton University. It is implemented as a static site using the [Hugo static site generator](https://gohugo.io).
-
-## Design
-
-See [the theme README](https://github.com/Princeton-CDH/startwords/blob/master/themes/startwords/README.md) for more information on the site's features and architecture.
+[![Hugo](https://img.shields.io/badge/hugo-0.116-blue.svg)](https://gohugo.io)
+![Node version](https://img.shields.io/badge/node-18-blue)
 
 ## Developing
 
@@ -25,11 +28,16 @@ $ hugo version
 this should output version info like:
 
 ```
-Hugo Static Site Generator v0.72.0/extended darwin/amd64 BuildDate: unknown
+Hugo Static Site Generator v0.116.0/extended darwin/amd64 BuildDate: unknown
 ```
 
 check that the version you installed is at least as new as the version shown in
 the hugo badge at the top of this file.
+
+## importing DHQ content
+
+(notes todo)
+
 
 ### Static files
 
@@ -72,10 +80,9 @@ you make changes and save files locally, hugo will automatically refresh the pag
 ## License
 
 ### Content
-Content published in _Startwords_ is licensed under the Creative Commons Attribution 4.0 International License (CC-BY).
+Content published in _DHQ_ is licensed under the Creative Commons Attribution 4.0 N-Derivatives International License (CC-BY-ND).
 
 ### Software
 
 Software included in _Startwords_ is licensed under the [Apache 2.0 License](LICENSE).
 
-©2021 Trustees of Princeton University. Permission granted via Princeton Docket #21-3753-1 for distribution online under a standard Open Source license.
