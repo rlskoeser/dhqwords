@@ -1,0 +1,10 @@
+<div class="article-short-summary">
+<a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ partial "authors" . }}
+{{ partial "tags" . }}
+{{ partial "available_languages.html" . }}
+
+{{ with .Params.teaser }}
+<p class="teaser">{{ . }}</p>
+{{ end }}
+</div>
