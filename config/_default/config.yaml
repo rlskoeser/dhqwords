@@ -1,4 +1,4 @@
-baseURL: 'https://startwords.cdh.princeton.edu/'
+baseURL: 'http://localhost:1313/'
 title: DHQwords
 theme: startwords
 copyright: >-
