@@ -9,6 +9,7 @@ on:
 env:
   HUGO_VERSION: 0.116.0  # if you update this, change the README badge and lighthouse-ci.yml too!
   NODE_VERSION: 18 # if you update this, change the README badge and lighthouse-ci.yml too!
+  HUGO_ENV: production
 
 jobs:
   build-deploy:
@@ -51,5 +52,3 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./public
-      with:
-        emptyCommits: false
