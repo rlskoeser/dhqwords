@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import glob
 import os.path
 import shutil
@@ -26,6 +27,7 @@ class TocIssue(xmlmap.XmlObject):
     preview = xmlmap.StringField("@preview")
     title = xmlmap.StringField("title")
     clusters = xmlmap.NodeListField("cluster", TocCluster)
+    article_ids = xmlmap.StringListField(".//item/@id")
 
 
 class DhqToc(xmlmap.XmlObject):
@@ -37,7 +39,7 @@ class DhqToc(xmlmap.XmlObject):
                 return i
 
 
-def convert_articles():
+def convert_all_articles():
     for article in glob.iglob(f"{path}/*/*.xml", recursive=True):
         print(article)
         # some articles have a duplicate, #### and ###_name.xml;
@@ -50,51 +52,56 @@ def convert_articles():
         if article_id == "000000" or article_id.startswith("999"):
             print("Skipping %s (test/template)" % article)
             continue
+        convert_article(article)
 
-        # convert xslt to article markdown
-        # completed = subprocess.run(["saxon", article, "tei-to-hugo.xslt"])
-        completed = subprocess.run(
-            ["node_modules/.bin/xslt3", "-s:%s" % article, "-xsl:tei-to-hugo.xslt"],
-            capture_output=True,
-            text=True,
-        )
-        if completed.returncode != 0:
-            print("error transforming %s" % article)
-        else:
-            # print xslt output
-            print(completed.stdout)
-            article_resource_dir = os.path.join(os.path.dirname(article), "resources")
-            if os.path.exists(article_resource_dir):
-                print("resource directory %s exists" % article_resource_dir)
 
-                lines = completed.stdout.split("\n")
-                # xslt outputs markdown file(s); use to get directory
-                try:
-                    markdown_file = [l for l in lines if l.endswith(".md")][0]
-                    output_dir = os.path.dirname(markdown_file)
-                    print("markdown: %s; output_dir: %s" % (markdown_file, output_dir))
-                    # for now, assume if it exists we already copied it
-                    if not os.path.exists(output_dir):
-                        # copy entire resource directory
-                        shutil.copytree(
-                            article_resource_dir, "%s/resources" % output_dir
-                        )
-                except IndexError:
-                    print("** could not determine output directory")
+def convert_article(article):
+    # convert xslt to article markdown
+    # completed = subprocess.run(["saxon", article, "tei-to-hugo.xslt"])
+    completed = subprocess.run(
+        ["node_modules/.bin/xslt3", "-s:%s" % article, "-xsl:tei-to-hugo.xslt"],
+        capture_output=True,
+        text=True,
+    )
+    if completed.returncode != 0:
+        print("error transforming %s" % article)
+    else:
+        # print xslt output
+        print(completed.stdout)
+        article_resource_dir = os.path.join(os.path.dirname(article), "resources")
+        if os.path.exists(article_resource_dir):
+            print("resource directory %s exists" % article_resource_dir)
 
-        # create issue index files for each issue dir
-        # create vol files for each vol
-        # - use archetypes?
+            lines = completed.stdout.split("\n")
+            # xslt outputs markdown file(s); use to get directory
+            try:
+                markdown_file = [l for l in lines if l.endswith(".md")][0]
+                output_dir = os.path.dirname(markdown_file)
+                print("markdown: %s; output_dir: %s" % (markdown_file, output_dir))
+                # for now, assume if it exists we already copied it
+                if not os.path.exists(output_dir):
+                    # copy entire resource directory
+                    shutil.copytree(article_resource_dir, "%s/resources" % output_dir)
+            except IndexError:
+                print("** could not determine output directory")
+
+    # create issue index files for each issue dir
+    # create vol files for each vol
+    # - use archetypes?
 
 
 def to_hugo_metadata(info):
     return "---\n%s---\n\n" % yaml.safe_dump(info)
 
 
-def create_issue_indexes():
-    dhqtoc = xmlmap.load_xmlobject_from_file(
+def get_dhqtoc():
+    return xmlmap.load_xmlobject_from_file(
         "../dhq-journal/toc/toc.xml", xmlclass=DhqToc
     )
+
+
+def create_issue_indexes():
+    dhqtoc = get_dhqtoc()
 
     vol_index = "content/vol/_index.md"
     # if not os.path.exists(vol_index):
@@ -144,6 +151,9 @@ def create_issue_indexes():
                     tocinfo = dhqtoc.get_issue(vol_number, issue_number)
                     # get cluster and preview/draft from toc
                     if tocinfo:
+                        # toc sets year as issue title; better than nothing
+                        issue_info["date"] = str(tocinfo.title)
+
                         if tocinfo.preview:
                             issue_info["draft"] = "true"
                         if tocinfo.clusters:
@@ -164,5 +174,22 @@ def create_issue_indexes():
 
 
 if __name__ == "__main__":
-    convert_articles()  # NOTE: this is slow
+    parser = argparse.ArgumentParser(
+        prog="import_dhq", description="Convert dhq content to dhqwords"
+    )
+    parser.add_argument("-i", "--issue")
+    args = parser.parse_args()
+    if not args.issue:
+        print("Converting all articles (this will take a while)")
+        convert_all_articles()  # NOTE: this is slow
+    else:
+        dhqtoc = get_dhqtoc()
+        issue = dhqtoc.get_issue(*args.issue.split("."))
+        print(issue)
+        for a in issue.article_ids:
+            # print(a)
+            article = os.path.join(path, a, "%s.xml" % a)
+            # print(article)
+            convert_article(article)
+
     create_issue_indexes()
