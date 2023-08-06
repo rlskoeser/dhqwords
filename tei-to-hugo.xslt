@@ -454,12 +454,13 @@ find them by size:
   </xsl:template>
 
   <!-- links in bibl need to be html since we're generating html bibliography -->
+  <!--
   <xsl:template match="tei:bibl/tei:ref">
     <xsl:variable name="label">
         <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:value-of select="concat($lt, 'a href=', $quote, @target, $quote, $gt, $label, $lt, '/a', $gt)"/>        
-  </xsl:template>
+    <xsl:value-of select="concat($lt, 'a href=', $quote, @target, $quote, $gt, $label, $lt, '/a', $gt)"/>         
+  </xsl:template> -->
 
 
   <!-- Template for emphasis -->
@@ -507,7 +508,18 @@ find them by size:
     <xsl:variable name="label">
         <xsl:apply-templates/>
     </xsl:variable>
-    <xsl:value-of select="concat('[', $label, '](', @target, ')')"/>
+    <xsl:variable name="target">
+      <xsl:choose>
+        <xsl:when test="contains(@target, '/dhq/vol/')">
+          <xsl:value-of select="replace(replace(@target, '^.*/dhq/', '/dhqwords/'), '/\d+\.html$', '/')"/>
+          <!-- <xsl:value-of select="replace(substring-after(@target, 'http://digitalhumanities.org/dhq'), '/\d+\.html$', '')"/>           -->
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="@target"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:value-of select="concat('[', $label, '](', $target, ')')"/>
   </xsl:template>
 
   <!-- handle tables; convert to html since easier -->
