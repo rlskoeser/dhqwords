@@ -8,7 +8,7 @@ clusters:
       Matthias Zeppelzauer
     title: 'Digital Humanities & Film Studies: Analyzing the Modalities of Moving
       Images'
-date: '2020'
+date: 2020-12-20
 layout: single
 number: '14.4'
 theme: 'Digital Humanities & Colonial Latin American Studies, Digital Humanities &

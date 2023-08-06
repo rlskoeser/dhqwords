@@ -6,7 +6,7 @@ clusters:
   '2':
     editors: "Marco B\xFCchler"
     title: "G\xF6ttingen Dialogues in Digital Humanities"
-date: '2021'
+date: 2021-05-21
 layout: single
 number: '15.1'
 theme: "AudioVisual Data in DH, G\xF6ttingen Dialogues in Digital Humanities"

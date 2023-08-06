@@ -90,8 +90,27 @@ def convert_article(article):
     # - use archetypes?
 
 
+HUGO_YAML_DELIM = "---"
+
+
 def to_hugo_metadata(info):
-    return "---\n%s---\n\n" % yaml.safe_dump(info)
+    return "%s\n%s%s\n\n" % (HUGO_YAML_DELIM, yaml.safe_dump(info), HUGO_YAML_DELIM)
+
+
+def get_hugo_metadata(path):
+    yaml_content = []
+    start = False
+    with path.open() as f:
+        while True:
+            line = f.readline()
+            if line.strip() == HUGO_YAML_DELIM:
+                if start:
+                    break
+                else:
+                    start = True
+            if start:
+                yaml_content.append(line)
+    return yaml.safe_load("".join(yaml_content))
 
 
 def get_dhqtoc():
@@ -137,40 +156,62 @@ def create_issue_indexes():
                 # for issues with articles in other languages
                 if issue.is_dir():
                     print(issue)
-                    # TODO: need an index for each language in the issue?
-                    issue_index = issue / "_index.md"
-                    issue_number = int(os.path.basename(issue))
-                    issue_title = "%d.%d" % (vol_number, issue_number)
-                    issue_info = {
-                        "type": "issue",
-                        "layout": "single",
-                        "title": "Issue %s" % issue_title,
-                        "number": issue_title,
-                        # TODO: get actual date from articles?
-                    }
-                    tocinfo = dhqtoc.get_issue(vol_number, issue_number)
-                    # get cluster and preview/draft from toc
-                    if tocinfo:
-                        # toc sets year as issue title; better than nothing
-                        issue_info["date"] = str(tocinfo.title)
+                    # get a list of articles in this issue folder
+                    articles = list(issue.glob("**/index.*.md"))
+                    if articles:
+                        # get the unique set of language codes based on content
+                        languages = set([a.stem.split(".")[1] for a in articles])
 
-                        if tocinfo.preview:
-                            issue_info["draft"] = "true"
-                        if tocinfo.clusters:
-                            clusters = {}
-                            theme = []
-                            for i, c in enumerate(tocinfo.clusters):
-                                theme.append(str(c.title))
-                                # output a number for use in templates
-                                clusters[f"{i + 1}"] = {
-                                    "title": str(c.title),
-                                    "editors": str(c.editors),
-                                }
+                        # read yaml for all articles
+                        article_metadata = [get_hugo_metadata(a) for a in articles]
+                        # get unique list of dates for all articles
+                        dates = set([a["date"] for a in article_metadata])
+                        # use most recent / last date as issue date
+                        issue_date = sorted(dates, reverse=True)[0]
 
-                            issue_info["clusters"] = clusters
-                            # use cluser title(s) as issue theme
-                            issue_info["theme"] = ", ".join(theme)
-                    issue_index.write_text(to_hugo_metadata(issue_info))
+                    else:
+                        print("No articles found for %s" % issue)
+                        languages = ["en"]
+                        issue_date = None
+
+                    for lang in languages:
+                        # create an index for each language
+                        issue_index = issue / ("_index.%s.md" % lang)
+                        issue_number = int(os.path.basename(issue))
+                        issue_title = "%d.%d" % (vol_number, issue_number)
+                        issue_info = {
+                            "type": "issue",
+                            "layout": "single",
+                            "title": "Issue %s" % issue_title,
+                            "number": issue_title,
+                            # TODO: get actual date from articles?
+                        }
+                        if issue_date:
+                            issue_info["date"] = issue_date
+                        tocinfo = dhqtoc.get_issue(vol_number, issue_number)
+                        # get cluster and preview/draft from toc
+                        if tocinfo:
+                            # toc sets year as issue title; better than nothing
+                            if not issue_date:
+                                issue_info["date"] = str(tocinfo.title)
+
+                            if tocinfo.preview:
+                                issue_info["draft"] = "true"
+                            if tocinfo.clusters:
+                                clusters = {}
+                                theme = []
+                                for i, c in enumerate(tocinfo.clusters):
+                                    theme.append(str(c.title))
+                                    # output a number for use in templates
+                                    clusters[f"{i + 1}"] = {
+                                        "title": str(c.title),
+                                        "editors": str(c.editors),
+                                    }
+
+                                issue_info["clusters"] = clusters
+                                # use cluser title(s) as issue theme
+                                issue_info["theme"] = ", ".join(theme)
+                        issue_index.write_text(to_hugo_metadata(issue_info))
 
 
 if __name__ == "__main__":
@@ -181,7 +222,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if not args.issue:
         print("Converting all articles (this will take a while)")
-        convert_all_articles()  # NOTE: this is slow
+        # convert_all_articles()  # NOTE: this is slow
     else:
         dhqtoc = get_dhqtoc()
         issue = dhqtoc.get_issue(*args.issue.split("."))

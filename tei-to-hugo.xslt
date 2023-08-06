@@ -94,6 +94,8 @@ find them by size:
     <xsl:variable name="outputDirectory" select="concat('content/vol/', number($volume), '/', number($issue))"/>    
 
      <xsl:for-each select="tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language">
+      <!-- FIXME: at least one article has a langUsage languade code but no corresponding text; check for text with language before creating ? -->
+
           <xsl:variable name="lang" select="fn:langcode(@ident)"/>
       <xsl:value-of select="concat('Converting language: ', $lang, ' (', @extent, ')', $br)"/>
       <!-- output into a leaf page bundle so we can include assets -->
