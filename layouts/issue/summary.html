@@ -1,0 +1,13 @@
+<article class="issue-summary">
+    <a href="{{ .RelPermalink }}">
+        <p class="number">{{ i18n "issue" }} {{ .Params.number }}</p>
+        {{ partial "pubdate" . }}
+    </a>
+
+    {{ range $cluster := .Params.clusters }}
+        <h2 class="theme">{{ $cluster.title }}</h2>
+        {{ with $cluster.editors }}
+            <p>Edited by {{ . }}</p>
+        {{ end }}
+    {{ end }}
+</article>
