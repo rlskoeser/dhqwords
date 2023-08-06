@@ -21,6 +21,9 @@ Additionally, it converts <p>, <head>, <hi>, <code>, and <ref> elements to their
 <xsl:variable name="lt" select="'&lt;'" />
 <xsl:variable name="gt" select="'&gt;'" />
 
+<xsl:key name="bibliog" match="//tei:bibl" use="@xml:id" />
+
+
 <!-- todo: set path via xsl param? lookup relative to article? -->
 <xsl:variable name="dhqtoc" select="document('../dhq-journal/toc/toc.xml')"/>
 
@@ -332,13 +335,11 @@ find them by size:
 <xsl:template match="tei:ptr">
 <xsl:choose>
   <xsl:when test="starts-with(@target, '#')">
-    <!-- fixme: getting the label isn't working; use target for now; would a key work? -->
-    <xsl:variable name="label" select="ancestor::tei:TEI//tei:bibl[@xml:id = substring-after(@target, '#')]/@label">
-    </xsl:variable>
-    <!-- use target as label for now -->
-    <xsl:value-of select="concat($lt, 'a class=', $quote, 'footnote-ref', $quote, ' href=', $quote, @target, $quote, $gt, ' [', substring-after(@target, '#'), '] ', $lt, '/a', $gt)"/>
+    <!-- use a key to lookup the bibliography entry and get the label -->
+    <xsl:variable name="label" select="key('bibliog', substring-after(@target, '#'))/@label"/>    
+<!--    <xsl:value-of select="concat($lt, 'a class=', $quote, 'footnote-ref', $quote, ' href=', $quote, '#fn:', substring-after(@target, '#'), $quote, ' role=', $quote, 'doc-noteref', $quote, $gt, ' [', $label, '] ', $lt, '/a', $gt)"/>-->
     <!-- assume internal link is a bibliography ref; output as a footnote -->
-    <!-- <xsl:value-of select="concat('[^', substring-after(@target, '#'), ']')"/>     -->
+    <xsl:value-of select="concat('[^', substring-after(@target, '#'), ']')"/>    
   </xsl:when>
   <xsl:otherwise>
   <!-- ptr with no text uses url for link text -->
@@ -432,23 +433,24 @@ find them by size:
 
 
   <xsl:template match="tei:listBibl">
-    <xsl:value-of select="concat('## Bibliography', $br, $br, $lt, 'ul', $gt, $br)"/>
+    <!-- <xsl:value-of select="concat($br, $br, '## Bibliography', $br, $br, $lt, 'ul', $gt, $br)"/> -->
     <xsl:apply-templates/>
                     <!-- <bibl label="Bennett 2010" xml:id="bennett2010" key="bennett2010b">Bennett, Jane. <title rend="italic">Vibrant Matter: A Political Ecology of Things</title>. Duke University Press, Raleigh, North Carolina (2010).</bibl> -->
-    <xsl:value-of select="concat($br, $lt, '/ul', $gt, $br)"/>
+    <!-- <xsl:value-of select="concat($br, $lt, '/ul', $gt, $br)"/> -->
   </xsl:template>
 
   <xsl:template match="tei:listBibl/tei:bibl">  
     <!-- <xsl:value-of select="concat($lt, 'li id=', $quote, 'fn:', @xml:id, $quote, $gt)"/>         -->
-    <xsl:value-of select="concat($lt, 'li id=', $quote, @xml:id, $quote, $gt)"/>    
+    <!--
+    <xsl:value-of select="concat($lt, 'li id=', $quote, 'fn:', @xml:id, $quote, $gt)"/>    
         <xsl:apply-templates/>
-    <xsl:value-of select="concat($br, $lt, '/li', $gt, $br)"/>
+    <xsl:value-of select="concat($lt, 'a href=', $quote, '#fn:', @xml:id, $quote, ' class=', $quote, 'footnote-backref', $quote, ' role=', $quote, 'doc-backlink', $quote, $gt, '↩︎', $lt, '/a', $gt)"/>            
+    <xsl:value-of select="concat($br, $lt, '/li', $gt, $br)"/>         -->
 
-    <!-- output as markdown footnotes 
+    <!-- output as markdown footnotes  -->
     <xsl:value-of select="concat($br, '[^', @xml:id, ']: ')" />  
     <xsl:apply-templates/>
-    <xsl:value-of select="$br"/>
-    -->
+   
   </xsl:template>
 
   <!-- links in bibl need to be html since we're generating html bibliography -->
@@ -501,6 +503,7 @@ find them by size:
 
   <!-- convert links to markdown links -->
   <xsl:template match="tei:ref">
+    <!-- todo: convert dhq links to dhqwords links -->
     <xsl:variable name="label">
         <xsl:apply-templates/>
     </xsl:variable>
@@ -534,7 +537,11 @@ find them by size:
   </xsl:template>
 
   <xsl:template match="text()" priority="2">
+    <!-- normalize space, but preserve whitespace at beginning or end, to handle
+    spaces around inline markup -->
+    <xsl:if test="matches(., '^\s')"><xsl:value-of select="' '"/></xsl:if>
     <xsl:apply-templates select="normalize-space(.)"/>
+    <xsl:if test="matches(., '\s$')"><xsl:value-of select="' '"/></xsl:if>    
   </xsl:template>
 
   <!-- Identity template to copy nodes as-is -->
