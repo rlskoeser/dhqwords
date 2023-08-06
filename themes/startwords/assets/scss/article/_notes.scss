@@ -59,7 +59,7 @@ body.article .footnotes, body.page .footnotes {
         /* semi-cheat: set the close icon as a background image in the correct
         location for browsers that don't display it (even though it is clickable)
         on long notes due to overflow:hidden on the paragraph */
-        background-image: url(/img/icons/close-button-contextual-note.svg);
+        background-image: url(img/icons/close-button-contextual-note.svg);
         background-repeat: no-repeat;
         background-position: 79.5% rem(5px);
         background-size: $close-icon-size;
@@ -150,7 +150,7 @@ body.article .footnotes, body.page .footnotes {
             display: block;
             text-decoration: none;
             /* set icon as background image */
-            background-image: url(/img/icons/close-button-contextual-note.svg);
+            background-image: url(img/icons/close-button-contextual-note.svg);
             background-size: contain;
             z-index: 5;  /* ensure clickable on safari */
 

@@ -2,13 +2,13 @@
     <nav class="main" aria-label="{{ i18n "main" }}">
         <ul>
             <li class="home">
-                <a href="{{ relLangURL "/" }}">
+                <a href="{{ relLangURL "" }}">
                     {{ $.Site.Params.shortTitle | default .Site.Title }}
 <!--                    <img class="logo" src="/img/logos/startwords.svg" alt="{{ i18n "home" }}" width="15" height="33"> -->
                 </a>
             </li>
             <li class="issues">
-                <a href="{{ relLangURL "/vol/" }}">volumes {{ i18n "volumes" }}</a>
+                <a href="{{ relLangURL "vol/" }}">volumes {{ i18n "volumes" }}</a>
             </li>
             <!-- use nav from config; handle multiple -->
             <!--
