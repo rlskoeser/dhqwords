@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-08-06T23:22:49+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/16/1/</id><entry><title type="html">The Lives of Mistresses and Maids: Editing Victorian Correspondence with Genealogy, Prosopography, and the TEI</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000595/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000595/</id><author><name>Kailey Fukushima</name></author><author><name>Karen Bourrier</name></author><author><name>Janice Parker</name></author><published>2022-03-11T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-08-07T14:26:47+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/16/1/</id><entry><title type="html">The Lives of Mistresses and Maids: Editing Victorian Correspondence with Genealogy, Prosopography, and the TEI</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000595/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000595/</id><author><name>Kailey Fukushima</name></author><author><name>Karen Bourrier</name></author><author><name>Janice Parker</name></author><published>2022-03-11T00:00:00+00:00</published><updated>2022-03-11T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
 <blockquote>
 </blockquote>
 <p><em>It is much to be regretted that no lives of maids… are to be found in the Dictionary of National Biography.</em></p>
@@ -45,10 +45,10 @@
 
 
 
-<figure ><img loading="lazy" alt="screenshot of xml interface" src=""
+<figure ><img loading="lazy" alt="screenshot of xml interface" src="/dhqwords/vol/16/1/000595/resources/images/figure1.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000595/resources/images/figure1_hu81fe9ababbb5ff39d7f6bba340e5f24d_116858_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000595/resources/images/figure1_hu81fe9ababbb5ff39d7f6bba340e5f24d_116858_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000595/resources/images/figure1_hu81fe9ababbb5ff39d7f6bba340e5f24d_116858_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000595/resources/images/figure1_hu81fe9ababbb5ff39d7f6bba340e5f24d_116858_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000595/resources/images/figure1_hu81fe9ababbb5ff39d7f6bba340e5f24d_116858_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000595/resources/images/figure1.png 2093w" 
      class="landscape"
      ><figcaption>
         <p>Minna Lovell’s <code>&lt;person&gt;</code> entry in the Historical People <code>&lt;div&gt;</code> of the Craik Site Index
@@ -90,10 +90,10 @@
 
 
 
-<figure ><img loading="lazy" alt="screenshot of xml interface" src=""
+<figure ><img loading="lazy" alt="screenshot of xml interface" src="/dhqwords/vol/16/1/000595/resources/images/921-Other-6729-1-4-20190415.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000595/resources/images/921-Other-6729-1-4-20190415_hu898c00458300aef33ab54d10a27362e9_75874_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000595/resources/images/921-Other-6729-1-4-20190415_hu898c00458300aef33ab54d10a27362e9_75874_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6729-1-4-20190415_hu898c00458300aef33ab54d10a27362e9_75874_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6729-1-4-20190415_hu898c00458300aef33ab54d10a27362e9_75874_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6729-1-4-20190415.png 1523w" 
      class="landscape"
      ><figcaption>
         <p>Anne Frances Hughes’s <code>&lt;person&gt;</code> entry in the Historical People <code>&lt;div&gt;</code> of the Craik Site Index
@@ -133,10 +133,10 @@
 
 
 
-<figure ><img loading="lazy" alt="screenshot of xml interface" src=""
+<figure ><img loading="lazy" alt="screenshot of xml interface" src="/dhqwords/vol/16/1/000595/resources/images/921-Other-6730-1-4-20190415.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000595/resources/images/921-Other-6730-1-4-20190415_hu8db99b7818272698b500a10b533fcad8_62383_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000595/resources/images/921-Other-6730-1-4-20190415_hu8db99b7818272698b500a10b533fcad8_62383_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6730-1-4-20190415_hu8db99b7818272698b500a10b533fcad8_62383_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6730-1-4-20190415_hu8db99b7818272698b500a10b533fcad8_62383_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6730-1-4-20190415.png 1730w" 
      class="landscape"
      ><figcaption>
         <p>Henry Blackett’s <code>&lt;person&gt;</code> entry in the Historical People <code>&lt;div&gt;</code> of the Craik Site Index
@@ -174,10 +174,10 @@
 
 
 
-<figure ><img loading="lazy" alt="screenshot of xml interface" src=""
+<figure ><img loading="lazy" alt="screenshot of xml interface" src="/dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415_hub3b6ed812dadcab10580b7d4aa16ea47_77217_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415_hub3b6ed812dadcab10580b7d4aa16ea47_77217_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415_hub3b6ed812dadcab10580b7d4aa16ea47_77217_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415_hub3b6ed812dadcab10580b7d4aa16ea47_77217_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415_hub3b6ed812dadcab10580b7d4aa16ea47_77217_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6731-1-4-20190415.png 2129w" 
      class="landscape"
      ><figcaption>
         <p>Screenshot of Harriet Blackett’s <code>&lt;person&gt;</code> entry in the Historical People <code>&lt;div&gt;</code> of the Craik Site Index
@@ -220,10 +220,10 @@
 
 
 
-<figure ><img loading="lazy" alt="screenshot of xml interface" src=""
+<figure ><img loading="lazy" alt="screenshot of xml interface" src="/dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415_hu26c0a2a2596d757a229e014efd786826_89023_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415_hu26c0a2a2596d757a229e014efd786826_89023_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415_hu26c0a2a2596d757a229e014efd786826_89023_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415_hu26c0a2a2596d757a229e014efd786826_89023_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415_hu26c0a2a2596d757a229e014efd786826_89023_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000595/resources/images/921-Other-6732-1-4-20190415.png 2037w" 
      class="landscape"
      ><figcaption>
         <p>Screenshot of Mary Popham Blyth’s <code>&lt;person&gt;</code> entry in the Historical People <code>&lt;div&gt;</code> of the Craik Site Index
@@ -429,7 +429,7 @@
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Layers of Variation: a Computational Approach to Collating Texts with Revisions</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000583/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000583/</id><author><name>Elli Bleeker</name></author><author><name>Bram Buitendijk</name></author><author><name>Ronald Haentjens Dekker</name></author><author><name>Vincent Neyt</name></author><author><name>Dirk Van Hulle</name></author><published>2022-02-25T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="1-introduction">1. Introduction</h2>
+]]></content></entry><entry><title type="html">Layers of Variation: a Computational Approach to Collating Texts with Revisions</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000583/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000583/</id><author><name>Elli Bleeker</name></author><author><name>Bram Buitendijk</name></author><author><name>Ronald Haentjens Dekker</name></author><author><name>Vincent Neyt</name></author><author><name>Dirk Van Hulle</name></author><published>2022-02-25T00:00:00+00:00</published><updated>2022-02-25T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="1-introduction">1. Introduction</h2>
 <p>The act of comparing textual versions has always been central to textual criticism and manuscript research. The importance of this type of collation has only increased in the digital age. Most scholarly editors no longer produce collations by hand; they use the output generated by software, either as is, or as the starting point for manual correction. Still, in more complex cases such as manuscripts with revisions – i.e., textual variation within one text version – it remains difficult to have the collation software produce a result that corresponds with what a scholarly editor would produce. The reason for this is, simply put, that the collation software treats the input as linear text, whereas text with revisions is not completely linear. As a consequence, scholarly editors still need to do quite some manual work, such as preparing the input texts or adjusting the collation output. What is more, they lose information about the multilayered nature of the document and the physical traces of the writing process or transmission history.</p>
 <p>We therefore set out to create collation software that is able to compare texts with revisions. When working on this challenge, we soon realized that conveying our human interpretation of text with revisions to the computer is not merely a technical matter. It is, in fact, deeply rooted in philological questions: what do we understand by text with revisions? What type of revisions can we discern? And how do we expect the collation software to deal with them? Designing and developing a collation tool that understands in-text variation in a way similar to how scholarly editors understand it requires us to formalize our understanding of in-text variation. We argue that in-text variation can best be modelled as nonlinear text, and that a collation tool needs to treat this nonlinear text differently from the way linear text is treated. This will produce a more refined collation output that corresponds with a human interpretation of the textual variance.</p>
 <p>For the purposes of this article, we focus on in-text variation resulting from authorial revisions on modern manuscripts; revisions by multiple textual agents are not within the scope of this article. As a test-corpus we took small examples from a modern manuscript of Samuel Beckett featuring numerous deletions and additions that Beckett made at various stages in the writing process.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  Evidently, the feature of in-text variation is not unique to modern manuscripts: medieval and older manuscripts often contain indistinguishable layers of in-text revisions as well. When in-text revisions are made with the same writing tool they cannot be easily divided into separate revision campaigns. The challenges of automatically collating such multi-layered texts are, then, twofold: first, to adequately process a textual version that contains one or more revisions, and second, to return a collation output that corresponds with what a scholarly editor would intuitively produce. We will discuss our approach to these challenges in the context of HyperCollate, an automatic collation tool developed to take in-text revisions into account when calculating the best match between two textual versions.</p>
@@ -497,10 +497,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure01.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure01_hua73d0507cdaca88483a18bccebed2ebf_43785_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure01_hua73d0507cdaca88483a18bccebed2ebf_43785_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure01.png 1126w" 
      class="landscape"
      ><figcaption>
         <p>Table visualization of the collation output of the artificial layers of <em>The Comet</em> by Charles Harpur. Text characters added with respect to the base layer (not shown in this figure) are in blue.
@@ -544,10 +544,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure02.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure02_hu7246f9a3ca41f86c776c27c7adfdce68_15688_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure02_hu7246f9a3ca41f86c776c27c7adfdce68_15688_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure02.png 883w" 
      class="landscape"
      ><figcaption>
         <p>Representation of the variant graph data model of Schmidt and Colomb (source: CollateX documentation, section “The Data Model: Variant Graphs,” on <a href="#https://collatex.net/doc/">https://collatex.net/doc/</a>).
@@ -584,10 +584,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure03.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure03_hu31a5c61542e86999dae1ec17e5dee88f_27380_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure03_hu31a5c61542e86999dae1ec17e5dee88f_27380_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure03.png 750w" 
      class="landscape"
      ><figcaption>
         <p>Variant graph of CollateX: witness sigils on the edges and the text in the nodes. Text that is considered as a match shares a node.
@@ -626,10 +626,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure04.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure04_hu2fe5ed8adc55bec8f711bb692ce3544e_33924_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure04_hu2fe5ed8adc55bec8f711bb692ce3544e_33924_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure04.png 650w" 
      class="landscape"
      ><figcaption>
         <p>Visualization of the hypergraph of Witness 1 (W1) as stored in HyperCollate.
@@ -665,10 +665,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure05.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure05_hu30bea161a085c46498385a1e0b3d3fa3_35691_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure05_hu30bea161a085c46498385a1e0b3d3fa3_35691_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure05.png 425w" 
      class="landscape"
      ><figcaption>
         <p>Different visualization of the hypergraphs of Witness 1 as stored by HyperCollate, with the markup information visualized in colors.
@@ -705,10 +705,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure06.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure06_hu66cf853ba6adbf7175fff259012764c1_35219_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure06_hu66cf853ba6adbf7175fff259012764c1_35219_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure06.png 981w" 
      class="landscape"
      ><figcaption>
         <p>Schematic workflow of HyperCollate.
@@ -749,10 +749,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure07.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure07_hu8aec5ee9d1d408af166c52756522d200_67924_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure07_hu8aec5ee9d1d408af166c52756522d200_67924_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure07.png 400w" 
      class="landscape"
      ><figcaption>
         <p>Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/3, page 20r.
@@ -795,10 +795,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure08.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure08_hudc38ab4543bca01bfcb58840758ba1b7_134165_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure08_hudc38ab4543bca01bfcb58840758ba1b7_134165_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure08_hudc38ab4543bca01bfcb58840758ba1b7_134165_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000583/resources/images/figure08_hudc38ab4543bca01bfcb58840758ba1b7_134165_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000583/resources/images/figure08_hudc38ab4543bca01bfcb58840758ba1b7_134165_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000583/resources/images/figure08.png 2500w" 
      class="landscape"
      ><figcaption>
         <p>Internal graph model of the del/add tagging of the example.
@@ -833,10 +833,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure09.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure09_hu2c80df4995f2938441216c29e94f4f26_65912_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure09_hu2c80df4995f2938441216c29e94f4f26_65912_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure09_hu2c80df4995f2938441216c29e94f4f26_65912_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000583/resources/images/figure09.png 1384w" 
      class="landscape"
      ><figcaption>
         <p>Internal graph model of the app/rdg tagging of the example.
@@ -874,10 +874,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure10.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure10_hu10a89b4ab940debf1b2099c6ede7ad52_49150_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure10_hu10a89b4ab940debf1b2099c6ede7ad52_49150_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure10.png 400w" 
      class="landscape"
      ><figcaption>
         <p>Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/2, page 16r
@@ -920,10 +920,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure11.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure11_hud319bcfd566aa1303c1a5aff49704a84_42065_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure11_hud319bcfd566aa1303c1a5aff49704a84_42065_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure11.png 800w" 
      class="landscape"
      ><figcaption>
         <p>Internal graph model of an instant revision.
@@ -960,10 +960,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure12.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure12_hu1138dcb0ecd6fc57b760917949d0c329_24514_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure12_hu1138dcb0ecd6fc57b760917949d0c329_24514_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure12.png 240w" 
      class="landscape"
      ><figcaption>
         <p>Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/2, page 20r.
@@ -1008,10 +1008,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure13.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure13_hu035898f98a5081bb4497f1d61449e175_53983_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure13_hu035898f98a5081bb4497f1d61449e175_53983_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure13.png 650w" 
      class="landscape"
      ><figcaption>
         <p>Internal hypergraph model of the <code>&lt;add&gt;</code> / <code>&lt;del&gt;</code> tagging of the example.
@@ -1047,10 +1047,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure14.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure14_hu67a38b19a068ffab60d944d0f6fd3c18_53666_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure14_hu67a38b19a068ffab60d944d0f6fd3c18_53666_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure14.png 650w" 
      class="landscape"
      ><figcaption>
         <p>Internal hypergraph model of the app/rdg tagging of the example.
@@ -1088,10 +1088,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure15.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure15_huec99af8b1f92285cd8498c9c6b827880_34648_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure15_huec99af8b1f92285cd8498c9c6b827880_34648_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure15.png 325w" 
      class="landscape"
      ><figcaption>
         <p>Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/6, page 26r.
@@ -1131,10 +1131,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure16.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure16_hu8c4c74d280182cf2fcf20cbe66e173f7_26392_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure16_hu8c4c74d280182cf2fcf20cbe66e173f7_26392_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure16.png 450w" 
      class="landscape"
      ><figcaption>
         <p>Collation output expressed in an ascii table with the alignment favouring the unit of the substitution.
@@ -1174,10 +1174,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure17.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure17_hub6ba859275c171b201d9c3c86d640183_63305_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure17_hub6ba859275c171b201d9c3c86d640183_63305_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure17.png 1000w" 
      class="landscape"
      ><figcaption>
         <p>ASCII alignment table of the collation output. In the TEI-XML transcription, the in-text revisions in witness A were tagged with <code>&lt;add&gt;</code> and <code>&lt;del&gt;</code> .
@@ -1213,10 +1213,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure18.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure18_hubb3b6d83b2a637db0021f55c70d88f28_62680_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure18_hubb3b6d83b2a637db0021f55c70d88f28_62680_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure18.png 1000w" 
      class="landscape"
      ><figcaption>
         <p>ASCII alignment table of the collation output, with the in-text revisions in witness A coded with <code>&lt;app&gt;</code> and <code>&lt;rdg&gt;</code> .
@@ -1253,10 +1253,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure19.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure19_hub7fb9f75979a2b14470b5f7739831637_14578_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure19_hub7fb9f75979a2b14470b5f7739831637_14578_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure19.png 320w" 
      class="landscape"
      ><figcaption>
         <p>ASCII alignment tables of the collation output of an instant revision.
@@ -1292,10 +1292,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure20.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure20_hu5a64caa3b4741da664bc7c16e52229d5_11421_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure20_hu5a64caa3b4741da664bc7c16e52229d5_11421_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure20.png 320w" 
      class="landscape"
      ><figcaption>
         <p>HTML alignment tables of the collation output of an instant revision.
@@ -1331,11 +1331,11 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure21.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure21_hue32e80c0b47552247ff0d99d867e8a3d_65204_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure21_hue32e80c0b47552247ff0d99d867e8a3d_65204_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure21.png 338w" 
+     class="portrait"
      ><figcaption>
         <p>Collation hypergraph of the collation output of an instant revision.
         </p>
@@ -1371,10 +1371,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure22.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure22_hu394a9459c2838afe49681e2e2f1d189d_26163_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure22_hu394a9459c2838afe49681e2e2f1d189d_26163_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure22.png 525w" 
      class="landscape"
      ><figcaption>
         <p>ASCII alignment tables of the collation output, del/add method on the left, app/rdg on the right.
@@ -1410,11 +1410,11 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure23.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure23_hudd53b357e43c4c57f22f1cc8347fc78d_44368_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure23_hudd53b357e43c4c57f22f1cc8347fc78d_44368_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure23.png 338w" 
+     class="portrait"
      ><figcaption>
         <p>The collation hypergraph of the substitution example.
         </p>
@@ -1451,11 +1451,11 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure24.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure24_hud8cc0259e6973e8ea505d14e0379ebad_103690_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure24_hud8cc0259e6973e8ea505d14e0379ebad_103690_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure24.png 338w" 
+     class="portrait"
      ><figcaption>
         <p>Collation hypergraph of an example with three witnesses, one of which contains a long substitution.
         </p>
@@ -1492,10 +1492,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure25.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure25_hud987dd8f6b31bd261abe6a186b320237_30292_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure25_hud987dd8f6b31bd261abe6a186b320237_30292_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure25.png 625w" 
      class="landscape"
      ><figcaption>
         <p>Collation output expressed in an ascii table with the alignment favouring matching tokens.
@@ -1533,10 +1533,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure26.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure26_hu8c4c74d280182cf2fcf20cbe66e173f7_26392_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure26_hu8c4c74d280182cf2fcf20cbe66e173f7_26392_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure26.png 450w" 
      class="landscape"
      ><figcaption>
         <p>Collation output expressed in an ascii table with the alignment favouring the unit of the substitution.
@@ -1572,10 +1572,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure27.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure27_hu90bd787b9ef504ac3f17cb99504eee0f_32500_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure27_hu90bd787b9ef504ac3f17cb99504eee0f_32500_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure27.png 450w" 
      class="landscape"
      ><figcaption>
         <p>Collation output expressed in an alignment table in HTML.
@@ -1612,10 +1612,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure28.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure28_huff6c284ac18c4d1ec8aaa0a0739d93fb_21060_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure28_huff6c284ac18c4d1ec8aaa0a0739d93fb_21060_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure28.png 480w" 
      class="landscape"
      ><figcaption>
         <p>CollateX alignment (left) versus HyperCollate alignment (right) of the example from section 3.2.3.
@@ -1651,10 +1651,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure29.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure29_hu5de07b0288ec974eb04b1e208ac0d96c_41110_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure29_hu5de07b0288ec974eb04b1e208ac0d96c_41110_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure29.png 792w" 
      class="landscape"
      ><figcaption>
         <p>CollateX alignment (left) versus HyperCollate alignment (right) of the example from section 3.2.4.
@@ -1691,10 +1691,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure30.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure30_hue42fc1bb89d205f01187517c8b70f33e_30335_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure30_hue42fc1bb89d205f01187517c8b70f33e_30335_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure30.png 425w" 
      class="landscape"
      ><figcaption>
         <p>CollateX alignment table output with the substitution in version A split up into two (sub)versions.
@@ -1739,10 +1739,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure31.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure31_hu57beb0bebc04abe10aed3b422e363842_17464_500x0_resize_q75_box.jpg 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure31_hu57beb0bebc04abe10aed3b422e363842_17464_800x0_resize_q75_box.jpg 800w,/dhqwords/vol/16/1/000583/resources/images/figure31.jpg 753w" 
      class="landscape"
      ><figcaption>
         <p>Samuel Beckett: Murphy, Typescript, Harry Ransom Center, Cat. Nr. SB 5/2, page 11r.
@@ -1784,10 +1784,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000583/resources/images/figure32.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000583/resources/images/figure32_hu982613e3720ff34c2e456635cdd60d49_81456_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000583/resources/images/figure32_hu982613e3720ff34c2e456635cdd60d49_81456_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000583/resources/images/figure32.png 753w" 
      class="landscape"
      ><figcaption>
         <p>Samuel Beckett: Malone Dies, Typescript, Washington University, Cat. Nr. MSS008/2/47, page 49r.
@@ -1949,7 +1949,7 @@
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Investing in Project Maintenance: Auditing the Digital Transgender Archive</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000611/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000611/</id><author><name>Eamon Schlotterback</name></author><author><name>Cailin Flannery Roles</name></author><author><name>K.J. Rawson</name></author><published>2022-02-23T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
+]]></content></entry><entry><title type="html">Investing in Project Maintenance: Auditing the Digital Transgender Archive</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000611/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000611/</id><author><name>Eamon Schlotterback</name></author><author><name>Cailin Flannery Roles</name></author><author><name>K.J. Rawson</name></author><published>2022-02-23T00:00:00+00:00</published><updated>2022-02-23T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
 <p>Archival materials related to the experiences of transgender and gender-nonconforming people are often difficult to locate due to the relative scarcity of these materials and the access barriers presented by brick-and-mortar archives (e.g., geographic, financial, environmental, intellectual) <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. The global pandemic exacerbated such barriers, causing in-person research to be temporarily suspended and, as of this writing, continually disrupted. Digital access is therefore more important now than ever.</p>
 <p>The Digital Transgender Archive (DTA) is a free online collection of trans-related primary source historical materials and information on undigitized archival collections held throughout the world. The goal of the project is to leverage an open-access digital archive to mitigate barriers to research on transgender and gender-nonconforming people. When the DTA moved institutions in mid-2020, we chose this natural lull to conduct the project’s first audit. Our aim was to thoroughly examine every aspect of the project to identify our strengths and areas for growth while charting a course for continued development and vibrancy into the future. In preparation for this audit, we searched for published models, examples, or theorizations of auditing a digital project, but we found little scholarship to guide our work. To contribute to this area, this article presents a project report that shares the findings of our yearlong audit of the DTA. We begin with an introduction to the DTA alongside a discussion of existing scholarship on Digital Humanities project lifecycles and evaluative procedures. We then highlight five key observations that the audit revealed and how we addressed (or plan to address) those observations. In using this observation/response structure, we offer readers the distilled results of our audit in a format that we hope will be easy to apply to other Digital Humanities (DH) projects.</p>
 <p>DH projects generally move through fairly predictable cycles, often including startup, dissemination, maintenance, and sustainability (or abandonment) stages. Given that cultural and institutional pressures guide digital humanities scholars towards innovation <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, it is unsurprising that there is an abundance of scholarship, resources, and workshops designed to aid digital humanists at the planning and inception stages of a project’s life, leading some to suggest that DH scholars  “specialize in imagining and launching digital projects”   <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. On the opposite end of the project lifecycle are well-known concerns about the problem of orphaned projects left to wither on the vine <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>  <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>  <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. Projects have met more successful ends when transitioned into being preserved as digital archives <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. Of course maintaining an ongoing project exists as an alternative to ending or abandoning projects. As an archive recording trans histories which remain ongoing and often inaccessible except through the DTA’s interventions, we are committed to maintaining and developing the DTA.</p>
@@ -2145,7 +2145,7 @@
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">The Brain Is Deeper Than the Sea: Sea and Spar Between, Computational Stuplimity, and Fragmentation</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000599/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000599/</id><author><name>Nathanael Moore</name></author><published>2022-02-23T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<p>This article discusses  <em>Sea and Spar Between</em> , a long computational poem by Nick Montfort and Stephanie Strickland (2010). The poem’s length prevents human readers from reading it completely. I argue that although the poem’s global inaccessibility raises complex interpretive problems, we can surmount them by applying multiple interpretive modes to a single textual fragment, thereby meeting the fragmentary text with a fragmented critical discourse; the idea being that a more coherent theoretical apparatus would, in its latent totalizing impulse, be intrinsically unsuited to a fragment’s incompleteness. I use this technique to read  <em>Sea and Spar Between</em>  through various lenses including,  <em>inter alia</em> , cosine similarity, affect theory, and code. I conclude with a website that reimagines the poem by populating its sea with language from the critical literature on the poem. Like  <em>Sea and Spar Between</em> , this website cannot be circumnavigated by human readers and so enacts this article’s solution to the problem of how to read computational poems that cannot be read completely: to interrogate the assumptions that cause us to view unreadability as a problem, and to embrace incompleteness as a source of critical insight.</p>
+]]></content></entry><entry><title type="html">The Brain Is Deeper Than the Sea: Sea and Spar Between, Computational Stuplimity, and Fragmentation</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000599/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000599/</id><author><name>Nathanael Moore</name></author><published>2022-02-23T00:00:00+00:00</published><updated>2022-02-23T00:00:00+00:00</updated><content type="html"><![CDATA[<p>This article discusses  <em>Sea and Spar Between</em> , a long computational poem by Nick Montfort and Stephanie Strickland (2010). The poem’s length prevents human readers from reading it completely. I argue that although the poem’s global inaccessibility raises complex interpretive problems, we can surmount them by applying multiple interpretive modes to a single textual fragment, thereby meeting the fragmentary text with a fragmented critical discourse; the idea being that a more coherent theoretical apparatus would, in its latent totalizing impulse, be intrinsically unsuited to a fragment’s incompleteness. I use this technique to read  <em>Sea and Spar Between</em>  through various lenses including,  <em>inter alia</em> , cosine similarity, affect theory, and code. I conclude with a website that reimagines the poem by populating its sea with language from the critical literature on the poem. Like  <em>Sea and Spar Between</em> , this website cannot be circumnavigated by human readers and so enacts this article’s solution to the problem of how to read computational poems that cannot be read completely: to interrogate the assumptions that cause us to view unreadability as a problem, and to embrace incompleteness as a source of critical insight.</p>
 <h2 id="approaching-a-whole-through-a-part-of-its-parts">Approaching a whole through a part of its parts</h2>
 <p>Against a light blue background — a visual metonym for the titular sea —  <em>Sea and Spar Between</em>  consists of an  “immense lattice of stanzas”  that combine the  “distinguishing textual rhythms and rhetorical gestures of Melville and Dickinson”   <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. The stanzas are comprised of a subset of the union of the words in Herman Melville’s  <em>Moby-Dick</em>  and Emily Dickinson’s poetry. The words are combined and recombined by the poem’s code in a manner that moves the language back and forth between the compressed interiority of Dickinson’s poetry and the expansive intensity of Melville’s prose. The poem’s words flicker and change as the reader’s mouse navigates the sea, like the water disturbed by a prow moving through waves. At the bottom of the screen is a search bar, where the reader can enter coordinates to move to a specific location in the sea; each stanza in  <em>Sea and Spar Between</em>  has, and is locatable by, two unique coordinates, which Montfort and Strickland conceptualize as latitude and longitude. The set of latitude and longitude values both range from 0–14992382 inclusive, meaning that the total number of stanzas is 1499238222.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <p>To write that  <em>Sea and Spar Between</em>   consists of a stanza-lattice is slightly misleading. This is partly because the word’s Latin root means  “to stand still or firm,”  yet the critical literature on  <em>Sea and Spar Between</em>  repeatedly emphasizes the poem’s instability.</p>
@@ -2177,10 +2177,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure01.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure01_hu5cd88c51e0d88849e7f6c6e075207a84_176568_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure01_hu5cd88c51e0d88849e7f6c6e075207a84_176568_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure01_hu5cd88c51e0d88849e7f6c6e075207a84_176568_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000599/resources/images/figure01.png 1322w" 
      class="landscape"
      ><figcaption>
         <p><em>Sea and Spar Between</em> ’s interface
@@ -2220,10 +2220,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure02.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure02_hu6dc9a13a11e00328929e40422a0d171d_158478_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure02_hu6dc9a13a11e00328929e40422a0d171d_158478_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure02_hu6dc9a13a11e00328929e40422a0d171d_158478_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000599/resources/images/figure02_hu6dc9a13a11e00328929e40422a0d171d_158478_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000599/resources/images/figure02_hu6dc9a13a11e00328929e40422a0d171d_158478_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000599/resources/images/figure02.png 1822w" 
      class="landscape"
      ><figcaption>
         <p>(22, 22) and its surrounding stanzas
@@ -2263,10 +2263,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure04.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure04_hu3bd81650a769c15a617d62ead13d8bd9_170656_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure04_hu3bd81650a769c15a617d62ead13d8bd9_170656_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure04.png 1045w" 
      class="landscape"
      ><figcaption>
         <p>(22, 22), its surrounding stanzas, and their word tokens.
@@ -2303,10 +2303,10 @@
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure03.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure03_hu76791035f8d74e5fe9c9decddb714938_215410_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure03_hu76791035f8d74e5fe9c9decddb714938_215410_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure03.png 777w" 
      class="landscape"
      ><figcaption>
         <p>(22, 22), its surrounding stanzas, and their word types
@@ -2344,11 +2344,11 @@ Document-term matrices can be represented in vector space by assigning each term
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure05.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure05_hu7d84d9f78f06f43738598aab0aacb6e9_17684_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure05_hu7d84d9f78f06f43738598aab0aacb6e9_17684_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure05.png 512w" 
+     class="portrait"
      ><figcaption>
         <p>A vector space representation of Table 2
         </p>
@@ -2421,11 +2421,11 @@ Document-term matrices can be represented in vector space by assigning each term
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure06.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure06_hu7e3892eaa5f3446fae1a930ea937d7ae_25994_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure06_hu7e3892eaa5f3446fae1a930ea937d7ae_25994_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure06.png 688w" 
+     class="portrait"
      ><figcaption>
         <p>The stanzas of <em>Sea and Spar Between</em> from (0, 0) to (10, 10) in Cartesian space
         </p>
@@ -2459,10 +2459,10 @@ Document-term matrices can be represented in vector space by assigning each term
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure07.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure07_huc29bca8bf965f0acc3312aabce1d1784_40219_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure07_huc29bca8bf965f0acc3312aabce1d1784_40219_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure07.png 997w" 
      class="landscape"
      ><figcaption>
         <p>A sine wave moving through <em>Sea and Spar Between</em>
@@ -2498,10 +2498,10 @@ Document-term matrices can be represented in vector space by assigning each term
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure08.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure08_hu4c2507d7d28ae16458a5df5a046ecde0_26893_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure08_hu4c2507d7d28ae16458a5df5a046ecde0_26893_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure08_hu4c2507d7d28ae16458a5df5a046ecde0_26893_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000599/resources/images/figure08.png 1352w" 
      class="landscape"
      ><figcaption>
         <p>The beginning of the sine wave’s journey
@@ -2537,10 +2537,10 @@ Document-term matrices can be represented in vector space by assigning each term
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000599/resources/images/figure09.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000599/resources/images/figure09_hu7ef16489f0cd784a41d02a5668f39b8d_55290_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000599/resources/images/figure09_hu7ef16489f0cd784a41d02a5668f39b8d_55290_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000599/resources/images/figure09.png 962w" 
      class="landscape"
      ><figcaption>
         <p>An algorithm to find the most common words in the critical literature on <em>Sea and Spar Between</em>
@@ -2677,7 +2677,7 @@ Document-term matrices can be represented in vector space by assigning each term
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Archives, Information Infrastructure, and Maintenance Work</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000603/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/3/000471/?utm_source=atom_feed" rel="related" type="text/html" title="Infrastructure and Social Interaction: Situated Research Practices in Digital Humanities in India"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000603/</id><author><name>Ciaran B. Trace</name></author><published>2022-02-18T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="introduction1">Introduction<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+]]></content></entry><entry><title type="html">Archives, Information Infrastructure, and Maintenance Work</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000603/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/3/000471/?utm_source=atom_feed" rel="related" type="text/html" title="Infrastructure and Social Interaction: Situated Research Practices in Digital Humanities in India"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000603/</id><author><name>Ciaran B. Trace</name></author><published>2022-02-18T00:00:00+00:00</published><updated>2022-02-18T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="introduction1">Introduction<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
 <blockquote>
 <p>_To be modern is to live within and by means of infrastructures _<br>
 <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><br>
@@ -2727,10 +2727,10 @@ Built over centuries, the scholarly infrastructure that forms the backbone of th
 
 
 
-<figure ><img loading="lazy" alt="Image of a building in black and white" src=""
+<figure ><img loading="lazy" alt="Image of a building in black and white" src="/dhqwords/vol/16/1/000603/resources/images/image1.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000603/resources/images/image1_hu59696211bbd3e4978ee018f35a07fbee_122942_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/16/1/000603/resources/images/image1_hu59696211bbd3e4978ee018f35a07fbee_122942_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/16/1/000603/resources/images/image1.jpeg 882w" 
      class="landscape"
      ><figcaption>
         <p>Photograph of the U.S. National Archives building being constructed, 5/1/1934. National Archives ARC Identifier 7368457.
@@ -2793,10 +2793,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="A black and white photograph" src=""
+<figure ><img loading="lazy" alt="A black and white photograph" src="/dhqwords/vol/16/1/000603/resources/images/image2.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000603/resources/images/image2_hu80fdd3e5637456261aaf093e2452e481_35825_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/16/1/000603/resources/images/image2_hu80fdd3e5637456261aaf093e2452e481_35825_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/16/1/000603/resources/images/image2.jpeg 973w" 
      class="landscape"
      ><figcaption>
         <p>Photograph of archivist Sara Jackson at her desk in a stack area of the National Archives Building, 1935, National Archives ARC Identifier 122213584.
@@ -2834,10 +2834,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="A black and white photograph" src=""
+<figure ><img loading="lazy" alt="A black and white photograph" src="/dhqwords/vol/16/1/000603/resources/images/image3.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000603/resources/images/image3_hu48193e24a7d34c3617e54062a9ba7c56_35812_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/16/1/000603/resources/images/image3_hu48193e24a7d34c3617e54062a9ba7c56_35812_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/16/1/000603/resources/images/image3.jpeg 973w" 
      class="landscape"
      ><figcaption>
         <p>Frank B. Crawford reinforcing a document with crepeline in the National Archives Division of Repair and Preservation, 1940. National Archives ARC Identifier 3493246.
@@ -3107,7 +3107,7 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">The Ebook Imagination</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000601/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000601/</id><author><name>Simon Peter Rowberry</name></author><published>2022-02-18T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
+]]></content></entry><entry><title type="html">The Ebook Imagination</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000601/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000601/</id><author><name>Simon Peter Rowberry</name></author><published>2022-02-18T00:00:00+00:00</published><updated>2022-02-18T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
 <p>During the 1940s, Ángela Ruiz Robles, a teacher from León, Galicia, had a prescient vision of publishing’s future: Her  <em>Enciclopedia Mecánica</em>  would increase children’s access to affordable interactive educational materials. Her 1962 sketch (Figure 1) featured a device with three slots for lessons presented in scrolls. Students would insert the scrolls, browse the content and then answer questions on each lesson through rotating disks immediately below each scroll. Just as with a combination padlock, correct answers would result in positive haptic feedback. The Spanish Patent and Trademark Office granted Ruiz Robles two patents <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> for the device. El Ferrol Artillery Depot built a prototype based on the 1962 patent and in 1971, the Technical Institute of Applied Mechanical Experts explored the cost of manufacturing 10,000 units at 50-75 pesetas (around $1 in 1971) per unit but the initial start-up cost of 100,000 pesetas ($1,410) was prohibitive <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Both Ruiz Robles and her invention languished in relative obscurity until around 2007, when the importance of her work was recontextualized by the launch of the Kindle and an exhibition of her work at Museo Pedagóxico de Galicia in 2008 <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>  Following this rediscovery, Ruiz Robles was honored by the Spanish Patent Office <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>, a Google Doodle <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>, a festschrift <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>, a Madrid street name <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>, and El Museo Nacional de Ciencia y Tecnología’s acquisition of her archives <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
 
 
@@ -3137,10 +3137,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000601/resources/images/fig1.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000601/resources/images/fig1_hu72fda2ca6bf7a853c6998b1dfd6046c4_332166_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000601/resources/images/fig1_hu72fda2ca6bf7a853c6998b1dfd6046c4_332166_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000601/resources/images/fig1_hu72fda2ca6bf7a853c6998b1dfd6046c4_332166_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000601/resources/images/fig1.png 1280w" 
      class="landscape"
      ><figcaption>
         <p>Ruiz Robles’s mechanical cartridge system. Adapted from [^ruizrobles1962]
@@ -3192,10 +3192,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000601/resources/images/fig2.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000601/resources/images/fig2_hu9da0420f5654d6162f6e6a751ad5ecb0_393143_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000601/resources/images/fig2_hu9da0420f5654d6162f6e6a751ad5ecb0_393143_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000601/resources/images/fig2_hu9da0420f5654d6162f6e6a751ad5ecb0_393143_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000601/resources/images/fig2_hu9da0420f5654d6162f6e6a751ad5ecb0_393143_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000601/resources/images/fig2_hu9da0420f5654d6162f6e6a751ad5ecb0_393143_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000601/resources/images/fig2.png 2700w" 
      class="landscape"
      ><figcaption>
         <p>Euler diagram showing relationship between four aesthetic features of ebook prototypes
@@ -3231,11 +3231,11 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000601/resources/images/fig3.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000601/resources/images/fig3_hu52aaab537e397fbfc8d2cd744be4798a_241751_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000601/resources/images/fig3_hu52aaab537e397fbfc8d2cd744be4798a_241751_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000601/resources/images/fig3_hu52aaab537e397fbfc8d2cd744be4798a_241751_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000601/resources/images/fig3_hu52aaab537e397fbfc8d2cd744be4798a_241751_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000601/resources/images/fig3_hu52aaab537e397fbfc8d2cd744be4798a_241751_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000601/resources/images/fig3.png 1836w" 
+     class="portrait"
      ><figcaption>
         <p>Motorola&rsquo;s Book-computer hybrid featuring a cover and several auxiliary ports. Adapted from [^lebby1996]
         </p>
@@ -3269,10 +3269,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000601/resources/images/fig4.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000601/resources/images/fig4_hu8259d4576d36ca5b55b8904a4e6dd7ca_58948_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000601/resources/images/fig4_hu8259d4576d36ca5b55b8904a4e6dd7ca_58948_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000601/resources/images/fig4.png 1023w" 
      class="landscape"
      ><figcaption>
         <p>Texas Instrument’s Attache case model of the ebook. Adapted from [^harkins1985]
@@ -3312,10 +3312,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/16/1/000601/resources/images/fig5.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000601/resources/images/fig5_hufb42aca8017bcb3646752daff77bfc59_189645_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000601/resources/images/fig5_hufb42aca8017bcb3646752daff77bfc59_189645_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000601/resources/images/fig5.png 589w" 
      class="landscape"
      ><figcaption>
         <p>Text as rendered by (left-to-right) LED, CRT[^7] , LCD, and electronic paper.
@@ -3592,7 +3592,7 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">A Text Network Analysis of Discursive Changes in German, Austrian and Swiss New Year’s Speeches 2000-2021</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000598/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000598/</id><author><name>Kimmo Elo</name></author><published>2022-02-04T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="1--introduction">1    Introduction</h2>
+]]></content></entry><entry><title type="html">A Text Network Analysis of Discursive Changes in German, Austrian and Swiss New Year’s Speeches 2000-2021</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000598/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000598/</id><author><name>Kimmo Elo</name></author><published>2022-02-04T00:00:00+00:00</published><updated>2022-02-04T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="1--introduction">1    Introduction</h2>
 <p>During the past decade advances in text mining have demonstrated that political issues and topics can be identified from unstructured textual documents with good accuracy. Examples from digital parliamentary studies or computational discourse analysis have brought up evidence how especially topic modelling can be applied on large document corpora to gain overviews over thematic structures of political texts, but also how these structures change over time. Most of these studies analyse large, even huge textual corpora with thousands of lengthy documents. Such big text analysis is often seen as typical example of how digital methods can – even should – be applied in social sciences and the Humanities.</p>
 <p>In this article I focus on the problem of using digital methods and tools on a smaller corpus of unstructured textual documents, namely New Year’s addresses, with varying political content and as addressed to a wide public audience, the citizens in general. Although politicians often favour longer speeches and verbal battles when it comes to struggle for political issues, especially the growing relevance of social media driven political communication has strengthened the role of short textual documents like tweets, postings, statements or commentaries in political discourse. Since most short textual contributions are designed to take stand on current affairs and actual political questions, they offer an interesting empirical material to explore not only how politicians take stand on current affairs, but also the structure and dynamics of issue-driven political discourses.</p>
 <p>This article is based on the understanding that sort political texts can be a valuable source when it comes to identifying topics and issues that really matter under the current political circumstances. Rising a current topic in a short political text can be seen as an act of politicalisation <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, i.e. an action marking the issue as political by detecting its political potential and thus expanding the presence of the political and presenting a particular representation of reality  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. This is especially relevant for addresses and speeches given by high representatives of a nation like president or prime minister. All issues taken up in such texts are automatically labelled as being politically significant, so that the speech itself can be read as an attempt to persuade the target audience to accept this position <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
@@ -3644,10 +3644,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="A picture of three line graphs" src=""
+<figure ><img loading="lazy" alt="A picture of three line graphs" src="/dhqwords/vol/16/1/000598/resources/images/Figure-1_rev10-2021.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000598/resources/images/Figure-1_rev10-2021_huc3c0903c05a9f26e8139ba53a79693b0_149658_500x0_resize_q75_box.jpg 500w,
+    /dhqwords/vol/16/1/000598/resources/images/Figure-1_rev10-2021_huc3c0903c05a9f26e8139ba53a79693b0_149658_800x0_resize_q75_box.jpg 800w,/dhqwords/vol/16/1/000598/resources/images/Figure-1_rev10-2021_huc3c0903c05a9f26e8139ba53a79693b0_149658_1200x0_resize_q75_box.jpg 1200w,/dhqwords/vol/16/1/000598/resources/images/Figure-1_rev10-2021_huc3c0903c05a9f26e8139ba53a79693b0_149658_1500x0_resize_q75_box.jpg 1500w,/dhqwords/vol/16/1/000598/resources/images/Figure-1_rev10-2021.jpg 1560w" 
      class="landscape"
      ><figcaption>
         <p>Length (# of terms) of New Year’s speeches in Germany, Austria and Switzerland 2000-2021.
@@ -3679,7 +3679,7 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="image of a network" src="" role="img"><figcaption>
+<figure ><img loading="lazy" alt="image of a network" src="/dhqwords/vol/16/1/000598/resources/images/Figure-2_rev10-2021.svg" role="img"><figcaption>
         <p>New Year’s speeches similarity network (2000-2021).
         </p>
     </figcaption>
@@ -3715,10 +3715,10 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="image of a set of bar graphs" src=""
+<figure ><img loading="lazy" alt="image of a set of bar graphs" src="/dhqwords/vol/16/1/000598/resources/images/Figure-3_rev10-2021.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000598/resources/images/Figure-3_rev10-2021_hua992cd6cdf7afba95ece1e9bbc3b11e4_403302_500x0_resize_q75_box.jpg 500w,
+    /dhqwords/vol/16/1/000598/resources/images/Figure-3_rev10-2021_hua992cd6cdf7afba95ece1e9bbc3b11e4_403302_800x0_resize_q75_box.jpg 800w,/dhqwords/vol/16/1/000598/resources/images/Figure-3_rev10-2021_hua992cd6cdf7afba95ece1e9bbc3b11e4_403302_1200x0_resize_q75_box.jpg 1200w,/dhqwords/vol/16/1/000598/resources/images/Figure-3_rev10-2021_hua992cd6cdf7afba95ece1e9bbc3b11e4_403302_1500x0_resize_q75_box.jpg 1500w,/dhqwords/vol/16/1/000598/resources/images/Figure-3_rev10-2021.jpg 1789w" 
      class="landscape"
      ><figcaption>
         <p>The 20 most important words per country in different periods (tf-idf analysis).
@@ -3754,7 +3754,7 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="network diagram" src="" role="img"><figcaption>
+<figure ><img loading="lazy" alt="network diagram" src="/dhqwords/vol/16/1/000598/resources/images/Figure-4_rev10-2021.svg" role="img"><figcaption>
         <p>New Year’s speeches core bigram network across the three countries (2000-2021).
         </p>
     </figcaption>
@@ -3781,7 +3781,7 @@ Still, it is not just the physical or hard infrastructure of the archive that mu
 
 
 
-<figure ><img loading="lazy" alt="network diagram" src="" role="img"><figcaption>
+<figure ><img loading="lazy" alt="network diagram" src="/dhqwords/vol/16/1/000598/resources/images/Figure-5_rev10-2021.svg" role="img"><figcaption>
         <p>New Year’s speeches core skipgram network across the three countries (2000-2021).
         </p>
     </figcaption>
@@ -4042,7 +4042,7 @@ Overall, the topics identified by the Louvain method seem appropriate and reliab
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Perceptual Effects of Hierarchy in Art Historical Social Networks</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000604/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000604/</id><author><name>Houda Lamqaddam</name></author><author><name>Inez De Prekel</name></author><author><name>Koenraad Brosens</name></author><author><name>Katrien Verbert</name></author><published>2022-02-04T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">Perceptual Effects of Hierarchy in Art Historical Social Networks</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000604/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000604/</id><author><name>Houda Lamqaddam</name></author><author><name>Inez De Prekel</name></author><author><name>Koenraad Brosens</name></author><author><name>Katrien Verbert</name></author><published>2022-02-04T00:00:00+00:00</published><updated>2022-02-04T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Networks are some of the most commonly found visualizations in digital humanities research. Used to represent relationships between persons or concepts, this type of graphs has also been implemented through various layouts to better support specific tasks and users.</p>
 <p>The wide availability of layout algorithms has multiple advantages for researchers who aim to analyze social networks. Force-directed layouts such as the Gephi Atlas drastically simplify the visualization – therefore analysis – of large network data. They reveal patterns and clusters by using complex physical models, all with limited need for user intervention or mathematical expertise. These models excel in domains where datasets are large, and where the goal is to identify the structure – or shape – of the dataset.</p>
 <p>However, the widened access to these automated graph drawing algorithms drives us to interrogate their fitedness for the analysis of humanistic material. On the one hand, force-directed layouts visually remove existing structures in the data, even when these structures are meaningful to users and their daily tasks. On the other, humanistic datasets are often small, but do consist of meaningful inherent clusters, distances and relationships. Such a mismatch leads to representations that can be at odds with users&rsquo; internal perceptions of the data structure. For instance, family members in a correspondence graph are likely to be spread apart. Similarly, non-contemporary actors can be placed side to side if they share a common correspondent. This inconsistency between mental models and visual representation can become a challenge for users. More critically, it has the potential to impact the adoption of visualization tools as a whole as research suggests usability and user trust, rather than scalability, are main obstacles to adoption of digital tools in the humanities <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
@@ -4078,10 +4078,10 @@ Overall, the topics identified by the Louvain method seem appropriate and reliab
 
 
 
-<figure ><img loading="lazy" alt="An image of a genealogical tree on the left and a network diagram on the right" src=""
+<figure ><img loading="lazy" alt="An image of a genealogical tree on the left and a network diagram on the right" src="/dhqwords/vol/16/1/000604/resources/images/image1.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image1_hu0ae2665079e74cff8e7bbd1c8c453369_1510507_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image1_hu0ae2665079e74cff8e7bbd1c8c453369_1510507_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000604/resources/images/image1_hu0ae2665079e74cff8e7bbd1c8c453369_1510507_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000604/resources/images/image1.png 1410w" 
      class="landscape"
      ><figcaption>
         <p>(a) On the left: “A newly invented genealogical tree of the last Byzantine emperor&hellip;as well as one of the Turkish sultan.” ca. 1730-57. Digital image from the Met Museum Collection Gift of Robert W. Hatem. Public Domain. (b) On the right: a network showing relationships between signatories of a 18th century marriage contract in France. This network is an example of graph drawn using a circular[^2] force-directed layout. [^rothschild2014]. Reproduced with permission.
@@ -4136,10 +4136,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="An image of a force directed network graph on the left and a force-layered network graph" src=""
+<figure ><img loading="lazy" alt="An image of a force directed network graph on the left and a force-layered network graph" src="/dhqwords/vol/16/1/000604/resources/images/image2.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image2_hud8b4d9313aad6df132e1e335f2358d9a_15471_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image2_hud8b4d9313aad6df132e1e335f2358d9a_15471_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000604/resources/images/image2.png 820w" 
      class="landscape"
      ><figcaption>
         <p>A dataset of thirteen nodes is visualized using a force-directed layout (left) and a force-layered layout (right).
@@ -4179,11 +4179,11 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="An image of a force directed network graph on the left and a force-layered network graph" src=""
+<figure ><img loading="lazy" alt="An image of a force directed network graph on the left and a force-layered network graph" src="/dhqwords/vol/16/1/000604/resources/images/image3.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image3_hub04db5c35d9eb6d889e5a27c76c05dde_65020_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image3_hub04db5c35d9eb6d889e5a27c76c05dde_65020_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000604/resources/images/image3.png 771w" 
+     class="portrait"
      ><figcaption>
         <p>The prototypes used in the user study. (a) On the top, the D3 force-directed layout. (b) On the bottom, the same data using our force-layered algorithm. The names of the actors were changed in both graphs to reduce learning effects on participants.
         </p>
@@ -4220,10 +4220,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Sketches of network graph" src=""
+<figure ><img loading="lazy" alt="Sketches of network graph" src="/dhqwords/vol/16/1/000604/resources/images/image4.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image4_hue902dd664f861c9c350710e6a466b807_31473_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image4_hue902dd664f861c9c350710e6a466b807_31473_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/16/1/000604/resources/images/image4.jpeg 820w" 
      class="landscape"
      ><figcaption>
         <p>From left to right, top to bottom: initial drawings for participants P13, P4, P15 and P10. These sketches show networks represented as layered graphs, similar to traditional ancestry tree visualizations. Participants made use of labels, symbols and shape.
@@ -4272,10 +4272,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Sketches of network graph" src=""
+<figure ><img loading="lazy" alt="Sketches of network graph" src="/dhqwords/vol/16/1/000604/resources/images/image5.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image5_hu8ce1cfd4dd134a0286832f7e40c41550_268035_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image5_hu8ce1cfd4dd134a0286832f7e40c41550_268035_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000604/resources/images/image5_hu8ce1cfd4dd134a0286832f7e40c41550_268035_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000604/resources/images/image5.png 1409w" 
      class="landscape"
      ><figcaption>
         <p>Selected participants recall sketches in each condition. On the left, sketches representing the force-directed network (3a). On the right, sketches representing the force-layered (3b).
@@ -4314,10 +4314,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="An image of a bar graph" src=""
+<figure ><img loading="lazy" alt="An image of a bar graph" src="/dhqwords/vol/16/1/000604/resources/images/image6.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image6_hua0178dfa64e0e82306b0adc89382e193_21461_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image6_hua0178dfa64e0e82306b0adc89382e193_21461_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000604/resources/images/image6.png 820w" 
      class="landscape"
      ><figcaption>
         <p>Results of the raw TLX for the force-layered and force-directed conditions
@@ -4355,10 +4355,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="An image of a bar graph" src=""
+<figure ><img loading="lazy" alt="An image of a bar graph" src="/dhqwords/vol/16/1/000604/resources/images/image7.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000604/resources/images/image7_hu6c968e459c32cd66a2f815436b7dc29a_20457_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000604/resources/images/image7_hu6c968e459c32cd66a2f815436b7dc29a_20457_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000604/resources/images/image7.png 820w" 
      class="landscape"
      ><figcaption>
         <p>Results of the preference ranking for the force-layered and force- directed conditions
@@ -4487,7 +4487,7 @@ In that way, network visualizations are no different than other visualizations o
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Tesserae Intertext Service</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000602/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000602/</id><author><name>Nozomu Okuda</name></author><author><name>Jeffery Kinnison</name></author><author><name>Patrick Burns</name></author><author><name>Neil Coffee</name></author><author><name>Walter Scheirer</name></author><published>2022-02-04T00:00:00+00:00</published><updated>2023-08-06T19:21:02-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">Tesserae Intertext Service</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/1/000602/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/1/000602/</id><author><name>Nozomu Okuda</name></author><author><name>Jeffery Kinnison</name></author><author><name>Patrick Burns</name></author><author><name>Neil Coffee</name></author><author><name>Walter Scheirer</name></author><published>2022-02-04T00:00:00+00:00</published><updated>2022-02-04T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>The term intertext is used to name a passage of text that gives evidence of one author using another author’s words. Scholarly consensus indicates that intertexts exist (<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> for Latin literature, see <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>  <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> for Greek literature, see <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>). While there is great variation in the motivation for the use of an intertext, perhaps the reuse signals an author’s erudition or enhances the effect of an expression. For example, when Vergil in his epic  <em>Aeneid</em>  describes the sound of a horse galloping across the fields:</p>
 <blockquote>
 </blockquote>
@@ -4538,10 +4538,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="An image of a laptop and a file with arrows pointing from one to the other" src=""
+<figure ><img loading="lazy" alt="An image of a laptop and a file with arrows pointing from one to the other" src="/dhqwords/vol/16/1/000602/resources/images/figure1.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure1_hu58835f5ba3ce13bc91c3903483f5feb2_54529_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure1_hu58835f5ba3ce13bc91c3903483f5feb2_54529_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure1_hu58835f5ba3ce13bc91c3903483f5feb2_54529_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure1_hu58835f5ba3ce13bc91c3903483f5feb2_54529_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure1_hu58835f5ba3ce13bc91c3903483f5feb2_54529_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure1.png 2404w" 
      class="landscape"
      ><figcaption>
         <p>Diagram of the fundamental communication pattern in REST. The machine on the left, known as the client, makes a request for a resource. The machine on the right, called the server, responds to the client’s request. The language used between the computers is known as HTTP.
@@ -4578,11 +4578,11 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="An image of a file" src=""
+<figure ><img loading="lazy" alt="An image of a file" src="/dhqwords/vol/16/1/000602/resources/images/figure2.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure2_hubedcd2966ab7a451d75e1c25369cb965_67796_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure2_hubedcd2966ab7a451d75e1c25369cb965_67796_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure2_hubedcd2966ab7a451d75e1c25369cb965_67796_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure2.png 1392w" 
+     class="portrait"
      ><figcaption>
         <p>First REST principle: every resource that a server makes available must have a name. One resource that the TIS-API makes available is the catalog of texts that Tesserae has access to, which can be accessed by the name /texts/. Furthermore, metadata for each text in the catalog can also be requested. Therefore, the TIS-API assigns a name to each resource. In the example figure, the name “0” is associated with <em>Aeneid</em> , the name 1 is associated with <em>Bellum Civile</em> , and so forth. Note that these example names are not the ones used in the actual deployment currently running through the Tesserae project.
         </p>
@@ -4618,10 +4618,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Two images of a laptop and a file with arrows pointing from one to the other" src=""
+<figure ><img loading="lazy" alt="Two images of a laptop and a file with arrows pointing from one to the other" src="/dhqwords/vol/16/1/000602/resources/images/figure3.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure3_hu2ae87a38e233164c089f88ee1a04dd32_115678_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure3_hu2ae87a38e233164c089f88ee1a04dd32_115678_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure3_hu2ae87a38e233164c089f88ee1a04dd32_115678_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure3_hu2ae87a38e233164c089f88ee1a04dd32_115678_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure3_hu2ae87a38e233164c089f88ee1a04dd32_115678_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure3.png 2404w" 
      class="landscape"
      ><figcaption>
         <p>Second REST principle: requests should behave similarly across resources. In this example, the client has requested a resource named /texts/a. In response, the server provides information on a. When the client requests for a resource named /texts/b, the server responds in a similar fashion, except that it provides information on b instead of on a.
@@ -4658,10 +4658,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="an image of a laptop and a file with arrows pointing from one to the other" src=""
+<figure ><img loading="lazy" alt="an image of a laptop and a file with arrows pointing from one to the other" src="/dhqwords/vol/16/1/000602/resources/images/figure4.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure4_hu2e58684b34d75921e4477c90863ef838_93167_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure4_hu2e58684b34d75921e4477c90863ef838_93167_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure4_hu2e58684b34d75921e4477c90863ef838_93167_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure4_hu2e58684b34d75921e4477c90863ef838_93167_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure4_hu2e58684b34d75921e4477c90863ef838_93167_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure4.png 2404w" 
      class="landscape"
      ><figcaption>
         <p>Third REST principle: modifications to a resource are mediated through instructions, known as a representation. When a client requests that a Tesserae search be run, the TIS-API modifies the parallels resource by appending newly found intertexts. What intertexts should be added to “parallels” is determined by the representation that the client sent (shown as the blue icon), which contains instructions specifying how the search is to be run.
@@ -4698,10 +4698,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="an image of a laptop and a file with arrows pointing from one to the other" src=""
+<figure ><img loading="lazy" alt="an image of a laptop and a file with arrows pointing from one to the other" src="/dhqwords/vol/16/1/000602/resources/images/figure5.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure5_hu406469c2a2024fadba3a4ad63138723c_59156_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure5_hu406469c2a2024fadba3a4ad63138723c_59156_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure5_hu406469c2a2024fadba3a4ad63138723c_59156_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure5_hu406469c2a2024fadba3a4ad63138723c_59156_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure5_hu406469c2a2024fadba3a4ad63138723c_59156_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure5.png 2404w" 
      class="landscape"
      ><figcaption>
         <p>Fourth REST principle: representations should be self-descriptive. Although the TIS-API is not strict in following this principle, one way in which it practices the spirit of this principle is in the server response to a request for search results. The representation used in submitting the current search (shown as the blue icon) is given as part of the server’s response.
@@ -4739,10 +4739,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="two images of a laptop and a file with arrows pointing from one to the other" src=""
+<figure ><img loading="lazy" alt="two images of a laptop and a file with arrows pointing from one to the other" src="/dhqwords/vol/16/1/000602/resources/images/figure6.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure6_hu06fc61da646e8d876e77412246d5f710_163738_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure6_hu06fc61da646e8d876e77412246d5f710_163738_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure6_hu06fc61da646e8d876e77412246d5f710_163738_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure6_hu06fc61da646e8d876e77412246d5f710_163738_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure6_hu06fc61da646e8d876e77412246d5f710_163738_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure6.png 2404w" 
      class="landscape"
      ><figcaption>
         <p>Fifth REST principle: application state should not be stored in the API. In the example of running a Tesserae search, the application is expected to 1) run a search as specified and 2) display the results. The TIS-API separates these two states of the application into individual requests, thereby avoiding the need to store application state either on the client or the server. Instead, the application state is mediated by representation: the client knows how to request search results based on information the server has given (shown as the red icon). Note that the client is not required to immediately request search results; because it is not tied to an application state, it can make other requests, such as requests for certain texts or for a new stopwords list, before requesting the search results.
@@ -4781,10 +4781,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="And image of a workflow visualization" src=""
+<figure ><img loading="lazy" alt="And image of a workflow visualization" src="/dhqwords/vol/16/1/000602/resources/images/figure7.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure7_hu65c0e8a355b07e1a9751ae8491f8a0b5_404119_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure7_hu65c0e8a355b07e1a9751ae8491f8a0b5_404119_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure7_hu65c0e8a355b07e1a9751ae8491f8a0b5_404119_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure7_hu65c0e8a355b07e1a9751ae8491f8a0b5_404119_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure7_hu65c0e8a355b07e1a9751ae8491f8a0b5_404119_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure7.png 2084w" 
      class="landscape"
      ><figcaption>
         <p>A high-level overview of the workflow used to submit a Tesserae intertext search through the TIS-API. This image is also used at <a href="https://tesserae.caset.buffalo.edu/docs/api/getting-started/workflow/">https://tesserae.caset.buffalo.edu/docs/api/getting-started/workflow/</a>, where a similar workflow is described.
@@ -4845,10 +4845,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Image of a laptop and a server" src=""
+<figure ><img loading="lazy" alt="Image of a laptop and a server" src="/dhqwords/vol/16/1/000602/resources/images/figure8.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure8_hu519c30df0b39cf7e5e58be410f9294ba_138343_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure8_hu519c30df0b39cf7e5e58be410f9294ba_138343_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure8_hu519c30df0b39cf7e5e58be410f9294ba_138343_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure8_hu519c30df0b39cf7e5e58be410f9294ba_138343_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure8_hu519c30df0b39cf7e5e58be410f9294ba_138343_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure8.png 2348w" 
      class="landscape"
      ><figcaption>
         <p>Diagram describing steps taken to obtain stopwords.
@@ -4888,10 +4888,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Image of a screenshot" src=""
+<figure ><img loading="lazy" alt="Image of a screenshot" src="/dhqwords/vol/16/1/000602/resources/images/figure9.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure9_hu9512b5240482346953b7cd68f2c06b36_340108_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure9_hu9512b5240482346953b7cd68f2c06b36_340108_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure9_hu9512b5240482346953b7cd68f2c06b36_340108_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure9_hu9512b5240482346953b7cd68f2c06b36_340108_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure9_hu9512b5240482346953b7cd68f2c06b36_340108_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure9.png 1920w" 
      class="landscape"
      ><figcaption>
         <p>Various parts of the new Tesserae website communicate with the API.
@@ -4927,10 +4927,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Image of a screenshot" src=""
+<figure ><img loading="lazy" alt="Image of a screenshot" src="/dhqwords/vol/16/1/000602/resources/images/figure10.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure10_hu9512b5240482346953b7cd68f2c06b36_340358_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure10_hu9512b5240482346953b7cd68f2c06b36_340358_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure10_hu9512b5240482346953b7cd68f2c06b36_340358_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure10_hu9512b5240482346953b7cd68f2c06b36_340358_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure10_hu9512b5240482346953b7cd68f2c06b36_340358_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure10.png 1920w" 
      class="landscape"
      ><figcaption>
         <p>Along the top-left of the page are drop down menus that communicate with the /texts/ endpoint.
@@ -4965,10 +4965,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Image of a screenshot" src=""
+<figure ><img loading="lazy" alt="Image of a screenshot" src="/dhqwords/vol/16/1/000602/resources/images/figure11.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure11_hu9512b5240482346953b7cd68f2c06b36_340329_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure11_hu9512b5240482346953b7cd68f2c06b36_340329_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure11_hu9512b5240482346953b7cd68f2c06b36_340329_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure11_hu9512b5240482346953b7cd68f2c06b36_340329_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure11_hu9512b5240482346953b7cd68f2c06b36_340329_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure11.png 1920w" 
      class="landscape"
      ><figcaption>
         <p>The widgets in the bottom-left of the page communicates with the “/stopwords/” endpoint to create a stopwords list.
@@ -5004,10 +5004,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Image of a screenshot" src=""
+<figure ><img loading="lazy" alt="Image of a screenshot" src="/dhqwords/vol/16/1/000602/resources/images/figure12.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure12_hu9512b5240482346953b7cd68f2c06b36_340235_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure12_hu9512b5240482346953b7cd68f2c06b36_340235_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure12_hu9512b5240482346953b7cd68f2c06b36_340235_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure12_hu9512b5240482346953b7cd68f2c06b36_340235_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure12_hu9512b5240482346953b7cd68f2c06b36_340235_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure12.png 1920w" 
      class="landscape"
      ><figcaption>
         <p>The button labeled SEARCH at the middle-left of the page sends the query to the /parallels/ endpoint. (In this image, the search button is greyed out because the query has already been sent.)
@@ -5042,10 +5042,10 @@ In that way, network visualizations are no different than other visualizations o
 
 
 
-<figure ><img loading="lazy" alt="Image of a screenshot" src=""
+<figure ><img loading="lazy" alt="Image of a screenshot" src="/dhqwords/vol/16/1/000602/resources/images/figure13.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/1/000602/resources/images/figure13_hu9512b5240482346953b7cd68f2c06b36_339347_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/1/000602/resources/images/figure13_hu9512b5240482346953b7cd68f2c06b36_339347_800x0_resize_box_3.png 800w,/dhqwords/vol/16/1/000602/resources/images/figure13_hu9512b5240482346953b7cd68f2c06b36_339347_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/1/000602/resources/images/figure13_hu9512b5240482346953b7cd68f2c06b36_339347_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/1/000602/resources/images/figure13_hu9512b5240482346953b7cd68f2c06b36_339347_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/1/000602/resources/images/figure13.png 1920w" 
      class="landscape"
      ><figcaption>
         <p>The majority of the screen has been populated with the results of a search, obtained from the /parallels/<uuid>/ endpoint.
