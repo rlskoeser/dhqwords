@@ -389,6 +389,8 @@ find them by size:
 
 
   <!-- convert tei image figure to hugo figure shortcode -->
+  <!-- FIXME: apparently PDF counts as graphic?! handle differently -->
+  <!-- and one .tmp ?! -->
   <xsl:template match="tei:figure[tei:graphic]">
     <!-- generate something like this:
         {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->    

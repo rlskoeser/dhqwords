@@ -195,7 +195,7 @@ The survey results indicate that these collaborations, on average, tend to be vi
 
 ## Full Survey
   
-{{< figure src="resources/images/survey.pdf" caption="" alt="Image file of Qualtrics survey used in study"  >}}
+{{/*< figure src="resources/images/survey.pdf" caption="" alt="Image file of Qualtrics survey used in study"  >*/}}
 
   
   

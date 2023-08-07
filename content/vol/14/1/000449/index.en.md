@@ -191,7 +191,7 @@ Taking into account the limitations of this case study and its challenges, this 
 
 ## Appendix 1
   
-{{< figure src="resources/images/Appendix1.pdf" caption="" alt="Appendix 1 Image File"  >}}
+{{/*< figure src="resources/images/Appendix1.pdf" caption="" alt="Appendix 1 Image File"  >*/}}
 
   
   
@@ -199,7 +199,7 @@ Taking into account the limitations of this case study and its challenges, this 
 
 ## Appendix 2
   
-{{< figure src="resources/images/Appendix2.pdf" caption="" alt="Appendix 2 Image File"  >}}
+{{/*< figure src="resources/images/Appendix2.pdf" caption="" alt="Appendix 2 Image File"  >*/}}
 
   
   
@@ -207,7 +207,7 @@ Taking into account the limitations of this case study and its challenges, this 
 
 ## Appendix 3
   
-{{< figure src="resources/images/Appendix3.pdf" caption="" alt="Appendix 3 Image File"  >}}
+{{/*< figure src="resources/images/Appendix3.pdf" caption="" alt="Appendix 3 Image File"  >*/}}
 
   
   

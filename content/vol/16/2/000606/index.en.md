@@ -48,7 +48,7 @@ For each token the analysis gives the form as it appears in the text and its lem
   
 Part of speech and morphology constitute what we may call shallow syntactic features. Information of this type may allow us to infer some syntactical structures, but they do not represent them directly. In contrast, the head_token_id and dep_rel columns do constitute such a direct representation. The head token is the item that is the immediate syntactic parent of a given token. The dependency relation specifies the type of grammatical structure obtaining between parent and target. From these columns we may generate a description of the syntactic structure of the entire sentence in a representation of its deep syntax. The structure revealed by these data points is perhaps most clearly illustrated with the corresponding dependency tree:
   
-{{< figure src="resources/images/image1.tmp" caption="Dependency Tree of Example Sentence" alt=""  >}}
+{{/*< figure src="resources/images/image1.tmp" caption="Dependency Tree of Example Sentence" alt=""  >*/}}
 
   
 As is apparent, the syntactic path from the sentence root to the each leaf token is given by the combination of head id and dependency relationship.
