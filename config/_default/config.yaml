@@ -6,7 +6,9 @@ copyright: >-
 enableEmoji: true
 # googleAnalytics:
 enableRobotsTXT: true
-enableGitInfo: true
+# using gitinfo for last modified makes the build slower,
+# and isn't truly relevant here
+enableGitInfo: false
 timeout: 300s
 taxonomies:
   category: categories
