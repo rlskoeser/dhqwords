@@ -33,7 +33,7 @@ For this article, we apply Possible World Theory to discuss how fiction, which c
 
 ## AR literature
   
-{{< figure src="images/figure01.jpg" caption="Reading _Modern Polaxis._ Photo by Stuart Campbell/Sutu (Used with permission)." alt="a photo depicting the reading experience of Modern Polaxis. The comic is laid open on a table, and the reader's hand is visible holding a phone above one of the pages. On the phone screen, we see an altered version of the comic page, featuring more color."  >}}
+{{< figure src="resources/images/figure01.jpg" caption="Reading _Modern Polaxis._ Photo by Stuart Campbell/Sutu (Used with permission)." alt="a photo depicting the reading experience of Modern Polaxis. The comic is laid open on a table, and the reader's hand is visible holding a phone above one of the pages. On the phone screen, we see an altered version of the comic page, featuring more color."  >}}
 
   
 The AR comic  _Modern Polaxis_   [^campbell2014a] consists of a physical book and an accompanying phone app that supplements and changes the appearance of the book’s pages (see Figure 1). We chose this work to study how AR functions in narrative fiction, because the app consistently adds a layer throughout the comic book, as Helms [^helms2017] suggested. AR literature is still in its becoming, and few examples of narrative works take advantage of AR in creative ways. A variety of combinations of the virtual and what appears as real in some sense may be envisioned. After concluding our analysis, we return to a discussion of how our findings may be relevant to AR storytelling. 

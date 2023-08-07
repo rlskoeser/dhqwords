@@ -83,43 +83,43 @@ Based on the insights from the first stage of our project, in the second stage w
   
 The ZHI project carefully chose four ways to collect data: (1) taking photos, (2) making short video clips, (3) searching for free copyright images, and (4) conducting oral history interviews (see Figure 1). Most of the filming is done on students’ phones, and they can edit them on their laptops with video editing software. We ask them to strictly follow our protocols of data collection, which have been designed and customized by us, so the filming and editing work is also part of the scientific investigation process and includes consent of the craftspeople (see Figures 2 and 3). For example, students have to clearly understand the name and purpose of every step in the development of a craft, as well as additional considerations, such as why we should take a photo of silk yarn from a particular perspective — because the reflection of silk yarn in a different light will affect color representation. Students also have to understand why particular patterns have to be arranged next to another one — because royal rules in ancient China dictated the whole pattern for clothes. All of this detailed information about ICH has to be included alongside the photos, videos, and interactive games they create.
   
-{{< figure src="images/image1.png" caption="Screenshot of the interview page, “记忆之场: 云锦.” _ ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/brocade/yjheritage/](https://artlab.nju.edu.cn/heritage/brocade/yjheritage/)." alt="screenshot of a website page"  >}}
+{{< figure src="resources/images/image1.png" caption="Screenshot of the interview page, “记忆之场: 云锦.” _ ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/brocade/yjheritage/](https://artlab.nju.edu.cn/heritage/brocade/yjheritage/)." alt="screenshot of a website page"  >}}
 
   
-{{< figure src="images/image2.png" caption="Screenshot of “The tricks of the Yunjin Brocade” page, “手口相授: 云锦.” _ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/brocade/yjkoujue/](https://artlab.nju.edu.cn/heritage/brocade/yjkoujue/)." alt="screenshot of a webpage"  >}}
+{{< figure src="resources/images/image2.png" caption="Screenshot of “The tricks of the Yunjin Brocade” page, “手口相授: 云锦.” _ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/brocade/yjkoujue/](https://artlab.nju.edu.cn/heritage/brocade/yjkoujue/)." alt="screenshot of a webpage"  >}}
 
   
-{{< figure src="images/image3.png" caption="Screenshot of the homepage’s silkflower video banner, featuring the theme “Teach by oral instructions and hands-on examples,” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/](https://artlab.nju.edu.cn/heritage/)." alt="screenshot of a banner on a video"  >}}
+{{< figure src="resources/images/image3.png" caption="Screenshot of the homepage’s silkflower video banner, featuring the theme “Teach by oral instructions and hands-on examples,” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/](https://artlab.nju.edu.cn/heritage/)." alt="screenshot of a banner on a video"  >}}
 
   
 Since the content is lightweight, we designed an HTML5/PHP-based, highly flexible website for images, videos, texts, and interactive games with a freelance developer.[^3]  All of the modules are image-based and can be edited as needed (see Figures 4 and 5). For example, we designed an interactive coloring game of Yunjin brocade to illustrate the rules and principles of 
   
 color selection and matching in brocade making. All elements of the game are image-based and can be replaced and changed accordingly so the game can be extended to different patterns with different color palettes. For now, we use a line drawing named  _ 翠蓝地加金缠枝莲花牡丹妆花   _ from the book  _Yunjin Patterns _ (1959), drawn by Chen Zhifo, a very famous artist and educator of the last century, and a color palette digitized by us from the physical color card of a craftsman, Wang Jisheng, who has been working on silk dyes for decades. Users can easily interact with the pattern to make their own design and then download the image as a calendar page to their computer (see Figures 6, 7, and 8).
   
-{{< figure src="images/image4.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: The Color Schemes of Yunjin; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](artlab.nju.edu.cn/heritage/manage)." alt="Screenshot of a content management system backend"  >}}
+{{< figure src="resources/images/image4.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: The Color Schemes of Yunjin; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](artlab.nju.edu.cn/heritage/manage)." alt="Screenshot of a content management system backend"  >}}
 
   
-{{< figure src="images/image5.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: Design Rules about Yunjin Color; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](artlab.nju.edu.cn/heritage/manage)." alt="screenshot of a content management system backend"  >}}
+{{< figure src="resources/images/image5.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: Design Rules about Yunjin Color; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](artlab.nju.edu.cn/heritage/manage)." alt="screenshot of a content management system backend"  >}}
 
   
-{{< figure src="images/image6.png" caption="Screenshot of the game page for Coloring Yunjin Brocade, where users choose one color palette for each flower, “云锦配色小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of the coloring yunjin brocade game"  >}}
+{{< figure src="resources/images/image6.png" caption="Screenshot of the game page for Coloring Yunjin Brocade, where users choose one color palette for each flower, “云锦配色小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of the coloring yunjin brocade game"  >}}
 
   
-{{< figure src="images/image7.png" caption="Screenshot of game page for Coloring Yunjin Brocade, where users choose color palettes for flowers, “云锦配色小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of coloring yunjin brocade game"  >}}
+{{< figure src="resources/images/image7.png" caption="Screenshot of game page for Coloring Yunjin Brocade, where users choose color palettes for flowers, “云锦配色小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of coloring yunjin brocade game"  >}}
 
   
-{{< figure src="images/image8.png" caption="Screenshot of Coloring Yunjin Brocade, where users can download their work as a calendar page, “小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of page where users can download the coloring yunjin brocade game"  >}}
+{{< figure src="resources/images/image8.png" caption="Screenshot of Coloring Yunjin Brocade, where users can download their work as a calendar page, “小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of page where users can download the coloring yunjin brocade game"  >}}
 
   
 Simple does not mean inelegant. On the contrary, we want to make the website simple but beautiful. By studying the materials, tools, making process, and products, and talking with craftspeople, we developed our 3S principle as we found that the  _scales_ ,  _scene_ , and  _scenario_  are very important for virtual representation. This principle begins with the idea that beauty is based on understanding, not intuition alone. For example, to present a pattern, an image should present a minimal unit of pattern with an explanation of the meaning of each element, rather than showing a photo with just a title. In this sense,  _scale_  is crucial for understanding (see Figure 9). Second, beauty emerges in context. Craftsmanship is rooted in history, so we have to go back to the  _scene_  of history to understand it. While craftsmanship may have seemed to have disappeared from daily life, we can trace it in some  _scenes_  of contemporary culture, such as paintings or TV soap dramas (see Figure 10). Finally, beauty is constructed by narratives. Beauty is complex but we can select specific  _scenarios_  and the most tangible and touching moments for storytelling (see Figure 11).
   
-{{< figure src="images/image9.png" caption="Screenshot of a minimal unit of a wave pattern with the meaning explained in Yunjin Brocade; “帝王之气: 云锦.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/brocade/animaltism/](https://artlab.nju.edu.cn/heritage/brocade/animaltism/)." alt="Screenshot of a webpage with the coloring yunjin brocade game"  >}}
+{{< figure src="resources/images/image9.png" caption="Screenshot of a minimal unit of a wave pattern with the meaning explained in Yunjin Brocade; “帝王之气: 云锦.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/brocade/animaltism/](https://artlab.nju.edu.cn/heritage/brocade/animaltism/)." alt="Screenshot of a webpage with the coloring yunjin brocade game"  >}}
 
   
-{{< figure src="images/image10.png" caption="Screenshot showing use of the silk flower as a headdress in history and contemporary usage, “日常之光: 绒花.”   _ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/velvet-flowers/rhusage/](https://artlab.nju.edu.cn/heritage/velvet-flowers/rhusage/)." alt="screenshot of page where floral headdresses are shown"  >}}
+{{< figure src="resources/images/image10.png" caption="Screenshot showing use of the silk flower as a headdress in history and contemporary usage, “日常之光: 绒花.”   _ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/velvet-flowers/rhusage/](https://artlab.nju.edu.cn/heritage/velvet-flowers/rhusage/)." alt="screenshot of page where floral headdresses are shown"  >}}
 
   
-{{< figure src="images/image11.png" caption="Screenshot of the gold foil video banner featuring the theme, As then as a cicada’s wings, “薄如蝉翼: 金箔” .  _ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/gold-foil/craftsmanship/](https://artlab.nju.edu.cn/heritage/gold-foil/craftsmanship/)." alt="screenshot of a webpage banner"  >}}
+{{< figure src="resources/images/image11.png" caption="Screenshot of the gold foil video banner featuring the theme, As then as a cicada’s wings, “薄如蝉翼: 金箔” .  _ZHI艺：非物质文化遗产虚拟展示平台_ , [https://artlab.nju.edu.cn/heritage/gold-foil/craftsmanship/](https://artlab.nju.edu.cn/heritage/gold-foil/craftsmanship/)." alt="screenshot of a webpage banner"  >}}
 
   
   

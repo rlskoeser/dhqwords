@@ -96,10 +96,11 @@ find them by size:
      <xsl:for-each select="tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language">
       <!-- FIXME: at least one article has a langUsage languade code but no corresponding text; check for text with language before creating ? -->
 
-          <xsl:variable name="lang" select="fn:langcode(@ident)"/>
+          <xsl:variable name="lang" select="@ident"/>
+          <xsl:variable name="outputlang" select="fn:langcode(@ident)"/>
       <xsl:value-of select="concat('Converting language: ', $lang, ' (', @extent, ')', $br)"/>
       <!-- output into a leaf page bundle so we can include assets -->
-          <xsl:variable name="outputFilename" select="concat($outputDirectory, '/', $articleID, '/index.', $lang, '.md')"/>
+          <xsl:variable name="outputFilename" select="concat($outputDirectory, '/', $articleID, '/index.', $outputlang, '.md')"/>
 
 
     <!-- output filename for debugging purposes -->
@@ -400,7 +401,9 @@ find them by size:
     </xsl:variable>
     <!-- some figures have multiple graphics; output one shortcode for each -->
     <xsl:for-each select="tei:graphic">
-      <xsl:variable name="src" select="substring-after(@url, 'resources/')"/>      
+      <!-- <xsl:variable name="src" select="@url"/>             -->
+      <!-- 000091 and 000103 have weird relative .. paths; convert to resource only -->
+      <xsl:variable name="src" select="concat('resources/', substring-after(@url, 'resources/'))"/>      
       <xsl:value-of select="concat($br, '{{', $lt, ' figure src=', $quote, $src, $quote, ' ')"/>
       <xsl:if test="$title">
         <xsl:value-of select="concat('caption=', $quote, fn:textparam($title), $quote, ' ')"/>

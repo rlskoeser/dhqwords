@@ -100,7 +100,7 @@ In conclusion, with literati politics, a regime in which scholar-officials domin
   
 A framework including four data processing steps used in our study is shown in Figure 1. In the first stage, data collection, a list of people active in the era of reform is generated from CBDB, which is a relational database developed from primary historical sources. Based on the list, the data about relationships among them are extracted, which act as original data in the next stage. In the second stage, matrix construction, the relationship data of literature and politics are processed and constructed into the literary and political matrix respectively. The matrices are operated under the third stage, dimensionality reduction, which mainly extracts the feature factors of the two matrices, and the fourth stage, community detection, where communities are detected from these matrices with Louvain Modularity. Both the results of the third and the fourth stages are visualized and compared, while in the fourth stage, relation analysis is adopted after comparison. Afterwards, the overall results are interpreted and discussed. The details of the frameworks are discussed hereinafter [^6] .
   
-{{< figure src="images/Figure1_updated.jpg" caption="The framework of data processing" alt="The framework of data processing"  >}}
+{{< figure src="resources/images/Figure1_updated.jpg" caption="The framework of data processing" alt="The framework of data processing"  >}}
 
   
   
@@ -175,7 +175,7 @@ People with the highest values in factor  _3_  and  _4 _ include Cheng Hao (1032
   
 The result of dimensionality reduction of literary matrix with factor  _2_ ,  _3_ , and  _4_  is shown in Figure 2. It is divided into three sections: 1) Sect.  _A_  (includes people with high values in factor  _3 _ and  _4_ ) representing  _Luoxue_ , 2) Sect.  _B_  representing  _Shuxue_  (includes people with high value in factor  _2_ ), and 3) Sect.  _C_  representing  _Xinxue _ (includes people with no high value in factor  _2_ ,  _3_  or  _4_ ). 
   
-{{< figure src="images/Research+Results,+Figure+2.jpg" caption="Visualization of the dimensionality reduction result of the literary matrix" alt="Visualization of the dimensionality reduction result of literary matrix"  >}}
+{{< figure src="resources/images/Research+Results,+Figure+2.jpg" caption="Visualization of the dimensionality reduction result of the literary matrix" alt="Visualization of the dimensionality reduction result of literary matrix"  >}}
 
   
 The political matrix is also reduced to twelve factors, which are explained as political interests. The algorithm is run iteratively 400 times and the MSE of dimensionality reduction of the political matrix was 0.395. The first-extracted two factors are selected and the ten people with the highest value are picked.
@@ -186,7 +186,7 @@ People with the highest values in factor  _2_  include Emperor Shenzong, who was
   
 The result of dimensionality reduction of the political matrix with factor _ 1_  and  _2_  is shown in Figure 3. It is divided into four sections. Sect.  _A_  and  _B _ represent reformers, and Sect.  _C_  and  _D_  represents anti-reformers. Moreover, different sects of reformers and anti-reformers are also separated. Relatively mild reformers, Emperor Shenzong (named Zhao Xu, who both supported the reform and respected the anti-reformers), and Cai Jing (he hovered between reformers and anti-reformers before coming to power) are in Sect.  _B_  while more radical reformers, Zhang Dun and Lü Huiqing are in Sect.  _A_ . Among the anti-reformers, the members of  _Shudang_ , who had relatively mild political views, are mostly in Sect.  _C_ , including Su Zhe, Lü Tao (1028–1104) and Kong Wenzhong (1038–1088) [^13] . And those who had more radical political views, are mostly in Sect.  _D_ . The transition from Sect.  _A _ to Sect.  _D _ corresponds with the transition of political views from radical reformers to radical anti-reformers.
   
-{{< figure src="images/Figure3(currentFigure5)_updated.jpg" caption="Visualization of the dimensionality reduction result of the political matrix" alt="Visualization of the dimensionality reduction result of political matrix"  >}}
+{{< figure src="resources/images/Figure3(currentFigure5)_updated.jpg" caption="Visualization of the dimensionality reduction result of the political matrix" alt="Visualization of the dimensionality reduction result of political matrix"  >}}
 
   
 Synthesizing the results above, we find that the reformers are all mostly in Sect.  _C_  in Figure 2 and in Sect.  _A _ and  _B_  in Figure 3, while among the anti-reformers, followers of  _Shuxue_  are mostly in Sect.  _B _ in Figure 2 and Sect.  _C _ in Figure 3, those of _ Luoxue_  are mostly in Sect.  _A_  in Figure 2 and Sect.  _D_  in Figure 3. Therefore, we can confirm our original hypothesis that those who were engaged in common literary pursuits usually shared political interests with each other.
@@ -198,7 +198,7 @@ Synthesizing the results above, we find that the reformers are all mostly in Sec
   
 The correlation matrices are operated under Gephi, and a literary network and a political network are generated based on the data of the matrices respectively. After laying out and partitioning the networks, they are divided into several communities. The result of community detection of literary network is shown in Figure 4, with the size of the nodes representing the importance of the person:
   
-{{< figure src="images/Research+Results,+Figure+4.jpg" caption="Literary groups detected" alt="Literary groups detected"  >}}
+{{< figure src="resources/images/Research+Results,+Figure+4.jpg" caption="Literary groups detected" alt="Literary groups detected"  >}}
 
   
 There are four core communities detected in the network, each representing a group of literati. Other communities are dispersed in the edge of the network and consist of only one component, thus should be considered as unimportant. The findings are as follows:
@@ -215,7 +215,7 @@ Of course, this categorization is reductive: people cannot be categorized into m
   
 The modularity of the political network is similar to that of the literary network. Since the matrix is high-density and most of the values in the matrix are around four (if two people don’t have associations in politics, the value of the element demonstrating the strength of their relation is four owing to our normalization during preprocessing), the degree range of the filter is set to be “greater than four” so that all of the edges shown connect two people that are positively related in politics. The result are as follows:
   
-{{< figure src="images/Figure5(currentFigure7)_updated.jpg" caption="Political groups detected" alt="Political groups"  >}}
+{{< figure src="resources/images/Figure5(currentFigure7)_updated.jpg" caption="Political groups detected" alt="Political groups"  >}}
 
   
 Figure 5 shows fifty-four people in seven core communities. In a manner similar to the literary network, other unimportant communities are dispersed in the edge of the network and consist of very few components (at most three). The constituents of the seven core communities all have positive political relations with at least one person in the network.

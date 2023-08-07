@@ -168,7 +168,7 @@ Critical making evokes a shared sense of responsibility for work that exists bey
   
 As [^cipolla2019] emphasizes, the transition from user to maker is essential for students to find meaning through their digital projects. Before learning the making technologies utilized in the course — Omeka/Neatline and 360° cameras and software — students were asked to assess their own experiences learning technology in the classroom, applying technology to their projects and, finally, the overall utility or effectiveness of the technology to their project objectives (Appendix D). A survey on Google Forms was administered by the instructor to students via email in the fall 2019 semester as digital projects were underway. Students were informed that survey responses would remain anonymous and would in no way impact their individual or project grades. Of the 22 students in the class, 18 students responded to the questions in the Technology Effectiveness Survey, Part I (Appendix E).
   
-{{< figure src="images/image1.png" caption="Results of Technology Effectiveness Survey, Part I" alt="Screenshot of eight pie charts"  >}}
+{{< figure src="resources/images/image1.png" caption="Results of Technology Effectiveness Survey, Part I" alt="Screenshot of eight pie charts"  >}}
 
   
  As Figure 1 demonstrates, most students found it easier to create and apply digital content to their own projects after having learned the material in a hands-on workshop. Unsurprisingly, Neatline proved to be the most challenging of the technologies, as students had to navigate both layers — modern-day and 1940s-Paris — of the digital map. Most students found Omeka and Neatline effective for telling their survivor’s story.
@@ -383,7 +383,7 @@ Through completing this project, students will be able to:
   
 Before departing to Paris, students were asked to rate their perceptions of learning the digital mapping and 360° video technology after learning them in the classroom workshops and then during the application of these technologies as they completed their projects. Then, students were asked to rate the utility, or effectiveness, of the technologies in carrying out the objectives of their projects. 
   
-{{< figure src="images/image2.png" caption="Technology Effectiveness Survey, Part I: Google Forms Survey Instrument" alt="screenshot of a Google Form"  >}}
+{{< figure src="resources/images/image2.png" caption="Technology Effectiveness Survey, Part I: Google Forms Survey Instrument" alt="screenshot of a Google Form"  >}}
 
   
   
@@ -393,7 +393,7 @@ Before departing to Paris, students were asked to rate their perceptions of lear
   
 Upon returning from Paris, students were asked to complete a short survey about their experiences working with the technologies used throughout the course and how they did/did not inform their understanding of course material. Because of the short timeline to complete this survey, in addition to delayed IRB approval (March 2020) and the evacuation of campus due to the coronavirus pandemic, we did not receive as many responses as we would have liked. 
   
-{{< figure src="images/image3.png" caption="Technology Effectiveness Survey, Part II: Google Forms Survey Instrument" alt="screenshot of a Google Form"  >}}
+{{< figure src="resources/images/image3.png" caption="Technology Effectiveness Survey, Part II: Google Forms Survey Instrument" alt="screenshot of a Google Form"  >}}
 
   
   

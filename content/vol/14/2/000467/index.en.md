@@ -15,25 +15,16 @@ teaser: "About the experience of developing a digital platform which visualizes 
 order: 8
 cluster: "Portuguese Language Special Issue"
 ---
-
-
+  
+  
 
 ## Note on Translation
-
+    
 For articles in languages other than English, DHQ provides an English-language abstract to support searching and discovery, and to enable those not fluent in the article's original language to get a basic understanding of its contents. In many cases, machine translation may be helpful for those seeking more detailed access. While DHQ does not typically have the resources to translate articles in full, we welcome contributions of effort from readers. If you are interested in translating any article into another language, please contact us at editors@digitalhumanities.org and we will be happy to work with you.
-
-## Bibliography
-
-<ul>
-<li id="barth1975">Barth, G.P. _Instant Cities: Urbanization and the Rise of San Francisco and Denver_ . New York: Oxford University Press, 1975.
-</li>
-<li id="olmstead1929">Olmsted, F.L. “Report of State Parks Survey of California” . California State Park Commission (1929) 106pp
-</li>
-<li id="santos2014a">Santos, M.J., T. Watt, S. Pincetl. _The push and pull of land use policy: reconstructing 150 years of development and conservation land acquisition_ . PlosONE (2014).
-</li>
-<li id="santos2014b">Santos, M.J., A. Peers, A. Avery, E. Francis, E. Steiner and J. Coolidge. 2014. “Conservation histories of California: The San Francisco Bay Area” . _Spatial History Project_ . Originally published as part of the 2013 CESTA Anthology,<a href="https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=125&project_id=">https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=125&project_id=</a>.
-</li>
-<li id="sellers1997">Sellers 1997 Sellers, R.W. _Preserving nature in the National Parks: a history_ . Yale University Press. (1997)
-</li>
-
-</ul>
+  
+    
+[^barth1975]: Barth, G.P.  _Instant Cities: Urbanization and the Rise of San Francisco and Denver_ . New York: Oxford University Press, 1975.  
+[^olmstead1929]: Olmsted, F.L.  “Report of State Parks Survey of California” . California State Park Commission (1929) 106pp  
+[^santos2014a]: Santos, M.J., T. Watt, S. Pincetl.  _The push and pull of land use policy: reconstructing 150 years of development and conservation land acquisition_ . PlosONE (2014).  
+[^santos2014b]: Santos, M.J., A. Peers, A. Avery, E. Francis, E. Steiner and J. Coolidge. 2014.  “Conservation histories of California: The San Francisco Bay Area” .  _Spatial History Project_ . Originally published as part of the 2013 CESTA Anthology, [ https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=125&project_id=](https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=125&project_id=).  
+[^sellers1997]: Sellers 1997 Sellers, R.W.  _Preserving nature in the National Parks: a history_ . Yale University Press. (1997)  

@@ -50,7 +50,7 @@ The database focuses on ancient Mediterranean religion. This appeared to be a re
   
 There were two essential criteria for inclusion of books: a. the existence of both an index locorum and a subject index. b. cheap, convenient, and legal access to a high-quality scan of the indices. It was clearly preferable to use books for which PDFs with embedded text are readily available, in order to obviate the stage of OCR of scanned text. This meant that the books used were usually published after 2000, as indicated in Figure 1. About 600 books were identified as meeting all these criteria and their indices were downloaded via subscriptions of the Younes & Soraya Nazarian Library at the University of Haifa. Additional book indices are continuously entered with expanded availability and continued publication of new books.
   
-{{< figure src="images/figure01.png" caption="Count of books per year." alt="Bar chart"  >}}
+{{< figure src="resources/images/figure01.png" caption="Count of books per year." alt="Bar chart"  >}}
 
   
   
@@ -71,7 +71,7 @@ Published subject indices are typically constructed of alphabetized subject head
   
 At the end of the process, the subject headings and sub-headings were joined by a comma, and page ranges were expanded. 
   
-{{< figure src="images/figure02.png" caption="An example of a main subject heading and sub-headings, with each sub-heading on a separate line." alt="Image of topic and subheadings. Text reads Baptism: 100, Christian 90-91, Jewish 93-95, With fire 12-14"  >}}
+{{< figure src="resources/images/figure02.png" caption="An example of a main subject heading and sub-headings, with each sub-heading on a separate line." alt="Image of topic and subheadings. Text reads Baptism: 100, Christian 90-91, Jewish 93-95, With fire 12-14"  >}}
 
   
 Table 1 provides an example of data entry for the output appearing in Figure 2.
@@ -83,7 +83,7 @@ Table 1 provides an example of data entry for the output appearing in Figure 2.
   
 Every reference in the source index was parsed and divided into the following columns: 1. author and title identifying number, 2. reference, and 3. Page number, as seen in Figure 3. 
   
-{{< figure src="images/figure03.png" caption="Standardized Tiresias references vs. the original source references" alt="Image of source index data. Text for one entry reads: New Testament, 1 Cor., 3:16-17, 152-155"  >}}
+{{< figure src="resources/images/figure03.png" caption="Standardized Tiresias references vs. the original source references" alt="Image of source index data. Text for one entry reads: New Testament, 1 Cor., 3:16-17, 152-155"  >}}
 
   
 Table 2 provides an example of data entry for the output appearing in Figure 3.
@@ -132,10 +132,10 @@ Finally, the database was made freely accessible to the scholarly community on t
   
 Search results can be filtered by one or two subject keywords, as well as by ancient author, work, or according to the century the ancient work was written. Filters are essential as many subject searches return thousands of results. Figure 4 shows that each result includes an ancient work reference (author, title, and internal reference); the approximate date of the ancient work; the subject tags for this specific reference in the database; the books and page numbers from which the subject tags derived; and the texts of the ancient work reference, in the original language and in English translation, when available. 
   
-{{< figure src="images/figure04.png" caption="Example result of search for women and oaths in the unvalidated option." alt="Image from website showing a passage including women and oaths in Greek side by side with the English translation"  >}}
+{{< figure src="resources/images/figure04.png" caption="Example result of search for women and oaths in the unvalidated option." alt="Image from website showing a passage including women and oaths in Greek side by side with the English translation"  >}}
 
   
-{{< figure src="images/figure05.png" caption="Example results of search for oath in the secondary literature option." alt="Image from website providing search terms and book references"  >}}
+{{< figure src="resources/images/figure05.png" caption="Example results of search for oath in the secondary literature option." alt="Image from website providing search terms and book references"  >}}
 
   
 In order to facilitate study of the texts, more information was included: 
@@ -156,12 +156,12 @@ We used the database to allow users to create network and heatmap visualizations
   
 To perform network visualization, we first manipulated the files to create a network graph based on shared subjects and references. The validated table was grouped by references and the number of shared references between each subject was found. For example, the rows in Table 7 would produce the network graph in Table 8:
     Rows from validated table    Row #  Ancient Work #  Reference  Book #  Page #  subject  token      1  1001  5.6  125  13  Evil spirit  spirit      2  9023  10.10  140  75  Holy spirit  spirit      3  1001  5.6  120  12  Water, from wells  water      4  9023  10.10  140  75  Holy water  water      5  1001  5.6  130  12  Sacrifice, of bread  bread        network graph derived from table 6    source   target  Weight (=number of shared references)      water  spirit  2      water  bread  1      bread  spirit  1      
-{{< figure src="images/figure06.png" caption="schematic visualization of network graph example from table 6" alt="connections between the words spirit, water, and bread"  >}}
+{{< figure src="resources/images/figure06.png" caption="schematic visualization of network graph example from table 6" alt="connections between the words spirit, water, and bread"  >}}
 
   
 Using Gephi [^bastian2009] we visualized the network graph of subjects, as seen in Figure 7. In this visualization of the graph, words from subject tags which share the most references are adjacent on the network, while subjects not sharing references are far apart. The size of each node is determined according to the number of incoming and outgoing links (edges), so that subjects (nodes) with the most source references appear largest. Furthermore, communities of closely connected subjects are determined using the Louvain method for community detection and marked by color. This creates a mapping of the whole field based directly on the scholarly research, intuitively displaying the centrality or marginality of specific subjects, the relationship between subjects, and the different sub-disciplines of the study of ancient religion. The visualization is also instructive concerning subjects which are on the borders between sub-disciplines, that is, which are shared by one more of these sub-disciplines, as opposed to subjects which are in the core area of each. Figure 7 illustrates the part of the subject network dealing mainly with core subjects of two ancient religions - Jewish (in purple) and Christian (green), and some subjects connecting both areas. 
   
-{{< figure src="images/figure07.png" caption="Sample of the large network of subjects from Tiresias" alt="Image of a word cloud"  >}}
+{{< figure src="resources/images/figure07.png" caption="Sample of the large network of subjects from Tiresias" alt="Image of a word cloud"  >}}
 
   
 Though the general subject network is instructive, it is very large and therefore not so informative concerning specific subjects or subject areas. We therefore constructed an interface for online users to create smaller networks ad-hoc, based on the same principles, using the Python module Networkx. In both cases, to reduce congestion, no more than 70 of the largest nodes (i.e., subjects with the most references) are shown. There are two options for network construction: 
@@ -169,7 +169,7 @@ Though the general subject network is instructive, it is very large and therefor
   a. Subject based: the network is limited to subjects connected to a specific subject supplied by the user. Using this tool, users can visualize the relative importance and the interconnections of different subjects connected to their subject of interest, according to the books in the database.   b. Ancient work based: the network is limited to subjects connected to a specific ancient work supplied by the user. Using this tool, users can quickly identify subjects related to the specific ancient work by scholars. In addition, the visualization displays the relative importance and interconnections of subjects (see Figure 8 for an example).  
 
   
-{{< figure src="images/figure08.png" caption="Network of subjects connected to the ancient work Metamorphoses by Ovid, constructed on user request by the online tool." alt="Image of a network"  >}}
+{{< figure src="resources/images/figure08.png" caption="Network of subjects connected to the ancient work Metamorphoses by Ovid, constructed on user request by the online tool." alt="Image of a network"  >}}
 
   
   
@@ -179,7 +179,7 @@ Though the general subject network is instructive, it is very large and therefor
   
 A heatmap is a visual representation of data based on color allowing quick identification of high, medium and low values of a variable. Using the Seaborn [^waskom2021] visualization library for Python, we constructed a tool through by which users can produce heatmaps of the subjects sharing many references with a specific subject, per century of the reference. This is based on the same network graph file from the network visualization, but divided according to the century in which the source reference was written. The color shade corresponds to the number of references tagged by unique subjects, divided by all references from this century, serving as a normalized measure of the salience of the connection between the two subjects in a certain period. Figure 9 displays the heatmap of the word oath with other words through the centuries. Since some centuries are overrepresented in the database, the number of references tagged by each subject in each century was divided (normalized) by the total number of references of that century in the database to provide an index for the color shade, shown on the right column.
   
-{{< figure src="images/figure09.png" caption="Linked subjects heatmap for oath from the 12th century B.C. to the 2nd century C.E" alt="Image of a heatmap"  >}}
+{{< figure src="resources/images/figure09.png" caption="Linked subjects heatmap for oath from the 12th century B.C. to the 2nd century C.E" alt="Image of a heatmap"  >}}
 
   
 With the expansion of the database, heatmaps can serve to understand how the connection between subjects changed historically over time, providing insight on historical processes or on the scholarship on which the database is based. For example, Figure 6 indicates that most of the studies of oaths focused on Classical Greece rather than on later periods. It may also indicate that the sources speak of women swearing oaths only in sources from the 5th century BCE and not earlier, or that oaths by goddesses Persephone and Kore were less popular before this period. The heatmap cannot, of course, demonstrate actual historical trends, but it can provide pointers, questions and intriguing phenomena which can then be followed up by research.
@@ -247,7 +247,7 @@ Turning to Tiresias, they search the same keyword among the validated results. T
   
 An instructor is building a new module on the history of emotions in antiquity. The study of the ancient sources is central in the module, as they are also interested in a broad, comparative view of several ancient cultures. When thinking of the general subjects and structure of the module, they turn to the heatmap and network visualizations to gain a general feeling of the subject. Here they see connections with Stoic and Platonic thinkers, but also the connections between emotion, the body and nature (Figure 10). Searching for anger, love and other emotions provides more information. 
   
-{{< figure src="images/figure10.png" caption="Network tool result for emotion" alt="Image of a network diagram."  >}}
+{{< figure src="resources/images/figure10.png" caption="Network tool result for emotion" alt="Image of a network diagram."  >}}
 
   
 More concretely, searching the database for emotion leads to 54 validated results, from a wide range of periods and genres, as well as links to the modern publications. Some of these they find useful for background discussion, others for study together with their students, with texts and translations already available. Here too, searching for several other terms linked to emotions (some of them obvious such as love or fear, others found from the network, the heatmap or the subject subheadings of the validated results) leads to further texts on more specific subjects.

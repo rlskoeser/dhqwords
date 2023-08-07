@@ -31,10 +31,10 @@ Traditionally, the golden background of medieval panel paintings is connected to
   
 This report will not deliver the final answer to this complex question. However, we aim to propose a methodological solution that potentially can serve both sides of this discussion: a virtual restoration of the painting using a 3D scan and a 3D print of this restoration or the original work. In this project, for the first time, the virtual restoration of the work is presented as an argument that plays a role in the conservation process. Here we would like to share the steps we have taken so far and look into the future of this project.
   
-{{< figure src="images/figure01.png" caption="Master of the Lamentation of Christ in Lindau, _The Crucifixion_ , ca. 1425. Tempera on panel, 125 × 89 cm, Museum Catharijneconvent – Courtesy of Museum Catharijneconvent" alt="Color photograph of the Lindau Master's _Crucifixion_ in its unrestored state, with blue background"  >}}
+{{< figure src="resources/images/figure01.png" caption="Master of the Lamentation of Christ in Lindau, _The Crucifixion_ , ca. 1425. Tempera on panel, 125 × 89 cm, Museum Catharijneconvent – Courtesy of Museum Catharijneconvent" alt="Color photograph of the Lindau Master's _Crucifixion_ in its unrestored state, with blue background"  >}}
 
   
-{{< figure src="images/figure02.png" caption="Digital photo reconstruction where the azurite layer was removed and a golden background was added – Ruben Wiersma" alt="The Lindau Master's Crucifixion as it might have appeared when first made, with golden background"  >}}
+{{< figure src="resources/images/figure02.png" caption="Digital photo reconstruction where the azurite layer was removed and a golden background was added – Ruben Wiersma" alt="The Lindau Master's Crucifixion as it might have appeared when first made, with golden background"  >}}
 
   
   
@@ -51,13 +51,13 @@ A downside of this technology, in contrast to photographic methods, is the fact 
 The color information was combined with the heightmap that was recorded by the Lucida Scanner into the final 3D model. The Lucida's capacity of working with 3D information as grayscale depth map images, avoids the need of working with cloud points or polygon meshes. Combining color information with a 3D scan is much more efficient using a GIS map and the final model can be edited easily, making this a user-friendly method of 3D scanning (Figures. 3,4,5.).
   
 Additionally, the digital model will be supplemented with data resulting from other types of material research that will be carried out during the conservation process of the painting (e.g. X-ray, ultraviolet, infra-red analyses) [^factumfoundation2021a]. 
-{{< figure src="images/figure03.jpg" caption="Color photograph – Made by Factum Foundation" alt="Detail of the Lindau Master's _Crucifixion_ featuring an angel, with blue background. Depth of plaster bas-relief is not shown."  >}}
+{{< figure src="resources/images/figure03.jpg" caption="Color photograph – Made by Factum Foundation" alt="Detail of the Lindau Master's _Crucifixion_ featuring an angel, with blue background. Depth of plaster bas-relief is not shown."  >}}
 
   
-{{< figure src="images/figure04.jpg" caption="3D shaded heightmap – Made by Factum Foundation" alt="Detail of the Lindau Master's _Crucifixion_ featuring an angel, in greyscale and showing plaster bas-relief."  >}}
+{{< figure src="resources/images/figure04.jpg" caption="3D shaded heightmap – Made by Factum Foundation" alt="Detail of the Lindau Master's _Crucifixion_ featuring an angel, in greyscale and showing plaster bas-relief."  >}}
 
   
-{{< figure src="images/figure05.jpg" caption="Color and height combined Color photograph – Made by Factum Foundation" alt="Detail of the Lindau Master's _Crucifixion_ featuring an angel, with color and bas-relief."  >}}
+{{< figure src="resources/images/figure05.jpg" caption="Color and height combined Color photograph – Made by Factum Foundation" alt="Detail of the Lindau Master's _Crucifixion_ featuring an angel, with color and bas-relief."  >}}
 
   
   

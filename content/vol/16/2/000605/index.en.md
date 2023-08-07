@@ -177,16 +177,16 @@ With LIFT, we also aim to encourage further research into the development of ope
 LIFT is under active development. Features that will be provided in the near future include a transformation script for bibliographic references encoded using specialized elements from the [TEI](https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COBI) model.bibLike class. Furthermore, the documentation will be expanded with new sections on ontologies for text representation as well as useful resources, particularly examples of digital scholarly editions enhanced through the use of linked open data.
   
   
-{{< figure src="images/figure01(1).png" caption="Homepage" alt="A screenshot of the homepage"  >}}
+{{< figure src="resources/images/figure01(1).png" caption="Homepage" alt="A screenshot of the homepage"  >}}
 
   
-{{< figure src="images/figure02(1).png" caption="Quick start" alt="A screenshot of the Quick start page"  >}}
+{{< figure src="resources/images/figure02(1).png" caption="Quick start" alt="A screenshot of the Quick start page"  >}}
 
   
-{{< figure src="images/figure03(1).png" caption="Choosing a transformation" alt="A screenshot of the page example the transformation options"  >}}
+{{< figure src="resources/images/figure03(1).png" caption="Choosing a transformation" alt="A screenshot of the page example the transformation options"  >}}
 
   
-{{< figure src="images/figure04(1).png" caption="Downloading the resulting knowledge graph according to different serializations" alt="A screenshot of the download button producing different serializations of the knowledge graph"  >}}
+{{< figure src="resources/images/figure04(1).png" caption="Downloading the resulting knowledge graph according to different serializations" alt="A screenshot of the download button producing different serializations of the knowledge graph"  >}}
 
   
 [^1]:  This paper is the result of a collaborative work. In particular, Francesca Tomasi is responsible for sections 1, 5 and 6, while Francesca Giovannetti is responsible for sections 2, 3 and 4.

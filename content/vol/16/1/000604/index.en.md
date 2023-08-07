@@ -39,7 +39,7 @@ Our initial results reveal that force-layered graph layout outperforms force-dir
   
 Discussion about the semantics of visual design elements is often neglected within technical scholarship on information visualization. In the case of hierarchy, we believe this discussion to be critical for two reasons. First, because Human-Computer-Interaction research has shown the importance of the consistency between users’ mental models of information and its digital representation [^doerum2011]. Second, because visual hierarchy in network graphs strongly affects their spatial organization, and spatial position is believed to be one of the most effective channels in information visualization [^munzner2014]  [^bertin1973]. In this section, we present a discussion on the semantics of hierarchical trees on one side, and force-directed networks on the other. 
   
-{{< figure src="images/image1.png" caption="(a) On the left: “A newly invented genealogical tree of the last Byzantine emperor...as well as one of the Turkish sultan.” ca. 1730-57. Digital image from the Met Museum Collection Gift of Robert W. Hatem. Public Domain. (b) On the right: a network showing relationships between signatories of a 18th century marriage contract in France. This network is an example of graph drawn using a circular[^2] force-directed layout. [^rothschild2014]. Reproduced with permission." alt="An image of a genealogical tree on the left and a network diagram on the right"  >}}
+{{< figure src="resources/images/image1.png" caption="(a) On the left: “A newly invented genealogical tree of the last Byzantine emperor...as well as one of the Turkish sultan.” ca. 1730-57. Digital image from the Met Museum Collection Gift of Robert W. Hatem. Public Domain. (b) On the right: a network showing relationships between signatories of a 18th century marriage contract in France. This network is an example of graph drawn using a circular[^2] force-directed layout. [^rothschild2014]. Reproduced with permission." alt="An image of a genealogical tree on the left and a network diagram on the right"  >}}
 
   
 First, we illustrate the difference between the two, through the example of two visualisations of historical social networks as can be seen in Figure 1. In Figure 1a, a hand-drawn illustration displays the genealogy of the last Byzantine emperor drawn as a collection of trees. This visualization has a strong spatial organization based on family lines, roles, and generational hierarchy. In fact, tree structures can be found in multiple historical representations of networks because they mirror the conception of lineage as a branching linear connected structure. In Figure 1b, we see a contemporary representation of a historical network[^3] , this time depicting the list of signatories of a marriage contract in Angoulême, France in the 18th century, as well as their extended social networks [^rothschild2014]. This network, developed using Gephi shows the global social structure of this historical community, produced using a force-directed layout, such that highly connected subgroups attract each other, thereby revealing the cliques and subcommunities within the dataset. 
@@ -75,7 +75,7 @@ In order to perform a fair comparison, we developed two visualizations showing b
   
 We designed and implemented an algorithm that traverses a force-directed graph and spatially organizes it based on a user-defined parameter. The full algorithm description and code can be found on our [GitHub page](github.com/HLMQA/egoNahr). Figure 2 shows the same dataset represented as both a force-directed graph (left), and a hierarchical network (right). We call the graphs produced by our hierarchical layout force-layered graphs. This porte-manteau hints at the underlying force-directed layout, and includes the layered aspect of hierarchical graphs (alternatively referred to as layered graphs, or Sugiyama-graphs). 
   
-{{< figure src="images/image2.png" caption="A dataset of thirteen nodes is visualized using a force-directed layout (left) and a force-layered layout (right)." alt="An image of a force directed network graph on the left and a force-layered network graph"  >}}
+{{< figure src="resources/images/image2.png" caption="A dataset of thirteen nodes is visualized using a force-directed layout (left) and a force-layered layout (right)." alt="An image of a force directed network graph on the left and a force-layered network graph"  >}}
 
   
   
@@ -91,7 +91,7 @@ Data. We used data extracted from the Cornelia[^6]  database, which uses archiva
   
 Graphs. Figure 3 shows the two network visualization used in this study. We used the same dataset for both graphs not to introduce bias. However, to minimize learning effects, we manually changed the names so that the similarity of the two networks would not be obvious.
   
-{{< figure src="images/image3.png" caption="The prototypes used in the user study. (a) On the top, the D3 force-directed layout. (b) On the bottom, the same data using our force-layered algorithm. The names of the actors were changed in both graphs to reduce learning effects on participants." alt="An image of a force directed network graph on the left and a force-layered network graph"  >}}
+{{< figure src="resources/images/image3.png" caption="The prototypes used in the user study. (a) On the top, the D3 force-directed layout. (b) On the bottom, the same data using our force-layered algorithm. The names of the actors were changed in both graphs to reduce learning effects on participants." alt="An image of a force directed network graph on the left and a force-layered network graph"  >}}
 
   
   
@@ -102,7 +102,7 @@ Understanding users' existing mental models (i.e. the representation they intern
   
 Before showing participants the graphs, we first started by asking each one to freely draw a social structure of their choosing, in order to elicit their mental mapping of social structures. They were invited to sketch out any fictional or existing social structure network (from stories, movies or books, or their own personal life[^8] ). They were encouraged to consider lineage relationships, but also non-blood ties such as extended families, and close friends. We then extracted the recurring themes present in the produced sketches. A few of these sketches can be seen in Figure 4.
   
-{{< figure src="images/image4.jpeg" caption="From left to right, top to bottom: initial drawings for participants P13, P4, P15 and P10. These sketches show networks represented as layered graphs, similar to traditional ancestry tree visualizations. Participants made use of labels, symbols and shape." alt="Sketches of network graph"  >}}
+{{< figure src="resources/images/image4.jpeg" caption="From left to right, top to bottom: initial drawings for participants P13, P4, P15 and P10. These sketches show networks represented as layered graphs, similar to traditional ancestry tree visualizations. Participants made use of labels, symbols and shape." alt="Sketches of network graph"  >}}
 
   
 We found that in all[^9]  cases, participants sketched graphs had a hierarchical structure. These representations were mainly tree structures, with many of them structured as layered graphs. We also found that most participants used the vertical axis as a single indicator of generational division. However, in some cases, this pattern was broken as different relationships (edges towards friends for instance) were represented as orthogonal to the family links (Figure 4, P15). Indeed, almost a third (35\%) of participants chose to represent multiple relationship types within the graphs.
@@ -145,7 +145,7 @@ To assess recall, we aimed to see how well participants remembered the graph in 
   
 We found differences in specific metrics between the recall sketches of the two versions, specifically on the identification of bridge nodes, as well as the retention of the multiple types of relationships. In the force-directed recall sketches, participants have retained the “dog-bone” structure of the graph consisting of two large clusters representing the two main families and tied together through a bridge node. Most participants also retained - at least partially - the lower antennas formed by the two loosely connected pairs nodes. In the force-layered condition, the drawings have retained the left-to-right organization of the nodes, as well as the two distinct subgraphs representing the two families. The bridge node bringing these two groups together was not systematically included. Finally, participants retained the existence of multiple types of relationships better in the force-layered condition, as they recalled more of the godparent type links. Example drawings from participants for each condition can be seen in Figure 5.
   
-{{< figure src="images/image5.png" caption="Selected participants recall sketches in each condition. On the left, sketches representing the force-directed network (3a). On the right, sketches representing the force-layered (3b)." alt="Sketches of network graph"  >}}
+{{< figure src="resources/images/image5.png" caption="Selected participants recall sketches in each condition. On the left, sketches representing the force-directed network (3a). On the right, sketches representing the force-layered (3b)." alt="Sketches of network graph"  >}}
 
   
   
@@ -159,7 +159,7 @@ As a measure for cognitive load, we used a raw NASA-TLX questionnaire [Hart, 199
   
 Comparing the raw NASA-TLX scores, we find that the force-layered visualization (average score of 26.3) was found to be less demanding than the force-directed graph (average score of 35.78), the metrics with most variance between conditions being mental demand, effort, and frustration (see Figure 6).
   
-{{< figure src="images/image6.png" caption="Results of the raw TLX for the force-layered and force-directed conditions" alt="An image of a bar graph"  >}}
+{{< figure src="resources/images/image6.png" caption="Results of the raw TLX for the force-layered and force-directed conditions" alt="An image of a bar graph"  >}}
 
   
   
@@ -171,7 +171,7 @@ Finally, we performed a preference-based ranking. Participants were asked to sub
   
 Figure 7 shows the average results of the preference rankings for each category. Globally, participants ranked the force-layered condition higher than the force-directed condition in suitability to both data and tasks. They indicated that the force-layered condition needed less effort to understand than the standard one, and that they had higher confidence in their answers. Finally, the force-layered graphs also scored higher in visual appeal, and overall preference. 
   
-{{< figure src="images/image7.png" caption="Results of the preference ranking for the force-layered and force- directed conditions" alt="An image of a bar graph"  >}}
+{{< figure src="resources/images/image7.png" caption="Results of the preference ranking for the force-layered and force- directed conditions" alt="An image of a bar graph"  >}}
 
   
   

@@ -118,7 +118,7 @@ The approach is presented by Desmond Schmidt’s Multi-Version Document system, 
 > Assignment to levels is mechanical and describes a purely local succession of changes, which can almost always be determined. Authors leave many clues as to the succession of variants: position (above the line, then below, in the margin, on another page), the carrying over of changed text between levels, sense and crossing-out. Where the local temporal succession can’t be established this is usually because the corrections themselves can’t be read.
   [( _Ibid_ .)](https://charles-harpur.org/View/Singleview/?docid=english/harpur/poems/h595&version1=/h595f/layer-final) The versions and layers in plain text are merged into one Multi-Version Document. It stores the text shared by each version and layer only once. Note that the comparison algorithm works at the character level, not at word level. In the table visualization, therefore, words may be cut up (see [figure 1](#figure01)).
   
-{{< figure src="images/figure01.png" caption="Table visualization of the collation output of the artificial layers of _The Comet_ by Charles Harpur. Text characters added with respect to the base layer (not shown in this figure) are in blue." alt=""  >}}
+{{< figure src="resources/images/figure01.png" caption="Table visualization of the collation output of the artificial layers of _The Comet_ by Charles Harpur. Text characters added with respect to the base layer (not shown in this figure) are in blue." alt=""  >}}
 
   
   
@@ -149,14 +149,14 @@ The first step we took in enabling a collation tool to recognize in-text variati
   
  A fitting model of nonlinear text is presented by the variant graph data structure. The variant graph consists of a set of nodes that represent textual objects, and edges that connect one node to another node in the graph. The graphs are acyclic, which means that they are read from left to right without looping back. As Tara Andrews and Caroline Macé write, a variant graph is an elegant way to represent nonlinear text:  “one may imagine a text running from beginning to end with a number of points of divergence, where each witness takes a single path through these divergences”   [^andrews2013]. Variant graphs are relatively well-known in the field of automated collation and occur both as internal data model [^schmidt2009]  [^collatex] and for visualization purposes (e.g., the stemma graph or the variant graph, [^andrews2013]). As Elisa Nury writes, the first use of a variant graph to express textual variation can be traced to E.C. Colwell and E.W. Tune in 1964, although it was with the 2009 article of Desmond Schmidt and Robert Colomb that the variant graph gained a foothold in the field of textual scholarship [^schmidt2009] (See [^nury2018]). Their variant graph has the text and sigla placed on the edges of the graph ([figure 2](#figure02)). Common text is merged, and variant text results in separate branches. 
   
-{{< figure src="images/figure02.png" caption="Representation of the variant graph data model of Schmidt and Colomb (source: CollateX documentation, section “The Data Model: Variant Graphs,” on [https://collatex.net/doc/](#https://collatex.net/doc/))." alt=""  >}}
+{{< figure src="resources/images/figure02.png" caption="Representation of the variant graph data model of Schmidt and Colomb (source: CollateX documentation, section “The Data Model: Variant Graphs,” on [https://collatex.net/doc/](#https://collatex.net/doc/))." alt=""  >}}
 
   
 CollateX adopted the variant graph, but modified it to place the text in the nodes of the graph, and the sigla on the edges (see [figure 3](#figure03)). This ensures not only a better readability, but also improves processing as the edges have only one label (one or more sigla). 
   
  There is another, more subtle yet important distinction between the variant graph as proposed by Schmidt and Colomb, and the variant graph as implemented by CollateX. The data structure of the variant graph in figure 3 appears simpler than it is. At first glance, the textual content of the first node (The) appears to be shared by witness 1 (W1) and witness 2 (W2). In fact, each node in the CollateX variant graph represents  _a set of text tokens_  that originate from one or more versions; the tokens in a set are considered equal by the CollateX collation algorithm. The main point being that the tokens are not modeled on textual content, as is the case with the variant graph of Schmidt and Colomb. In CollateX’s variant graph model, arbitrary tokens can be compared and their correspondences, differences, and order can be represented in a variant graph structure [^collatex]. This seemingly small feature paves the way for HyperCollate’s approach to collation.
   
-{{< figure src="images/figure03.png" caption="Variant graph of CollateX: witness sigils on the edges and the text in the nodes. Text that is considered as a match shares a node." alt=""  >}}
+{{< figure src="resources/images/figure03.png" caption="Variant graph of CollateX: witness sigils on the edges and the text in the nodes. Text that is considered as a match shares a node." alt=""  >}}
 
   
 HyperCollate uses a  _hypergraph for textual variation_ . This data structure is more flexible than trees, and it differs from regular variant graphs in that it has  _hyperedges_  which can connect multiple nodes to one another. As a result, the nodes of a hypergraph can be traversed in more than one order. Finally, the hypergraph data model of HyperCollate contains text nodes as well as markup nodes. This means that the markup node of, say, a  `<del>`  element can be connected to multiple text nodes which do not immediately have to follow one another. As a result, it is possible to express multiple, overlapping or nonlinear dimensions of a text in markup.[^16]  Moreover, the hypergraph also enables the representation of individual witnesses with in-text variance as a hypergraph (see [figure 4](#figure04)).
@@ -167,12 +167,12 @@ HyperCollate is trained on the two ways of encoding in-text revisions as propose
 ```
   Figure 4 shows the witness hypergraph of this example. Note that the hypergraph contains not only information about the text of the witness, but also its markup. In this visualization, the markup information is shown as an XPath. We see, for instance, that the XPath of the text token quick is /s/subst/del. 
   
-{{< figure src="images/figure04.png" caption="Visualization of the hypergraph of Witness 1 (W1) as stored in HyperCollate." alt=""  >}}
+{{< figure src="resources/images/figure04.png" caption="Visualization of the hypergraph of Witness 1 (W1) as stored in HyperCollate." alt=""  >}}
 
   
 Another way to visualize the hypergraph of Witness 1 is shown in [figure 5](#figure05), below. Here, the tree of markup nodes is projected onto the variant graph of the text. The text still reads from left to right, with the stream of text temporarily separating into two concurrent branches. The markup nodes that are associated with each text node in the XML tree are visualized as colored nodes.
   
-{{< figure src="images/figure05.png" caption="Different visualization of the hypergraphs of Witness 1 as stored by HyperCollate, with the markup information visualized in colors." alt=""  >}}
+{{< figure src="resources/images/figure05.png" caption="Different visualization of the hypergraphs of Witness 1 as stored by HyperCollate, with the markup information visualized in colors." alt=""  >}}
 
   
   
@@ -182,7 +182,7 @@ Another way to visualize the hypergraph of Witness 1 is shown in [figure 5](#fig
   
 Having illustrated how HyperCollate stores the information in a TEI-XML transcription, we can now move on to demonstrate how this information is processed and collated. 
   
-{{< figure src="images/figure06.png" caption="Schematic workflow of HyperCollate." alt=""  >}}
+{{< figure src="resources/images/figure06.png" caption="Schematic workflow of HyperCollate." alt=""  >}}
 
   
 Figure 6 represents the pipeline of HyperCollate. First, the TEI-XML transcribed texts (here XML witness 1 and XML witness 2) are transformed into individual variant hypergraphs. These variant hypergraphs are subsequently segmented and the resulting tokens are aligned. The alignment is carried out on the level of the text; the markup elements  `<app>`  and  `<subst>`  are recognized as occurrences of nonlinearity. Subsequently, the resulting set of matches are merged with the two individual hypergraph witnesses. The result of the collation is a collation hypergraph in which all text nodes that are not aligned are unique to one of the two hypergraph witnesses, and all the text nodes that are aligned are reduced to one node. There are labels on the edges indicating which node is part of which hypergraph. For every witness, then, there is always a fully connected path through the hypergraph from the start text node to the end text node, following the sigils on the edges. The collation hypergraph can be visualized or exported in alignment table format, SVG, PNG, or dot format. If there are more than two witnesses, the result of that first collation can be used as the basis of a new collation, following the method of progressive alignment.[^17]   
@@ -198,7 +198,7 @@ As shown in section 3.3.3, [figure 20](#figure20), we have currently opted for p
 ## 3.2.1 Deletions and Additions
   
 Consider the example in [figure 7](#figure07), transcribed first with the TEI  `<del>` / `<add>`  method, and then with the TEI  `<app>` / `<rdg>`  method. 
-{{< figure src="images/figure07.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/3, page 20r." alt=""  >}}
+{{< figure src="resources/images/figure07.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/3, page 20r." alt=""  >}}
 
     
 # Transcription using the TEI del/add method.
@@ -227,10 +227,10 @@ With this TEI-XML transcription as one of the witnesses in the input for HyperCo
   
 [Figure 8](#figure08) shows the individual variant graph of the witness with the  `<del>` / `<add>`  tagging, and [figure 9](#figure09) using the app/rdg method of transcribing.
   
-{{< figure src="images/figure08.png" caption="Internal graph model of the del/add tagging of the example." alt=""  >}}
+{{< figure src="resources/images/figure08.png" caption="Internal graph model of the del/add tagging of the example." alt=""  >}}
 
   
-{{< figure src="images/figure09.png" caption="Internal graph model of the app/rdg tagging of the example." alt=""  >}}
+{{< figure src="resources/images/figure09.png" caption="Internal graph model of the app/rdg tagging of the example." alt=""  >}}
 
   
   
@@ -243,7 +243,7 @@ Instant revisions or currente calamo changes are revisions made within the initi
   
 In the following example, Beckett wrote  “threw up his”  and then crossed the three words out to continue the sentence with  “gave such a jerk at Russell's arm that that poor little man was nearly pulled off his feet.” 
   
-{{< figure src="images/figure10.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/2, page 16r" alt=""  >}}
+{{< figure src="resources/images/figure10.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/2, page 16r" alt=""  >}}
 
   
 In this case it not make sense to tag gave such a jerk as an addition, not would it make sense to tag the rest of the sentence as such. 
@@ -269,7 +269,7 @@ Following our interpretation of an instant revision, we would  _not_  want Hyper
   
 As the instant revision, encoded with  `<del instant="true">` , does not trigger HyperCollate in the same way a regular  `<del>`  does, the individual witness hypergraph has only one path through the text. The information about the deletion is retained (see [figure 11](#figure11)).
   
-{{< figure src="images/figure11.png" caption="Internal graph model of an instant revision." alt=""  >}}
+{{< figure src="resources/images/figure11.png" caption="Internal graph model of an instant revision." alt=""  >}}
 
   
   
@@ -279,7 +279,7 @@ As the instant revision, encoded with  `<del instant="true">` , does not trigger
 ## 3.2.3 Substitutions
   
 Deletions followed by additions that are (semantically) related can be grouped by means of a  `<subst>`  (substitution) element, or as two readings in an  `<app>`  element. This can be illustrated with a simple example from Beckett (see [figure 12](#figure12)). 
-{{< figure src="images/figure12.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/2, page 20r." alt=""  >}}
+{{< figure src="resources/images/figure12.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/2, page 20r." alt=""  >}}
 
     
 # Transcription using the TEI del/add method.
@@ -312,12 +312,12 @@ A  `<subst>`  element can contain more than one  `<del>`  and more than one  `<a
   
 [Figure 13](#figure13) shows the internal graph model for the substitution in the example encoded with the  `<del>` / `<add>`  method.
   
-{{< figure src="images/figure13.png" caption="Internal hypergraph model of the `<add>` / `<del>` tagging of the example." alt=""  >}}
+{{< figure src="resources/images/figure13.png" caption="Internal hypergraph model of the `<add>` / `<del>` tagging of the example." alt=""  >}}
 
   
 The  `<app>` / `<rdg>`  method equally divides the token stream up into two paths (see [figure 14](#figure14)).
   
-{{< figure src="images/figure14.png" caption="Internal hypergraph model of the app/rdg tagging of the example." alt=""  >}}
+{{< figure src="resources/images/figure14.png" caption="Internal hypergraph model of the app/rdg tagging of the example." alt=""  >}}
 
   
   
@@ -329,7 +329,7 @@ The  `<app>` / `<rdg>`  method equally divides the token stream up into two path
 In the case of the substitution of a group of words, there will usually be more than one way to align the witnesses. The differences in alignment stem from a difference in focus: does the scholarly editor want to give priority to the unit of the substitution, or should the alignment of matching words receive priority? The traditional approach in collation of starting from exact string matches and grouping the variants in columns between the matches has the advantage of accentuating the similarities between witnesses, but the unit of the substitution can become obscured as it is spread over multiple columns. Holding the substitution together in the alignment, on the other hand, keeps the focus on the nonlinear nature of manuscripts as witnesses. It marks the spot where something happens on the manuscript and the totality of a textual operation is presented as one block. The drawback is a potential loss of information if the occurrence of a matching word across witnesses is not indicated in the collation output. 
   
 Consider the examples below. 
-{{< figure src="images/figure15.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/6, page 26r." alt=""  >}}
+{{< figure src="resources/images/figure15.png" caption="Reconstruction of a fragment from Samuel Beckett: Murphy, Draft notebook, University of Reading, Cat. Nr. 5517/6, page 26r." alt=""  >}}
 
     
 # Transcription using the TEI del/add method.
@@ -347,7 +347,7 @@ Consider the examples below.
   
 Given a collation with two slightly different witnesses (B: Murphy stayed his hand., C: Murphy stayed the arm.), different scholarly editors might arrive at different alignment tables, but they will largely fall into one of two categories: alignment on matching tokens or on the unit of the substitution. Currently, HyperCollate aligns the witnesses on the unit of substitution and will produce the following alignment table:
   
-{{< figure src="images/figure16.png" caption="Collation output expressed in an ascii table with the alignment favouring the unit of the substitution." alt=""  >}}
+{{< figure src="resources/images/figure16.png" caption="Collation output expressed in an ascii table with the alignment favouring the unit of the substitution." alt=""  >}}
 
   
 In the future, HyperCollate aims to offer users two options in its output alignment: to give dominance to the matching of tokens, or to preserve the unit of the substitution as much as possible. Users will be then able to indicate their preference by way of a parameter in the collation command. The collation hypergraph and the two possible alignment options are discussed further in [section 3.3.4](#section3-3-4).
@@ -366,12 +366,12 @@ Now that we have established the types of instances of nonlinearity and made our
   
 The collation hypergraph can be visualized, among other formats, as an alignment table (see [figure 17](#figure17)). 
   
-{{< figure src="images/figure17.png" caption="ASCII alignment table of the collation output. In the TEI-XML transcription, the in-text revisions in witness A were tagged with `<add>` and `<del>` ." alt=""  >}}
+{{< figure src="resources/images/figure17.png" caption="ASCII alignment table of the collation output. In the TEI-XML transcription, the in-text revisions in witness A were tagged with `<add>` and `<del>` ." alt=""  >}}
 
   
 In figure 16 the [+] and [-] in the A version correspond to the  `<add>`  and  `<del>`  elements in the input XML. In the case of the  `<app>` / `<rdg>`  method, the value of the  `@varSeq`  attribute is included in the output, as shown in [figure 18](#figure18).
   
-{{< figure src="images/figure18.png" caption="ASCII alignment table of the collation output, with the in-text revisions in witness A coded with `<app>` and `<rdg>` ." alt=""  >}}
+{{< figure src="resources/images/figure18.png" caption="ASCII alignment table of the collation output, with the in-text revisions in witness A coded with `<app>` and `<rdg>` ." alt=""  >}}
 
   
   
@@ -381,17 +381,17 @@ In figure 16 the [+] and [-] in the A version correspond to the  `<add>`  and  `
   
 Collated against a fictional second witness B, the instant revision produces the following ASCII alignment table ([figure 19](#figure19)). Note that the visualization options of the ASCII alignment table are limited, which is why the instant deletion is visualized as a regular deletion and the text that follows, gave such a, is placed in the same cell and directly above the instant deletion.
   
-{{< figure src="images/figure19.png" caption="ASCII alignment tables of the collation output of an instant revision." alt=""  >}}
+{{< figure src="resources/images/figure19.png" caption="ASCII alignment tables of the collation output of an instant revision." alt=""  >}}
 
   
 The HTML alignment table is more expressive and produces a more accurate visualization of the collation result (see [figure 20](#figure20)).
   
-{{< figure src="images/figure20.png" caption="HTML alignment tables of the collation output of an instant revision." alt=""  >}}
+{{< figure src="resources/images/figure20.png" caption="HTML alignment tables of the collation output of an instant revision." alt=""  >}}
 
   
 The collation hypergraph visualization ([figure 21](#figure21)), finally, demonstrates once more that the instant deletion does not produce an alternative path through the text of witness A. The graph also shows that even though the text tokens & and and as well as jerk and pull are aligned in the alignment table visualization, they are not considered a match by the collation algorithm.
   
-{{< figure src="images/figure21.png" caption="Collation hypergraph of the collation output of an instant revision." alt=""  >}}
+{{< figure src="resources/images/figure21.png" caption="Collation hypergraph of the collation output of an instant revision." alt=""  >}}
 
   
   
@@ -401,12 +401,12 @@ The collation hypergraph visualization ([figure 21](#figure21)), finally, demons
   
 [Figure 22](#figure22) shows the ASCII alignment tables for a collation of Beckett’s substitution of Alice with Cathleen against another version stating Cathleen came. When the substitution is encoded with the  `<del>` / `<add>`  method, the word in the  `<del>`  element is preceded by [-], and the word in the  `<add>`  element with [+]. In the case of a transcription that uses the  `<app>` / `<rdg>`  method, HyperCollate reproduces the values of the  `@varSeq`  attributes in the  `<rdg>`  elements.
   
-{{< figure src="images/figure22.png" caption="ASCII alignment tables of the collation output, del/add method on the left, app/rdg on the right." alt=""  >}}
+{{< figure src="resources/images/figure22.png" caption="ASCII alignment tables of the collation output, del/add method on the left, app/rdg on the right." alt=""  >}}
 
   
 The collation hypergraph (see [figure 23](#figure23)), from which the ASCII alignment tables are derived, holds the most contextual information: each node contains a full XPath expression. In a case where two witnesses match on a word, but are not on the same level of the XML tree, two different XPath expressions are listed in the node, bringing both the similarities and the differences to the user’s attention.
   
-{{< figure src="images/figure23.png" caption="The collation hypergraph of the substitution example." alt=""  >}}
+{{< figure src="resources/images/figure23.png" caption="The collation hypergraph of the substitution example." alt=""  >}}
 
   
 The instance of nonlinear text is visualized by two separate edges and nodes labeled with the same siglum, A. In order to make it easier to follow the path of a certain revision campaign, the edges contain not only information about the witness sigil, but also whether the text is part of a deleted or added branch. This information is visualized on the edges with [-] and [+] signs for deletions and additions respectively. Furthermore, information that is shared by more than one witness is given a thicker edge and node border (see e.g., [Jänicke et al. [2015]](#janicke2015)). In this example, the words Cathleen and came are considered matches between A and B and thus share text nodes with a thicker border. Finally, the information about the location of the tag in the XML tree is added to the node as an XPath expression.
@@ -418,7 +418,7 @@ The instance of nonlinear text is visualized by two separate edges and nodes lab
   
 In the case of a collation of the Beckett example shown in [figure15](#figure15) with two other witnesses (B: Murphy stayed his hand., C: Murphy stayed the arm.), the collation hypergraph identifies two variant groups across the witnesses ([figure 24](#figure24)).
   
-{{< figure src="images/figure24.png" caption="Collation hypergraph of an example with three witnesses, one of which contains a long substitution." alt=""  >}}
+{{< figure src="resources/images/figure24.png" caption="Collation hypergraph of an example with three witnesses, one of which contains a long substitution." alt=""  >}}
 
   
 HyperCollate can express this graph in two possible alignment tables.
@@ -428,7 +428,7 @@ HyperCollate can express this graph in two possible alignment tables.
 ## Alignment on matching tokens
   
 The first option presents an alignment of each of the matching tokens in a separate column ([figure 25](#figure25)). It splits the substitution up into token-per-token units in which a deleted and added token are placed together in a column based solely on their position in the token stream. 
-{{< figure src="images/figure25.png" caption="Collation output expressed in an ascii table with the alignment favouring matching tokens." alt=""  >}}
+{{< figure src="resources/images/figure25.png" caption="Collation output expressed in an ascii table with the alignment favouring matching tokens." alt=""  >}}
 
  This alignment maximally emphasizes the matching words across witnesses. 
   
@@ -438,14 +438,14 @@ The first option presents an alignment of each of the matching tokens in a separ
 ## Alignment on the unit of the substitution
   
 Alternatively, HyperCollate can take its lead from the unit of the substitution to group words together in its output options, as in [figure 26](#figure26). 
-{{< figure src="images/figure26.png" caption="Collation output expressed in an ascii table with the alignment favouring the unit of the substitution." alt=""  >}}
+{{< figure src="resources/images/figure26.png" caption="Collation output expressed in an ascii table with the alignment favouring the unit of the substitution." alt=""  >}}
 
  In this particular example the two variant groups from the collation graph are presented as separate columns without further subdivision. A variant of the output in an HTML table draws attention to the matching words in these columns (stayed,  his hand and the arm) by way of a corresponding background color (see [figure 27](#figure27)).
   
   
   
   
-{{< figure src="images/figure27.png" caption="Collation output expressed in an alignment table in HTML." alt=""  >}}
+{{< figure src="resources/images/figure27.png" caption="Collation output expressed in an alignment table in HTML." alt=""  >}}
 
   
   
@@ -454,19 +454,19 @@ Alternatively, HyperCollate can take its lead from the unit of the substitution 
   
 In its genetic modules, the BDMP offers users the option of collating all the prepublication versions of one particular sentence in a work by incorporating on-the-fly collation with CollateX 1.7.1. By using CollateX’s pre-tokenized JSON input feature and attaching the extra properties del and add to tokens ([section 2.4.1](#section2-4-1)), the BDMP can visualize additions and deletions in the generated alignment tables in the same way as it does in the transcription visualizations: deletions struck through and additions in superscript. A comparison of the alignment tables from CollateX and HyperCollate can illustrate the improvement of HyperCollate’s treatment of witnesses in the collation process (see [figure 28](#figure28)).
   
-{{< figure src="images/figure28.png" caption="CollateX alignment (left) versus HyperCollate alignment (right) of the example from section 3.2.3." alt=""  >}}
+{{< figure src="resources/images/figure28.png" caption="CollateX alignment (left) versus HyperCollate alignment (right) of the example from section 3.2.3." alt=""  >}}
 
   
 Although the CollateX table adequately intuits the in-text revision on the manuscript through the formatting convention, the alignment that CollateX outputs is still conceptually less correct than a visualization that places Alice and Cathleen on the same level. HyperCollate combines the advantages of the two current approaches described in sections [2.4.1](#section2-4-1) and [2.4.2](#section2-4-2) and does not have the drawbacks. A witness with in-text variation is treated as one witness both in input and output, and the collation algorithm is able to align the two parts of the substitution vertically instead of horizontally in its output by treating them as unordered during alignment, which is a considerable step forward. 
   
-{{< figure src="images/figure29.png" caption="CollateX alignment (left) versus HyperCollate alignment (right) of the example from section 3.2.4." alt=""  >}}
+{{< figure src="resources/images/figure29.png" caption="CollateX alignment (left) versus HyperCollate alignment (right) of the example from section 3.2.4." alt=""  >}}
 
   
 In the case of the example discussed in sections [3.2.4](#section3-2-4) and [3.3.4](#section3-3-4), the method of collating as one linear witness with markup passed along ([section 2.4.1](#section2-4-1)), the CollateX output is inadequate, as the alignment table in [figure 28](#figure29) shows. Treating the two parts of the substitution in a linear way is detrimental to the alignment. The words the arm and stayed are transposed between the first and third witness, and as the arm occurs first in the first witness, CollateX marks the arm as invariant between those two witnesses in favor of aligning stayed which occurs in all three witnesses. The HyperCollate output succeeds quite well in conveying the nonlinearity in the first witness and grouping and aligning the differences with the subsequent witnesses.
   
  Splitting the first version up into two (sub)versions as discussed in [section 2.4.2](#section2-4-2) produces the desired alignment ([figure 30](#figure30)), but misrepresents the manuscript by including the word Murphy in version A-layer1 as well as in A-layer2, as the word Murphy only occurs once on the document.
   
-{{< figure src="images/figure30.png" caption="CollateX alignment table output with the substitution in version A split up into two (sub)versions." alt=""  >}}
+{{< figure src="resources/images/figure30.png" caption="CollateX alignment table output with the substitution in version A split up into two (sub)versions." alt=""  >}}
 
   
   
@@ -500,7 +500,7 @@ This encoding complies with the TEI guidelines except that, like in the collatio
   
 Substitutions on the character-level within a word constitute a particular challenge to the automatic collation process. HyperCollate works at the granularity level of the word as a token, and revisions within a word produce isolated characters as tokens.
   
-{{< figure src="images/figure31.jpg" caption="Samuel Beckett: Murphy, Typescript, Harry Ransom Center, Cat. Nr. SB 5/2, page 11r." alt=""  >}}
+{{< figure src="resources/images/figure31.jpg" caption="Samuel Beckett: Murphy, Typescript, Harry Ransom Center, Cat. Nr. SB 5/2, page 11r." alt=""  >}}
 
   
 In TEI-XML, Beckett’s typo in Scratch ([figure 31](#figure31)) could be transcribed as: Scratc `<del>` g `</del>`  `<add>` h `</add>` . Currently this encoding produces three separate tokens: Scratc,  g and h, none of which will be aligned with the occurrence of Scratch in another version. This is a very challenging problem for any collation algorithm, because it creates the need for an alignment within an alignment: aligning words in a first step and characters subsequently.
@@ -525,7 +525,7 @@ Open variants are also an example of nonlinearity in text. The TEI guidelines su
   
 A transposition  “occurs when metamarks are found in a document indicating that passages should be moved to a different position.” [^21]   
   
-{{< figure src="images/figure32.png" caption="Samuel Beckett: Malone Dies, Typescript, Washington University, Cat. Nr. MSS008/2/47, page 49r." alt=""  >}}
+{{< figure src="resources/images/figure32.png" caption="Samuel Beckett: Malone Dies, Typescript, Washington University, Cat. Nr. MSS008/2/47, page 49r." alt=""  >}}
 
   
 To tag transpositions, the TEI proposes that both parts be tagged in an element with a @xml:id attribute (the element most commonly used is  `<seg>` ), and that the two tags be declared as a transposition inside the teiHeader, in a  `<transpose>`  element within a  `<listTranspose>` . The use of  `@type="transposition"`  inside the  `<seg>`  is not required.

@@ -38,7 +38,7 @@ Within Google's image policy, one encounters a very standardised visual language
   
 As noted in the introduction, by distanced vision we mean the constant dialogue of quantitative and qualitative decision-making processes. This already becomes clear in the methodological orientation of our research project. As an interdisciplinary mixed-methods research team, we oriented ourselves to the so-called embedded design of mixed-methods research according to John W. Creswell ([2007](#creswell2007)). Here, the quantitative and qualitative approaches are considered separately, but in a consciously conceived interdependence in dialogue. The focus is on the quantitative image data and their machine image comparison using t-SNE as algorithmic image sorting and visualisation and the subsequent qualitative reading of the resulting data images.
   
-{{< figure src="images/figure01.jpeg" caption="Diagram of the method pipeline and structure of the following keypoints" alt="black and white image of a flowchart. There are nine boxes in the flowchart which outline the steps of the method pipeline"  >}}
+{{< figure src="resources/images/figure01.jpeg" caption="Diagram of the method pipeline and structure of the following keypoints" alt="black and white image of a flowchart. There are nine boxes in the flowchart which outline the steps of the method pipeline"  >}}
 
   
   
@@ -60,7 +60,7 @@ So, in order to do justice to the technical idea of cultural spaces in the WWW a
   
  The next step was to clarify which locales should be compared with each other. We developed a focus list of eighteen locales. These locales form a purely subjective selection based on previous research, contacts with international researchers, and climate policy relevance. To counteract a perceived biased perspective, we supplemented this with a number-based analysis of climate indices, so that qualitative and quantitative approaches were mixed. To do this, we created a two-dimensional mapping of the rankings for nation states of two climate indices: the ND-GAIN index from the Notre Dame Global Adaptation Initiative and the TCI indicator from the Stockholm Environment Institute. In a subsequent identification of groupings, we captured five clusters that outline focal points in each country's climate policy. The following seven countries were exemplary selected: USA, Brazil, Germany, Kenya, United Arab Emirates, Bangladesh, and Australia. Their locales were generated using simulated VPN searches. 
   
-{{< figure src="images/figure02.png" caption="Mapping TCI and ND-GAIN with five resulting clusters" alt="image of a number plot with several points on it. There are circles drawn around clusters of the points in the colors blue, red, purple, white, and green"  >}}
+{{< figure src="resources/images/figure02.png" caption="Mapping TCI and ND-GAIN with five resulting clusters" alt="image of a number plot with several points on it. There are circles drawn around clusters of the points in the colors blue, red, purple, white, and green"  >}}
 
   
   
@@ -70,7 +70,7 @@ So, in order to do justice to the technical idea of cultural spaces in the WWW a
   
 Our conducted image search via Google works by keywords. We were therefore confronted with the problem of differentiating the climate change discourse into a few but essential terms. In a highly iterative and qualitative process, we randomly evaluated different keywords in different languages related to climate change discourse in Google Image Search. We coordinated the exact definition of the keywords with experts working in the field of climate research and communication. In the end, we decided on eight terms to use as keywords and search terms: (1) climate change, (2) climate change disaster, (3) climate change impacts, (4) climate change risk, (5) climate emergency, (6) climate crisis, (7) climate collapse, and (8) global warming.
   
-{{< figure src="images/figure03.png" caption="Extract from the translation chart with confirmed keywords" alt="Image of a spreadsheet that is color coded using yelloew and blue"  >}}
+{{< figure src="resources/images/figure03.png" caption="Extract from the translation chart with confirmed keywords" alt="Image of a spreadsheet that is color coded using yelloew and blue"  >}}
 
   
   
@@ -112,7 +112,7 @@ For our analysis, we created a t-SNE calculation for each  _locale_  and for eac
 
 ## 5 – Visualisation - Qualitative reading needs visibility
   
-{{< figure src="images/figure04.png" caption="Screenshot of the visualisation interface based on the Yale DH framework" alt="image of a network graph with a black background. There are cluster names and images on the left side in the margins"  >}}
+{{< figure src="resources/images/figure04.png" caption="Screenshot of the visualisation interface based on the Yale DH framework" alt="image of a network graph with a black background. There are cluster names and images on the left side in the margins"  >}}
 
   
 To merge the computational methods and the visualisation of the statistical results, we created a web interface based on Yale University's PixPlot tools with an interactive layout arrangement of the image corpus [^yale2017]. The web-assisted visualisation (WebGL) consists of a two-dimensional projection in which similar images are grouped based on the similarity vectors computed by the Inception v3 neural network. 
@@ -125,7 +125,7 @@ From a humanities perspective, in the further course of the pipeline we asked ou
   
 Overall, despite  _locale_ -specific differences, we were able to identify the following dominant or concise main motifs and image genres in the collected images, which expressed themselves either as technically generated image clusters or qualitative image groups. They can be understood as the result of climate image communication in relation to Google's ranking and image structures. In terms of image science, so-called catch images  [^diers1997] could be identified within the identified image groups, which were characterised by recurring motifs and formal stylistics. These appeared more frequently in the Google query due to their similarity and are reflected, among other things, in the technically generated hotspot images. The following overview shows the most dominant image groups with central catch images as single images.
   
-{{< figure src="images/figure05.jpeg" caption="Overview of all image clusters with an according catch image" alt="Image of a list of twelve words wiht images next to each"  >}}
+{{< figure src="resources/images/figure05.jpeg" caption="Overview of all image clusters with an according catch image" alt="Image of a list of twelve words wiht images next to each"  >}}
 
   
 In total, three image types as an average of five concise main motif groups could be located according to size: 
@@ -133,7 +133,7 @@ In total, three image types as an average of five concise main motif groups coul
   photographs, divisible into a) a group of images on the subject of environment, nature, landscape, b) a group of people (conferences, groups, politics versus protest/demonstrations), c) a group of images with representations of the earth, and d) a group of images on the polar bear.   text-image documents, including text-only documents, documents with diagrams, covers of books and brochures, individual slides with text, activist posters with slogans, occasional maps, cartoons or cartoon-style graphics, infographics, and charts   highly artificial photomontages (representations of contrast)
 
   
-{{< figure src="images/figure06.png" caption="The three different main image types or genres exemplified by the t-SNE visualisation of the German Google search query Left: Photographs, centre: text-image documents, right: artificial photo montages" alt="screenshot of three tsne plots. The plots each have circles around different clusters of points as well as accompanying images"  >}}
+{{< figure src="resources/images/figure06.png" caption="The three different main image types or genres exemplified by the t-SNE visualisation of the German Google search query Left: Photographs, centre: text-image documents, right: artificial photo montages" alt="screenshot of three tsne plots. The plots each have circles around different clusters of points as well as accompanying images"  >}}
 
   
 It could be determined that the t-SNE algorithm thus does not sort the images exclusively according to image types and juxtaposes the image-text documents with the photographs as central image clusters, but according to similar motifs or image contents. In the t-SNE visualisations, images motivated by content – as far as one can speak of content in computer image recognition – are placed next to image clusters of another image type. This observation is significant because it shows how similar technical-automated image vision and cultural-scientific vision are on this level.
@@ -145,17 +145,17 @@ It could be determined that the t-SNE algorithm thus does not sort the images ex
   
 The qualitative assessment of the algorithmically sorted image motifs within the t-SNE interface was based on the reception of large image swarms in which the individual images were not perceived as such. 
   
-{{< figure src="images/figure07.png" caption="Image t-SNE of Locales Brazil as a whole." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen"  >}}
+{{< figure src="resources/images/figure07.png" caption="Image t-SNE of Locales Brazil as a whole." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen"  >}}
 
   
 Thus, far from any visual content, initial hypotheses about the composition of the visual landscapes could be detected on a structural level. For example, in the t-SNE of the search query for the Brazilian locale, a total of five image groupings could be identified: a very large and colourful one (centred), an isolated conspicuously dense and bright group (far upper right), two image groups of heterogeneous colourfulness (centred right and lower right), of which the centred one seems to merge into the large image group, and a conspicuously strongly isolated elongated and dense image group in the colour blue (lower left). 
   
 In addition, a very high similarity of the formation of the shape of the t-SNE visualization from the Australian image query with that of the USA could be found. Both image landscapes were similar in terms of density and distance or scatteredness as well as colourfulness of the image landscapes. It was reasonable to assume that despite different VPN tuning, these two locales were very similar in their Google image content due to the same language of search terms.
   
-{{< figure src="images/figure08.png" caption="T-SNE visualisation of Australian Google image query." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen"  >}}
+{{< figure src="resources/images/figure08.png" caption="T-SNE visualisation of Australian Google image query." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen"  >}}
 
   
-{{< figure src="images/figure09.png" caption="T-SNE visualisation of the American Google image query." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen"  >}}
+{{< figure src="resources/images/figure09.png" caption="T-SNE visualisation of the American Google image query." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen"  >}}
 
   
 Due to the visual complexity of the t-SNE visualisations from a distance, an initial reading is based on Gestalt, as formulated by perceptual psychology or Gestalt theory. Perceptible were
@@ -176,7 +176,7 @@ On a qualitative level, the process of human perception of the climate images ve
   
 Using toggling, the individual hotspot images were displayed by the machine learning algorithm as representative of a cluster in the visualisation and qualitatively indexed with terms. The twenty algorithmically evaluated hotspots were thus given a name according to human classification and interpretation of the image object. The qualitative naming of these hotspots served us as a first step to get to know the image objects and to be able to name them descriptively. It was done intuitively, but it was done iteratively by three different people. This is because the indexing partly demanded a uniform and general naming of the picture subjects or motifs (e.g., CO2 emission, polar bear, glacier), since these occurred repeatedly in the intercultural country queries.
   
-{{< figure src="images/figure10.png" caption="Example of indexing the hotspot images from the t-SNE visualizations to the Brazil and Germany locales" alt="Screenshot of a list of sentences"  >}}
+{{< figure src="resources/images/figure10.png" caption="Example of indexing the hotspot images from the t-SNE visualizations to the Brazil and Germany locales" alt="Screenshot of a list of sentences"  >}}
 
   
   
@@ -191,13 +191,13 @@ a) Hotspot images detected by the algorithm did not correspond to any or only a 
   
 Methodologically, the question arose with regard to the t-SNE algorithm as to how the computer technically defines a cluster and thus also detects the  _hotspot_  image. As the hotspot image of Greta Thunberg from the Brazilian t-SNE visualisation, which occurred twice, showed, it was an image that qualitatively did not take on any status as an image group. Rather, the portrait of Greta Thunberg seemed to exhibit a high similarity factor precisely in its duplicity.
   
-{{< figure src="images/figure11.jpg" caption="Hotspot image of Greta Thunberg from the Google search query of the Brazilian locale, which qualitatively does not correspond to any cluster." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen. There is a red box drawn around two images in the center"  >}}
+{{< figure src="resources/images/figure11.jpg" caption="Hotspot image of Greta Thunberg from the Google search query of the Brazilian locale, which qualitatively does not correspond to any cluster." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen. There is a red box drawn around two images in the center"  >}}
 
   
 b) At the same time, the problem arose that some images, which qualitatively showed a high motivic similarity and evidence, were not detected as a hotspot by the algorithm. For example, the algorithm identified images of the Earth as a colour contrasting globe within the t-SNE visualisation of the locale Bangladesh as an hotspot image, while the same motif was merely a section of the general cluster of Earths within the t-SNE-visualisation of the Brazil locale. 
 
   
-{{< figure src="images/figure12.jpg" caption="Hotspot-cluster C13 from the Earth (burning) and the general Earth cluster, within which the Earth forms a section as a diptych and was subsequently qualitatively determined in the t-SNE-visualisation of the Brazil locale." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen with a red box drawn around a cluster of images on the right side"  >}}
+{{< figure src="resources/images/figure12.jpg" caption="Hotspot-cluster C13 from the Earth (burning) and the general Earth cluster, within which the Earth forms a section as a diptych and was subsequently qualitatively determined in the t-SNE-visualisation of the Brazil locale." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen with a red box drawn around a cluster of images on the right side"  >}}
 
   
 Accordingly, it can be stated that the determination of a t-SNE cluster technically does not necessarily result from a high number of images, but due to a high similarity rate of sometimes only two images. 
@@ -211,12 +211,12 @@ The German translation of the word cluster as accumulation or group therefore do
   
 The distribution of denotatively determined main image content manifests itself through observable variation among locales. We qualitatively created a screenshot tableau that sorted and contrasted the concise and central image clusters or groups of main motifs per locale. Methodologically, the systematic comparison of the 90 screenshot clusters was a quantitative process within the qualitative image analysis. As a procedure, the tableau in the form of a tiled overview allowed us to determine size distributions, commonalities, and differences among the clustered climate images.
   
-{{< figure src="images/figure13.png" caption="Screenshot table with image groups of the t-SNE" alt="Screenshot of a table with several rows of images. Some of the images have blue backgrounds and some have red"  >}}
+{{< figure src="resources/images/figure13.png" caption="Screenshot table with image groups of the t-SNE" alt="Screenshot of a table with several rows of images. Some of the images have blue backgrounds and some have red"  >}}
 
   
 The determination of the group sizes only took place in the form of tendencies. The formation of the images according to iconographic similarity criteria is partially interrupted by the algorithm due to formal-technical structural differences. For example, the photographs of artificially created contrast representations diverged strongly in the visualisation of the Google images according to the U.S. American  _locale_ . While from a semiotic and iconographic perspective the green-orange contrast represents the symbolic and evidential similarity feature for the dichotomy of healthy versus dystopian climate futures, the algorithm separates this into two image clusters distant from each other by structural image properties (structure of the tree versus that of the landscape).
   
-{{< figure src="images/figure14.jpg" caption="Formal-structurally separated image group of contrast photographs in t-SNE of US-American Google images, source of the single images: [ https://www.azocleantech.com/images/Article_Images/ImageForArticle_898(1).jpg ](https://www.azocleantech.com/images/Article_Images/ImageForArticle_898(1).jpg) (above), [ https://thumbs-prod.si-cdn.com/PKIvqzZfGkfhGDKTRxJ6_SodI1U=/420x240/https://public-media.si-cdn.com/filer/5c/cc/5ccc5513-30b1-41b3-96b7-41b88524ed3a/cambio-climatico.jpg ](https://thumbs-prod.si-cdn.com/PKIvqzZfGkfhGDKTRxJ6_SodI1U=/420x240/https://public-media.si-cdn.com/filer/5c/cc/5ccc5513-30b1-41b3-96b7-41b88524ed3a/cambio-climatico.jpg) (down)" alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen. Two images have been zoomed in on on the right side of the screen."  >}}
+{{< figure src="resources/images/figure14.jpg" caption="Formal-structurally separated image group of contrast photographs in t-SNE of US-American Google images, source of the single images: [ https://www.azocleantech.com/images/Article_Images/ImageForArticle_898(1).jpg ](https://www.azocleantech.com/images/Article_Images/ImageForArticle_898(1).jpg) (above), [ https://thumbs-prod.si-cdn.com/PKIvqzZfGkfhGDKTRxJ6_SodI1U=/420x240/https://public-media.si-cdn.com/filer/5c/cc/5ccc5513-30b1-41b3-96b7-41b88524ed3a/cambio-climatico.jpg ](https://thumbs-prod.si-cdn.com/PKIvqzZfGkfhGDKTRxJ6_SodI1U=/420x240/https://public-media.si-cdn.com/filer/5c/cc/5ccc5513-30b1-41b3-96b7-41b88524ed3a/cambio-climatico.jpg) (down)" alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen. Two images have been zoomed in on on the right side of the screen."  >}}
 
   
   
@@ -248,7 +248,7 @@ When we look at a t-SNE visualisation, the question is: How do these images clus
   
 To what extent do human and automatic image recognition differ in image sorting? At first glance, it can be stated that humans tend to sort images according to motifs, while algorithms sort images according to structure. This became particularly clear in the form of a workshop in which we as a research team developed a section of the Google image corpus' on the German locale (550 images) as photographs and sorted them by hand. The sorting was intuitive and based on themes and motifs. In doing so, unlike the t-SNE algorithm in physical space, we did not set distances between image groups, since we did not know at the outset how many images would belong to each image group and since the size of the floor was limited. The efficiency of the technology to manage huge amounts of images was clearly felt here. The colour distribution of the manually created t-SNEs was a result of the image themes, while the algorithm sometimes blew up content-related image correlations due to different colour patterns. It nevertheless came out surprisingly that the human image selection converged with that of the t-SNE in terms of clustering the dominant image groups (drought/dry soil, heat/fire, earths, CO2- refineries, maps, cartoons, etc.). This is significant because the process of creating t-SNE visualisations from the source images does not extract semantic information from the dataset.
   
-{{< figure src="images/figure15.png" caption="Manual image sorting of photographic prints to the dataset of the German locale with annotations" alt="Image of pictures printed out and organized into clusters"  >}}
+{{< figure src="resources/images/figure15.png" caption="Manual image sorting of photographic prints to the dataset of the German locale with annotations" alt="Image of pictures printed out and organized into clusters"  >}}
 
   
   

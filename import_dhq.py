@@ -77,7 +77,6 @@ def convert_article(article):
             try:
                 markdown_file = [l for l in lines if l.endswith(".md")][0]
                 output_dir = os.path.dirname(markdown_file)
-                print("markdown: %s; output_dir: %s" % (markdown_file, output_dir))
                 # for now, assume if it exists we already copied it
                 if not os.path.exists(output_dir):
                     # copy entire resource directory
@@ -222,7 +221,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if not args.issue:
         print("Converting all articles (this will take a while)")
-        # convert_all_articles()  # NOTE: this is slow
+        convert_all_articles()  # NOTE: this is slow
     else:
         dhqtoc = get_dhqtoc()
         issue = dhqtoc.get_issue(*args.issue.split("."))

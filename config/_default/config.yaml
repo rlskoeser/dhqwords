@@ -84,7 +84,7 @@ languages:
     weight: 2
     params:
       license_text: Atribución-SinDerivadas 4.0 Internacional. (CC BY ND 4.0)
-      description: ""
+      description: "Un experimento republicando artículos de DHQ con el tema Hugo & Startwords."
       available_in: Disponible en Español
     menu:
       footer:
@@ -105,12 +105,14 @@ languages:
     weight: 3
     params:
       license_text: Pas de Modification 4.0 International. (CC BY ND 4.0)
-      description: ""
-      available_in: Disponible en Español
+      description: "Une expérience de republication d'articles de DHQ avec le thème Hugo & Startwords."
+      available_in: Disponible en français
   pt:
     languageName: Portuguese
     weight: 4
     params:
+      available_in: Disponível em português
+      description: "Um experimento republicando artigos do DHQ com o tema Hugo & Startwords"
       license_text: Atribuição-SemDerivações 4.0 Internacional. (CC BY ND 4.0)
   # de:
   #   languageName: Deutsch
