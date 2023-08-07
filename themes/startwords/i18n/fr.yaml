@@ -1,9 +1,9 @@
 issues:
-  other: Issues
+  other: éditions
 issue:
-  other: Issue
+  other: édition
 view-issue:
-  other: view this issue
+  other: voir ce édition
 features:
   other: features
 snippets:
@@ -18,27 +18,27 @@ main:
 breadcrumbs:
   other: breadcrumbs
 read-more:
-  other: "Read more..."
+  other: "en savoir plus..."
 footer-links:
-  other: footer links
+  other: liens du pied de page
 # translation links
 languages available:
-  other: languages available
+  other: langues disponibles
 available-in-lang:
-  other: Available in {{ . }}
+  other: disponible en {{ . }}
 English:
-  other: English
+  other: Anglais
 Spanish:
-  other: Spanish
+  other: Espagnol
 Español:
-  other: Spanish
+  other: Espagnol
 read-in-lang:
-  other: read this page in {{ . }}
+  other: lire cette page en {{ . }}
 # error page
 error:
-  other: Error
+  other: Erreur
 not-found:
-  other: Not Found
+  other: Non trouvé
 not-found-text:
   other: Hmm, that one must be in our stopword list...
 feed-title-on:
@@ -65,13 +65,13 @@ Board of Advisors:
 Translator:
   other: Translator
 Authors:
-  other: Authors
+  other: auteurs
 Spanish Editor:
   other: Spanish Editor
 # misc
 and:
-  other: and
+  other: et
 translation-by:
-  other: "translation by"
+  other: "traduction par"
 edited-by:
-  other: "Edited by"
+  other: "Édité par"

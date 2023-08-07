@@ -1,9 +1,9 @@
 issues:
-  other: Issues
+  other: edições
 issue:
-  other: Issue
+  other: edição
 view-issue:
-  other: view this issue
+  other: ver esta edição
 features:
   other: features
 snippets:
@@ -12,33 +12,33 @@ snippets:
 cdh:
   other: "The Center for Digital Humanities at Princeton"
 home:
-  other: Home
+  other: início
 main:
   other: main
 breadcrumbs:
   other: breadcrumbs
 read-more:
-  other: "Read more..."
+  other: "ler mais..."
 footer-links:
-  other: footer links
+  other: inks do rodapé
 # translation links
 languages available:
-  other: languages available
+  other: idiomas disponíveis
 available-in-lang:
-  other: Available in {{ . }}
+  other: disponível em {{ . }}
 English:
-  other: English
+  other: Inglês
 Spanish:
-  other: Spanish
+  other: Espanhol
 Español:
-  other: Spanish
+  other: Espanhol
 read-in-lang:
-  other: read this page in {{ . }}
+  other: ler esta página em {{ . }}
 # error page
 error:
-  other: Error
+  other: Erro
 not-found:
-  other: Not Found
+  other: Não encontrado
 not-found-text:
   other: Hmm, that one must be in our stopword list...
 feed-title-on:
@@ -51,7 +51,7 @@ credits:
 Guest Editor:
   other: Guest Editor
 Editor:
-  other: Editor
+  other: editor
 Technical Lead:
   other: Technical Lead
 Technical:
@@ -65,13 +65,13 @@ Board of Advisors:
 Translator:
   other: Translator
 Authors:
-  other: Authors
+  other: autores
 Spanish Editor:
   other: Spanish Editor
 # misc
 and:
-  other: and
+  other: e
 translation-by:
-  other: "translation by"
+  other: "tradução por"
 edited-by:
-  other: "Edited by"
+  other: "Editado por"

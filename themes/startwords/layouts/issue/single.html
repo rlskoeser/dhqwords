@@ -37,7 +37,7 @@
         <div class="wide-container">
             <h2 class="theme">{{ $cluster.title }}</h2>
             {{ with $cluster.editors }}
-                <p>Edited by {{ . }}</p>
+                <p>{{ i18n "edited-by" }} {{ . }}</p>
             {{ end }}
             {{ $clusterArticles := where $articles ".Params.cluster" "eq" $cluster.title}}
             {{ range $clusterArticles }}

@@ -7,7 +7,7 @@
     {{ range $cluster := .Params.clusters }}
         <h2 class="theme">{{ $cluster.title }}</h2>
         {{ with $cluster.editors }}
-            <p>Edited by {{ . }}</p>
+            <p>{{ i18n "edited-by" }} {{ . }}</p>
         {{ end }}
     {{ end }}
 </article>
