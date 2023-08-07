@@ -1,5 +1,9 @@
 {{- if .Params.date -}}
+{{- $dateformat := "January 2006"  -}}
+{{- if eq .Type "vol" }} {{/* year only for volumes */}}
+    {{- $dateformat = "2006"  -}}
+{{- end -}}
 <time class="pubdate" datetime="{{ .Params.date.Format `2006-01` }}">
-    {{ .Params.date | time.Format "January 2006"}} {{/* localize dates */}}
+    {{ .Params.date | time.Format $dateformat }} {{/* localize dates */}}
 </time>
 {{- end -}}

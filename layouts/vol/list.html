@@ -1,3 +1,5 @@
+{{ define "pagetype" }}vol{{ end }}
+
 {{ define "main" }}
 <main>
     <div class="grid">
@@ -12,13 +14,13 @@
       {{ range .Pages }}
       {{/* range .Paginator.Pages */}}
         <section>
-          <a href="{{ .RelPermalink}}"><h1>{{ .Title }}</h1> </a>
+          {{/* <a href="{{ .RelPermalink}}"><h1>{{ .Title }}</h1> </a>
           <time class="pubdate" datetime="{{ .Date.Format `2006` }}">
             {{ .Date | time.Format "2006" }}
-          </time>
-          {{/* .Render "summary" */}}
+          </time> */}}
+          {{ .Render "summary" }}
           <ul>
-          {{ range .Pages }}
+          {{ range (where .Pages "Type" "issue") }}
             <li>{{ .Render "summary" }}</li>
           {{ end }}
         </ul>

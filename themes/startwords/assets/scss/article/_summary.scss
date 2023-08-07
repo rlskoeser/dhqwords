@@ -277,3 +277,21 @@ $preview-height-xl: rem(250px);  // 1024px-
 }
 
 
+body.vol {
+    section ul {
+        margin-bottom: 3rem;
+        list-style: none;
+
+        li {
+            padding-bottom: 1.5rem;            
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid $transparent-grey;
+
+            p {
+                font-size: $base-font-size;
+                font-family: $font-sans;
+            }
+        }
+    }
+}
+
