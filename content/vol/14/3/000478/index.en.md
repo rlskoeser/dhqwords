@@ -14,6 +14,12 @@ authors:
 - Cody Mejeur
 - Craig Pearson
 translationType: original
+categories:
+- collaboration
+- project report
+- pedagogy
+- infrastructure
+- literary studies
 abstract: |
    The Digital Humanities and Literary Cognition (DHLC) lab at Michigan State University was founded in 2012 with the mission of bringing together scholars from disciplines including literature, neuroscience, education, computer science, and digital humanities to investigate the cognitive processes involved in reading texts of all kinds. The real story is much more complicated: emerging through a combination of institutional risk-taking and serendipitous accident, the lab was — and remains — an example of how conventional definitions of a laboratory, and particularly the rather fraught label of humanities lab, often come short of capturing the true cross-disciplinary nature of this type of work. More than any academic or methodological template, the DHLC lab emerged through the curiosity and enthusiasm of the students who inhabit it. For that reason, this case study — a brief history of the DHLC’s development, cultural practices, and ongoing work — has been written collaboratively with multiple voices, including the lab director (Natalie Phillips) and the student researchers. Together, we describe the challenges and opportunities created by embarking on a radically interdisciplinary research effort. We report the elements that enabled the DHLC lab to find success through a willingness to abandon expectations and adapt to rapidly evolving research practices, while maintaining our core focus on the humanities. We hope this case study proves useful for those who, like us, seek to explore the vast potential of interdisciplinary lab space for DH practice, the pedagogical benefits of collaborative research, and how to prioritize humanities in a STEM-focused world.
 teaser: "This is a case study describing the creation of the Digital Humanities and Literary Cognition lab at Michigan State University and the interdisciplinary research efforts made within the lab."

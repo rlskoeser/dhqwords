@@ -9,6 +9,13 @@ issue: 3
 authors:
 - Jo Guldi
 translationType: original
+categories:
+- infrastructure
+- citation
+- data visualization
+- ethics
+- info architecture
+- web
 abstract: |
    What values does infrastructure-building represent?  This article begins by situating scholarly practices around infrastructure within a broader transformation of twenty-first century life and indeed scholarship and learning by infrastructures, and distinguishing scholarly infrastructure from other kinds of infrastructure designed to share information that nevertheless lack scholarly engagement with analysis.  This article compares the role of scholar-builders in crystallizing a set of theoretical concerns, data, and analyses to that of the architects of opera houses during the golden age of European opera, who structured, illuminated, and constrained possible future creations of art.  The article next attempts to excavate a set of implicit values, while making room for the possibility that the list of values put forward here is only incomplete, and that the list of values itself is the subject of potential debate, critique, or dissent, some of which may take the form of building infrastructures differently than the patterns laid out here.  A first section outlines a set of bibliographic values; while the article’s second half turns to the power dynamics of infrastructure and a set of critical values encompassed by particular projects, before turning to the issue of why understanding these values is so essential to understanding infrastructure projects as a form of scholarly production that merit support and recognition by the community at large.
 teaser: "This article discusses infrastructure within the transformation of twenty-first centuty life and scholarship."

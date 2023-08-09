@@ -9,6 +9,9 @@ issue: 2
 authors:
 - Matthew Lavin
 translationType: original
+categories:
+- dh
+- philosophy
 abstract: |
    This essay looks back on Johanna Drucker’s Humanities Approaches to Graphical Display (2011) ten years after its initial publication in Digital Humanities Quarterly, in particular Drucker's call to reconceive all data as capta. Drucker makes several crucial points about humanistic inquiry, but this essay argues against her embrace of capta as a replacement term for data in two ways: (1) furnishing a revised and expanded etymology for the terms data and (2) exploring the benefits of embracing concepts such as situated data rather than capta.
 teaser: "Pushing back against Johanna Drucker's call to reconsider data as capta."

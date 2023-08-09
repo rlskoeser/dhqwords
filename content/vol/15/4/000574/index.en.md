@@ -11,6 +11,12 @@ authors:
 - Sergio Torres Aguilar
 - Xavier Tannier
 translationType: original
+categories:
+- medieval
+- manuscripts
+- history
+- tools
+- project report
 abstract: |
    Named entity recognition is an advantageous technique with an increasing presence in digital humanities. In theory, automatic detection and recovery of named entities can provide new ways of looking up unedited information in edited sources and can allow the parsing of a massive amount of data in a short time for supporting historical hypotheses. In this paper, we detail the implementation of a model for automatic named entity recognition in medieval Latin sources and we test its robustness on different datasets. Different models were trained on a vast dataset of Burgundian diplomatic charters from the 9th to 14th centuries and validated by using general and century ad hoc models tested on short sets of Parisian, English, Italian and Spanish charters. We present the results of cross-validation in each case and we discuss the implications of these results for the history of medieval place-names and personal names.
 teaser: "In this paper, we detail the implementation of a model for automatic named entity recognition in medieval Latin sources and we test its robustness on different datasets."

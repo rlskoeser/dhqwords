@@ -11,6 +11,13 @@ authors:
 - Maryam Foradi
 - Tariq Yousef
 translationType: 
+categories:
+- nlp
+- pedagogy
+- translation
+- project report
+- linguistics
+- tools
 abstract: |
    This paper proposes text alignment in digital environments as a way to empower language learning. It presents the principles and goals of text alignment in Natural Language Processing, and introduces Ugarit, a web-based translation alignment editor for the collection of aligned language pairs. Then, it reports observations on the application of translation alignment in historical language courses at Tufts and Furman University between 2017 and 2019.
 teaser: "Proposes text alignment in digital environments as a means to empower language learning"

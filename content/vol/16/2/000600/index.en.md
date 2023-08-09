@@ -10,6 +10,11 @@ authors:
 - Tiffany Chan
 - Jentery Sayers
 translationType: original
+categories:
+- project report
+- minimal computing
+- access
+- project management
 abstract: |
    The process of making digital objects available and discoverable demands a great deal of labor, from digitization, to creating metadata, to preservation, to importing it into a digital asset management system, and finally to presenting it. We begin this essay with a case study of one such system, called Vault, in the University of Victoria Libraries, and the work required to migrate from a Software as a Service (SAAS) model (called ContentDM) to a free and open-source software (FOSS) model (a customized instance of Samvera). Vault illustrates what we call minimal computing from the labor perspective, which seeks to reduce the opacity of software through low-tech practices such as pseudocode, thereby reducing the alienation of practitioners from their projects. Drawing from feminist ecological work on capitalism, affective labor, and care, we advocate for the degrowth of digital projects by resisting tendencies to reinvest surplus labor and value into increased productivity. Instead, degrowth as minimal computing prompts practitioners to articulate a project’s needs and desires; what work is required and from whom; and how or whether to sustain this labor for the future.
 teaser: "A brief exploration of Vault, a digital asset management system, and how it illustrates minimal computing from the labor perspective."

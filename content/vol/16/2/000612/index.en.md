@@ -9,6 +9,10 @@ issue: 2
 authors:
 - Hoyeol Kim
 translationType: original
+categories:
+- nlp
+- literary studies
+- tools
 tags:
 - Syuzhet
 - Sentiment Analysis

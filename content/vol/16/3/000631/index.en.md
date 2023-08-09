@@ -12,6 +12,14 @@ authors:
 - Alaí Reyes-Santos
 - Kate Thornhill
 translationType: original
+categories:
+- race
+- indigenous
+- collaboration
+- glam
+- data curation
+- project report
+- area studies
 tags:
 - Black digital humanities
 - Caribbean

@@ -10,6 +10,15 @@ authors:
 - Laura Matthew
 - Michael Bannister
 translationType: original
+categories:
+- archives
+- users
+- transcription
+- translation
+- collaboration
+- indigenous
+- language studies
+- project report
 abstract: |
    The digital archive Nahuatl/Nawat in Central America (NECA) assembles and makes publicly available a growing corpus of Nahuan-language documents produced in Spanish Central America. Many are fragments within larger Spanish-language documents and difficult to locate in the archive. NECA has succeeded in bringing attention to this understudied corpus but has so far failed to attract users to its transcription and translation tool. We consider the reasons for this creative failure based on user data, and suggest that the specialized skills and distinct academic communities needed to move this project forward require other workspaces, including the non-digital, in advance of online collaboration.NECA is a joint effort between the authors that has also depended on the generous support of others. We thank Marquette University's College of Arts and Sciences for start-up funding, Sergio Romero for helping assemble the core document list and translations of sample text, Héctor Concohá Chet for photographing documents in the Archivo General de Centroamérica in Guatemala City, Rafael Lara Martínez for Spanish translations of the primary pages, and Jorge Lemus for his collaboration in El Salvador. Ann Hanlon at the Digital Humanities Lab, University of Wisconsin-Milwaukee, Adriana Álvarez, Davíd Dominguez Herbón, and Miriam Peña Pimentel of the Red de Humanidades Digitales, Universidad Autónoma de México, Sharon Leon at the Roy Rosenzweig Center for History and New Media, George Mason University, and David Bodenhamer of the Polis Center, Indiana University-Purdue University were invaluable sounding boards, as were advisory board members Michael Swanton, Janine Gasco, Matilde Ivic de Monterroso, and Karl Offen. Julia Madajczak and Agnieszka Brylak tested the transcription tool, and graduate assistants Ben Nestor and Cory Haala explored mapping applications. We especially thank the many contributors of documents to the site, listed at http://nahuatl-nawat.org/aboutus.
 teaser: "This article discusses the Nahuatl/Nawat in Central America digital archive and its challenges."

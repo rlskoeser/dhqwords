@@ -14,6 +14,13 @@ authors:
 - Mariana Favila-Vázquez
 - Raquel Liceras-Garrido
 translationType: original
+categories:
+- nlp
+- machine learning
+- geospatial
+- history
+- corpora
+- area studies
 tags:
 - Relaciones Geográficas de la Nueva España
 - early colonial history

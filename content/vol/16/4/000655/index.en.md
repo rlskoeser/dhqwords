@@ -9,6 +9,9 @@ issue: 4
 authors:
 - Melanie Andresen
 translationType: original
+categories:
+- annotation
+- data visualization
 abstract: |
    The volume Annotations in Scholarly Editions and Research: Functions, Differentiation, Systematization, edited by Julia Nantke and Frederik Schlupkothen, assembles research papers that are united in their focus on annotation, but display a broad variety of possible understandings of and approaches to annotation.
 teaser: ""

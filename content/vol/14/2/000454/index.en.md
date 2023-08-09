@@ -11,6 +11,15 @@ authors:
 - Thierry Poibeau
 - Pablo Ruiz Fabo
 translationType: original
+categories:
+- nlp
+- collaboration
+- dh
+- tools
+- corpora
+- stylistics
+- markup
+- annotation
 abstract: |
    In spite of the increasingly large textual datasets humanities researchers are confronted with, and the need for automatic tools to extract information from them, we observe a lack of communication and diverging goals between the communities of Natural Language Processing (NLP) and Digital Humanities (DH). This contrasts with the wealth of potential opportunities that could arise from closer collaborations. We argue that more efforts are needed to make NLP tools work for DH datasets so that that NLP research applied to humanities data receives more attention, leading to the development of evaluation approaches tailored towards relevant research questions. This has the potential to bring methodological advances to NLP, while at the same time confronting DH datasets with powerful state-of-the-art techniques.
 teaser: "Argues for an increase in communication and collaboration between Natural Language Processing and Digital Humanities communities to advance both fields"

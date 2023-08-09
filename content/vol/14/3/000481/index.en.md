@@ -12,6 +12,14 @@ authors:
 - Jo Guldi
 - Andras Zsom
 translationType: original
+categories:
+- tools
+- project management
+- history
+- infrastructure
+- information retrieval
+- reading
+- nlp
 abstract: |
    This article proposes the concept of the pipeline as a category of tool that organizes a series of algorithms for users. The pipeline concept, adopted with limitations by the humanities, documents how a suite of algorithms produces a particular research result, with the goal of enabling interoperability, transparency, and iteration by future scholars who may switch out particular algorithms within the pipeline with different results. A pipeline-based application amplifies the concepts of interoperability and transparency for users by allowing the researcher to toggle on and off particular options, for example selecting and deselecting particular topics of interest from a program of visualizations based on a topic model of a large body of text. Pipelines support modular, interoperable, transparent, and documented processes of research that lend themselves to Prof. Guldi's Theory of Critical Search — the argument that critical thinking increasingly takes place at the design and research stage of digital processes. The article presents the case of how the pipeline concept influenced the development of HaToRI (Hansard Topic Relevance Identifier), an open-source pipeline-based tool for identifying a cohort of thematically-linked passages in the nineteenth-century debates of Britain's parliament. In our pipeline, a series of algorithms move through the steps of cleaning a corpus, organizing them into topics, and selecting particular topics that are used to extract a sub-corpus that matches the user’s interests. Users have the option of searching based on multiple topics rather than merely keywords or a single topic at a time, allowing iterative searches to build upon each other. As an example of the Critical Search process in action, we follow an inquiry based on matching parliamentary reports with material from the Hansard British Parliamentary Debates. Using the pipeline, the user is able to identify multiple common topics of interest, and from these topics, extract a sub-corpus specific to land use and rent in the 19th century British Empire.
 teaser: "The pipeline, a category of tool, and its influence on the development of the HaToRi is discussed in this article."

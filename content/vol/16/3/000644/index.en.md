@@ -9,6 +9,10 @@ issue: 3
 authors:
 - Roopika Risam
 translationType: original
+categories:
+- race
+- gender
+- cultural criticism
 tags:
 - Black studies
 - Ethnic studies

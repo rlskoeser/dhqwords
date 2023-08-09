@@ -9,6 +9,12 @@ issue: 3
 authors:
 - Clarisse Bardiot
 translationType: original
+categories:
+- tools
+- content analysis
+- data curation
+- performance
+- data analytics
 abstract: |
    How can digital traces of the performing arts be interpreted? What methodologies can be proposed to make them talk? The specificity of these traces leads to specific methodological responses, especially as the aim here is to interpret the traces in both directions of understanding and replayability. It is as much a question of advancing a reflection on the conditions for the recovery of work, as it is of analyzing an artistic approach based on its digital traces. Starting from these epistemological issues, I present the development of two softwares, Rekall and MemoRekall. These tools are part of a larger trend which I call theatre analytics. Theatre analytics is based on data from the traces of the performing arts. Unlike the general approach of big data in the social sciences and humanities, where we seek to determine general, average, profile categories or repeatable (or even predictable) patterns, our primary concern remains to capture the singular, the detail, the difference, the anomaly, in a constant round trip between the micro and the macro dimensions. The ambition of theatre analytics is to offer a different way of looking at big data, more oriented towards complexity than the quantity of data.
 teaser: "This article discusses the trend of theater analytics and the author's software Rekall and MemoRekall."

@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Patricia Ferreira-Lopes
 translationType: original
+categories:
+- history
+- geospatial
+- cultural heritage
+- digitization
+- data modeling
+- area studies
 abstract: |
    Pesquisas recentes estão demonstrando a potencialidade da aplicação dos Sistemas de Informação Geográfica (SIG) nos estudos culturais e históricos. Esses estudos comprovaram os benefícios, a flexibilidade e, também, as dificuldades que o uso dessa tecnologia da informação traz para a área de humanidades. Nas pesquisas desenvolvidas no campo da documentação do patrimônio, observou-se que grande parte delas defendem e afirmam as vantagens para realizar análises com os SIG mas não conseguem alcançá-las porque ficam restringidas a usar a tecnologia apenas para geolocalizar uma determinada informação. Esse problema merece especial atenção porque limita a geração do conhecimento a partir dos dados coletados e tratados. O presente artigo propõe um exemplo de estudo que contempla a fase de digitalização e análise de uma importante fonte documental, cartográfica e literária da Espanha: o Repertório de todos os caminhos de Espanha no ano de graça de 1546. A rede de caminhos existente no século XVI na Península Ibérica foi um dos principais fatores que favoreceram a consolidação das atividades comerciais, o fluxo do conhecimento e das inovações técnicas construtivas nos novos centros urbanos criados. Propomos uma análise do impacto dessas redes de comunicação, através de mapas temáticos, visualização por justaposição, cálculo de densidades e cálculo do caminho de menor custo para estudar as conexões terrestres na Península. O resultado é a criação de um modelo de dados espacial histórico capaz de inter-relacionar dados alfanuméricos e/ou físico-geográficos que possibilita uma nova perspectiva e fonte de informação para os pesquisadores e profissionais de diversas áreas.
 teaser: "Applying Geographic Information Systems (GIS) in cultural and historical studies, especially on the Iberian peninsula."

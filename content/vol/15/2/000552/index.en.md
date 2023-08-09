@@ -10,6 +10,11 @@ authors:
 - Mary Mcaleer Balkun
 - Diana Hope Polley
 translationType: original
+categories:
+- publishing
+- project report
+- pedagogy
+- data curation
 abstract: |
    In this essay, we trace our early and ongoing development in creating a digital critical edition of J. Hector St. Jean de Crèvecoeur’s Letters from an American Farmer. We discuss our shift from print to digital publishing technologies and outline the challenges and lessons learned as two senior faculty members starting out in the digital humanities. The essay not only addresses our process in developing the digital edition but also our various experiences piloting the edition with our students. In several brief case studies, we analyze the value of integrating print vs. digital mediums into the classroom as well as our efforts to transfer editorial control over to our students, using the digital to teach them how to become curators of text.
 teaser: "This article discusses the authors' development of a critical edition of Letters from an American Farmer."

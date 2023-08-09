@@ -10,6 +10,13 @@ authors:
 - Minh Hua
 - Rita Raley
 translationType: original
+categories:
+- nlp
+- games
+- machine learning
+- collaboration
+- code studies
+- linguistics
 abstract: |
    AI Dungeon 2 is an indie text adventure game that caught traction within the gaming and hobbyist machine learning communities for its promise of infinite customizable adventures, which are generated and narrated by GPT-2, OpenAI’s 1.5 billion parameter language model. Samples of gameplay illustrate AID’s remarkable linguistic competence and domain knowledge, as well as its capacity for what can only be described as wackiness. More striking are AID’s innovative gameplay mechanics, which reimagine how we interact with large language models. Game play entails a procedural and incremental process of engaging with GPT-2 that opens up the possibility of developing a holistic and interdisciplinary framework for meaningful qualitative evaluation of language models that does not have commercial use as its necessary endgame. With respect to both evaluation and writing itself, AID situates human players inextricably in the loop as necessary partners with autonomous systems. Our article thus reads AID both as an example of current hobbyist relations with machine learning and as a responsible model for future human-AI collaborative creative practices.
 teaser: "Argues for an approach to the the text adventure game AI Dungeon 2 as a model for future human-AI collaborative creative practices"

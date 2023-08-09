@@ -10,12 +10,18 @@ authors:
 - Alanna Prince
 - Cara Marta Messina
 translationType: original
+categories:
+- dh
+- race
+- cultural criticism
+- ethics
+- publishing
 tags:
 - Black digital humanities
 - Antiracist editorial practices
 - Black studies
 abstract: |
-   The relative youth of Black DH as a field has allowed it to be born radical. While some fields have more conservative traditions that they must break free from, Black DH has been able to forage a more inclusive path. The focus of Black DH and this special issue is not to define Black DH, but rather spotlight the limitless, interdisciplinary nature of Black DH and Black scholarship. Both article and metareflection authors alike build upon lineages of Black studies, feminist, queer, and womanist scholars, forging new paths using their innovative methodologies as they examine, construct, and reimagine innovative communities and people.
+   The relative youth of Black DH as a field has allowed it to be born radical. While some fields have more conservative traditions that they must break free from, Black DH has been able to forge a more inclusive path. The focus of Black DH and this special issue is not to define Black DH, but rather spotlight the limitless, interdisciplinary nature of Black DH and Black scholarship. Both article and metareflection authors alike build upon lineages of Black studies, feminist, queer, and womanist scholars, forging new paths using their innovative methodologies as they examine, construct, and reimagine innovative communities and people.
 teaser: "The focus of Black DH and this special issue is not to define Black DH, but rather spotlight the limitless, interdisciplinary nature of Black DH and Black scholarship."
 order: 1
 cluster: "Black Digital Humanities in the Rising Generation"

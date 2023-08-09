@@ -11,6 +11,13 @@ authors:
 - Sarah Atkinson
 - Elliott Hall
 translationType: original
+categories:
+- interdisciplinarity
+- collaboration
+- games
+- machine learning
+- dh
+- project report
 abstract: |
    The government of the United Kingdom is offering significant amounts of funding to increase engagement between researchers and technology companies involved in the creative economy, a sector worth £100b per annum. The sector has naturally evolved into clusters involving actors as diverse as the BBC, the Victoria and Albert Museum, and freelance game designers. It collaborates and competes with multinational powerhouses including Google, Microsoft, and Pixar. The imbrication of academic researchers in the sector makes it a good example of the extension of academia to industry, raising ethical but also methodological and practical questions. This article describes a project that embedded a research software engineer (RSE) from a digital humanities (DH) laboratory into a small technology start-up engaged in high risk R&D of an immersive narrative story-telling platform. The platform is enabled by artificial intelligence and has the capacity to remember user input and modify narrative options and character mood accordingly. The team included a researcher specialising in narrative theory and digital production. The project demonstrated the utility of the critical application of DH methods and the need to develop career pipelines to produce people capable of working at the intersection of higher education and industry.
 teaser: "A case study of embedding a research software engineer from a DH lab into an start-up engaged in developing immersive narrative story-telling platforms."

@@ -11,6 +11,15 @@ authors:
 - Hesley Py
 - Allan Yu Iwama
 translationType: translation
+categories:
+- data visualization
+- geospatial
+- tools
+- info architecture
+- infrastructure
+- area studies
+- social justice
+- access
 abstract: |
    The paper discusses the possibilities and limits of new infrastructures of data and information geovisualization for sharing and coproduction of knowledge, as well as to instrumentalize social intervention on territorial management and development. It presents a critical review of the literature, systematizing the key definitions, concepts, and issues under discussion on the subject. Then it presents reflections derived from the development of a prototype of a geospatial open data platform as part of an open science action-research in the municipality of Ubatuba, on the North coast of the State of São Paulo, Brazil.
 teaser: "A critical and systematic review on information geovisualization via a Brazilian prototype platform."

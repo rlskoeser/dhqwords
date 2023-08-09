@@ -10,6 +10,12 @@ authors:
 - Catherine DeRose
 - Peter Leonard
 translationType: original
+categories:
+- project report
+- infrastructure
+- ethics
+- glam
+- users
 abstract: |
    A 1930s reading room at Yale University Library is the site of an architectural transformation that seeks to make DH praxis visible in a collaborative, open setting. What design and policy interventions lead to the best use of this central and symbolic space? Ethnographic study, user-centered design and a focus on the materiality of both physical and digital collections combine to suggest one pathway for research libraries to support collaborative digital work in the humanities. In this article, two digital humanities staff at Yale Library discuss the relationship between inclusion v. separation, security v. transparency, and historicizing v. modern design in the context of a space for Digital Humanities.
 teaser: "two digital humanities staff at Yale Library discuss the relationship between inclusion v. separation, security v. transparency, and historicizing v. modern design in the context of a space for Digital Humanities."

@@ -10,6 +10,13 @@ authors:
 - Anette Hagen
 - Elise Seip Tønnessen
 translationType: original
+categories:
+- comics
+- reading
+- ar
+- literary studies
+- media studies
+- graphic design
 abstract: |
    This article presents a close reading of the augmented reality (AR) comic Modern Polaxis, which was created by Stuart Campbell. Possible Worlds Theory was applied to discuss how fiction, which creates its own possible worlds, integrates the additional layer(s) of AR into its storyworld. The analysis additionally sheds light on the reader’s position and how the augmented layer may affect the literary experience. We also discuss how the AR interface may contribute to digital literature more generally.
 teaser: "A close reading of the AR comic by Stuart Campbell: Modern Polaxis."

@@ -10,6 +10,10 @@ authors:
 - Stephanie Boddie
 - Amy Hillier
 translationType: original
+categories:
+- race
+- geospatial
+- collaboration
 tags:
 - Digital humanities
 - Du Bois

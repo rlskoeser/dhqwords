@@ -9,6 +9,10 @@ issue: 2
 authors:
 - DHQ editorial team
 translationType: original
+categories:
+- dh
+- tools
+- data visualization
 abstract: |
    An obituary and remembrance of Stéfan Sinclair, one of the founding editorial team for Digital Humanities Quarterly.
 teaser: "Remembering Stéfan Sinclair"

@@ -13,6 +13,14 @@ authors:
 - Niels-Oliver Walkowski
 - Matthias Zeppelzauer
 translationType: original
+categories:
+- images
+- moving images
+- pedagogy
+- glam
+- archives
+- information retrieval
+- media studies
 abstract: |
    This editorial introduces the special issue on Digital Humanities & Film Studies: Analyzing the Modalities of Moving Images, which contains a total of eight exciting contributions. Moreover, this editorial aims to highlight the complementary disciplinary perspectives on the computer-aided analysis of moving images, which are important prerequisites to better understand and situate a common DH perspective
 teaser: "Introduction to Film Studies Special Issue"

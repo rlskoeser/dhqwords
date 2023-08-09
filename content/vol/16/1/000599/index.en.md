@@ -9,6 +9,12 @@ issue: 1
 authors:
 - Nathanael Moore
 translationType: original
+categories:
+- visual art
+- reading
+- project report
+- nlp
+- graphic design
 abstract: |
    The author demonstrates how we can use fragments of classical text as a heuristic to help us interpret a poem (Nick Montfort and Stephanie Strickland’s Sea and Spar Between) that is, on the face of it, quintessentially nonfragmentary because it contains over 225,000,000,000,000 stanzas.
 teaser: "Exploring fragments of classical text in computational poetry."

@@ -11,6 +11,12 @@ authors:
 - Samantha Wallace
 - Ankita Chakrabarti
 translationType: original
+categories:
+- project report
+- public history
+- dh
+- publishing
+- sound
 abstract: |
    In this article, we contend that the podcast serves as an alternative method of conducting and pursuing academic research in an increasingly collaborative, increasingly global era. Circulating Spaces: Literary and Language Worlds in a Global Age, a podcast series created, produced, and published by the authors, acts as our case study. The podcast models a complex network of relations by highlighting topics and featuring guests who co-exist within academic and public (often understood as non-academic) spaces. These networks help to reshape our understanding of the publics of academia by breaking down the binary between the public and academic. They point toward ways in which more nuanced networks of affinity between the academy and the public may be constructed and negotiated by embracing the digital and the open. Finally, we locate our work within the fields of digital scholarship and the Digital Humanities more specifically in order to understand the work accomplished by non-traditional forms of scholarship.A note on author attribution: Christian Howard-Sukhil and Samantha Wallace originally drafted and equally contributed to the ideas expressed in this article. Ankita Chakrabarti, who joined the project team a year after the initial collaboration, was instrumental in ensuring that these ideas coalesced, especially given the new presentation of materials in Season 2 of Circulating Spaces. Christian Howard-Sukhil and Samantha Wallace were co-hosts and co-producers for Season 1 of Circulating Spaces; Christian Howard-Sukhil and Ankita Chakrabarti were co-hosts and co-producers for Season 2 of Circulating Spaces.
 teaser: "Argues for the academic value of the podcast as a non-traditional research methodology"

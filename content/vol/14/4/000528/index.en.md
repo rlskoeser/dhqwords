@@ -9,6 +9,13 @@ issue: 4
 authors:
 - Sarah-Mai Dang
 translationType: original
+categories:
+- moving images
+- history
+- gender
+- databases
+- data curation
+- information retrieval
 tags:
 - digital database
 - film history

@@ -9,6 +9,13 @@ issue: 3
 authors:
 - Giulia Freni
 translationType: original
+categories:
+- medieval
+- classics
+- collaboration
+- tools
+- interdisciplinarity
+- digitization
 abstract: |
    Analysis of Ancient and Medieval Texts and Manuscripts: Digital Approaches discusses the possibilities offered by collaboration between classical studies and digital resources, in order to explore what could be the future of digital humanities.
 teaser: "An exploration of the possibilities offered by future collaborations between classical studies and digital humanities."

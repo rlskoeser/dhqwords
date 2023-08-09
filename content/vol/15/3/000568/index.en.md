@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Bernadette Biedermann
 translationType: original
+categories:
+- digital libraries
+- ar
+- users
+- glam
 tags:
 - museology
 - digital museology

@@ -11,6 +11,10 @@ authors:
 - Cailin Flannery Roles
 - K.J. Rawson
 translationType: original
+categories:
+- project report
+- gender
+- project management
 abstract: |
    In this case study of the Digital Transgender Archive, www.digitaltransgenderarchive.net, the authors discuss the results of a yearlong audit of the project. While scholarship in the field has focused on both the startup and sustainability stages of DH project lifecycles, far less attention has been paid to fostering healthy project growth and self-evaluation during the maintenance stage. After discussing the motivations for our audit and the methods we employ, this article offers five key observations and summarizes our responses to them. Our hope is that other DH project teams will find that some of these observations are applicable to their work and will then benefit from the responses we developed.
 teaser: "Discussing motivations for the audit of the Digital Transgender Archive and the methods employed."

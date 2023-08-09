@@ -10,6 +10,15 @@ authors:
 - Jazma Sutton
 - Kalani Craig
 translationType: original
+categories:
+- archives
+- data curation
+- race
+- cultural heritage
+- history
+- oral history
+- social media
+- project report
 tags:
 - Black women
 - Black digital humanities

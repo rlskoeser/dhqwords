@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Ryan Cordell
 translationType: original
+categories:
+- literary studies
+- history
+- archives
+- gender
 abstract: |
    Katherine Bode theorizes a new approach to data rich literary history, in which the researcher constructs a a scholarly edition of a literary system pairing annotated data with a critical apparatus. Bode challenges the rhetoric around distant reading, arguing it recapitulates the historical oversights of New Criticism. A World of Fiction comprises a book and paired database which apply this framework to the fiction published in nineteenth-century Australian newspapers. Bode's investigation advances new ideas about the gender of Australian fiction authors, the networks of influence among provincial and metropolitan newspapers, and the national character of fiction in the period. A World of Fiction is an important intervention in conversations about computational literary-historical analysis, as well as around the construction and use of digitized historical archives.
 teaser: "This is a review of A World of Fiction by Katherine Bode."

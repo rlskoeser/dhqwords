@@ -9,6 +9,13 @@ issue: 2
 authors:
 - John Douglas Bradley
 translationType: 
+categories:
+- classics
+- access
+- semantic web
+- network
+- users
+- digital libraries
 tags:
 - Roman Republic
 - Linked Open Data

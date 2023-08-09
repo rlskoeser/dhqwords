@@ -10,6 +10,9 @@ authors:
 - Jeffrey A. T. Lupker
 - William J. Turkel
 translationType: original
+categories:
+- music
+- machine learning
 abstract: |
    This paper examines musical artificial intelligence (AI) algorithms that can not only learn from big data, but learn in ways that would be familiar to a musician or music theorist. This paper aims to find more effective links between music-related big data and artificial intelligence algorithms by incorporating principles with a strong grounding in music theory. We show that it is possible to increase the accuracy of two common algorithms (mode prediction and key prediction) by using music-theory based techniques during the data preparation process. We offer methods to alter often-used Krumhansl Kessler profiles , and the manner in which they are employed during preprocessing, to aid the connection of musical big data and mode or key predicting algorithms.
 teaser: "This paper examines musical artificial intelligence (AI) algorithms that can not only learn from big data, but learn in ways that would be familiar to a musician or music theorist."

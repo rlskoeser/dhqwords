@@ -10,6 +10,13 @@ authors:
 - Lizhou Fan
 - Todd Presner
 translationType: original
+categories:
+- history
+- data visualization
+- data analytics
+- semantic web
+- cultural heritage
+- oral history
 tags:
 - Indexing Agency in Testimonies
 - Digital Humanities

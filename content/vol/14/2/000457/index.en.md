@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Maria Clara Paixão de Sousa
 translationType: translation_stub
+categories:
+- materialisms
+- reading
+- digital
+- dh
+- philosophy
+- media studies
 abstract: |
    This paper discusses the material conditions of digital text diffusion and its effects for the Humanities, particularly as regards new forms of reading and new forms in the ordination of reading. Observing the characteristic dispersion of text in the digital medium, I investigate the forms of production and ordering of digital texts from a material perspective, pointing out the inclusion of an artificial logical stage in the text diffusion process as the fundamental singularity of this medium (based on proposals already outlined in Paixão de Sousa, 2017). This contingency allows us to consider digital text diffusion as a radically new stage in the history of writing and reading, in a similar sense as pointed out by Pédauque (2004, 2006, 2007); Crane et al. (2008,) Gradmann & Meister (2008), Chaudiron et al. (2008), and Baumann & Crane (2010). Rested on the concept of forms of attention in Unsworth (2006), I also suggest that, in shaping new forms of reading, this change in the material character of the text profoundly alters traditional work in the Humanities, and establishes a new discursive conformation for the field. Finally, I argue that this new condition deserves critical consideration in all different areas of the Humanities, but particularly in those that take the text as their central object of attention.
 teaser: "Material conditions of digital text diffusion and their impact on new forms of reading."

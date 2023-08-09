@@ -12,6 +12,13 @@ authors:
 - Carlos Guardado da Silva
 translationType: original
 categories:
+- data curation
+- content analysis
+- project management
+- digital libraries
+- ethics
+- standards
+tags:
 - Curadoria Digital
 - Custo
 - Modelo de Custo

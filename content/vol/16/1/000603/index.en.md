@@ -9,6 +9,9 @@ issue: 1
 authors:
 - Ciaran B. Trace
 translationType: original
+categories:
+- archives
+- infrastructure
 tags:
 - Infrastructure
 - maintenance

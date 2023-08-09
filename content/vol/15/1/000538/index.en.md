@@ -14,6 +14,14 @@ authors:
 - Anas Fahad Khan
 - Andrea Taddei
 translationType: 
+categories:
+- classics
+- history
+- tools
+- databases
+- users
+- annotation
+- project report
 tags:
 - textual annotation
 - bottom-up approach

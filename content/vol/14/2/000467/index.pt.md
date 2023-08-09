@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Maria J.Ferreira dos Santos
 translationType: original
+categories:
+- history
+- project report
+- data visualization
+- ecocriticism
+- geospatial
+- area studies
 abstract: |
    Este artigo descreve a experiência da autora em criar uma plataforma digital para revelar, levantar hipóteses e transmitir conhecimento histórico sobre a conservação da natureza na Califórnia desde 1848, estado norte-americano pioneiro nas ideias da conservação da natureza. A riqueza natural da Califórnia aliada com empreendedorismo, levaram a que a conservação da natureza tenha estado, desde muito cedo, enraizada na legislação e na forma de agir do governo do estado e dos seus habitantes. No entanto, estas ideias têm sido desafiadas por processos intrinsecamente associados ao progresso, especialmente o crescimento exponencial da população e do tecido urbano, e a necessidade cada vez maior da implementação de outros usos do território e de utilização de recursos naturais. A ideia por detrás do projeto é realçar a história da conservação da natureza no estado, visualizar o seu progresso através do tempo, e analisar os fatores socio-económicos e ambientais determinantes para o seu desenrolar durante os últimos 160 anos. A relevância do artigo está em contribuir para o aprofundamento da discussão decorrente do desafio posto pelo crescimento demográfico e urbano. Nesse sentido, a plataforma digital proposta, ao coletar, armazenar e distribuir dados, bem como explorá-los de modo inovador, tem o mérito de estimular a atividade intelectual e levantar novas hipóteses para enriquecer o nosso conhecimento multi-disciplinar sobre a intersecção da história com muitas outras disciplinas.
 teaser: "About the experience of developing a digital platform which visualizes the history of natural conservation in California over time."

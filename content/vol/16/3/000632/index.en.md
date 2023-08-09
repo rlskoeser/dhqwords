@@ -9,6 +9,13 @@ issue: 3
 authors:
 - Bethany Nowviskie
 translationType: original
+categories:
+- race
+- cultural heritage
+- dh
+- infrastructure
+- cultural criticism
+- social justice
 tags:
 - Digital humanities
 - Organizing

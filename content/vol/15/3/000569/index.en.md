@@ -11,6 +11,11 @@ authors:
 - António Rito Silva
 - Manuel Portela
 translationType: original
+categories:
+- data visualization
+- digital
+- graphic design
+- reading
 tags:
 - reading interface
 - reading flow

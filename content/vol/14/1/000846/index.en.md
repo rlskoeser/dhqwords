@@ -9,6 +9,10 @@ issue: 1
 authors:
 - DHQ editorial team
 translationType: original
+categories:
+- race
+- ethics
+- cultural criticism
 abstract: |
    A statement of DHQ's position and actions in relation to structural racism.
 teaser: "A statement of DHQ's position and actions in relation to structural racism."

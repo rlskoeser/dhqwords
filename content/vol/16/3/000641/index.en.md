@@ -10,6 +10,11 @@ authors:
 - Bryan M. Jenkins
 - Taryn K. Myers
 translationType: original
+categories:
+- race
+- media studies
+- sound
+- social justice
 abstract: |
    Podcasts exist as new form of digital media that is quickly growing in popularity but remains understudied. This study explores Black podcasts’ contributions to the Black public sphere. The study found that Black podcasts are a space in which Black people participate in discourse that seeks to build community and resist against hegemonic structures. This study contributes to Black public sphere research and the digital humanities field by positioning Black podcasts as a counter-public for Black people.
 teaser: "This study places Black podcasting within the context of more traditional forms of Black media to examine the themes of community-building, resistance, and voice."

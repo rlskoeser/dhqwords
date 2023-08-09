@@ -11,6 +11,10 @@ authors:
 - Mark-Jan Bludau
 - Marian Dörk
 translationType: original
+categories:
+- philosophy
+- data visualization
+- cultural heritage
 abstract: |
    We propose the philosophical notion of the fold as an evocative vocabulary for the design and critique of interactive data visualizations. An expanding range of application areas, such as digital art history and literary studies, illustrates the potential of data visualization for research and education in the humanities. Coinciding with the increasing currency of data as evidence in the humanities, this research addresses a growing interest in data visualization for visual analysis and argumentation. For example, cultural collection visualizations promise a range of possibilities for visual and interactive representations of digital cultural heritage, used both for free exploration and focused research. Based on the concept of the fold, prominently advanced by Gilles Deleuze, this paper outlines a critical framework that draws attention towards the complexity of the underlying data. The fold offers a way to analyze and conceptualize visualizations through the lens of three integrated operations: explication, implication, and complication. It is an opportunity to think of interactive visualizations as portals into coherent, elastic, and ultimately infinite information spaces. Accordingly, it rejects the separation between interactivity and visual encoding and draws attention to the transitions between multiple states of a visualization. We identify design patterns of the fold in data visualizations, devise a framework for the critical interpretation of interactivity in data visualization, and demonstrate the implications for the digital humanities.
 teaser: "Outlines how the Deleuzian concept of the Fold offers a novel means of analyzing and conceptualizing data visualizations"

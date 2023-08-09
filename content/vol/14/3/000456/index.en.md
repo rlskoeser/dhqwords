@@ -10,6 +10,15 @@ authors:
 - Geoffrey Rockwell
 - Stéfan Sinclair
 translationType: original
+categories:
+- history
+- archaeology
+- digitization
+- collaboration
+- nlp
+- media studies
+- markup
+- materialisms
 abstract: |
    This paper looks at innovations in Busa’s Index Thomisticus project through the tension between mechanical and human labour. We propose that Busa and the IBM engineer Paul Tasman introduced two major innovations that allowed computers to process unstructured text. The first innovation was figuring out how represent unstructured text on punched cards, the way data was encoded and handled at that time. The second innovation was figuring out how to tokenize unstructured phrases on cards into words for further counting, sorting and concording. We think-through these innovations using replication as a form of media archaeology practice that can help us understand the innovations as they were thought through at the time. All this is framed by a letter found in the Busa archives criticizing the project as a tremendous mechanical labour ... of no great utility. We use this criticism to draw attention to the very different meshing of human and mechanical labour developed at Busa’s concording factory.
 teaser: "Examines innovations in Index Thomisticus and their implications for mechanical and human labour"

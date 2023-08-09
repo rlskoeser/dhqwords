@@ -13,6 +13,11 @@ authors:
 - Vincent Neyt
 - Dirk Van Hulle
 translationType: original
+categories:
+- data modeling
+- tools
+- editing
+- linguistics
 abstract: |
    The article describes research into the automatic comparison of texts with revisions. The authors argue that in-text variation can best be modelled as nonlinear text, and that a collation tool needs to treat in-text variation differently from the way linear text is treated. They describe in detail how the modelling choices they made influence the development of HyperCollate, a collation software that is able to process TEI-XML transcriptions of texts with variation. Consequently, HyperCollate produces a more refined collation output that corresponds with a human interpretation of textual variance.
 teaser: "The development of a software program that interprets TEI-XML transcriptions of texts with variation provides a medium to examine the ways in which we model and study textual variance."

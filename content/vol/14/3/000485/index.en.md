@@ -10,6 +10,12 @@ authors:
 - Mila Oiva
 - Urszula Pawlicka-Deger
 translationType: original
+categories:
+- social media
+- infrastructure
+- dh
+- materialisms
+- globalDH
 abstract: |
    Although the concept of digital comes with an assumption of placelessness and detachment from physical space and geographical location, these matters still play a significant role in the way the digital humanities research is practiced today, and also in the future. The location, the surroundings and infrastructure open the questions of accessibility and equality: space shapes the opportunities for doing digital humanities research, both enables and hinders collaboration, and both unifies and divides scholars. The purpose of this special issue is to examine the different aspects of situated research practices of the digital humanities covering two perspectives: physical and virtual. The physical places of research refer to the various digital humanities sites (laboratories, centers, departments) all over the world and more widely to the surroundings a location in a particular city, country, cultural sphere or continent affecting research practices. As virtual environments of digital humanities scholarship, we define the digital internet-based platforms, services, and tools that enable research and scholarly collaboration. The aspects that determine digital humanities research in both physical and virtual places are infrastructure (material and non-material), social interaction (communication and collaboration), and context (social, cultural, and political situatedness). The aspects influence each other and changes in one of them can affect the others. They have also impact on what is studied, the ways research can be done, and, in the end the results of our knowledge, what kind of knowledge digital humanities research can provide.
 teaser: "This is the introduction to the special issue on situated research practices."

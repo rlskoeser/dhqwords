@@ -10,6 +10,10 @@ authors:
 - Alastair Gornall
 - Sayan Bhattacharyya
 translationType: original
+categories:
+- globalDH
+- pedagogy
+- philosophy
 tags:
 - computer science
 - digital humanities

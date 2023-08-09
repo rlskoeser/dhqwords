@@ -10,6 +10,12 @@ authors:
 - Rabea Kleymann
 - Jan-Erik Stange
 translationType: original
+categories:
+- data visualization
+- literary studies
+- philosophy
+- project report
+- reading
 abstract: |
    In this article, we present our reflections on hermeneutic data visualizations for digital literary studies. Hermeneutic approaches in the digital humanities have been rather agnostic about the epistemological premises of hermeneutic theory. These can be summarized as (1) differentiation author/text, (2) hermeneutic circle and (3) dependency text/recipient. In this article, we present the concept of hermeneutic visualization as a means of bridging the gap between classic literary hermeneutics and the emerging practice of digital literary hermeneutics. Since data visualization is based on epistemological premises stemming from the natural or social sciences, it is not well-equipped to meet hermeneutic demands. In this article, we argue that the digital humanities can meet hermeneutic demands through a critical interface and visualization concept. We discuss four postulates that can be used as guidelines and help transform more traditional data visualization into hermeneutic visualization, while respecting the epistemological foundations of hermeneutic theory. We demonstrate the usefulness of the postulates with an interactive prototype Stereoscope designed to support them.In our article, we refer to the discussions and results of the three-year research project Three-Dimensional Dynamic Data Visualisation and Exploration for Digital Humanities Research (3DH) at the University of Hamburg (04/2016–12/2018). The considerations on hermeneutic visualizations presented here are therefore the result of a very productive collaboration. Therefore we cannot claim the presented ideas as our own.
 teaser: "This article discusses hermeneutic data visualizations within the field of digital literary studies."

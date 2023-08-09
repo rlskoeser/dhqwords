@@ -11,6 +11,12 @@ authors:
 - Niloofar Razavi
 - Mehrdad Qayyoomi Bidhendi
 translationType: original
+categories:
+- visual art
+- machine learning
+- interdisciplinarity
+- history
+- linguistics
 tags:
 - Ontology
 - Knowledge Representation

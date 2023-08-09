@@ -9,6 +9,12 @@ issue: 3
 authors:
 - Urszula Pawlicka-Deger
 translationType: original
+categories:
+- infrastructure
+- dh
+- history
+- project management
+- data curation
 tags:
 - infrastructure
 - laboratory

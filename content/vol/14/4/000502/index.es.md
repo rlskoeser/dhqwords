@@ -9,6 +9,13 @@ issue: 4
 authors:
 - Mercedes I. Salomón Salazar
 translationType: original
+categories:
+- archives
+- history
+- collaboration
+- standards
+- tools
+- media history
 tags:
 - Autoridades
 - authorities

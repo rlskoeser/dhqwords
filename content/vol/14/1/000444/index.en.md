@@ -9,6 +9,13 @@ issue: 1
 authors:
 - Kevin Chovanec
 translationType: 
+categories:
+- classics
+- digital libraries
+- data visualization
+- access
+- publishing
+- metadata
 abstract: |
    This essay discusses the process of editing a rather simple playtext, the English traveling players' Fortunatus, with a quite complex history of circulation and performance and a vast network of sources and influences. Since the traveling theater was contingent (context-based) and extemporaneous, the associated playtexts, collaborative adaptations and translations of English works, present unique challenges for editors and scholars. In fact, their printed form often misrepresents the kind of theater practiced. I raise the question of how the textual remnants of this theater shaped critical attitudes regarding the travelers, and I suggest that capabilities of digital publication can illuminate the episodic and modular characteristics of early modern performance.
 teaser: "A case study on encoding the episodic and spontaneous character of the early modern traveling theater."

@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Chris Diaz
 translationType: original
+categories:
+- access
+- project report
+- mobile
+- minimal computing
+- glam
+- translation
 abstract: |
    Caravans of Gold is a multilingual digital exhibit that was built as both a static website and Progressive Web App (PWA). This case study describes the process of developing Caravans of Gold, situating PWAs as minimal computing technologies. PWAs are websites with mobile app features that specifically help disseminate digital content to people who rely on mobile devices for access to the internet. Caravans of Gold was built using Wax, a Jekyll-based framework, and demonstrates the similarities between PWA requirements and minimal computing approaches.
 teaser: "Developing a Progressive Web App, Caravans of Gold, with minimal computing in mind."

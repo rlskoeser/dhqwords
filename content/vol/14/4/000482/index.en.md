@@ -9,6 +9,13 @@ issue: 4
 authors:
 - Emma Slayton
 translationType: original
+categories:
+- history
+- archaeology
+- geospatial
+- data modeling
+- area studies
+- indigenous
 tags:
 - computer applications in archaeology
 - seafaring

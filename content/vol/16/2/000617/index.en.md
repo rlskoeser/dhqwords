@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Onyekachi Henry Ibekwe
 translationType: original
+categories:
+- history
+- race
+- ethics
+- cultural criticism
+- data modeling
+- data curation
 abstract: |
    Roopika Risam’s New Digital Worlds interrogates the ongoing digitization of analog cultural records that came into existence during colonial times. Risam contends that the processes which produced the initial analog records were often animated by a mix of ethical egoism, racial bias and cultural caricature. Risam proposes a way out by embracing decolonial computing: a spectrum of techniques that seek to elevate historically-disadvantaged worldviews. Risam hopes to employ interventionist data approaches to address the challenges brought to bear upon peoples continually affected by colonial aggression.
 teaser: "A review of Roopika Risam's recent work: New Digital Worlds"

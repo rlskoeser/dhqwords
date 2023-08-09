@@ -10,6 +10,13 @@ authors:
 - Barbara Flueckiger
 - Gaudenz Halter
 translationType: original
+categories:
+- moving images
+- tools
+- data visualization
+- annotation
+- collaboration
+- cs
 abstract: |
    Colors are one of the most difficult stylistic elements of film to analyze, but — as this paper elaborates — a most rewarding one too. A long-neglected topic in film studies, film colors have gained increasing attention over the last decade. With the development of database-driven analysis, deep-learning tools, and a large range of visualization methods the research project ERC Advanced Grant FilmColors set out to provide a more comprehensive approach to analyzing the manifold aspects of color in film. This paper focuses on a set of strong theoretical and analytical concepts of film colors — including human interpretation — that connect the stylistic, expressive, and narrative dimensions with the development and evaluation of digital methods. A corpus of more than 400 films have been analyzed with a computer-assisted workflow that has been integrated into the video annotation and analysis software VIAN since 2017. VIAN is connected to the online platform VIAN WebApp for the evaluation of results, queries, and visualizations on segment, film and corpus level. Compared to traditional, mostly language-dominated approaches to the aesthetics, technology, and narratology of film colors, the digital humanities tools turn evidence created through the mapping of results into an instantly accessible array of visual representations. By relating detailed human annotation and interpretation to these visual representations, the integrated workflow consisting of the VIAN visual analysis software in combination with the crowdsourcing portal VIAN WebApp has created a comprehensive ecosystem for the investigation of film aesthetics and narration. It thus significantly extends established methods in film studies.
 teaser: "Examines the aesthetics, technology, and narratology of film colors through the FilmColors research project"

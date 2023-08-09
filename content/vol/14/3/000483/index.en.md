@@ -9,6 +9,14 @@ issue: 3
 authors:
 - Alex D. Ketchum
 translationType: original
+categories:
+- history
+- cultural heritage
+- access
+- geospatial
+- data curation
+- gender
+- project report
 abstract: |
    This article looks at online history projects focused on lost spaces, with an emphasis on lost LGBTQ+ spaces. In documenting lost spaces, these projects also highlight lost or marginalized historical actors. I position these projects at the center of debates surrounding how to recover lost peoples who have been left out or erased from mainstream histories. This article will discuss the various techniques used by digital humanities projects, focusing particularly on Jan Kurth’s Lost Womyn’s Space, Greggor Mattson’s Mapping Lost Lesbian Bars, and my own project, The Feminist Restaurant Project. This article discusses the various techniques used and the value these open access history websites serve for scholars and non-scholars alike. The article finishes by exploring how lost space projects preserve what was not previously preserved, while these websites are simultaneously vulnerable to similar preservation issues that plague digital humanities projects and community archives more broadly, especially those separate from large institutions. These challenges raise the questions: is lost space doomed to be lost? Can the history of LGBTQ+ space be recuperated? What role do digital humanities have in this work? And what does it mean to be found?
 teaser: "Examines questions on the role and efficacy of online history projects for reclaiming lost LGBTQ+ spaces"

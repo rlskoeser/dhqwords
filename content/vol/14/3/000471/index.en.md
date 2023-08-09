@@ -10,6 +10,15 @@ authors:
 - Shanmugapriya T
 - Nirmala Menon
 translationType: original
+categories:
+- infrastructure
+- dh
+- glam
+- history
+- digital libraries
+- globalDH
+- materialisms
+- pedagogy
 tags:
 - Research practice in India
 - Digital Humanities

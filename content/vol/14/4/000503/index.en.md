@@ -9,6 +9,12 @@ issue: 4
 authors:
 - Nicole Gray
 translationType: original
+categories:
+- literary studies
+- code studies
+- materialisms
+- markup
+- reading
 abstract: |
    Digital methods in the humanities have helped to create the potential for resurrecting an experimental, recuperative critical mode that approaches literature in terms of its transformability. This essay draws on Walt Whitman’s poems and his material practices to model this mode by interweaving the transformative logics of poetry and code. This can help to illuminate the structural mechanics of each, as well as their mutual dependence on figurative language. These resonances speak to the diverse human voices, practices, and forms of creativity that define digital humanities work today no less than the poetry and print of past centuries.
 teaser: "This articles examines a Walt Whitman manuscript through the lens of code."

@@ -14,6 +14,16 @@ authors:
 - May Helena Plumb
 - Mike Zarafonetis
 translationType: original
+categories:
+- collaboration
+- history
+- cultural heritage
+- digital libraries
+- indigenous
+- language studies
+- translation
+- access
+- social justice
 tags:
 - digital schoalrship
 - digital humanities

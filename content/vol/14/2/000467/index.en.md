@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Maria J.Ferreira dos Santos
 translationType: translation_stub
+categories:
+- history
+- project report
+- data visualization
+- ecocriticism
+- geospatial
+- area studies
 abstract: |
    This paper addresses the experience of the author when developing a digital platform on the history of nature conservation in California from 1848. This digital platform is designed to showcase, allow exploration and knowledge transfer as well as ask new questions and place new hypotheses on the history of conservation, for a state pioneer in these themes. The natural resource values of California along with the entrepreneurship allowed for an early start of nature conservation in the state. These ideas of conservation soon were brought into legislation, governmental action and processes, and population awareness and behavior. However, the development of the conservation history was not without barriers, as nature conservation has been challenged by development processes, namely exponential population growth and urban fabric, and the growing need for land use management that met the needs from different sectors. The Project herein described is based on the need to showcase the history of conservation in California, visualize its development over time, and analyze socio-economic and environmental drivers of its development over the last 160 years. This article is therefore of importance as it contributes to broadening and deepening the discussion along the challenges brought about by urban and population development. The digital platform described herein is therefore innovative and fundamental to further stimulate new questions at the interface of history and many other disciplines.
 teaser: "About the experience of developing a digital platform which visualizes the history of natural conservation in California over time."

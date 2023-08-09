@@ -13,6 +13,16 @@ authors:
 - Elsa Bouchard
 - Margot Mellet
 translationType: original
+categories:
+- classics
+- databases
+- project report
+- history
+- corpora
+- manuscripts
+- publishing
+- semantic web
+- digital
 tags:
 - Digital Classics
 - Digital Edition

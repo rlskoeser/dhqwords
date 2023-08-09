@@ -10,6 +10,11 @@ authors:
 - Francesca Giovannetti
 - Francesca Tomasi
 translationType: 
+categories:
+- semantic web
+- tools
+- publishing
+- markup
 tags:
 - digital scholarly editions
 - linked open data

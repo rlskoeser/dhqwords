@@ -9,6 +9,14 @@ issue: 2
 authors:
 - S.L. Ziegler
 translationType: original
+categories:
+- cultural heritage
+- digitization
+- archives
+- ethics
+- glam
+- metadata
+- access
 abstract: |
    Treating collections in cultural institutions as data encourages novel approaches to the use of historic collections. To reframe collections as data is to focus on how digitized collection material, collection metadata, and transcriptions can be used and reused for various types of computational analysis. Scholars active in the field of digital humanities have long taken advantage of computational data. This paper focuses on the work of cultural heritage institutions, which are increasingly offering collections as data. This paper outlines the collections as data project and examines specific examples of cultural institutions active in this space. The paper then details the practices of data brokers, and explores how the data broker model can frame the use of data in cultural heritage institutions. In closing a number of experiments are described that might help mitigate the harm that data in cultural institutions might cause. As we create and share data, can we be sure we are better than data brokers?
 teaser: "Analyzes the interaction between data brokers and cultural heritage institutions' data collections to explore how to mitigate the harm potentially caused by data in cultural institutions"

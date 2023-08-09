@@ -9,6 +9,11 @@ issue: 2
 authors:
 - Johannes Burgers
 translationType: original
+categories:
+- collaboration
+- databases
+- literary studies
+- tools
 abstract: |
    Hosted out of the University of Virginia and funded by the National Endowment for the Humanities, Digital Yoknapatawpha is an international and collaborative project composed of William Faulkner scholars and technologists. Its goal is to create a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions with the aim of visualizing the data through a series of deep atlases and other displays. This paper traces the development cycle of a supplementary narrative structure analysis dashboard that allows users to explore the chronology, narrative status, and date range of all of the texts set in his mythic county. In doing so, it bridges some of the significant gaps between narratological theory and computational methods, opens up a conversation about representing narrative data, and suggests some possible avenues for research with the dashboard.
 teaser: "This article discusses the Digital Yoknapatawpha project held at the University of Virginia."

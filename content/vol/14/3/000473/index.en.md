@@ -11,6 +11,14 @@ authors:
 - Abbey Gaterud
 - Rachel Noorda
 translationType: original
+categories:
+- access
+- ethics
+- project report
+- publishing
+- gender
+- infrastructure
+- project management
 abstract: |
    How can practitioners outside of R-1s afford to build a DH lab? How to connect a lab’s output to the communities it serves? This essay is a case study of Ooligan Press, a student-run trade press housed within a R-2, teaching-intensive university. Two elements make Ooligan Press distinctive as a DH lab. First, Ooligan is a not-for-profit business folded into a Master’s program in Book Publishing. Profits from sale of Ooligan Press books sustain the lab, which would collapse if its books were steadily unprofitable. Second, the essay uses the DH feminism M.E.A.L.S. framework to explain how Ooligan's horizontal management structure and student ownership of the press manifest in an ethic of care. Unlike most R-1 DH labs, where priorities are set by senior scholars and directors, graduate students decide which projects the lab will develop, and which skills they want to master in exchange for their labor. Because Ooligan is self-sustaining, it can also be self-directing.
 teaser: "This case study describes the Ooligan Press as a not-for-profit, feminist DH lab."

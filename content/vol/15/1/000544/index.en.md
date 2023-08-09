@@ -10,6 +10,10 @@ authors:
 - Davor Lauc
 - Darko Vitek
 translationType: 
+categories:
+- history
+- tools
+- project report
 tags:
 - sequence tagging
 - proper name normalisation

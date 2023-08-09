@@ -9,6 +9,9 @@ issue: 1
 authors:
 - Giulia Benotto
 translationType: 
+categories:
+- stylistics
+- literary studies
 tags:
 - distributional semantics
 - stylometry

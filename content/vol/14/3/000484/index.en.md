@@ -11,6 +11,13 @@ authors:
 - Valérie Schafer
 - Andreas Fickers
 translationType: original
+categories:
+- access
+- data curation
+- infrastructure
+- social media
+- history
+- digital
 abstract: |
    This paper emphasizes the need to think about sustainability as a key element of digital studies and digital hermeneutics. It addresses the inherent tensions between the long-term needs of data preservation and maintenance on the one side, and the short life cycles of the data formats, platforms and infrastructures on the other side. Challenges are not limited to the technical maintenance of software, tools and data, but also apply to the wider institutional contexts, epistemic traditions and social practices in which the doing of research in social sciences and humanities are embedded. We explore these tensions at several levels, temporalities and key stages in research – namely data access and building a corpus, establishing a research framework and analysis, and finally the use/dissemination of results.
 teaser: "Sustainability in DH as a shared issue of data maintenance and institutional contexts."

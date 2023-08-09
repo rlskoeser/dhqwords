@@ -9,6 +9,12 @@ issue: 3
 authors:
 - Romi Ron Morrison
 translationType: original
+categories:
+- social justice
+- race
+- ethics
+- dh
+- history
 tags:
 - fugitivity
 - computation

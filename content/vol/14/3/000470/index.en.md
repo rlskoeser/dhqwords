@@ -11,6 +11,13 @@ authors:
 - David S. Roh
 - Elizabeth Callaway
 translationType: original
+categories:
+- collaboration
+- project report
+- data curation
+- glam
+- ecocriticism
+- project management
 abstract: |
    In 2016, the Digital Matters Lab at the University of Utah launched a temporary pop-up space in the Marriott Library, the culmination of eighteen months of discussions between the College of Humanities, the College of Fine Arts, the College of Architecture+Planning, and the Marriott Library. After a previously unsuccessful attempt at creating a digital scholarship center in the late 2000s, our second attempt was rooted in skepticism. Why would this version be any more successful than the last? This paper chronicles how, learning from our mistakes, the Digital Matters Lab negotiated between a loose community of scholars and administrative stakeholders to navigate complex institutional legacies and bear a formal center with a cross-campus partnership, mission, and identity. The Lab’s focus on environmental, financial, and technological sustainability emerged in response to the situated environment of Utah where water rights, public lands, and air quality are critical concerns. As a second iteration digital humanities/scholarship center, the Digital Matters Lab’s emphasis on sustainability also reflects awareness of its vulnerability to the vicissitudes of administrative temperament or shifts in budgetary priorities. This case study concludes by looking to the future of the Digital Matters Lab in terms of scalability and permanence.
 teaser: "This article presents the case study of the Digital Matters Lab at the University of Utah as an example of the creation of a digital scholarship center."

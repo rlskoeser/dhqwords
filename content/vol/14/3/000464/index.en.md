@@ -10,6 +10,12 @@ authors:
 - Mila Oiva
 translationType: original
 categories:
+- interdisciplinarity
+- dh
+- info architecture
+- network
+- glam
+tags:
 - digital humanities
 - transfer of knowledge
 - research facilitation

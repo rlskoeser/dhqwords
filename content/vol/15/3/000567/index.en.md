@@ -9,6 +9,10 @@ issue: 3
 authors:
 - Clayton McCarl
 translationType: 
+categories:
+- pedagogy
+- dh
+- collaboration
 tags:
 - internships
 - pedagogy

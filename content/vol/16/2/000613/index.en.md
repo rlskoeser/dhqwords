@@ -10,6 +10,9 @@ authors:
 - Wenyi Shang
 - Winbin Huang
 translationType: original
+categories:
+- history
+- literary studies
 tags:
 - digital humanities
 - political struggle

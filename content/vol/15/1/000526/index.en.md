@@ -12,6 +12,10 @@ authors:
 - Stefan Gerdjikov
 - Klaus U. Schulz
 translationType: 
+categories:
+- data visualization
+- corpora
+- data analytics
 tags:
 - corpus exploration
 - metadata

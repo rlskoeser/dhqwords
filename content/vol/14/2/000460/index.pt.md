@@ -10,6 +10,16 @@ authors:
 - Luis Ferla
 - Cecily Raynor
 translationType: original
+categories:
+- globalDH
+- infrastructure
+- standards
+- cultural criticism
+- graphic design
+- geospatial
+- data curation
+- ethics
+- area studies
 abstract: |
    Após as edições em espanhol e em francês, vem agora à luz a edição especial em português da Digital Humanities Quarterly. A premissa é a de que as humanidades digitais só podem realizar plenamente a identidade que gostam de assumir, qual seja, a da valorização do compartilhamento do conhecimento e da liberdade para produzi-lo e fazê-lo circular, se efetivamente questionarem as atuais geopolíticas do mundo acadêmico e científico que disciplinam as práticas das comunidades envolvidas.
 teaser: "DHQ presents its Portuguese language special edition."

@@ -12,6 +12,12 @@ authors:
 - Nanne van Noord
 - Giovanna Fossati
 translationType: original
+categories:
+- moving images
+- digitization
+- archives
+- information retrieval
+- images
 abstract: |
    In recent years, efforts to unlock digitized moving image collections have focused primarily on the retrieval of collection items through semantic descriptors: keywords or other labels produced either manually, or as (semi-)automatically generated metadata. As a result, access to digital archives is still governed overwhelmingly by a logic of search. In practice, this means that users not only need to know what they are looking for, but are also constrained by the interpretive frameworks informing the materials’ labelling. Arguably, this poses restrictions on what they can find, how they can interrelate collection objects, and ultimately, how they can reuse or reinterpret collections. Taking such issues as its starting point, the Sensory Moving Image Archive project (SEMIA) investigated how visual analysis tools can help enable more exploratory forms of engaging with digital archives. In doing so, it focused on sensory features, which are essential to users’ experiences of audiovisual heritage objects but inadequately captured by verbal description. In this article, we discuss the project’s rationale and its early results. First, we place SEMIA in a recent history of visual analysis for media scholarly research, specifying how it both builds on and departs from this history (also in the epistemic sense). Subsequently, we provide more details about the project’s approach to image feature extraction and discuss some analysis results. In our conclusions, we confront those results with what we had initially hoped to gain by applying computer vision methods for enabling access to collections.
 teaser: "Discusses the Sensory Moving Image Archive project and its use of computer vision and feature extraction in video analysis"

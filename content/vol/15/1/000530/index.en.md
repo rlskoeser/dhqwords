@@ -9,6 +9,11 @@ issue: 1
 authors:
 - Sucharita Sarkar
 translationType: original
+categories:
+- social media
+- public history
+- network
+- gender
 abstract: |
    This review synthesizes Sakari Taipale’s book Intergenerational Connections in Digital Families (Springer International Publishing, 2019), partially from an auto-ethnographic perspective. Borrowing from the book’s structure, the review is divided into three parts. The first section examines the definitions of digital families and the role of everyday communication technologies in connecting such families. The second section critiques the interconnected roles of family members and generations in maintaining digital connections, especially through Taipale’s revival of the notion of the warm expert. The final section assesses the book’s conclusions in the context of changing social policies. It also looks at the possibilities for future research in the domain of digital family studies (and, by extension, in digital humanities) that can germinate from Taipale’s concise study.
 teaser: "Auto-ethnographic review of Skarai Taipale's Intergenerational Connections in Digital Families (2019)"

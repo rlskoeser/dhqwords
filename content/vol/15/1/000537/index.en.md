@@ -11,6 +11,12 @@ authors:
 - James Briggs
 - Dirk Gorissen
 translationType: 
+categories:
+- databases
+- project report
+- graphic design
+- digitization
+- visual art
 tags:
 - computer vision
 - machine learning

@@ -9,6 +9,12 @@ issue: 3
 authors:
 - Moya Bailey
 translationType: original
+categories:
+- project report
+- social media
+- race
+- social justice
+- dh
 tags:
 - #TransformDH
 - Origin story

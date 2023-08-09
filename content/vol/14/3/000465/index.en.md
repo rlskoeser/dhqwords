@@ -11,6 +11,13 @@ authors:
 - Ezra J. Teboul
 - Hined Rafeh
 translationType: original
+categories:
+- dh
+- social justice
+- project report
+- materialisms
+- gender
+- philosophy
 abstract: |
    This essay develops a conceptual framework for examining and practicing digital humanities (DH) and DH labs from the perspective of science and technology studies and laboratory studies. We argue that the situatedness of DH labs extends beyond physical/institutional space and includes also epistemic, political, sociological, and disciplinary issues. To explore this, we first outline the constructivist model of laboratory knowledge practices developed through feminist laboratory studies, and how that model’s focus on the laboratory as a producer of research subjects, rather than a container for them, runs counter to narratives about laboratories in DH. We then show how DH labs produce research objects, research subjects, epistemic context, and disciplinary legitimacy. Finally, we present the case of the Tactical Humanities Lab (THL) at Rensselaer, a DH lab situated through Science & Technology Studies and housed within an engineering-centered institute. Through the highlighting of two student-led projects, we show how THL knowledge workers navigate issues of our own identity, the boundaries of STS and DH, the practice of social justice through DH, and the social construction of the boundaries of laboratory work.
 teaser: "This article explores the situatedness of DH labs."

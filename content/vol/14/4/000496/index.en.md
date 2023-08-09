@@ -12,6 +12,12 @@ authors:
 - Thomas Scherer
 - Jasper Stratil
 translationType: original
+categories:
+- moving images
+- annotation
+- data visualization
+- history
+- reading
 abstract: |
    This article presents a framework that reconciles the requirements of computational methods with a qualitative, phenomenological approach to the analysis of audiovisual media. In its temporality and multimodality we treat audiovisual media as exemplary with regard to the wider field of performative arts and their analysis in digital humanities approaches. First, we argue in favor of grounding digital methodology explicitly in scholarly, theoretical approaches to the human experience of performative arts and outline a qualitative approach to compositional patterns and dynamics of affect in audio-visual media. To demonstrate this approach, an exemplary scene analysis highlights the specifics of analyzing experiential qualities based on micro-level descriptions of compositional structures. Eventually, the main body of the article spells out three central challenges with regard to this use of computational tools: 1.) recasting common film analytical vocabulary into a machine readable semantic ontology; 2.) setting up a systematic and applicable annotation routine that is based on the developed semantic ontology and allows for the interpersonal and consistent description of larger corpora; 3.) developing visualizations and query tools that enable the identification and tracing of compositional patterns within complex sets of annotation data. The article concludes by demonstrating the benefits of visualized annotation data by taking up the exemplary analysis sketched out earlier and, ultimately, reflects upon the implications of the outlined AdA filmontology as a programmatic starting point to addressing intersubjective bases of experience in the wider field of digital humanities.
 teaser: "Examines challenges inherent in applying computational methods to qualitative analyses of audiovisual media"

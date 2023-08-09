@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Ravynn K. Stringfield
 translationType: original
+categories:
+- race
+- social media
+- dh
+- social justice
 abstract: |
    Black graduate students from all disciplines, particularly Black women, who may otherwise be isolated in our respective institutions, have taken to the digital as a space to resist the marginalizing ways of the Academy as it exists. We fight, but we also care for each other, promote transparency about the graduate school process, lift as we climb, build professional networks and friendships alike. We utilize the digital in innovative ways to transform our separate experiences into collectives. Blogs, podcasts, Instagram accounts, twitter threads, digital writing groups, and more all serve as methods of resisting and engaging in carework. This essay will explore the various ways Black graduate students have decided that the revolution will not be televised -- but it will be online. 
 teaser: "Exploring the particular ways in which Black graduate students utilize the digital to transform their separate experiences into collectives and engage in methods of resisting and engaging in carework."

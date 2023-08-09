@@ -10,6 +10,16 @@ authors:
 - Luis Ferla
 - Cecily Raynor
 translationType: translation
+categories:
+- globalDH
+- infrastructure
+- standards
+- cultural criticism
+- graphic design
+- geospatial
+- data curation
+- ethics
+- area studies
 abstract: |
    Following the Spanish and French editions, we present the special edition of Digital Humanities Quarterly in Portuguese. The premise is that the digital humanities can only fully assume its desired identity, namely that of the valuation of knowledge sharing and the freedom to produce and circulate that knowledge, if they effectively question the current geopolitics of the academic and scientific world which dictate the practices of the communities they encompass.
 teaser: "DHQ presents its Portuguese language special edition."

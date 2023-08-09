@@ -10,6 +10,12 @@ authors:
 - Andreas Fickers
 - Tim van der Heijden
 translationType: original
+categories:
+- project report
+- history
+- interdisciplinarity
+- infrastructure
+- cs
 abstract: |
    The goal of this article is to critically reflect on the practical and epistemological challenges of doing historical research in the digital age. The analysis is based on a case study of the Doctoral Training Unit (DTU) Digital History and Hermeneutics, an interdisciplinary research and training programme that was established at the Luxembourg Centre for Contemporary and Digital History (C²DH) of the University of Luxembourg. The DTU is designed as interdisciplinary trading zone that applies the method of thinkering – the tinkering with technology combined with the critical reflection on the practice of doing digital history. Based on this case study, the article addresses the question of how to constitute an interdisciplinary trading zone in practice and how to situate this trading zone in physical working environments, like a Digital History Lab and shared office space.
 teaser: "In this article, the authors discuss using the method of thinkering with digital history."

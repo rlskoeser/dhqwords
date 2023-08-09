@@ -12,6 +12,14 @@ authors:
 - Lauren Tilton
 - Jasmijn Van Gorp
 translationType: original
+categories:
+- images
+- dh
+- media studies
+- moving images
+- sound
+- visual art
+- philosophy
 abstract: |
    Our special issue explores audio and visual (AV) data as form, method, and practice in the digital humanities. Spurred by recent advances in computing alongside disciplinary expansions of what counts as evidence, audio and visual ways of knowing are enjoying a more prominent place in the field. Whether the creation, analysis, and sharing of audiovisual data or audiovisual ways of communicating scholarly knowledge, scholars are building compelling avenues of inquiry that are changing how we know, what we know, and why we know in the digital humanities (DH). These epistemological shifts not only challenge existing methodological and theoretical pathways within the field of audiovisual studies, but most importantly defy existing knowledge hierarchies within the entire field of DH.
 teaser: "This is the introduction to the special issue on AudioVisual data in DH."

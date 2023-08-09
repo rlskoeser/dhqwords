@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Tracy L. Barnett
 translationType: original
+categories:
+- dh
+- history
+- pedagogy
+- public history
 abstract: |
    A book review of Hannu Salmi’s What is Digital History?. Salmi’s work offers a clear and coincide introduction to the history of digital humanities, notes the current state of the field, and address common criticism faced by digital humanists. In particular, this book would be of interest to those teaching undergraduate or graduate courses in historical methodology, public history, or digital history.
 teaser: "Review of Hannu Salmi’s What is Digital History?"

@@ -9,6 +9,11 @@ issue: 2
 authors:
 - Robert Gorman
 translationType: original
+categories:
+- stylistics
+- nlp
+- literary studies
+- annotation
 abstract: |
    Improving methods of stylometrics and classification so that they give good results with small texts is the focus of much research in the digital humanities and in the NLP community more generally. Recent work has suggested that an approach using combinations of shallow and deep morpho-syntactic information can be quite successful. But because the data in that study were taken from hand annotated dependency treebanks, the wider applicability of such an approach remains in question. The present paper seeks to answer this question by using machine-generated morphological and syntactic annotations as the basis for a closed-set classification experiment. Texts were parsed according to the Universal Dependency schema using the udpipe package for R. Experiments were carried out on data from several languages covering a range of morphological complexity. To limit confounders, consideration of vocabulary was excluded. Results were quite promising, and, not surprisingly, a more complex morphology correlates with better accuracy (e.g., 100-token texts in Polish: 88% correct; 100-token texts in English: 74%).The method presented here has particular advantages for stylometrics as practiced in literary analysis and other fields in the humanities. The Universal Dependency annotation categories are generally similar to those used in traditional grammars. Thus, the variables which serve to distinguish the style of a given author are relatively easier to interpret and understand than, for example, are character n-grams or function words. This fact, combined with the availability of easy-to-use dependency parsers, opens up the study of a syntax-centered stylometrics to persons with a wide range of expertise. Even students at the early stages of their studies can identify and investigate the morpho-syntactic signature of a particular author. Therefore, the characterization of texts based on computational annotation of this type deserves a place in classification studies because of its combination of good results and good interpretability.
 teaser: "Exploring the wider applicability of machine-generated morphological and syntactic annotation methods of stylometrics and classification, so that they give good results with small texts."
@@ -48,7 +53,7 @@ For each token the analysis gives the form as it appears in the text and its lem
   
 Part of speech and morphology constitute what we may call shallow syntactic features. Information of this type may allow us to infer some syntactical structures, but they do not represent them directly. In contrast, the head_token_id and dep_rel columns do constitute such a direct representation. The head token is the item that is the immediate syntactic parent of a given token. The dependency relation specifies the type of grammatical structure obtaining between parent and target. From these columns we may generate a description of the syntactic structure of the entire sentence in a representation of its deep syntax. The structure revealed by these data points is perhaps most clearly illustrated with the corresponding dependency tree:
   
-{{/*< figure src="resources/images/image1.tmp" caption="Dependency Tree of Example Sentence" alt=""  >*/}}
+{{< figure src="resources/images/image1.tmp" caption="Dependency Tree of Example Sentence" alt=""  >}}
 
   
 As is apparent, the syntactic path from the sentence root to the each leaf token is given by the combination of head id and dependency relationship.

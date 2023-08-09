@@ -10,6 +10,13 @@ authors:
 - David J. Birnbaum
 - Elena Spadini
 translationType: original
+categories:
+- info architecture
+- tools
+- project management
+- editing
+- transcription
+- data analytics
 abstract: |
    In this essay we explore the process of textual normalization in the context of machine-assisted collation, which is a common operation in digital textual scholarship. The Gothenburg modular architecture for computer-assisted collation situates normalization as the second stage within a five-stage computational pipeline, where it contributes to improving the eventual alignment. In this essay we argue that normalization, in fact, contributes not only to the alignment, but also to the interpretation of the texts. Furthermore, it occurs at several moments between transcription and rendering, and should not be regarded as happening all at once and only in one location.
 teaser: "Examines how the Gothenburg model of machines-assisted collation contributes to the interpretation of text data"

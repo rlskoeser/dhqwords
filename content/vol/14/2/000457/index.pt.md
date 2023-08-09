@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Maria Clara Paixão de Sousa
 translationType: original
+categories:
+- materialisms
+- reading
+- digital
+- dh
+- philosophy
+- media studies
 abstract: |
    As tecnologias digitais de difusão da informação transformaram profundamente o trabalho das Humanidades, que está hoje inscrito na lógica digital de um modo muito mais profundo do que o rótulo Humanidades Digitais pode fazer crer – pois não estamos diante do surgimento de uma nova tendência, nem de uma nova linha de pesquisas, nem de um novo campo de estudo no interior das Humanidades: estamos de fato diante de outras Humanidades. Na raiz dessa transformação está uma nova materialidade do texto, que, como já discutiram Pédauque (2004, 2006, 2007), Crane et al. (2008), Gradmann & Meister (2008), Chaudiron et al. (2008), Baumann & Crane (2010), e Paixão de Sousa (2013), modifica a condição histórica do documento – e, assim, instaura novas formas de leitura e novas formas de ordenação da leitura. Nesse sentido, sendo tarefas das Humanidades a interpretação do texto e a organização da sua transmissão social, essa nova materialidade interpela diretamente os métodos, os horizontes epistemológicos, e a conformação discursiva do campo. Neste artigo discutirei alguns dos efeitos desse processo, fundada em uma abordagem conceitual da materialidade do texto digital já proposta em Paixão de Sousa (2013), e inspirada na reflexão de Pêcheux (1992[1982]) sobre a leitura do arquivo e nas ideias de Unsworth (2006) sobre as formas de atenção.
 teaser: "Material conditions of digital text diffusion and their impact on new forms of reading."

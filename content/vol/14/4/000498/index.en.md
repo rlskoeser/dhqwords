@@ -10,6 +10,13 @@ authors:
 - Agata Hołobut
 - Jan Rybicki
 translationType: original
+categories:
+- moving images
+- content analysis
+- stylistics
+- nlp
+- sound
+- data analytics
 abstract: |
    We examine film dialogue with quantitative textual analysis (stylometry, sentiment analysis, distant reading). Working with transcribed dialogue in almost 300 productions, we explore the complex way in which most-frequent-words-based stylometry and lexicon-based sentiment analysis produce patterns of similarity and difference between screenwriters and/or a priori IMDB-defined genres. In fact, some of our results show that counting and comparing very frequent word lists reveals further similarities: of theme, implied audience, stylistic patternings. The results are encouraging enough to suggest that such quantitative approach to film dialogue may become a welcome addition to the arsenal of film studies methodology.
 teaser: "Examines quantitative methods for anlayzing film dialogue"

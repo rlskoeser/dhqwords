@@ -9,6 +9,13 @@ issue: 3
 authors:
 - Cody Mejeur
 translationType: original
+categories:
+- games
+- images
+- tools
+- data visualization
+- users
+- archives
 abstract: |
    Studies of video game narrative have long acknowledged that narrative in games is defined by interactivity — the player’s ability to make different choices and produce various story endings. Recent ludonarrative scholarship on games and interactive storytelling has started to account for what this interactivity means for narrative form, yet it remains difficult to assess how variable narrative is in different games, or how different players’ experiences with the same game can be. This article uses ImagePlot, software for visualizing large collections of images, to visualize playthroughs of a game and compare them. In doing so, it proposes a new method for analyzing narrative in games and digital media, and argues that games reveal how narrative form is shifting, emergent, and playful. By focusing on where and how narrative difference emerges, we can better understand how narrative constructs our current realities, and how it might contribute to different ones in the future.
 teaser: "Explores the use of ImagePlot for analyzing video game narratives"

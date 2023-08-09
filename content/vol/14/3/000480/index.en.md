@@ -14,6 +14,11 @@ authors:
 - Caroline Winter
 - ETCL Research Group
 translationType: original
+categories:
+- access
+- project report
+- infrastructure
+- ethics
 abstract: |
    As the scholarly landscape evolves into a more open plain, so do the shapes of institutions, labs, centres, and other places and spaces of research, including those of the digital humanities (DH). The continuing success of such research largely depends on a commitment to open access and open source philosophies that broaden opportunities for a more efficient, productive, and universal design and use of knowledge. The Electronic Textual Cultures Laboratory (ETCL; etcl.uvic.ca) is a collaborative centre for digital and open scholarly practices at the University of Victoria, Canada, that engages with these transformations in knowledge creation through its umbrella organization, the Canadian Social Knowledge Institute (C-SKI), that coordinates and supports open social scholarship activities across three major initiatives: the ETCL itself, the Digital Humanities Summer Institute (DHSI; dhsi.org), and the Implementing New Knowledge Environments (INKE; inke.ca) Partnership, including sub-projects associated with each. Open social scholarship is the practice of creating and disseminating public-facing scholarship through accessible means. Working through C-SKI, we seek ways to engage communities more widely with publicly funded humanities scholarship, such as through research creation and dissemination, mentorship, and skills training.
 teaser: "This article discusses how the Electronic Textual Cultures Lab aims to promote open social scholarship."

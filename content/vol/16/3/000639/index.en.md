@@ -9,6 +9,10 @@ issue: 3
 authors:
 - Brienne A. Adams
 translationType: original
+categories:
+- social media
+- media studies
+- race
 tags:
 - Social Media
 - Fandom

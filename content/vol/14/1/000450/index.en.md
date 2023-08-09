@@ -12,6 +12,13 @@ authors:
 - Heather Stone
 - Adam Halstrom
 translationType: 
+categories:
+- project report
+- nlp
+- dh
+- metadata
+- cultural criticism
+- gender
 abstract: |
    In this paper we run a topic model on over 300 article-length pieces from the extended bibliography of Melissa Terras, Juliette Nyhan, and Edward Vanhoutte’s edited collection Defining Digital Humanities. We use this topic model as a way to think through entry into the digital humanities as a negotiation between warm invitation and gatekeeping, the pull and push of digital humanities. We then analyze the metadata we collected about these pieces to explore how the push and pull manifest themselves unevenly across different demographics.
 teaser: "Topic modeling warm invitations and gatekeeping in the digital humanities."

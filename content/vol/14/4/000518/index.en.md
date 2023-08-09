@@ -13,6 +13,11 @@ authors:
 - Oksana Bulgakowa
 - Ralph Ewerth
 translationType: original
+categories:
+- moving images
+- content analysis
+- tools
+- annotation
 abstract: |
    Lots of approaches for automated video analysis have been suggested since the 1990ies, which have the potential to support quantitative and qualitative analysis in film studies. However, software solutions for the scholarly study of film that utilise video analysis algorithms are still relatively rare. In this paper, we aim to provide an overview of related work in this field, review current developments in computer vision, compare machine and human performance for some visual recognition tasks, and outline the requirements for video analysis software that would optimally support scholars of film studies.
 teaser: "Reviews literature on automated video analysis and suggests requirements for software that supports the needs of film studies scholars"

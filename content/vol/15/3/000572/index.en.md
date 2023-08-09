@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Jason Boyd
 translationType: original
+categories:
+- literary studies
+- digitization
+- databases
+- editing
 abstract: |
    Shakespeare’s Language in Digital Media: Old Words, New Tools offers a collection of essays focused on Shakespeare’s (or Shakespeare-adjacent) plays and how they can be newly-understood and newly-edited with a range of digital repositories, creation platforms, and tools. The collection provides solid content and provocative ideas about the possible paths to integrating Shakespeare’s and other early modern English-focused content online.
 teaser: "Review of Shakespeare’s Language in Digital Media: Old Words, New Tools"

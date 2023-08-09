@@ -11,6 +11,13 @@ authors:
 - Robin Burke
 - Ana Lučić
 translationType: original
+categories:
+- data modeling
+- content analysis
+- reading
+- project report
+- glam
+- data analytics
 abstract: |
    This essay presents quantitative capture and predictive modeling for one of the largest and longest running mass reading programs of the past two decades: One Book One Chicago (OBOC) sponsored by the Chicago Public Library (CPL). The Reading Chicago Reading project uses data associated with OBOC as a probe into city-scale library usage and, by extension, as a window onto contemporary reading behavior. The first half of the essay explains why CPL’s OBOC program is conducive for modeling purposes, and the second half documents the creation of our models, their underlying data, and the results.
 teaser: "Explores data from the Chicago Public Library's One Book One Chicago project to analyze and model library usage and reading behavior"

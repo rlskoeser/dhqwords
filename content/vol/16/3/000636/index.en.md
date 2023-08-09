@@ -9,6 +9,10 @@ issue: 3
 authors:
 - Elizabeth Losh
 translationType: original
+categories:
+- dh
+- race
+- cultural criticism
 tags:
 - Diversity
 - Professional associations

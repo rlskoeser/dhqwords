@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Kaiama L. Glover
 translationType: original
+categories:
+- dh
+- race
+- area studies
+- globalDH
 abstract: |
    The author reflects upon the intersection of Caribbean studies and Black DH, exploring issues of hierarchies and Eurocentricity, as well as recent conferences and projects which exist in the aforementioned intersection.
 teaser: "Kaiama Glover writes on the future of Caribbean studies in Black DH."

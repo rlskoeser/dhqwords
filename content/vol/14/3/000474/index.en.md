@@ -14,6 +14,12 @@ authors:
 - Laura Mitchell
 - Suzanne Conklin Akbari
 translationType: original
+categories:
+- project report
+- social media
+- cultural criticism
+- glam
+- images
 abstract: |
    The Old Books, New Science (OBNS) Lab began using Slack in May 2016 to facilitate the work of a diverse research group at the University of Toronto. Yet the OBNS Slack does not simply facilitate scholarly communication: it also serves as a powerful affective network, bringing together scholars in new and sometimes unexpected configurations. The affective language of emoji is fundamental to the growth of this community. Lab members coin new emoji that are taken up by the community eagerly, many of which are meaningful only within the OBNS environment. It is common to reference Slack emoji in in-person conversation; equally, the OBNS Slack is often home to advising sessions or meetings that in another workplace would take place face-to-face. In this way, the online environment of Slack and the in-person environment of the lab are mutually constitutive. Such usage of Slack may, however, also have a dark side: by celebrating affective community in the workspace, what happens to the distinction between home and office, and consequent erosion of leisure time? We consider whether the affective practices of the OBNS Slack might allow personal and professional boundaries to be blurred in such a way as to prioritize the personal.
 teaser: "The authors consider the affective community created by a shared Slack workspace, as well as the ways in which it erodes the boundaries of the personal and professional."

@@ -9,6 +9,12 @@ issue: 4
 authors:
 - Eva Hielscher
 translationType: original
+categories:
+- moving images
+- history
+- tools
+- annotation
+- corpora
 abstract: |
    The 1920s and 1930s saw the rise of the city symphony, a film phenomenon of experimental-documentary city films that took the modern metropolis as their protagonist and presented it in its multiple facets and kaleidoscopic nature. While Ruttmann’s Berlin. Die Sinfonie der Grosstadt (1927) and Vertov’s Chelovek s kinoapparatom (1929) gained canonical status and exert a considerable influence on filmmaking to this very day, the city symphony has remained a somewhat downplayed and neglected phenomenon in film history. Indeed, besides the handful of well-known titles, there have been more than eighty films made around the globe, many of which fell into oblivion and have received little or no scholarly attention at all. Moreover, even the canonical examples have never systematically and structurally been analyzed in detail in a comparative way. The result is the lack of a sophisticated and clear definition of the city symphony, based on both the canonical films and the greater city symphony corpus. My research sets in at this point, addressing the conspicuous absence of an analysis of city symphony characteristics. It does so by making use of a combined methodology of traditional film analysis methods and digital tools. This article reflects on the methodology applied and tools chosen and put into practice to study and analyze the visual material of city symphonies, which with their highly complex structure, dense imagery, and themes as well as their experimental techniques and striking editing patterns, are a perfect fit for a computational film analysis. Particularly, the digital film/video annotation software ELAN, the Cinemetrics method, a bar chart representation of shot lengths, and the grid visualizations of multiple film frames created with ImageJ play a role in this case study, which also broaches the aspect and benefits of manual digital analysis.
 teaser: "Examines the the methodology and use of digital tooles such as ELAN, Cinemetrics, and ImageJ in studying 1920/30s city symphony films"

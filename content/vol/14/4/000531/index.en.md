@@ -10,6 +10,14 @@ authors:
 - Hannah Alpert-Abrams
 - Clayton McCarl
 translationType: original
+categories:
+- access
+- dh
+- pedagogy
+- cultural heritage
+- geospatial
+- indigenous
+- globalDH
 abstract: |
    This is the introduction to a special issue on Digital Humanities and Colonial Latin American Studies.
 teaser: "This is the introduction to a special issue on Digital Humanities and Colonial Latin American Studies."

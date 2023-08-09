@@ -9,6 +9,12 @@ issue: 4
 authors:
 - Richard Snyder
 translationType: original
+categories:
+- media studies
+- cultural criticism
+- ecocriticism
+- materialisms
+- communications
 abstract: |
    In Finite Media, Sean Cubitt first examines a myriad of situations in which our media have material consequences for the earth and its inhabitants, clearly laying out the need for change on a massive scale. Thorough, complex, and effective, Cubitt’s book makes its largest contribution to ongoing discussions of digital humanities in the Anthropocene in arguing that humanity must change its relationship to media by embracing a new eco-political aesthetic.
 teaser: "Richard Snyder reviews Finite Media (2016) by Sean Cubitt."

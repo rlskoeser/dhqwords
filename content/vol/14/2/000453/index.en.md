@@ -11,6 +11,11 @@ authors:
 - Suemi Higuchi
 - Luis Antonio Coelho Ferla
 translationType: translation_stub
+categories:
+- dh
+- area studies
+- globalDH
+- project report
 tags:
 - Digital Humanities
 - Science and Technology

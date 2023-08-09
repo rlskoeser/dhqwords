@@ -11,6 +11,10 @@ authors:
 - Rubria Rocha de Luna
 - Annette M. Zapata
 translationType: translation_stub
+categories:
+- access
+- collaboration
+- project report
 abstract: |
    In 2019, the project United Fronteras began with the intention of countering the official or hegemonic representation of the Mexico-United States border in the digital cultural record and to inspire the questioning and critical development of materials or projects that utilize digital technologies to represent the border from various perspectives. This article touches on the process of how UF creates a transborder model of work between academics from various humanities disciplines and members of the community outside of academia to make use of postcolonial digital humanities and  minimal computing practices and methodologies to generate a third digital space that demonstrates the multiplicity of (hi)stories from the border and to document the public memory of the materials and projects in this region. Additionally, the article suggests the use of minimal computing as a fundamental part of independent and autonomous projects that dedicate themselves to resist the structures of power and physical and digital vigilance in border regions because of its ability to provide autonomy, independence, accessibility, functionality, security, neutrality and material stability across borders.
 teaser: "The process of United Fronteras creating a transborder model of work between academics from various humanities disciplines and members of the community outside of academia."

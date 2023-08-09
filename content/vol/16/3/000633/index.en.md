@@ -10,6 +10,11 @@ authors:
 - Angel David Nieves
 translationType: original
 categories:
+- dh
+- race
+- cultural criticism
+- ethics
+tags:
 - Black digital humanities
 - Reflection
 abstract: |

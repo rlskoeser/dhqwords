@@ -9,6 +9,11 @@ issue: 1
 authors:
 - Nanditha Narayanamoorthy
 translationType: original
+categories:
+- social media
+- social justice
+- ethics
+- network
 abstract: |
    Zeynep Tufekci’s book Twitter and Tear Gas (Yale University Press; 2017) speaks to high-profile, anti-authoritarian networked protests. She engages with street protests and online movements to bring new perspectives and dialogues on the need for reconfiguration of digitally networked online spaces, and the trajectories of these social movements online. Her work contributes to scholarship in digital activism, and digital humanities in the context of networked movements.
 teaser: "Review of Zeynep Tufekci’s Twitter and Tear Gas (2017)"

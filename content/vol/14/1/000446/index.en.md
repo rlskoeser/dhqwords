@@ -9,6 +9,13 @@ issue: 1
 authors:
 - Brian M. Watson
 translationType: original
+categories:
+- archives
+- media studies
+- performance
+- social media
+- data curation
+- history
 abstract: |
    In Rogue Archives: Digital Cultural Memory and Media Fandom (2016), Abigail de Kosnik establishes the idea of rogue archives as easily available, copyright-agnostic, and amateur-run digital archives that preserve non-traditional material. More than just a concept, De Kosnik’s interdisciplinary and wide-ranging rogue archives are used as a framework to understand shifts in media, internet culture, and as sites of individual and community social media performances. This review, which was originally livetweeted, also considers its own performance, situating Twitter reviews as a continuation of eighteenth-century book culture. This review was originally livetweeted. You can read the original threads here: https://twitter.com/historyofporn/status/1107292610597515266 and here: https://twitter.com/HistoryOfPorn/status/1107388760868704257
 teaser: "Review of Abigail De Kosnik’s Rogue Archives: Digital Cultural Memory and Media Fandom (MIT Press, 2016)"

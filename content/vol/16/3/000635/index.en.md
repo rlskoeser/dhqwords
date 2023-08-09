@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Louis M. Maraj
 translationType: original
+categories:
+- archives
+- data curation
+- race
+- social media
 tags:
 - Digital blackness
 - telos

@@ -9,6 +9,13 @@ issue: 4
 authors:
 - Joanna Byszuk
 translationType: original
+categories:
+- moving images
+- stylistics
+- data analytics
+- reading
+- network
+- gender
 abstract: |
    This article presents possibilities of effectively using stylometric methods popular in the analysis of literary texts in the study of texts written for television, on the example of Doctor Who. The article examines the changes driving the development of the show moving from character-oriented in the so-called Classic Who (1963-1989) to showrunner-oriented in its revival started in 2005. It also seeks to describe stability of the characterization of the protagonist as evidenced in the dialogues, and to discuss authorial relations between showrunners and their teams.
 teaser: "Uses stylometic methods to examine driving developments in the long-running television show Doctor Who"

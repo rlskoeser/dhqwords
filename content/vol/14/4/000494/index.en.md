@@ -9,6 +9,13 @@ issue: 4
 authors:
 - Lauren G. Kilroy-Ewbank
 translationType: original
+categories:
+- visual art
+- collaboration
+- transcription
+- tools
+- pedagogy
+- digital
 tags:
 - Digital Art History
 - Digital Visuality

@@ -11,6 +11,10 @@ authors:
 - Andrea Bellandi
 - Emiliano Giovannetti
 translationType: original
+categories:
+- semantic web
+- project report
+- philosophy
 tags:
 - diachronic terminology
 - Semantic Web

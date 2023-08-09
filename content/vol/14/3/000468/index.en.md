@@ -9,6 +9,13 @@ issue: 3
 authors:
 - Aleksandra Kil
 translationType: original
+categories:
+- project report
+- infrastructure
+- history
+- archaeology
+- archives
+- materialisms
 abstract: |
    In this paper I present Claude Lévi-Strauss’s Laboratoire d’anthropologie sociale (LAS), established in 1960, as a case study of the archaeology of the humanities infrastructure. Building on media archaeology and critical infrastructure studies, I stress the significance of the research infrastructure in the analog humanities and I show how the LAS was organized around the Human Relations Area Files (HRAF), a vast ethnographical pre-electronic repository produced at Yale. The paper looks into how the Files were mobilized to secure funding and space for Lévi-Strauss’s lab and gain infrastructural advantage (boosted by the Files’ paper-ness), helping it then to establish its position as richly endowed. As I suggest, it might be due to these pragmatic considerations – not recognized as epistemically valid – that the Laboratory has not had any important place in the readings of Lévi-Strauss’s work. The paper also highlights care work – taking care of resources and relocations – undertaken by Lévi-Strauss and his collaborators. Finally, examining the rationale and history of the HRAF and looking at its use at the LAS, I demonstrate how the tool was refitted to serve the particular needs and ambitions of the Parisian lab.
 teaser: "The author looks into the Laboratoire d’anthropologie sociale's Human Relations Area Files and how their production helped secure funding and space for the lab."

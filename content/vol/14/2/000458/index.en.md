@@ -9,6 +9,13 @@ issue: 2
 authors:
 - Patricia Ferreira-Lopes
 translationType: translation_stub
+categories:
+- history
+- geospatial
+- cultural heritage
+- digitization
+- data modeling
+- area studies
 abstract: |
    Recent research shows the potentiality of applying Geographic Information Systems (GIS) in cultural and historical studies. These studies have proven the benefits, flexibility and also the difficulties that the use of this technology brings to the humanities area. In the researches developed in the field of heritage documentation, it was observed that most of them support and claim the advantages to carry out analyses with GIS but cannot reach them because they are restricted to using the technology only to geolocate certain information. This problem deserves special attention because it limits the generation of knowledge from the data collected and processed. This article proposes an example of a study that contemplates the digitalization and analysis phase of an important source of documentation and cartography of Spain: The Repertoire of all the ways of Spain in the year of grace of 1546. The network of roads existing in the 16th century in the Iberian Peninsula was one of the main factors that helped the consolidation of commercial activities, the flow of knowledge and the constructive technical innovations in the new urban centres created. This paper proposes an analysis of the impact of these communication networks, through thematic maps, juxtaposition visualization, calculation of densities and calculation of the lowest cost path to study the terrestrial connections in the Peninsula. The result is a historical spatial data model capable of interrelating alphanumeric and/or physical-geographic data that enables a new perspective and source of information for researchers and professionals in different fields.
 teaser: "Applying Geographic Information Systems (GIS) in cultural and historical studies, especially on the Iberian peninsula."
