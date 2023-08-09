@@ -77,10 +77,11 @@ def convert_article(article):
             try:
                 markdown_file = [l for l in lines if l.endswith(".md")][0]
                 output_dir = os.path.dirname(markdown_file)
+                output_resource_dir = os.path.join(output_dir, "resources")
                 # for now, assume if it exists we already copied it
-                if not os.path.exists(output_dir):
+                if not os.path.exists(output_resource_dir):
                     # copy entire resource directory
-                    shutil.copytree(article_resource_dir, "%s/resources" % output_dir)
+                    shutil.copytree(article_resource_dir, output_resource_dir)
             except IndexError:
                 print("** could not determine output directory")
 
