@@ -12,8 +12,10 @@ authors:
 - J. Matthew Huculak
 translationType: 
 categories:
-- digital humanities
+- project management
 - archives
+- dh
+- cultural criticism
 - infrastructure
 tags:
 - project resiliency

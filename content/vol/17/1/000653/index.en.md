@@ -9,6 +9,9 @@ issue: 1
 authors:
 - Helen B. Kampmann Marodin
 translationType: original
+categories:
+- history
+- dh
 abstract: |
    In Technology and the Historian, Adam Crymble proposes a history of digital history, arguing that understanding the origins and rationale behind the discipline’s development is necessary to lead conversations about its future.
 teaser: "Review of Adam Crymble's Technology and the Historian: Transformations in the Digital Age published in 2021 by the University of Illinois Press."

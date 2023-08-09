@@ -10,10 +10,11 @@ authors:
 - Jessica Otis
 translationType: original
 categories:
-- digital humanities
+- data curation
+- project management
+- collaboration
 - ethics
 - infrastructure
-- project management
 tags:
 - project resiliency
 - funding

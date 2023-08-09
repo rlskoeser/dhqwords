@@ -10,9 +10,12 @@ authors:
 - Constance Crompton
 translationType: original
 categories:
-- pedagogy
+- data curation
+- markup
+- minimal computing
 - project management
-- markup languages
+- project report
+- pedagogy
 tags:
 - project resiliency
 - innovation

@@ -9,6 +9,13 @@ issue: 1
 authors:
 - Christine M. Gottlieb
 translationType: original
+categories:
+- users
+- standards
+- access
+- ethics
+- digital
+- literary studies
 tags:
 - Shakespeare
 - Universal Design

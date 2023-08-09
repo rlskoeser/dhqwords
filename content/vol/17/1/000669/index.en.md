@@ -10,11 +10,11 @@ authors:
 - James Cummings
 translationType: original
 categories:
+- project management
+- data curation
 - collaboration
+- markup
 - infrastructure
-- markup languages
-- music
-- project reports
 tags:
 - project resiliency
 - succession planning

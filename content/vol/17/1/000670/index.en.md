@@ -11,11 +11,13 @@ authors:
 translationType: original
 categories:
 - archives
-- art
-- cultural heritage institutions
+- project management
 - data curation
-- audiovisual media
-- indigeneity
+- access
+- project report
+- visual art
+- sound
+- indigenous
 - media history
 tags:
 - project resiliency

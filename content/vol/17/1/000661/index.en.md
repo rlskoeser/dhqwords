@@ -10,10 +10,14 @@ authors:
 - Emily Comeau
 translationType: original
 categories:
-- annotation systems
-- qualitative analysis
+- data curation
+- project management
+- philosophy
+- project report
+- glam
 - ethics
-- transcription
+- content analysis
+- manuscripts
 tags:
 - project resiliency
 - constructivist grounded theory

@@ -11,9 +11,11 @@ authors:
 - Jojo Karlin
 translationType: original
 categories:
-- citation analysis
-- information retrieval
-- information standards
+- dh
+- digital
+- hypertext
+- citation
+- standards
 - publishing
 tags:
 - project resiliency

@@ -15,9 +15,9 @@ categories:
 - infrastructure
 - minimal computing
 - publishing
-- information standards
+- standards
 - tools
-- web technologies
+- web
 tags:
 - project resiliency
 - digital editions

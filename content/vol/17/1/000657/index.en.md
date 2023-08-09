@@ -9,6 +9,11 @@ issue: 1
 authors:
 - David Thomson
 translationType: original
+categories:
+- access
+- data analytics
+- hypertext
+- literary studies
 abstract: |
    I examine the influence of one literary text upon another by the open-source programming methodology of information science. In particular, I look at how the Calamus sequence as rendered in the 1867 Leaves of Grass may be understood to be topically present, although most of the sequence was removed and regrouped by William Michael Rossetti toward publishing the first British Whitman edition in the 1868 Poems by Walt Whitman. I further demonstrate the complement of theory testing as I examine the laudatory and cautionary nature of the Calamus poems. Those celebrations and reservations about loving out of bounds may at once apply either to the radical inclusivity of a new republic or in same-sex love. While the utility of that laud-caution categorization remains tenuous, looking at both the limitations and strengths of the approach demonstrate the utility of employing a non-linear, even hypertextual sensibility readily available to readers who wish to encounter the social cognitive terrain of a literary work. On that terrain, I argue, readers can better understand a mind produced in time and responding to its time.
 teaser: "This article examines the influence of one edition of Whitman's poems one a subsequent edition using open-source information science programming methodology"

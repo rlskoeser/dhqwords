@@ -10,13 +10,15 @@ authors:
 - Nick Thieberger
 translationType: original
 categories:
-- anthropology
-- cultural heritage institutions
+- project report
+- access
 - data curation
-- digitization
-- indigeneity
-- linguistics
+- cultural heritage
 - metadata
+- anthropology
+- linguistics
+- digitization
+- indigenous
 tags:
 - PARADISEC
 - Australia

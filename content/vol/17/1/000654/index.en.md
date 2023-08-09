@@ -11,6 +11,11 @@ authors:
 - Janna Kienbaum
 - Birgit Schneider
 translationType: original
+categories:
+- machine learning
+- reading
+- project report
+- data analytics
 abstract: |
    Machine learning algorithms are increasingly used within the digital humanities as heuristic methods in image analysis. Automated image recognition methods and the sorting of image similarities provide access to large image inventories, which are made accessible to a human eye primarily via visual distance methods. In this context, the visualisations as an interactive interface represent only one 'end product' of a dense series of both qualitative and quantitative methodological decisions within a research design. Especially these decision-making processes are the crucial points within DH research, since with them the boundaries of qualitative-image-scientific and quantitative-algorithmic approaches become perceptible. This article addresses the process of a semi-automated analysis procedure of large image data sets using Google Images on climate change as an example. It results from a case study on cross-cultural climate image comparison by the mixed-methods research team anci. https://anci.fh-potsdam.de/ With the help of t-SNE as a machine learning method for dimensionality reduction and the k-means clustering method, the methodological process from data visualisation to visualization is made critically and reflectively transparent. The term pipeline serves as a metaphor for the methodological process.
 teaser: ""
@@ -191,13 +196,13 @@ a) Hotspot images detected by the algorithm did not correspond to any or only a 
   
 Methodologically, the question arose with regard to the t-SNE algorithm as to how the computer technically defines a cluster and thus also detects the  _hotspot_  image. As the hotspot image of Greta Thunberg from the Brazilian t-SNE visualisation, which occurred twice, showed, it was an image that qualitatively did not take on any status as an image group. Rather, the portrait of Greta Thunberg seemed to exhibit a high similarity factor precisely in its duplicity.
   
-{{< figure src="resources/images/figure11.jpg" caption="Hotspot image of Greta Thunberg from the Google search query of the Brazilian locale, which qualitatively does not correspond to any cluster." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen. There is a red box drawn around two images in the center"  >}}
+{{< figure src="resources/images/figure11.JPG" caption="Hotspot image of Greta Thunberg from the Google search query of the Brazilian locale, which qualitatively does not correspond to any cluster." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen. There is a red box drawn around two images in the center"  >}}
 
   
 b) At the same time, the problem arose that some images, which qualitatively showed a high motivic similarity and evidence, were not detected as a hotspot by the algorithm. For example, the algorithm identified images of the Earth as a colour contrasting globe within the t-SNE visualisation of the locale Bangladesh as an hotspot image, while the same motif was merely a section of the general cluster of Earths within the t-SNE-visualisation of the Brazil locale. 
 
   
-{{< figure src="resources/images/figure12.jpg" caption="Hotspot-cluster C13 from the Earth (burning) and the general Earth cluster, within which the Earth forms a section as a diptych and was subsequently qualitatively determined in the t-SNE-visualisation of the Brazil locale." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen with a red box drawn around a cluster of images on the right side"  >}}
+{{< figure src="resources/images/figure12.JPG" caption="Hotspot-cluster C13 from the Earth (burning) and the general Earth cluster, within which the Earth forms a section as a diptych and was subsequently qualitatively determined in the t-SNE-visualisation of the Brazil locale." alt="image of a tsne plot with many points on a black background. There is a list of images on the left side of the screen with a red box drawn around a cluster of images on the right side"  >}}
 
   
 Accordingly, it can be stated that the determination of a t-SNE cluster technically does not necessarily result from a high number of images, but due to a high similarity rate of sometimes only two images. 

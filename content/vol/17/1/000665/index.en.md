@@ -10,8 +10,10 @@ authors:
 - Claire Battershill
 translationType: original
 categories:
-- digital humanities
+- project management
 - literary studies
+- collaboration
+- ethics
 tags:
 - project resiliency
 - collaboration
