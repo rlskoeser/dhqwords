@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-08-09T16:30:09+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/16/4/</id><entry><title type="html">Annotation: A Uniting, but Multifaceted Practice. A Review of Nantke and Schlupkothen (2020)</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/000655/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/4/000655/</id><author><name>Melanie Andresen</name></author><published>2022-10-14T00:00:00+00:00</published><updated>2022-10-14T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-08-09T19:15:12+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/16/4/</id><entry><title type="html">Annotation: A Uniting, but Multifaceted Practice. A Review of Nantke and Schlupkothen (2020)</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/000655/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/16/4/000655/</id><author><name>Melanie Andresen</name></author><published>2022-10-14T00:00:00+00:00</published><updated>2022-10-14T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
 <p>Annotations are ubiquitous in research in the digital humanities and beyond and have been declared a  “scholarly primitive”  by Unsworth. By this, he refers to basic functions common to scholarly activity across disciplines, over time, and independent of theoretical orientation  <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Julia Nantke and Frederik Schlupkothen have set out to further deepen our understanding of annotation and foster interdisciplinary exchange on what annotation is and can be. To that end, they organized an interdisciplinary conference held at the University of Wuppertal, Germany, in February 2019. The conference was called  <em>Annotations in Scholarly Editions and Research: Functions, Differentiation, Systematization</em>  and its results were published in a volume by the same name <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
 <p>The introduction to the volume by Nantke/Schlupkothen is in itself worth mentioning: to give a comprehensive overview of the 16 articles without reducing them to one aspect only, they provide several visualizations of the volume’s content using the articles’ keywords. A word cloud shows which keywords are the most popular, a similarity matrix displays which articles combine to thematic clusters and an edge bundling visualization gives easy access to information on which articles share which keywords. The latter unfolds its full usefulness only in the interactive version that can be found on the publisher’s website (De Gruyter): <a href="https://cloud.newsletter.degruyter.com/annotations/">https://cloud.newsletter.degruyter.com/annotations/</a>. This review, in contrast, must force the articles back into the linearity of the medium of text. The guiding principle of the following is to question both what the authors mean by the multifaceted term annotation and whether they approach it from a primarily theoretical or applied perspective.</p>
 <p>First, some articles focus on analysis of annotations that have already been done by someone else and are now the object of study. Freedman extends the understanding of annotations to footnotes in academic texts and traces that type of textual expression back to its origins in the 17th century. For Bamert, annotations are handwritten marginal notes in books for which he coins the term pen traces (Stiftspuren). That term allows one to include non-verbal forms like underlinings and stresses the materiality of such annotations. Through the example of pen traces made by Thomas Mann found in books in his estate, Bamert shows that four types of knowledge need to be included in the analysis of such annotations. Most evident is the importance of knowledge of the text and the reader: readers might underline or comment on passages where they learn something from the text that they did not know before. However, the notes by Thomas Mann also document his critical stance towards the author of the text, who seems to willingly modify his interpretations to conform with National Socialist ideology. Therefore, Bamert argues, the knowledge of the author as well as of the historical context need to be involved in the interpretation of such annotations.</p>
@@ -477,10 +477,10 @@ Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Auto
 
 
 
-<figure ><img loading="lazy" alt="Two word clouds with blue, green, and purple text. The largest words in the Austria cloud are the works emperor, maximilian, and mexico while the largest words in the mexico cloud are maximiliano and mexico" src=""
+<figure ><img loading="lazy" alt="Two word clouds with blue, green, and purple text. The largest words in the Austria cloud are the works emperor, maximilian, and mexico while the largest words in the mexico cloud are maximiliano and mexico" src="/dhqwords/vol/16/4/000649/resources/images/figure15.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure15_hue5c4f631f30f230ca2c235893f91ce0b_81506_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure15_hue5c4f631f30f230ca2c235893f91ce0b_81506_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure15.png 444w" 
      class="landscape"
      ><figcaption>
         <p>Word clouds with the most frequent words (translated). Austria (top), Mexico (bottom)
@@ -515,10 +515,10 @@ Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Auto
 
 
 
-<figure ><img loading="lazy" alt="Two word clouds with blue, green, and purple text. The largest words in the Austria cloud are the works emperor, maximilian, and mexico while the largest words in the mexico cloud are maximiliano and mexico" src=""
+<figure ><img loading="lazy" alt="Two word clouds with blue, green, and purple text. The largest words in the Austria cloud are the works emperor, maximilian, and mexico while the largest words in the mexico cloud are maximiliano and mexico" src="/dhqwords/vol/16/4/000649/resources/images/figure12.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure12_hud8a515dd5afc3ca047002376cfb2b6b9_97698_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure12_hud8a515dd5afc3ca047002376cfb2b6b9_97698_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure12.png 441w" 
      class="landscape"
      ><figcaption>
         <p>Word clouds with the most frequent words (translated). Austria (top), Mexico (bottom)
@@ -558,10 +558,10 @@ Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Auto
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure19.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure19_hud24c7e8f413e6269819c9000652558bd_40193_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure19_hud24c7e8f413e6269819c9000652558bd_40193_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure19_hud24c7e8f413e6269819c9000652558bd_40193_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure19.png 1200w" 
      class="landscape"
      ><figcaption>
         <p>Word frequency distributions per subcorpora (top 10)
@@ -596,10 +596,10 @@ Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Auto
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure06.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure06_hu5c5886185c9b264527a6d54b9ff8afb4_35265_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure06_hu5c5886185c9b264527a6d54b9ff8afb4_35265_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure06_hu5c5886185c9b264527a6d54b9ff8afb4_35265_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure06.png 1200w" 
      class="landscape"
      ><figcaption>
         <p>Word frequency distributions per subcorpora (top 10)
@@ -634,10 +634,10 @@ Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Auto
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure16.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure16_hu4cfdc7d8855cdfa7ba5b5ee442ce46fd_37407_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure16_hu4cfdc7d8855cdfa7ba5b5ee442ce46fd_37407_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure16_hu4cfdc7d8855cdfa7ba5b5ee442ce46fd_37407_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure16.png 1200w" 
      class="landscape"
      ><figcaption>
         <p>Word frequency distributions per subcorpora (top 10)
@@ -672,10 +672,10 @@ Finally, we ran an Automatic Sentiment Analyzer on the news of each corpus. Auto
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure02.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure02_hu1a18e69feb25f5a71a09ba87541c43fd_35473_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure02_hu1a18e69feb25f5a71a09ba87541c43fd_35473_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure02_hu1a18e69feb25f5a71a09ba87541c43fd_35473_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure02.png 1200w" 
      class="landscape"
      ><figcaption>
         <p>Word frequency distributions per subcorpora (top 10)
@@ -727,10 +727,10 @@ Examples of reprints between newspapers of different regions    City/Region  New
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure14.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure14_hu8c59729d43f85030e9aa1cce6c2c53f3_66168_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure14_hu8c59729d43f85030e9aa1cce6c2c53f3_66168_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure14_hu8c59729d43f85030e9aa1cce6c2c53f3_66168_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure14_hu8c59729d43f85030e9aa1cce6c2c53f3_66168_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure14.png 1606w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (event) frequencies per subcorpora (top 30)
@@ -765,10 +765,10 @@ Examples of reprints between newspapers of different regions    City/Region  New
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure07.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure07_hu8a0b11c004218278d7cbc9ea3ea71049_58433_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure07_hu8a0b11c004218278d7cbc9ea3ea71049_58433_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure07_hu8a0b11c004218278d7cbc9ea3ea71049_58433_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure07_hu8a0b11c004218278d7cbc9ea3ea71049_58433_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure07.png 1606w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (event) frequencies per subcorpora (top 30)
@@ -803,10 +803,10 @@ Examples of reprints between newspapers of different regions    City/Region  New
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure03.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure03_hue35d49e4d81e8fc8ddd34a207e519642_60913_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure03_hue35d49e4d81e8fc8ddd34a207e519642_60913_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure03_hue35d49e4d81e8fc8ddd34a207e519642_60913_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure03_hue35d49e4d81e8fc8ddd34a207e519642_60913_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure03.png 1602w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (event) frequencies per subcorpora (top 30)
@@ -841,10 +841,10 @@ Examples of reprints between newspapers of different regions    City/Region  New
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Mexico, the second is Austria, the third is Germany, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure20.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure20_huae70d128629e33c73fa24e4fbf19f1cb_45915_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure20_huae70d128629e33c73fa24e4fbf19f1cb_45915_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure20_huae70d128629e33c73fa24e4fbf19f1cb_45915_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure20_huae70d128629e33c73fa24e4fbf19f1cb_45915_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure20.png 1606w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (event) frequencies per subcorpora (top 30)
@@ -890,10 +890,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure10.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure10_hu3cc4b0f898cc3e9fd1bc1717d313d8dd_46582_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure10_hu3cc4b0f898cc3e9fd1bc1717d313d8dd_46582_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure10_hu3cc4b0f898cc3e9fd1bc1717d313d8dd_46582_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure10_hu3cc4b0f898cc3e9fd1bc1717d313d8dd_46582_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure10.png 1606w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (person) frequencies per subcorpora
@@ -928,10 +928,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure18.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure18_hue6a4395a79db65ede4b025b0800a2eb9_61532_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure18_hue6a4395a79db65ede4b025b0800a2eb9_61532_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure18_hue6a4395a79db65ede4b025b0800a2eb9_61532_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure18_hue6a4395a79db65ede4b025b0800a2eb9_61532_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure18.png 1612w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (person) frequencies per subcorpora
@@ -966,10 +966,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure05.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure05_huff15fd22d16722881e15eb4b8142528b_64619_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure05_huff15fd22d16722881e15eb4b8142528b_64619_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure05_huff15fd22d16722881e15eb4b8142528b_64619_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure05_huff15fd22d16722881e15eb4b8142528b_64619_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure05.png 1608w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (person) frequencies per subcorpora
@@ -1004,10 +1004,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure21.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure21_hu06163c9d54056d382f88f48534d0b1be_45458_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure21_hu06163c9d54056d382f88f48534d0b1be_45458_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure21_hu06163c9d54056d382f88f48534d0b1be_45458_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure21_hu06163c9d54056d382f88f48534d0b1be_45458_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure21.png 1606w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (person) frequencies per subcorpora
@@ -1052,10 +1052,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure17.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure17.png 1522w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (location) frequencies per subcorpora
@@ -1090,10 +1090,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure24.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure24_hu354f7ad5ef5b033815991abab5f3739f_58273_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure24_hu354f7ad5ef5b033815991abab5f3739f_58273_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure24_hu354f7ad5ef5b033815991abab5f3739f_58273_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure24_hu354f7ad5ef5b033815991abab5f3739f_58273_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure24.png 1624w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (location) frequencies per subcorpora
@@ -1128,10 +1128,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure26.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure26_hua6cdfc53bce04d2daac2784959d99a55_71900_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure26_hua6cdfc53bce04d2daac2784959d99a55_71900_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure26_hua6cdfc53bce04d2daac2784959d99a55_71900_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure26.png 1420w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (location) frequencies per subcorpora
@@ -1166,10 +1166,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure23.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure23_huc95eb0e251e931d3db28bae937b53b0a_49184_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure23_huc95eb0e251e931d3db28bae937b53b0a_49184_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure23_huc95eb0e251e931d3db28bae937b53b0a_49184_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure23_huc95eb0e251e931d3db28bae937b53b0a_49184_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure23.png 1576w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (location) frequencies per subcorpora
@@ -1210,10 +1210,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure17.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure17_hu2d9deedbafe6964c116ca105350fba65_57860_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure17.png 1522w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (organization) frequencies per subcorpora
@@ -1248,10 +1248,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure22.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure22_hu3962909c09f542b4ba51b4305276ff8e_75658_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure22_hu3962909c09f542b4ba51b4305276ff8e_75658_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure22_hu3962909c09f542b4ba51b4305276ff8e_75658_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure22_hu3962909c09f542b4ba51b4305276ff8e_75658_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure22.png 1608w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (organization) frequencies per subcorpora
@@ -1286,10 +1286,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure08.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure08_hu0afed8ece88d086cbef532bf7b76490a_61909_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure08_hu0afed8ece88d086cbef532bf7b76490a_61909_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure08_hu0afed8ece88d086cbef532bf7b76490a_61909_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure08_hu0afed8ece88d086cbef532bf7b76490a_61909_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure08.png 1660w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (organization) frequencies per subcorpora
@@ -1324,10 +1324,10 @@ Similarly, outlets from the United States expressed a negative sentiment by desc
 
 
 
-<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src=""
+<figure ><img loading="lazy" alt="Four bar charts with bars in mauve. The first chart is for Austria, the second is Germany, the third is Mexico, and the fourth is USA" src="/dhqwords/vol/16/4/000649/resources/images/figure13.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure13_hu3740efe316082cfabfb7b8bfacb6fbf5_66343_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure13_hu3740efe316082cfabfb7b8bfacb6fbf5_66343_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure13_hu3740efe316082cfabfb7b8bfacb6fbf5_66343_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure13_hu3740efe316082cfabfb7b8bfacb6fbf5_66343_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure13.png 1576w" 
      class="landscape"
      ><figcaption>
         <p>Named entities (organization) frequencies per subcorpora
@@ -1374,10 +1374,10 @@ The following bar charts (Figure 7) show a more detailed overview of the sentime
 
 
 
-<figure ><img loading="lazy" alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico" src=""
+<figure ><img loading="lazy" alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico" src="/dhqwords/vol/16/4/000649/resources/images/figure11.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure11_hubdfe17f723996faf53564ef74fa52dc5_87838_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure11_hubdfe17f723996faf53564ef74fa52dc5_87838_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure11_hubdfe17f723996faf53564ef74fa52dc5_87838_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure11_hubdfe17f723996faf53564ef74fa52dc5_87838_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure11.png 1628w" 
      class="landscape"
      ><figcaption>
         <p>Positive and negative news stories for regional subcorpora.
@@ -1412,10 +1412,10 @@ The following bar charts (Figure 7) show a more detailed overview of the sentime
 
 
 
-<figure ><img loading="lazy" alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico" src=""
+<figure ><img loading="lazy" alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico" src="/dhqwords/vol/16/4/000649/resources/images/figure01.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure01_hue1634c1b502460348cdd551e90e7dd2d_124147_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure01_hue1634c1b502460348cdd551e90e7dd2d_124147_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure01_hue1634c1b502460348cdd551e90e7dd2d_124147_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure01_hue1634c1b502460348cdd551e90e7dd2d_124147_1500x0_resize_box_3.png 1500w,/dhqwords/vol/16/4/000649/resources/images/figure01_hue1634c1b502460348cdd551e90e7dd2d_124147_1800x0_resize_box_3.png 1800w,/dhqwords/vol/16/4/000649/resources/images/figure01.png 1878w" 
      class="landscape"
      ><figcaption>
         <p>Positive and negative news stories for regional subcorpora.
@@ -1450,10 +1450,10 @@ The following bar charts (Figure 7) show a more detailed overview of the sentime
 
 
 
-<figure ><img loading="lazy" alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico" src=""
+<figure ><img loading="lazy" alt="three bar charts, the first two have bars in mauve and the last has bars in green. The first chart is the sentiment score for Austria, the second is the sentiment score Germany, and the third is the sentiment score for Mexico" src="/dhqwords/vol/16/4/000649/resources/images/figure09.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure09_hucbd7aea900e4ad6a6ef2001329529a9f_31092_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure09_hucbd7aea900e4ad6a6ef2001329529a9f_31092_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure09_hucbd7aea900e4ad6a6ef2001329529a9f_31092_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure09.png 1272w" 
      class="landscape"
      ><figcaption>
         <p>Positive and negative news stories for regional subcorpora.
@@ -1546,10 +1546,10 @@ yo 21 de 1861.- Mejía.- Ciudadanos general de división Mariano Escobedo , en j
 
 
 
-<figure ><img loading="lazy" alt="A bar chart representing the sentiment score for the USA. The chart is vertical and has bars on both sides in blue." src=""
+<figure ><img loading="lazy" alt="A bar chart representing the sentiment score for the USA. The chart is vertical and has bars on both sides in blue." src="/dhqwords/vol/16/4/000649/resources/images/figure04.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/16/4/000649/resources/images/figure04_hudeb99f5625eed9aaa4770b4d85997731_25763_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/16/4/000649/resources/images/figure04_hudeb99f5625eed9aaa4770b4d85997731_25763_800x0_resize_box_3.png 800w,/dhqwords/vol/16/4/000649/resources/images/figure04_hudeb99f5625eed9aaa4770b4d85997731_25763_1200x0_resize_box_3.png 1200w,/dhqwords/vol/16/4/000649/resources/images/figure04.png 1200w" 
      class="landscape"
      ><figcaption>
         <p>USA sentiment analysis bar chart (without newspaper names)
@@ -1636,7 +1636,7 @@ yo 21 de 1861.- Mejía.- Ciudadanos general de división Mariano Escobedo , en j
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Digital Humanities Inside Out: Developing a Digital Humanities Curriculum for Computer Scientists in Singapore</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/000647/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/2/000613/?utm_source=atom_feed" rel="related" type="text/html" title="Rediscussing the Political Struggle in the Light of Reform in Late 11th Century China under the View of Digital Humanities"/><link href="https://rlskoeser.github.io/dhqwords/vol/15/3/000567/?utm_source=atom_feed" rel="related" type="text/html" title="An Approach to Designing Project-Based Digital Humanities Internships"/><link href="https://rlskoeser.github.io/dhqwords/vol/15/3/000568/?utm_source=atom_feed" rel="related" type="text/html" title="Virtual museums as an extended museum experience: Challenges and impacts for museology, digital humanities, museums and visitors – in times of (Coronavirus) crisis"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/000529/?utm_source=atom_feed" rel="related" type="text/html" title="Ticha: Collaboration with Indigenous communities to build digital resources on Zapotec language and history"/><id>https://rlskoeser.github.io/dhqwords/vol/16/4/000647/</id><author><name>Alastair Gornall</name></author><author><name>Sayan Bhattacharyya</name></author><published>2022-08-05T00:00:00+00:00</published><updated>2022-08-05T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
+]]></content></entry><entry><title type="html">Digital Humanities Inside Out: Developing a Digital Humanities Curriculum for Computer Scientists in Singapore</title><link href="https://rlskoeser.github.io/dhqwords/vol/16/4/000647/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/16/2/000613/?utm_source=atom_feed" rel="related" type="text/html" title="Rediscussing the Political Struggle in the Light of Reform in Late 11th Century China under the View of Digital Humanities"/><link href="https://rlskoeser.github.io/dhqwords/vol/15/3/000567/?utm_source=atom_feed" rel="related" type="text/html" title="An Approach to Designing Project-Based Digital Humanities Internships"/><link href="https://rlskoeser.github.io/dhqwords/vol/15/3/000568/?utm_source=atom_feed" rel="related" type="text/html" title="Virtual museums as an extended museum experience: Challenges and impacts for museology, digital humanities, museums and visitors – in times of (Coronavirus) crisis"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/000529/?utm_source=atom_feed" rel="related" type="text/html" title="Ticha: Collaboration with Indigenous communities to build digital resources on Zapotec language and history"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/3/000464/?utm_source=atom_feed" rel="related" type="text/html" title="The Chili and Honey of Digital Humanities Research:The Facilitation of the Interdisciplinary Transfer of Knowledge in Digital Humanities Centers"/><id>https://rlskoeser.github.io/dhqwords/vol/16/4/000647/</id><author><name>Alastair Gornall</name></author><author><name>Sayan Bhattacharyya</name></author><published>2022-08-05T00:00:00+00:00</published><updated>2022-08-05T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="heading"></h2>
 <p>The recent history of the humanities in American and European universities is one of neglect. Governments have shifted towards an instrumentalization of education policies, which has included the accelerated expansion and promotion of tertiary education in STEM subjects, partly due to competition with the growing economies of Asia. An influential 2011 report on STEM education and employment from the U.S. Department of Commerce argues that  “science, technology, engineering and mathematics workers play a key role in the sustained growth and stability of the U.S. economy, and are a critical component to helping the U.S.  <em>win the future</em> ”   <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. There is a general perception that this strategic focus on STEM has been detrimental to fields beyond its scope, particularly to the humanities. Rarely does a semester go by without a prominent academic declaring that the humanities are in crisis, and some have even predicted the death of these venerable disciplines altogether. (See <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> for a good summary of the issues.)</p>
 <p>It is not without a certain irony, then, that one may note that many governments in Asia are, in contrast, investing more than ever now in the humanities, arts, and social sciences. The reasons are complex, but a general need for fostering greater creativity, innovation, and entrepreneurship among their populations is an important factor. In the last twenty years, China has established several liberal arts universities and has forged partnerships with liberal arts programs at U.S. universities, such as Duke and NYU <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, as did Singapore by fostering a collaboration between its established, flagship national university and Yale in the form of the liberal-arts model that was Yale-NUS College <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. Taking inspiration from institutions like MIT, there are also a growing number of specialist science and technology universities with integrated arts, humanities, and social science programs throughout Asia. The prestigious Indian Institutes of Technology (IIT) are perhaps the oldest examples of adopting this MIT model <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>  More recently, in 2009, MIT itself helped establish the Singapore University of Technology and Design (SUTD)  “to advance knowledge and nurture technically-grounded  <em>leaders</em>  and  <em>innovators</em>  to serve society needs, with a focus on design, through an  <em>integrated multidisciplinary</em>  curriculum and  <em>multidisciplinary</em>  research”   <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>.</p>
 <p>The very different political and institutional situations facing the humanities worldwide ought to influence the debates and challenges surrounding the digital humanities (DH). However, disciplinary discussions about DH generally assume an academic audience located in American or European institutions and, until recently, have rarely reflected the potential global diversity of the field.<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>  Less remarked upon, perhaps, is that, institutionally, the what question in DH pedagogy usually speaks to researchers and students in a specific, normative setting:  <em>humanities</em>  departments and units, while the how question usually pertains only to teaching methods relevant to students pursuing humanities degrees in these departments and units — ignoring the fact that both of these questions about DH could actually have very different answers in different institutional contexts. An approach to these questions that is disciplinarily more inclusive can therefore offer lessons for DH that are not normatively circumscribed by the specificities of the most commonly encountered scenario.</p>

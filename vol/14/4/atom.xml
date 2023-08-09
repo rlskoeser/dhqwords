@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><title type="html">DHQwords Issue 14.4</title><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><link href="https://rlskoeser.github.io/dhqwords/es/vol/14/4/" rel="alternate" type="text/html" hreflang="es" title="[es] html"/><link href="https://rlskoeser.github.io/dhqwords/es/vol/14/4/index.xml" rel="alternate" type="application/rss+xml" hreflang="es" title="[es] rss"/><link href="https://rlskoeser.github.io/dhqwords/es/vol/14/4/atom.xml" rel="alternate" type="application/atom+xml" hreflang="es" title="[es] Atom"/><updated>2023-08-09T16:30:09+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/14/4/</id><entry><title type="html">Automated Visual Content Analysis for Film Studies: Current Status and Challenges</title><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/000518/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/14/4/000518/</id><author><name>Kader Pustu-Iren</name></author><author><name>Julian Sittel</name></author><author><name>Roman Mauer</name></author><author><name>Oksana Bulgakowa</name></author><author><name>Ralph Ewerth</name></author><published>2020-12-20T00:00:00+00:00</published><updated>2020-12-20T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="1-introduction">1 Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><title type="html">DHQwords Issue 14.4</title><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><link href="https://rlskoeser.github.io/dhqwords/es/vol/14/4/" rel="alternate" type="text/html" hreflang="es" title="[es] html"/><link href="https://rlskoeser.github.io/dhqwords/es/vol/14/4/index.xml" rel="alternate" type="application/rss+xml" hreflang="es" title="[es] rss"/><link href="https://rlskoeser.github.io/dhqwords/es/vol/14/4/atom.xml" rel="alternate" type="application/atom+xml" hreflang="es" title="[es] Atom"/><updated>2023-08-09T19:15:12+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/14/4/</id><entry><title type="html">Automated Visual Content Analysis for Film Studies: Current Status and Challenges</title><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/000518/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/14/4/000518/</id><author><name>Kader Pustu-Iren</name></author><author><name>Julian Sittel</name></author><author><name>Roman Mauer</name></author><author><name>Oksana Bulgakowa</name></author><author><name>Ralph Ewerth</name></author><published>2020-12-20T00:00:00+00:00</published><updated>2020-12-20T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="1-introduction">1 Introduction</h2>
 <p>In contrast to the field of computer-assisted research in the arts that has been established for several years <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>  <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>  <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>, there is a need to catch up in scientific approaches to film (represented in the fields of New Film History and Stylometry). An important reason is the lack of practical software solutions available to date and the incompatibility of quantitative research designs with existing methodologies for film studies. In this context, some researchers criticise above all the appropriation of a technicistic, unrelated mission statement, which advocates of digital humanities apply to their own subject following other principles <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>  <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. However, more recent research <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>  <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> has shown that qualitative and quantitative analysis are by no means mutually exclusive, but can be integrated in order to enrich film studies with new impulses.</p>
 <p>The statistical film analysis developed by the physicist Salt thus holds the potential of a methodological guideline for quantifying filmic characteristics <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>  <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. This methodology focuses on quantifiable factors in the formal structure of a film such as camera shot length, which is considered an objective unit because it can be measured over time. The various forms of camera usage and movement (such as tracking shots, pans and tilts, camera distance, i.e., shot size) as well as other techniques (such as zoom-in and -out or the use of a camera crane) are also relevant for quantification. Casting this set of techniques as measuring instruments, it is possible to obtain data that scientists can relate to verifiable criteria in terms of film production history and to formulate hypotheses that allow conclusions to be drawn about the formal stylistic development of the selected films. To this end, Salt&rsquo;s concept allows for complete traceability of the measurement results and thus also of the numerical values to a theory set.</p>
 <p>The concept was criticized for its reductionism <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>, which prevents it from being connected to the qualitative research methods that dominate film studies. However, research in digital humanities has shown that quantitative parameters such as shot length are a suitable foundation for various analytical tools when it comes to the qualitative investigation of data (<a href="#tsivian2008">Tsivian 2008</a>; <a href="#buckland2009">Buckland 2009</a>; many others). In this way, quantitative research according to Salt makes it possible to validate stylistic changes in the work of emigrated European directors due to technical opportunities of the American studio system, or even to collect the average shot lengths of numerous productions from the beginning of film history to the present. Such research allows researchers to draw conclusions about the progressive acceleration of editing and thus provides information about the development of film technology and changes in our viewing habits. These questions concerning stylistic research in film studies cannot be examined without a corresponding quantitative research design, although Salt&rsquo;s concept remains too inflexible for broader application.</p>
@@ -767,10 +767,10 @@ A comparison of face identification capabilities of humans and machines was made
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000497/resources/images/figure02.1.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000497/resources/images/figure02.1_hub8662fe88092625548b385c513327acb_327675_500x0_resize_q75_box.jpg 500w,
+    /dhqwords/vol/14/4/000497/resources/images/figure02.1_hub8662fe88092625548b385c513327acb_327675_800x0_resize_q75_box.jpg 800w,/dhqwords/vol/14/4/000497/resources/images/figure02.1_hub8662fe88092625548b385c513327acb_327675_1200x0_resize_q75_box.jpg 1200w,/dhqwords/vol/14/4/000497/resources/images/figure02.1_hub8662fe88092625548b385c513327acb_327675_1500x0_resize_q75_box.jpg 1500w,/dhqwords/vol/14/4/000497/resources/images/figure02.1.jpg 1772w" 
      class="landscape"
      ><figcaption>
         <p>Sample stills of query shots from the Open Images platform with four nearest neighbours in the shape, colour, movement, and visual complexity feature spaces
@@ -805,10 +805,10 @@ A comparison of face identification capabilities of humans and machines was made
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000497/resources/images/figure02.2.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000497/resources/images/figure02.2_hu50763555baec2082ca98bb61d628773c_492264_500x0_resize_q75_box.jpg 500w,
+    /dhqwords/vol/14/4/000497/resources/images/figure02.2_hu50763555baec2082ca98bb61d628773c_492264_800x0_resize_q75_box.jpg 800w,/dhqwords/vol/14/4/000497/resources/images/figure02.2_hu50763555baec2082ca98bb61d628773c_492264_1200x0_resize_q75_box.jpg 1200w,/dhqwords/vol/14/4/000497/resources/images/figure02.2_hu50763555baec2082ca98bb61d628773c_492264_1500x0_resize_q75_box.jpg 1500w,/dhqwords/vol/14/4/000497/resources/images/figure02.2.jpg 1772w" 
      class="landscape"
      ><figcaption>
         <p>Sample stills of query shots from the Open Images platform with four nearest neighbours in the shape, colour, movement, and visual complexity feature spaces
@@ -843,10 +843,10 @@ A comparison of face identification capabilities of humans and machines was made
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000497/resources/images/figure02.3.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000497/resources/images/figure02.3_hu6fd49538f993a99cbd8b0ccc8f2d06e1_463988_500x0_resize_q75_box.jpg 500w,
+    /dhqwords/vol/14/4/000497/resources/images/figure02.3_hu6fd49538f993a99cbd8b0ccc8f2d06e1_463988_800x0_resize_q75_box.jpg 800w,/dhqwords/vol/14/4/000497/resources/images/figure02.3_hu6fd49538f993a99cbd8b0ccc8f2d06e1_463988_1200x0_resize_q75_box.jpg 1200w,/dhqwords/vol/14/4/000497/resources/images/figure02.3_hu6fd49538f993a99cbd8b0ccc8f2d06e1_463988_1500x0_resize_q75_box.jpg 1500w,/dhqwords/vol/14/4/000497/resources/images/figure02.3.jpg 1772w" 
      class="landscape"
      ><figcaption>
         <p>Sample stills of query shots from the Open Images platform with four nearest neighbours in the shape, colour, movement, and visual complexity feature spaces
@@ -3509,10 +3509,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure01.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure01_hucd047c8d3773396edf05eb2b39e469ec_318837_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure01_hucd047c8d3773396edf05eb2b39e469ec_318837_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure01_hucd047c8d3773396edf05eb2b39e469ec_318837_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure01_hucd047c8d3773396edf05eb2b39e469ec_318837_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure01_hucd047c8d3773396edf05eb2b39e469ec_318837_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure01.png 2118w" 
      class="landscape"
      ><figcaption>
         <p>Sketch of the analysis and evaluation workflow with the database architecture.
@@ -3554,10 +3554,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure02a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure02a_hu14700e7942b819a2f38c3e2a4a1d5020_3612255_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure02a_hu14700e7942b819a2f38c3e2a4a1d5020_3612255_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure02a_hu14700e7942b819a2f38c3e2a4a1d5020_3612255_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure02a_hu14700e7942b819a2f38c3e2a4a1d5020_3612255_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure02a_hu14700e7942b819a2f38c3e2a4a1d5020_3612255_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure02a.png 2814w" 
      class="landscape"
      ><figcaption>
         <p>Higher order semantics in color design: pastiche in Blood and Sand (USA 1941, Rouben Mamoulian)(left)  and sociopolitical markers that indicate status and period  in <em>The Private Lives of Elizabeth and Essex</em> (USA 1939, Michael Curtiz) (right).
@@ -3592,10 +3592,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure02b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure02b_huc96b014afbbcf686c8b71db536a0ec71_1075257_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure02b_huc96b014afbbcf686c8b71db536a0ec71_1075257_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure02b.png 919w" 
      class="landscape"
      ><figcaption>
         <p>Higher order semantics in color design: pastiche in Blood and Sand (USA 1941, Rouben Mamoulian)(left)  and sociopolitical markers that indicate status and period  in <em>The Private Lives of Elizabeth and Essex</em> (USA 1939, Michael Curtiz) (right).
@@ -3631,10 +3631,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure03a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure03a_hu75dd0874dd19c3cb585802383afbfa22_2303868_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure03a_hu75dd0874dd19c3cb585802383afbfa22_2303868_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure03a_hu75dd0874dd19c3cb585802383afbfa22_2303868_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure03a.png 1456w" 
      class="landscape"
      ><figcaption>
         <p>Excess in <em>King of Jazz</em> (USA 1930, John Murray Anderson; Pál Fejös) (above) and   <em>Die bitteren Tränen der Petra von Kant</em> (GER 1972, Rainer Werner Fassbinder) (below).
@@ -3669,10 +3669,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure03b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure03b_hu018e78c0fb33eea1563c34f613c324e3_531193_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure03b_hu018e78c0fb33eea1563c34f613c324e3_531193_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure03b.png 640w" 
      class="landscape"
      ><figcaption>
         <p>Excess in <em>King of Jazz</em> (USA 1930, John Murray Anderson; Pál Fejös) (above) and   <em>Die bitteren Tränen der Petra von Kant</em> (GER 1972, Rainer Werner Fassbinder) (below).
@@ -3711,10 +3711,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure04_new.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure04_new_hu81959e83a3ab992233b4bdda46135045_6769975_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure04_new_hu81959e83a3ab992233b4bdda46135045_6769975_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure04_new_hu81959e83a3ab992233b4bdda46135045_6769975_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure04_new_hu81959e83a3ab992233b4bdda46135045_6769975_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure04_new_hu81959e83a3ab992233b4bdda46135045_6769975_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure04_new.png 5254w" 
      class="landscape"
      ><figcaption>
         <p>Some exemplary screenshots for the concept cold-warm contrast in the glossary DB.
@@ -3758,10 +3758,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure05.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure05_hue278aa9307a28495cb3bcd7c76c57f34_1214505_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure05_hue278aa9307a28495cb3bcd7c76c57f34_1214505_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure05_hue278aa9307a28495cb3bcd7c76c57f34_1214505_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure05_hue278aa9307a28495cb3bcd7c76c57f34_1214505_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure05_hue278aa9307a28495cb3bcd7c76c57f34_1214505_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure05.png 3126w" 
      class="landscape"
      ><figcaption>
         <p>Increasingly VIAN became part of an ecosystem consisting of the offline tool VIAN analysis and annotation software, the online platform VIAN WebApp, connected to the <em>Timeline of Historical Film Colors</em> and to the <em>ColorMania</em> exhibition app.
@@ -3798,10 +3798,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure06.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure06_hu287be6476eb1941eaa39cbe61a1bae0f_2664297_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure06_hu287be6476eb1941eaa39cbe61a1bae0f_2664297_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure06_hu287be6476eb1941eaa39cbe61a1bae0f_2664297_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure06_hu287be6476eb1941eaa39cbe61a1bae0f_2664297_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure06_hu287be6476eb1941eaa39cbe61a1bae0f_2664297_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure06.png 1823w" 
      class="landscape"
      ><figcaption>
         <p>VIAN WebApp project overview of the more than 400 analyzed films. Each project has its own page with detailed analysis and visualizations, see screen video of Paris, Texas <a href="https://vimeo.com/396548709">https://vimeo.com/396548709</a>.
@@ -3839,10 +3839,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure07a_new.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure07a_new_hu99edfe9f6edce0e095edc3307f869aef_1030815_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure07a_new_hu99edfe9f6edce0e095edc3307f869aef_1030815_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure07a_new_hu99edfe9f6edce0e095edc3307f869aef_1030815_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure07a_new.png 1474w" 
      class="landscape"
      ><figcaption>
         <p>Comparison of colorimetric analysis performed in VIAN gives insights into the material aesthetics of historical color films: Dufaycolor’s muted, brownish hues in <em>A Colour Box</em> (GBR 1935, Len Lye) vs. high saturation and color separation in a Gasparcolor print of <em>Colour Flight</em> (GBR 1937, Len Lye), see galleries on the <em>Timeline of Historical Film Colors</em> <a href="https://filmcolors.org/filter/?_sft_ubercategory=lye&amp;post_types=gallery">https://filmcolors.org/filter/?_sft_ubercategory=lye&amp;post_types=gallery</a>.
@@ -3877,10 +3877,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure07b_new.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure07b_new_hueb321fa9a6676cf4f4ca775d82696f9a_792414_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure07b_new_hueb321fa9a6676cf4f4ca775d82696f9a_792414_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure07b_new_hueb321fa9a6676cf4f4ca775d82696f9a_792414_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure07b_new.png 1497w" 
      class="landscape"
      ><figcaption>
         <p>Comparison of colorimetric analysis performed in VIAN gives insights into the material aesthetics of historical color films: Dufaycolor’s muted, brownish hues in <em>A Colour Box</em> (GBR 1935, Len Lye) vs. high saturation and color separation in a Gasparcolor print of <em>Colour Flight</em> (GBR 1937, Len Lye), see galleries on the <em>Timeline of Historical Film Colors</em> <a href="https://filmcolors.org/filter/?_sft_ubercategory=lye&amp;post_types=gallery">https://filmcolors.org/filter/?_sft_ubercategory=lye&amp;post_types=gallery</a>.
@@ -3916,10 +3916,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure08.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure08_hue6bb5c5f7fdcfd93e838dbb733324293_1776523_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure08_hue6bb5c5f7fdcfd93e838dbb733324293_1776523_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure08_hue6bb5c5f7fdcfd93e838dbb733324293_1776523_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure08_hue6bb5c5f7fdcfd93e838dbb733324293_1776523_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure08_hue6bb5c5f7fdcfd93e838dbb733324293_1776523_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure08.png 1915w" 
      class="landscape"
      ><figcaption>
         <p>Glossary DB: Extract of a representative selection for the concept colored light,  sorted according to different periods, sub-corpora or typologies.
@@ -3955,10 +3955,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure09.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure09_hub76968befda3bef20644d8e88ec8552f_1556905_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure09_hub76968befda3bef20644d8e88ec8552f_1556905_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure09_hub76968befda3bef20644d8e88ec8552f_1556905_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure09_hub76968befda3bef20644d8e88ec8552f_1556905_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure09_hub76968befda3bef20644d8e88ec8552f_1556905_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure09.png 2354w" 
      class="landscape"
      ><figcaption>
         <p>Glossary images DB: Comparison of DVD screenshot (left) with photograph of historical film print of <em>Salomé</em> (USA 1922, Charles Bryant) from the <em>Timeline of Historical Film Colors</em> , integrated into the DB. Credit: George Eastman Museum. Photograph by Barbara Flueckiger.
@@ -3999,10 +3999,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure10.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure10_hu56f0c3af74e61c822cea7ba663d9dc80_1201234_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure10_hu56f0c3af74e61c822cea7ba663d9dc80_1201234_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure10_hu56f0c3af74e61c822cea7ba663d9dc80_1201234_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure10_hu56f0c3af74e61c822cea7ba663d9dc80_1201234_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure10_hu56f0c3af74e61c822cea7ba663d9dc80_1201234_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure10.png 1885w" 
      class="landscape"
      ><figcaption>
         <p>VIAN WebApp concept page: collection of exemplary screenshots for the concept pop-out effect attributed to a figure (as opposed to objects).
@@ -4041,10 +4041,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure11.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure11_hud7c4c754534bc86b4e335eb5bfefe60a_421042_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure11_hud7c4c754534bc86b4e335eb5bfefe60a_421042_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure11.png 1110w" 
      class="landscape"
      ><figcaption>
         <p>Video annotation system ELAN interface and template for segmentation and annotation,   <em>Pierrot le fou</em> (FRA 1965, Jean-Luc Godard).
@@ -4080,10 +4080,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure12.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure12_huad8019ae1f242605c1f7e9bc62c1cebb_2393779_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure12_huad8019ae1f242605c1f7e9bc62c1cebb_2393779_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure12_huad8019ae1f242605c1f7e9bc62c1cebb_2393779_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure12_huad8019ae1f242605c1f7e9bc62c1cebb_2393779_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure12_huad8019ae1f242605c1f7e9bc62c1cebb_2393779_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure12.png 2348w" 
      class="landscape"
      ><figcaption>
         <p>VIAN segmentation layer with screenshot manager, <em>Sedmikrásky</em> [ <em>Daisies</em> ] (CZE 1966, Vera Chytilová).
@@ -4120,10 +4120,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure13.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure13_huc8b289c251553c87ee5730a108e99f45_582612_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure13_huc8b289c251553c87ee5730a108e99f45_582612_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure13_huc8b289c251553c87ee5730a108e99f45_582612_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure13_huc8b289c251553c87ee5730a108e99f45_582612_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure13_huc8b289c251553c87ee5730a108e99f45_582612_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure13.png 2237w" 
      class="landscape"
      ><figcaption>
         <p>VIAN&rsquo;s analysis widget contains the controlled vocabulary developed during the manual analyses  and defined in the glossary DB and on the concept page on the VIAN WebApp. _  Paris, Texas_ (DEU / FRA 1984, Wim Wenders).
@@ -4173,10 +4173,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure14.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure14_hu5a6b8838063d3cfb6cb581a5a2e1fb5d_171595_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure14_hu5a6b8838063d3cfb6cb581a5a2e1fb5d_171595_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure14.png 938w" 
      class="landscape"
      ><figcaption>
         <p>Comparison manual (top) vs. four types of automated temporal segmentation with 30 to 60 segments in   <em>Une femme est une femme</em> (FRA 1961, Jean-Luc Godard).
@@ -4225,10 +4225,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure15.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure15_hu4a4d319bb489c24242b7b59bd3686c12_392270_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure15_hu4a4d319bb489c24242b7b59bd3686c12_392270_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure15.png 708w" 
      class="landscape"
      ><figcaption>
         <p>Semantic segmentation performed in VIAN.
@@ -4264,10 +4264,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure16.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure16_hue168164fff190dcc21a39011048bd90f_707314_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure16_hue168164fff190dcc21a39011048bd90f_707314_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure16_hue168164fff190dcc21a39011048bd90f_707314_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure16_hue168164fff190dcc21a39011048bd90f_707314_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure16_hue168164fff190dcc21a39011048bd90f_707314_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure16.png 2114w" 
      class="landscape"
      ><figcaption>
         <p>Figure–ground separation in VIAN, <em>Jigokumon</em> (JAP 1953, Teinosuke Kinugasa).
@@ -4304,10 +4304,10 @@ All scene’s sub-segments of audio-visual composition (EMUs) are qualified with
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure17.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure17_hu7c4c3139201f16e995367661da8209cc_483509_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure17_hu7c4c3139201f16e995367661da8209cc_483509_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure17.png 720w" 
      class="landscape"
      ><figcaption>
         <p>Object identification in YOLO: while persons are identified consistently,  errors occur when objects are partially occluded or fragmented.
@@ -4354,11 +4354,11 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure18a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure18a_hu8ce714b238953399d8d72d1b4fd932e5_162519_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure18a_hu8ce714b238953399d8d72d1b4fd932e5_162519_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure18a.png 891w" 
+     class="portrait"
      ><figcaption>
         <p>Chromaticity plots in CIE L<em>a</em>b* (LAB) for <em>Pierrot le fou</em> (FRA 1965, Jean-Luc Godard),  image plot (above) vs. palette dot plot (below) The comparison shows that chroma extends much further in palette dot plots without averaging effects caused by the representation of images.
         </p>
@@ -4392,11 +4392,11 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure18b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure18b_hudf2143499557be243e31af1847d99c78_225771_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure18b_hudf2143499557be243e31af1847d99c78_225771_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure18b.png 892w" 
+     class="portrait"
      ><figcaption>
         <p>Chromaticity plots in CIE L<em>a</em>b* (LAB) for <em>Pierrot le fou</em> (FRA 1965, Jean-Luc Godard),  image plot (above) vs. palette dot plot (below) The comparison shows that chroma extends much further in palette dot plots without averaging effects caused by the representation of images.
         </p>
@@ -4431,10 +4431,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure19a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure19a_hu0e89b1f27d5b783f2da11107fb7edeb1_567834_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure19a_hu0e89b1f27d5b783f2da11107fb7edeb1_567834_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure19a_hu0e89b1f27d5b783f2da11107fb7edeb1_567834_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure19a_hu0e89b1f27d5b783f2da11107fb7edeb1_567834_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure19a_hu0e89b1f27d5b783f2da11107fb7edeb1_567834_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure19a.png 2486w" 
      class="landscape"
      ><figcaption>
         <p>Color palettes for individual shots: tree diagram with increasing levels of detail (above, middle) and LAB (right); selection of 7 hues for layer palette sorted by frequency (below, middle). <em>Blade Runner 2049</em> (USA 2017, Denis Villeneuve),  see interactive visualization methods in the screen video <a href="https://vimeo.com/299804415">https://vimeo.com/299804415</a>.
@@ -4469,10 +4469,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure19b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure19b_hu365d1d681adb78d8546101bd78971fe8_573655_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure19b_hu365d1d681adb78d8546101bd78971fe8_573655_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure19b_hu365d1d681adb78d8546101bd78971fe8_573655_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure19b_hu365d1d681adb78d8546101bd78971fe8_573655_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure19b_hu365d1d681adb78d8546101bd78971fe8_573655_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure19b.png 2496w" 
      class="landscape"
      ><figcaption>
         <p>Color palettes for individual shots: tree diagram with increasing levels of detail (above, middle) and LAB (right); selection of 7 hues for layer palette sorted by frequency (below, middle). <em>Blade Runner 2049</em> (USA 2017, Denis Villeneuve),  see interactive visualization methods in the screen video <a href="https://vimeo.com/299804415">https://vimeo.com/299804415</a>.
@@ -4509,10 +4509,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure20a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure20a_hu951f6445438985c234724568de2d7079_17603353_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure20a_hu951f6445438985c234724568de2d7079_17603353_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure20a_hu951f6445438985c234724568de2d7079_17603353_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure20a_hu951f6445438985c234724568de2d7079_17603353_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure20a_hu951f6445438985c234724568de2d7079_17603353_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure20a.png 16000w" 
      class="landscape"
      ><figcaption>
         <p>Color_dT plot development of saturation (y-axis) over time (x-axis) for figure (above) and background (below) in <em>Jigokumon</em> (JAP 1953, Teinosuke Kinugasa), visualization by Noyan Evirgen for ERC Advanced Grant <em>FilmColors</em> .
@@ -4547,10 +4547,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure20b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure20b_hu17d0ac2e5a16403349d255e459231921_22190848_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure20b_hu17d0ac2e5a16403349d255e459231921_22190848_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure20b_hu17d0ac2e5a16403349d255e459231921_22190848_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure20b_hu17d0ac2e5a16403349d255e459231921_22190848_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure20b_hu17d0ac2e5a16403349d255e459231921_22190848_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure20b.png 16000w" 
      class="landscape"
      ><figcaption>
         <p>Color_dT plot development of saturation (y-axis) over time (x-axis) for figure (above) and background (below) in <em>Jigokumon</em> (JAP 1953, Teinosuke Kinugasa), visualization by Noyan Evirgen for ERC Advanced Grant <em>FilmColors</em> .
@@ -4587,10 +4587,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure21a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure21a_hu45c514d1785b4298a1ada1b6abdec04f_245073_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure21a_hu45c514d1785b4298a1ada1b6abdec04f_245073_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure21a.png 1098w" 
      class="landscape"
      ><figcaption>
         <p>Chromaticity plots in the CIE L<em>a</em>b* space for the tinted films <em>L’Inhumaine</em> (FRA 1923, Marcel L&rsquo;Herbier) (above)  and <em>Das Cabinet des Dr. Caligari</em> (GER 1919, Robert Wiene).
@@ -4625,10 +4625,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure21b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure21b_hu26ad8f7f2db692be98bcdc99b89a36b7_514635_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure21b_hu26ad8f7f2db692be98bcdc99b89a36b7_514635_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure21b_hu26ad8f7f2db692be98bcdc99b89a36b7_514635_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure21b_hu26ad8f7f2db692be98bcdc99b89a36b7_514635_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure21b_hu26ad8f7f2db692be98bcdc99b89a36b7_514635_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure21b.png 2048w" 
      class="landscape"
      ><figcaption>
         <p>Chromaticity plots in the CIE L<em>a</em>b* space for the tinted films <em>L’Inhumaine</em> (FRA 1923, Marcel L&rsquo;Herbier) (above)  and <em>Das Cabinet des Dr. Caligari</em> (GER 1919, Robert Wiene).
@@ -4663,10 +4663,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure22.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure22_hu240a7f4c0cdf8f63b4648251d7616c87_1037190_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure22_hu240a7f4c0cdf8f63b4648251d7616c87_1037190_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure22_hu240a7f4c0cdf8f63b4648251d7616c87_1037190_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure22_hu240a7f4c0cdf8f63b4648251d7616c87_1037190_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure22_hu240a7f4c0cdf8f63b4648251d7616c87_1037190_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure22.png 5000w" 
      class="landscape"
      ><figcaption>
         <p>Color_dT plot development of saturation (y-axis) over time (x-axis)  for the tinted film <em>L’Inhumaine</em> (FRA 1923, Marcel L&rsquo;Herbier), a tinted film.
@@ -4704,10 +4704,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure23.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure23_hu291389906d58cfd25386fdb620164cb5_193633_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure23_hu291389906d58cfd25386fdb620164cb5_193633_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure23_hu291389906d58cfd25386fdb620164cb5_193633_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure23_hu291389906d58cfd25386fdb620164cb5_193633_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure23.png 1600w" 
      class="landscape"
      ><figcaption>
         <p>VIAN features tool visualizes co-occurrences of concepts organized on the time axis with regard to the temporal segmentation in <em>Do the Right Thing</em> (USA 1989, Spike Lee), see screen video <a href="https://vimeo.com/292861139">https://vimeo.com/292861139</a>.
@@ -4747,10 +4747,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure24.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure24_hu322230a6b5f778eeb489f74e2c4cf1ae_434197_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure24_hu322230a6b5f778eeb489f74e2c4cf1ae_434197_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure24_hu322230a6b5f778eeb489f74e2c4cf1ae_434197_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure24.png 1244w" 
      class="landscape"
      ><figcaption>
         <p>Palette dot plots (left) vs. heat maps (right): while palette dot plots visualize the occurrence of a certain color, heat maps indicate the incidence by different levels of transparency. VIAN WebApp query disgust.
@@ -4790,10 +4790,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure25a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure25a_hud3cbbeee01f9bdeb78433654bf7ade81_470362_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure25a_hud3cbbeee01f9bdeb78433654bf7ade81_470362_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure25a_hud3cbbeee01f9bdeb78433654bf7ade81_470362_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure25a_hud3cbbeee01f9bdeb78433654bf7ade81_470362_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure25a_hud3cbbeee01f9bdeb78433654bf7ade81_470362_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure25a.png 2048w" 
      class="landscape"
      ><figcaption>
         <p>Visualizations on corpus level for the narrative concept dream,  1895–1930 (left) and 1930–1955 (right), AB image plots.
@@ -4828,10 +4828,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure25b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure25b_hue85fd38b25baeedc7998644f406dfefd_596121_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure25b_hue85fd38b25baeedc7998644f406dfefd_596121_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure25b_hue85fd38b25baeedc7998644f406dfefd_596121_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure25b_hue85fd38b25baeedc7998644f406dfefd_596121_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure25b_hue85fd38b25baeedc7998644f406dfefd_596121_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure25b.png 2048w" 
      class="landscape"
      ><figcaption>
         <p>Visualizations on corpus level for the narrative concept dream,  1895–1930 (left) and 1930–1955 (right), AB image plots.
@@ -4867,10 +4867,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure26.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure26_hu35eadd9c08bed92791d846dacfc3a07f_1016160_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure26_hu35eadd9c08bed92791d846dacfc3a07f_1016160_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure26_hu35eadd9c08bed92791d846dacfc3a07f_1016160_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure26_hu35eadd9c08bed92791d846dacfc3a07f_1016160_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure26_hu35eadd9c08bed92791d846dacfc3a07f_1016160_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure26.png 2048w" 
      class="landscape"
      ><figcaption>
         <p>Corpus visualization exterior night in films from 1895–1930, with fire scenes excluded.
@@ -4908,10 +4908,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure27a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure27a_hu8cbcceb676a3076320f711b6bf24d77d_456642_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure27a_hu8cbcceb676a3076320f711b6bf24d77d_456642_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure27a_hu8cbcceb676a3076320f711b6bf24d77d_456642_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure27a_hu8cbcceb676a3076320f711b6bf24d77d_456642_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure27a_hu8cbcceb676a3076320f711b6bf24d77d_456642_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure27a.png 1875w" 
      class="landscape"
      ><figcaption>
         <p>On the query page of the VIAN WebApp, all the segments and projects detected in the query are displayed with a coarse color palette (above). By clicking on a segment, the screenshots, a short scene description  and a summary visualization are displayed. <em>Possession</em> (FRA / DEU 1981, Andrzej Żuławski).
@@ -4946,10 +4946,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure27b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure27b_hu62a38c6018357975abdeebe7e68e3168_1354010_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure27b_hu62a38c6018357975abdeebe7e68e3168_1354010_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure27b_hu62a38c6018357975abdeebe7e68e3168_1354010_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure27b_hu62a38c6018357975abdeebe7e68e3168_1354010_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure27b_hu62a38c6018357975abdeebe7e68e3168_1354010_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure27b.png 2024w" 
      class="landscape"
      ><figcaption>
         <p>On the query page of the VIAN WebApp, all the segments and projects detected in the query are displayed with a coarse color palette (above). By clicking on a segment, the screenshots, a short scene description  and a summary visualization are displayed. <em>Possession</em> (FRA / DEU 1981, Andrzej Żuławski).
@@ -4985,10 +4985,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure28a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure28a_hu4780b76099c9b163dd03bb99184f6e0d_273949_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure28a_hu4780b76099c9b163dd03bb99184f6e0d_273949_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure28a_hu4780b76099c9b163dd03bb99184f6e0d_273949_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure28a_hu4780b76099c9b163dd03bb99184f6e0d_273949_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure28a_hu4780b76099c9b163dd03bb99184f6e0d_273949_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure28a.png 2560w" 
      class="landscape"
      ><figcaption>
         <p>Color_dY plots saturation (y-axis) over time (x-axis) for colored lights,  1895–1930 (top), 1930–1955 (middle), 1955–1995 (bottom).
@@ -5023,10 +5023,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure28b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure28b_hu3d03e791e3384f044ead7ee523c5afd5_984680_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure28b_hu3d03e791e3384f044ead7ee523c5afd5_984680_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure28b_hu3d03e791e3384f044ead7ee523c5afd5_984680_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure28b_hu3d03e791e3384f044ead7ee523c5afd5_984680_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure28b_hu3d03e791e3384f044ead7ee523c5afd5_984680_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure28b.png 2980w" 
      class="landscape"
      ><figcaption>
         <p>Color_dY plots saturation (y-axis) over time (x-axis) for colored lights,  1895–1930 (top), 1930–1955 (middle), 1955–1995 (bottom).
@@ -5061,10 +5061,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure28c.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure28c_hue3cfea29725b84a3a322796b8a20138f_1082823_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure28c_hue3cfea29725b84a3a322796b8a20138f_1082823_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure28c_hue3cfea29725b84a3a322796b8a20138f_1082823_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure28c_hue3cfea29725b84a3a322796b8a20138f_1082823_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure28c_hue3cfea29725b84a3a322796b8a20138f_1082823_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure28c.png 2560w" 
      class="landscape"
      ><figcaption>
         <p>Color_dY plots saturation (y-axis) over time (x-axis) for colored lights,  1895–1930 (top), 1930–1955 (middle), 1955–1995 (bottom).
@@ -5109,10 +5109,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure29.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure29_hu9ee789f9bf77312dfa81de9f9cd49fea_3420672_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure29_hu9ee789f9bf77312dfa81de9f9cd49fea_3420672_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure29_hu9ee789f9bf77312dfa81de9f9cd49fea_3420672_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure29_hu9ee789f9bf77312dfa81de9f9cd49fea_3420672_1500x0_resize_box_3.png 1500w,/dhqwords/vol/14/4/000500/resources/images/figure29_hu9ee789f9bf77312dfa81de9f9cd49fea_3420672_1800x0_resize_box_3.png 1800w,/dhqwords/vol/14/4/000500/resources/images/figure29.png 2342w" 
      class="landscape"
      ><figcaption>
         <p>Patterns (left) in <em>Jigokumon</em> (JAP 1953, Teinosuke Kinugasa)  vs. textures (right) in <em>Pierrot le fou</em> (FRA 1965, Jean-Luc Godard).
@@ -5156,10 +5156,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure30a.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure30a_hue2856e2b4a65370d96c5bb8c3b46dfcb_845739_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure30a_hue2856e2b4a65370d96c5bb8c3b46dfcb_845739_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure30a_hue2856e2b4a65370d96c5bb8c3b46dfcb_845739_1200x0_resize_box_3.png 1200w,/dhqwords/vol/14/4/000500/resources/images/figure30a.png 1371w" 
      class="landscape"
      ><figcaption>
         <p>Heatmaps from the eye tracking study: Strong figure-ground separation and lack of spatial variation in the background in <em>Une femme est une femme</em> (above), textures 8 and patterns in combination with no humans in <em>Sayat Nova</em> (middle) plus the overwhelming object world with a high level of obstruction and visual complexity in <em>Morte a Venezia</em> (below). Study conducted by Miriam Loertscher and Bregt Lameris, ERC Advanced Grant <em>FilmColors</em> .
@@ -5194,10 +5194,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure30b.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure30b_hu48d90de57b1642a1cf4b77bf63fea5fd_903984_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure30b_hu48d90de57b1642a1cf4b77bf63fea5fd_903984_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure30b.png 814w" 
      class="landscape"
      ><figcaption>
         <p>Heatmaps from the eye tracking study: Strong figure-ground separation and lack of spatial variation in the background in <em>Une femme est une femme</em> (above), textures 8 and patterns in combination with no humans in <em>Sayat Nova</em> (middle) plus the overwhelming object world with a high level of obstruction and visual complexity in <em>Morte a Venezia</em> (below). Study conducted by Miriam Loertscher and Bregt Lameris, ERC Advanced Grant <em>FilmColors</em> .
@@ -5232,10 +5232,10 @@ Represent visual impressions true to human perception;  Represent subtle aesthet
 
 
 
-<figure ><img loading="lazy" alt="" src=""
+<figure ><img loading="lazy" alt="" src="/dhqwords/vol/14/4/000500/resources/images/figure30c.png"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/14/4/000500/resources/images/figure30c_huda00c8537c414b150baf2f592e6c5719_829092_500x0_resize_box_3.png 500w,
+    /dhqwords/vol/14/4/000500/resources/images/figure30c_huda00c8537c414b150baf2f592e6c5719_829092_800x0_resize_box_3.png 800w,/dhqwords/vol/14/4/000500/resources/images/figure30c.png 1180w" 
      class="landscape"
      ><figcaption>
         <p>Heatmaps from the eye tracking study: Strong figure-ground separation and lack of spatial variation in the background in <em>Une femme est une femme</em> (above), textures 8 and patterns in combination with no humans in <em>Sayat Nova</em> (middle) plus the overwhelming object world with a high level of obstruction and visual complexity in <em>Morte a Venezia</em> (below). Study conducted by Miriam Loertscher and Bregt Lameris, ERC Advanced Grant <em>FilmColors</em> .
@@ -11735,7 +11735,7 @@ But herein lies one of several challenges: What does this descriptive data look 
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Ticha: Collaboration with Indigenous communities to build digital resources on Zapotec language and history</title><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/000529/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://rlskoeser.github.io/dhqwords/vol/14/4/000529/</id><author><name>George Aaron Broadwell</name></author><author><name>Moisés García Guzmán</name></author><author><name>Brook Danielle Lillehaugen</name></author><author><name>Felipe H. Lopez</name></author><author><name>May Helena Plumb</name></author><author><name>Mike Zarafonetis</name></author><published>2020-12-15T00:00:00+00:00</published><updated>2020-12-15T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="indigenous-voices-in-colonial-history">Indigenous voices in colonial history</h2>
+]]></content></entry><entry><title type="html">Ticha: Collaboration with Indigenous communities to build digital resources on Zapotec language and history</title><link href="https://rlskoeser.github.io/dhqwords/vol/14/4/000529/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/14/3/000464/?utm_source=atom_feed" rel="related" type="text/html" title="The Chili and Honey of Digital Humanities Research:The Facilitation of the Interdisciplinary Transfer of Knowledge in Digital Humanities Centers"/><id>https://rlskoeser.github.io/dhqwords/vol/14/4/000529/</id><author><name>George Aaron Broadwell</name></author><author><name>Moisés García Guzmán</name></author><author><name>Brook Danielle Lillehaugen</name></author><author><name>Felipe H. Lopez</name></author><author><name>May Helena Plumb</name></author><author><name>Mike Zarafonetis</name></author><published>2020-12-15T00:00:00+00:00</published><updated>2020-12-15T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="indigenous-voices-in-colonial-history">Indigenous voices in colonial history</h2>
 <p>Around 1675, Sebastiana de Mendoza, a prominent woman in the Zapotec community of Tlacochahuaya, Oaxaca, created her last will and testament <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. In this document, she tells her descendants and executors her wishes for the final disposition of her belongings. As Flores-Marcial [<a href="#floresmarcial2015">2015</a>, 52] writes, Sebastiana de Mendoza</p>
 <blockquote>
 <p>bequeathed to her daughters, Gerónima and Lorenza, and her granddaughter named Sebastiana, an array of belongings that included religious paraphernalia, valuable agricultural goods, and finished goods and money. She divided her property in the following manner: ten magueys, a wool skirt, a cotton huipil, and ten pesos went to her daughter Gerónima. She gave her granddaughter Sebastiana five magueys and a picture of Saint Sebastian. She did not bequeath her house to anyone specifically, but she gave her daughter Lorenza a total of thirty-five magueys and declared that, as the oldest, she should be in charge of the house and its affairs.</p>
