@@ -239,17 +239,20 @@ find them by size:
 
   <xsl:template match="tei:keywords[@scheme='#dhq_keywords']">
     <!-- only output if there is text for at least one keyword -->
-    <xsl:if test=".//tei:item/text()">
+    <xsl:if test=".//tei:item/text()|.//tei:term/@corresp">
         <xsl:value-of select="concat('categories:', $br)"/>
       <xsl:apply-templates select=".//tei:item" mode="metadata"/>
+      <xsl:apply-templates select=".//tei:term" mode="metadata"/>            
     </xsl:if>
   </xsl:template>
+
   <xsl:template match="tei:keywords[@scheme='#authorial_keywords']">
     <!-- only output if there is text for at least one keyword -->
-    <xsl:if test=".//tei:item/text()">
+    <xsl:if test=".//tei:item/text()|.//tei:term[@corresp]">
         <xsl:value-of select="concat('tags:', $br)"/>
         <!-- at least one article has items not nested under list -->        
       <xsl:apply-templates select=".//tei:item" mode="metadata"/>
+      <xsl:apply-templates select=".//tei:term" mode="metadata"/>      
     </xsl:if>
   </xsl:template>
 
@@ -258,6 +261,13 @@ find them by size:
     <xsl:if test="normalize-space(.)"> <!-- don't output empty items -->
       <xsl:value-of select="concat('- ', ., $br)"/>    
     </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="tei:keywords/tei:term" mode="metadata">    
+    <!-- <xsl:if test="@corresp"> -->
+      <!-- <xsl:value-of select="concat('- ', ., substring-after(@corresp, '#'))"/>               -->
+      <xsl:value-of select="concat('- ', replace(substring-after(@corresp, '#'), '_', ' '), $br)"/>          
+    <!-- </xsl:if> -->
   </xsl:template>
 
  
@@ -403,6 +413,7 @@ find them by size:
     </xsl:variable>
     <!-- some figures have multiple graphics; output one shortcode for each -->
     <xsl:for-each select="tei:graphic">
+      <xsl:if test="not(ends-with(@url, '.pdf'))">
       <!-- <xsl:variable name="src" select="@url"/>             -->
       <!-- 000091 and 000103 have weird relative .. paths; convert to resource only -->
       <xsl:variable name="src" select="concat('resources/', substring-after(@url, 'resources/'))"/>      
@@ -414,6 +425,7 @@ find them by size:
         <xsl:value-of select="concat('alt=', $quote, fn:textparam($description), $quote, ' ')"/>
       </xsl:if>
       <xsl:value-of select="concat(' ', $gt, '}}', $br, $br)"/>
+    </xsl:if>
     </xsl:for-each>
   </xsl:template>
 
