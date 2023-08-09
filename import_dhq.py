@@ -164,7 +164,7 @@ def create_issue_indexes():
                         # read yaml for all articles
                         article_metadata = [get_hugo_metadata(a) for a in articles]
                         # get unique list of dates for all articles
-                        dates = set([a["date"] for a in article_metadata])
+                        dates = set([a["date"] for a in article_metadata if a["date"]])
                         # use most recent / last date as issue date
                         issue_date = sorted(dates, reverse=True)[0]
 
