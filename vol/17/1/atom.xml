@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-08-09T19:15:12+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/17/1/</id><entry><title type="html">Academics Retire and Servers Die: Adventures in the Hosting and Storage of Digital Humanities Projects</title><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000669/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000667/?utm_source=atom_feed" rel="related" type="text/html" title="Doing it for Ourselves: The New Archive Built by and Responsive to the Researcher"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000666/?utm_source=atom_feed" rel="related" type="text/html" title="Follow the Money?: Funding and Digital Sustainability"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000668/?utm_source=atom_feed" rel="related" type="text/html" title="From Tamagotchis to Pet Rocks: On Learning to Love Simplicity through the Endings Principles"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000671/?utm_source=atom_feed" rel="related" type="text/html" title="Introduction to Special Issue: Project Resiliency in the Digital Humanities"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000660/?utm_source=atom_feed" rel="related" type="text/html" title="No Boutique or Fashionable Technologies: Project Development, Mentorship, and Sustainability in an Innovation-First World"/><id>https://rlskoeser.github.io/dhqwords/vol/17/1/000669/</id><author><name>James Cummings</name></author><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.116.0">Hugo</generator><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/" rel="alternate" type="text/html" title="html"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-10-06T19:44:40+00:00</updated><rights>This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</rights><id>https://rlskoeser.github.io/dhqwords/vol/17/1/</id><entry><title type="html">Academics Retire and Servers Die: Adventures in the Hosting and Storage of Digital Humanities Projects</title><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000669/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000667/?utm_source=atom_feed" rel="related" type="text/html" title="Doing it for Ourselves: The New Archive Built by and Responsive to the Researcher"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000666/?utm_source=atom_feed" rel="related" type="text/html" title="Follow the Money?: Funding and Digital Sustainability"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000668/?utm_source=atom_feed" rel="related" type="text/html" title="From Tamagotchis to Pet Rocks: On Learning to Love Simplicity through the Endings Principles"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000671/?utm_source=atom_feed" rel="related" type="text/html" title="Introduction to Special Issue: Project Resiliency in the Digital Humanities"/><link href="https://rlskoeser.github.io/dhqwords/vol/17/1/000660/?utm_source=atom_feed" rel="related" type="text/html" title="No Boutique or Fashionable Technologies: Project Development, Mentorship, and Sustainability in an Innovation-First World"/><id>https://rlskoeser.github.io/dhqwords/vol/17/1/000669/</id><author><name>James Cummings</name></author><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This article looks back at the technical development of two projects, The  <em>CURSUS</em>  project (2000-2003) and the  <em>William Godwin’s Diary</em>  project (2007-2010), as case studies in which outside events or internal decisions negatively impacted the project.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>  The  <em>CURSUS</em>  project is a collection of XML editions of medieval liturgical texts, and The William Godwin’s Diary project makes available 32 volumes of Godwin’s diaries covering 1788 to 1836. Although both websites are still available, they have had difficult histories and both should be considered at risk of disappearing from the web at any moment. The  <em>CURSUS</em>  project faced challenges partly because the principal investigator passed away. The  <em>William Godwin’s Diary</em>  project suffered because the people maintaining the project were not given the resources to do so, and because all stakeholders left the institution. As the main technical developer for both of these projects, I have direct insight into the technical background and general lessons learned, which are useful to examine as case studies for each project before contrasting them with the  <em>Endings Principles for Digital Longevity</em>  (<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>; hereafter  <em>Endings Principles</em> ). Although the projects pre-date these  <em>Principles</em> , they are worth comparing to each other given that both of these projects are TEI-based editions and relate directly to the issues the  <em>Principles</em>  tackle. It is easy, of course, to criticize the technical decisions of a project decades afterwards; seeing in hindsight how the digital landscape has evolved in the meantime gives us an immediate sense that we would certainly have done things differently and definitely have made different choices. In these cases, since I was the developer and technical consultant on these projects, I do not need to guess. While I would like to think I would make better decisions now, I know that I would not unless I were time-traveling back with my current knowledge and experience. These two projects are useful proxies for examining many issues of the longevity of our research outputs.</p>
 <p>Part of the overall argument I am making through these case studies is that we should always plan for events that affect the sustainability of digital research projects. Some of these events are obviously unpredictable, while others are of our own making. While we pay lip service to doing so in funding applications, once a project is under way, unexpected challenges present themselves and our solutions to them should adhere to an underlying set of principles. We need to plan for failure, plan for the project being cut short, plan for staff disappearing, and plan for all kinds of threats to the project by adopting and following principles such as those recommended by the Endings Project in the  <em>Endings Principles</em> .</p>
 <h2 id="_cursus_--an-online-resource-of-medieval-liturgical-texts"><em>CURSUS</em> : An Online Resource of Medieval Liturgical Texts</h2>
@@ -2064,11 +2064,11 @@ There are some caveats to our findings. For instance, even if a link does not wo
 
 
 
-<figure ><img loading="lazy" alt="Screenshot of a book cover for a book entitled “Euphoria and Dystopia” . Image 2 is a screenshot of a poster for an event called horizon^0" src=""
+<figure ><img loading="lazy" alt="Screenshot of a book cover for a book entitled “Euphoria and Dystopia” . Image 2 is a screenshot of a poster for an event called horizon^0" src="/dhqwords/vol/17/1/000670/resources/images/figure01.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/17/1/000670/resources/images/figure01_hu99d6b8b98746c3c1920d69f2a175762f_58842_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/17/1/000670/resources/images/figure01_hu99d6b8b98746c3c1920d69f2a175762f_58842_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/17/1/000670/resources/images/figure01.jpeg 468w" 
+     class="portrait"
      ><figcaption>
         <p>Euphoria &amp; Dystopia and Horizonzero.ca DVDs – physical traces of digital archives
         </p>
@@ -2102,10 +2102,10 @@ There are some caveats to our findings. For instance, even if a link does not wo
 
 
 
-<figure ><img loading="lazy" alt="Screenshot of a book cover for a book entitled “Euphoria and Dystopia” . Image 2 is a screenshot of a poster for an event called horizon^0" src=""
+<figure ><img loading="lazy" alt="Screenshot of a book cover for a book entitled “Euphoria and Dystopia” . Image 2 is a screenshot of a poster for an event called horizon^0" src="/dhqwords/vol/17/1/000670/resources/images/figure02.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/17/1/000670/resources/images/figure02_huaf53aa9806557bb2e09fd108814ab76b_34170_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/17/1/000670/resources/images/figure02_huaf53aa9806557bb2e09fd108814ab76b_34170_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/17/1/000670/resources/images/figure02.jpeg 600w" 
      class="landscape"
      ><figcaption>
         <p>Euphoria &amp; Dystopia and Horizonzero.ca DVDs – physical traces of digital archives
@@ -2146,11 +2146,11 @@ There are some caveats to our findings. For instance, even if a link does not wo
 
 
 
-<figure ><img loading="lazy" alt="Screenshot of an event called &#34;Unforgiving Memory&#34; agenda. The agenda also includes brands who sponsored the event" src=""
+<figure ><img loading="lazy" alt="Screenshot of an event called &#34;Unforgiving Memory&#34; agenda. The agenda also includes brands who sponsored the event" src="/dhqwords/vol/17/1/000670/resources/images/figure03.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/17/1/000670/resources/images/figure03_hue82829f7cf8b669a0f98feb37197498c_111106_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/17/1/000670/resources/images/figure03_hue82829f7cf8b669a0f98feb37197498c_111106_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/17/1/000670/resources/images/figure03.jpeg 816w" 
+     class="portrait"
      ><figcaption>
         <p>Unforgiving Memory summit event agenda - Alberta on Record provides access to several BNMI documents digitized in 2018.
         </p>
@@ -2190,10 +2190,10 @@ There are some caveats to our findings. For instance, even if a link does not wo
 
 
 
-<figure ><img loading="lazy" alt="Screenshot of a website with tabs for themes, works, artists, and publications. the header image includes images from the archive" src=""
+<figure ><img loading="lazy" alt="Screenshot of a website with tabs for themes, works, artists, and publications. the header image includes images from the archive" src="/dhqwords/vol/17/1/000670/resources/images/figure04.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
+     srcset="/dhqwords/vol/17/1/000670/resources/images/figure04_hu2a53e955fa5bb219db7366fa5d58fe39_60294_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/17/1/000670/resources/images/figure04_hu2a53e955fa5bb219db7366fa5d58fe39_60294_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/17/1/000670/resources/images/figure04.jpeg 732w" 
      class="landscape"
      ><figcaption>
         <p>Sub-navigation through La Cinémathèque québécoise to Daniel Langlois Foundation documentation centre interface, 2021
@@ -2232,11 +2232,11 @@ There are some caveats to our findings. For instance, even if a link does not wo
 
 
 
-<figure ><img loading="lazy" alt="screenshot of the homepage for the women&#39;s labour history project. the website includes navigation and information about the project" src=""
+<figure ><img loading="lazy" alt="screenshot of the homepage for the women&#39;s labour history project. the website includes navigation and information about the project" src="/dhqwords/vol/17/1/000670/resources/images/figure05.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
-     srcset=" 500w,
-     800w, w" 
-     class="landscape"
+     srcset="/dhqwords/vol/17/1/000670/resources/images/figure05_hu2279c85c0863c5ddafc1b523786a33fb_134381_500x0_resize_q75_box.jpeg 500w,
+    /dhqwords/vol/17/1/000670/resources/images/figure05_hu2279c85c0863c5ddafc1b523786a33fb_134381_800x0_resize_q75_box.jpeg 800w,/dhqwords/vol/17/1/000670/resources/images/figure05.jpeg 802w" 
+     class="portrait"
      ><figcaption>
         <p>Women’s Labour History Project fonds launch page, Crista Dahl Library and Archives
         </p>
