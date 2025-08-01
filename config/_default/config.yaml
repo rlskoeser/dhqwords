@@ -52,11 +52,10 @@ menu:
     #   weight: 30
 
 
-Author:
-  name:
-  email: cdh-info@princeton.edu
-
 params:
+  Author:
+    name:
+    email: cdh-info@princeton.edu
   shortTitle: dhq
   dateform: 'January 2, 2006'
   dateformShort: January 2
