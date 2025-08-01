@@ -4,7 +4,7 @@ dhqtype: article
 title: "Review: Katherine Bode's A World of Fiction"
 date: 2021-08-21
 article_id: "000565"
-volume: 15
+volume: 015
 issue: 3
 authors:
 - Ryan Cordell

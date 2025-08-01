@@ -25,8 +25,7 @@ tags:
 abstract: |
    This article uses cluster analysis in order to track textual affinities and identify the sources of different versions of historical texts on the basis text of Psalm 6 found in the 16th-century English manuals of devotion. The article offers a brief overview of the manuals of prayer examined, describes methods of cluster analysis used within the present work, and shows how cluster analysis can enrich and guide traditional philological knowledge.
 teaser: "Using cluster analysis to track textual affinities and identify the sources of different versions of historical texts on the basis text of Psalm 6 found in the 16th-century English manuals of devotion."
-order: 10
-draft: true
+order: 19
 ---
   
   

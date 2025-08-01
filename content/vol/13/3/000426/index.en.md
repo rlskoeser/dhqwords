@@ -12,6 +12,11 @@ authors:
 - Sheelagh Carpendale
 - Christopher Collins
 translationType: original
+categories:
+- tools
+- data visualization
+- nlp
+- digitization
 abstract: |
    In this paper, we present a system that automatically adds visualizations and natural language processing applications to analog texts, using any web-based device with a camera. After taking a picture of a particular page or set of pages from a book or uploading an existing image, our system builds an interactive digital object that automatically inserts modular elements in a digital space. Leveraging the findings of previous studies, our framework augments the reading of analog texts with digital tools, making it possible to work with texts in both a digital and analog environment.
 teaser: "Presents a system for automatically adding visualizations and NLP applications to analog texts, using any web-based device with a camera."

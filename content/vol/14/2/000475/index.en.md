@@ -73,7 +73,7 @@ We have built the server to provide support for what we believed to be the main 
   
 The attentive reader may have noticed that I claim here the RDF server is capable of delivering the DPRR RDF data in a browser-friendly manner, and may have remembered that DPRR's  _other_ , more conventional, browser-friendly interface  _also_  delivers DPRR data in a browser-friendly manner. What, then, is the difference between the two?
   
-Although both DPRR's RDF server and browser-oriented search engine interact with the same data, they present quite a different face to their users. As a point of comparison, [Figure 1](#figure1) shows the top of the front  “Person Search”  page of DPRR's conventional browser-oriented site:
+Although both DPRR's RDF server and browser-oriented search engine interact with the same data, they present quite a different face to their users. As a point of comparison, [Figure 1](#figure01) shows the top of the front  “Person Search”  page of DPRR's conventional browser-oriented site:
   
 {{< figure src="resources/images/figure01.png" caption="DPRR's bowser-oriented site: the Person Search" alt=""  >}}
 

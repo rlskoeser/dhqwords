@@ -10,6 +10,9 @@ authors:
 - Molly Nebiolo
 - Gregory J. Palermo
 translationType: original
+categories:
+- globalDH
+- dh
 abstract: |
    In June 2018, the Digital Humanities annual conference (DH2018) was held in the Global South for the first time. This conference report offers perspectives from two graduate students who attended the conference.
 teaser: "A report on the DH2019 conference in Mexico City"

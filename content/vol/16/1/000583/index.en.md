@@ -154,7 +154,7 @@ The first step we took in enabling a collation tool to recognize in-text variati
   
  A fitting model of nonlinear text is presented by the variant graph data structure. The variant graph consists of a set of nodes that represent textual objects, and edges that connect one node to another node in the graph. The graphs are acyclic, which means that they are read from left to right without looping back. As Tara Andrews and Caroline Macé write, a variant graph is an elegant way to represent nonlinear text:  “one may imagine a text running from beginning to end with a number of points of divergence, where each witness takes a single path through these divergences”   [^andrews2013]. Variant graphs are relatively well-known in the field of automated collation and occur both as internal data model [^schmidt2009]  [^collatex] and for visualization purposes (e.g., the stemma graph or the variant graph, [^andrews2013]). As Elisa Nury writes, the first use of a variant graph to express textual variation can be traced to E.C. Colwell and E.W. Tune in 1964, although it was with the 2009 article of Desmond Schmidt and Robert Colomb that the variant graph gained a foothold in the field of textual scholarship [^schmidt2009] (See [^nury2018]). Their variant graph has the text and sigla placed on the edges of the graph ([figure 2](#figure02)). Common text is merged, and variant text results in separate branches. 
   
-{{< figure src="resources/images/figure02.png" caption="Representation of the variant graph data model of Schmidt and Colomb (source: CollateX documentation, section “The Data Model: Variant Graphs,” on [https://collatex.net/doc/](#https://collatex.net/doc/))." alt=""  >}}
+{{< figure src="resources/images/figure02.png" caption="Representation of the variant graph data model of Schmidt and Colomb (source: CollateX documentation, section “The Data Model: Variant Graphs,” on [https://collatex.net/doc/](https://collatex.net/doc/))." alt=""  >}}
 
   
 CollateX adopted the variant graph, but modified it to place the text in the nodes of the graph, and the sigla on the edges (see [figure 3](#figure03)). This ensures not only a better readability, but also improves processing as the edges have only one label (one or more sigla). 
@@ -209,13 +209,13 @@ Consider the example in [figure 7](#figure07), transcribed first with the TEI  `
 # Transcription using the TEI del/add method.
  
 ```xml
- <xml> <s>& <add>finally</add> in what order he would eat the biscuits<del>, in the cockpit</del> when the time came. </s> </xml>
+ <xml> <s>&amp; <add>finally</add> in what order he would eat the biscuits<del>, in the cockpit</del> when the time came. </s> </xml>
 ```
      
 # Transcription using the TEI app/rdg method.
  
 ```xml
- <xml> <s>& <app> <rdg varSeq="1"/> <rdg varSeq="2">finally</rdg> </app> in what order he would eat the biscuits <app> <rdg varSeq="1">, in the cockpit</rdg> <rdg varSeq="2"/> </app> when the time came. </s> </xml>
+ <xml> <s>&amp; <app> <rdg varSeq="1"/> <rdg varSeq="2">finally</rdg> </app> in what order he would eat the biscuits <app> <rdg varSeq="1">, in the cockpit</rdg> <rdg varSeq="2"/> </app> when the time came. </s> </xml>
 ```
    
   
@@ -578,7 +578,7 @@ The development of HyperCollate was propelled by a knowledge exchange between te
 [^12]:  See [https://charles-harpur.org/View/Singleview/?docid=english/harpur/poems/h595&version1=/h595f/layer-final](https://charles-harpur.org/View/Singleview/?docid=english/harpur/poems/h595&version1=/h595f/layer-final) for an overview of all versions of the text of  _The Comet_ . (last accessed October 22, 2021)
 [^13]: Microsoft XML Diff 1.0 and XML Patch 1.0 (see the documentation on [https://documentation.help/Microsoft-XML-Diff/xmldiffpatch_namespace_intro_conc_0t0v.htm](https://documentation.help/Microsoft-XML-Diff/xmldiffpatch_namespace_intro_conc_0t0v.htm)); Delta XML Compare 11.0 (see the documentation on [https://docs.deltaxml.com/xml-compare/latest/xml-compare-45122014.html](https://docs.deltaxml.com/xml-compare/latest/xml-compare-45122014.html)). (last accessed October 22, 2021)
 [^14]:  Oxygen XML Editor 24.0 (see [https://www.oxygenxml.com/](https://www.oxygenxml.com/)). (last accessed October 22, 2021)
-[^15]:  We recommend the research by Gioele Barabucci on the topic (see [Barabucci et al. [2016]](#barabucci2016); [Barabucci [2018]](#barabucci2018), [[2020]](#barabucci2020)).
+[^15]:  We recommend the research by Gioele Barabucci on the topic (see [Barabucci et al. [2013]](#barabucci2013); [Barabucci [2018]](#barabucci2018), [[2020]](#barabucci2020)).
 [^16]: For a more exhaustive discussion of the hypergraph model for textual variation, see [^bleeker2018] and [^bleeker2020]; for a discussion of the hypergraph for text see [^haentjens2017] and [^haentjens2018].
 [^17]:  In short, the progressive alignment method of collation means that two versions are compared, the result of which is stored in a graph, against which a third version is collated. The result of that comparison is merged into the graph, against which a fourth version is collated, etc.
 [^18]:  See the GitHub of the project here: [https://github.com/HuygensING/hyper-collate](https://github.com/HuygensING/hyper-collate). HyperCollate can be tested with small XML-TEI samples in this binder: [https://mybinder.org/v2/gh/HuygensING/hyper-collate/master?filepath=notebooks%2Fhyper-collate-readme.ipynb](https://mybinder.org/v2/gh/HuygensING/hyper-collate/master?filepath=notebooks%2Fhyper-collate-readme.ipynb). (last accessed October 22, 2021)

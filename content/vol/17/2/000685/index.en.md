@@ -211,7 +211,7 @@ Additionally, digital humanists tend to be familiar with technical systems and t
 [^21]: 
 It is worth reflecting on the naivety of some proponents of open access who extol the virtues of free information without connecting it to its genesis in cyberlibertarian modes of thought (see [^golumbia2016].
   
-[^anderson2008]: Anderson, C. (2008)  “The End of Theory: The Data Deluge Makes the Scientific Method Obsolete.”    _Wired_ . Accessed 18/12/2015 at: [http://www.wired.com/science/discoveries/magazine/16-07/pb_theory](http://www.wired.com/science/discoveries/magazine/16-07/pb_theory)  
+[^anderson2008]: Anderson, C. (2008)  “The End of Theory: The Data Deluge Makes the Scientific Method Obsolete.”    _Wired_ . Accessed 18/12/2015 at: [https://www.wired.com/2008/06/pb-theory/](https://www.wired.com/2008/06/pb-theory/)  
 [^balsillie2019]: Balsillie, J. (2019)  “Jim Balsillie : 'Data is not the new oil – it's the new plutonium'” ,  _Financial Post_ , [https://business.financialpost.com/technology/jim-balsillie-data-is-not-the-new-oil-its-the-new-plutonium](https://business.financialpost.com/technology/jim-balsillie-data-is-not-the-new-oil-its-the-new-plutonium)  
 [^berns-rouvray2013]: Berns, T. and Rouvroy, A. (2013)  “Gouvernementalité algorithmique et perspectives d'émancipation : le disparate comme condition d'individuation par la relation?” , accessed 14/12/2016, [https://works.bepress.com/antoinette_rouvroy/47/download/](https://works.bepress.com/antoinette_rouvroy/47/download/)  
 [^berry2011]: Berry, D. M. (2011)  _The Philosophy of Software_ . London: Palgrave.   

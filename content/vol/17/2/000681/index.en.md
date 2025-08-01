@@ -2,7 +2,7 @@
 type: article
 dhqtype: article
 title: "Machine Learning Techniques For Analyzing Inscriptions From Israel"
-date: 
+date: 2023-06-21
 article_id: "000681"
 volume: 017
 issue: 2

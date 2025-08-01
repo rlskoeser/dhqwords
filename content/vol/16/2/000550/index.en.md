@@ -313,7 +313,7 @@ We would like to thank prof. Marc Priewe of the University of Stuttgart for host
 [^eijnatten2014]: Eijnatten, Joris van, Toine Pieters, and Jaap Verheul. 2014.  “Big Data for Global History: The Transformative Promise of Digital Humanities.”    _Low Countries Historical Review_  128 (4): 55–77.  
 [^firth1957]: Firth, John Rupert, ed. 1957.  _Studies in Linguistic Analysis_ . Oxford: Blackwell.  
 [^foner2014]: Foner, Eric. 2014.  _Give Me Liberty!: An American History_ . Fourth edition. New York: W.W. Norton & Company.  
-[^gavin2015]: Gavin, Michael. 2015.  “The Arithmetic of Concepts: A Response to Peter de Bolla,”  in:  _Modelling Literary History_  (blog). [modelingliteraryhistory.org/2015/09/18/the-arithmetic-of-concepts-a-response-to-peter-de-bolla](modelingliteraryhistory.org/2015/09/18/the-arithmetic-of-concepts-a-response-to-peter-de-bolla).  
+[^gavin2015]: Gavin, Michael. 2015.  “The Arithmetic of Concepts: A Response to Peter de Bolla,”  in:  _Modelling Literary History_  (blog). [modelingliteraryhistory.org/2015/09/18/the-arithmetic-of-concepts-a-response-to-peter-de-bolla](http://modelingliteraryhistory.org/2015/09/18/the-arithmetic-of-concepts-a-response-to-peter-de-bolla).  
 [^gellner1997]: Gellner, Ernest. 1997.  _Nationalism_ . New York University Press.  
 [^gellner2007]: — — — . 2007.  _Nations and Nationalism_ . 2. ed., Malden, MA: Blackwell Publ.  
 [^ginneken1998]: Ginneken, Jaap van. 1998.  _Understanding Global News: A Critical Introduction_ . Thousand Oaks, CA: Sage.  
@@ -344,6 +344,7 @@ We would like to thank prof. Marc Priewe of the University of Stuttgart for host
 [^landauer1997]: Landauer, Thomas K., and Susan T. Dumais. 1997.  “A Solution to Plato’s Problem: The Latent Semantic Analysis Theory of Acquisition, Induction, and Representation of Knowledge.”    _Psychological Review_  104 (2): 211–40. [https://doi.org/10.1037/0033-295X.104.2.211](https://doi.org/10.1037/0033-295X.104.2.211).  
 [^leerssen2018]: Leerssen, Joep. 2018.  _National Thought in Europe: A Cultural History_ . Amsterdam: Amsterdam University Press.  
 [^lenci2018]: Lenci, Alessandro. 2018.  “Distributional Models of Word Meaning.”    _Annual Review of Linguistics_  4 (1): 151–71. [https://doi.org/10.1146/annurev-linguistics-030514-125254](https://doi.org/10.1146/annurev-linguistics-030514-125254).  
+[^liikanen2003]: Liikanen, Ilkka. (2003)  “Kansa. Fennomanian kansa-käsite ja modernin politiikan kieli”  in  _Käsitteet liikkeessä. Suomen poliittisen kulttuurin käsitehistoria_ . Vastapaino.  
 [^lovejoy1933]: Lovejoy, Arthur O. 1933.  _The Great Chain of Being: A Study of the History of an Idea_ . Cambridge, MA: Harvard University Press. [http://site.ebrary.com/id/10314249](http://site.ebrary.com/id/10314249).  
 [^lund1996]: Lund, Kevin, and Curt Burgess. 1996.  “Producing High-Dimensional Semantic Spaces from Lexical Co-Occurrence.”    _Behavior Research Methods, Instruments, & Computers_  28 (2): 203–8. [https://doi.org/10.3758/BF03204766](https://doi.org/10.3758/BF03204766).  
 [^luong2015]: Luong, Minh-Thang, Hieu Pham, and Christopher D. Manning. 2015.  “Bilingual Word Representations with Monolingual Quality in Mind.”    _NAACL Workshop on Vector Space Modeling for NLP_ , 151–59.  

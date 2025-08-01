@@ -244,7 +244,7 @@ Ferdinand de Saussure (Geneva, 1857-1913), the father of general linguistics, ne
   
 Saussure’s terminology has been the subject of numerous studies [^godel1957]  [^engler1968]  [^cosenza2016]. In 2011 the first electronic thesaurus of Saussure's terminology, named  _Simple_FdS_   [^ruimy2013], was built as part of the project  “Per una edizione digitale dei manoscritti di F. de Saussure” , coordinated by then President of the Cercle Ferdinand de Saussure Daniele Gambarara.
   
-The architecture of  _Simple_FdS_  was based on the lexical model SIMPLE [^lenci2000] and was therefore inspired by the Generative Lexicon theory elaborated by Pustejovsky ([1995](#pustejovsky1995)). The Generative Lexicon theory, mainly applied to general language, has proved to be very effective in the description of specialized language and terminological lexicons as well (for example [Aráuz et al. 2012](#arauz2012), [Sánchez Ibáñez and García Palacios 2014](#sanchezibanez2014)), as it makes it possible to enrich the range of conceptual relations which is traditionally based on generic-specific and part-whole relations.
+The architecture of  _Simple_FdS_  was based on the lexical model SIMPLE [^lenci2000] and was therefore inspired by the Generative Lexicon theory elaborated by Pustejovsky ([1995](#pustejovsky1995)). The Generative Lexicon theory, mainly applied to general language, has proved to be very effective in the description of specialized language and terminological lexicons as well (for example [Aráuz et al. 2012](#arauz2012), [Sánchez Ibáñez and García Palacios 2014](#sanchezo2014)), as it makes it possible to enrich the range of conceptual relations which is traditionally based on generic-specific and part-whole relations.
   
 Initially, the electronic lexicon was conceived as static and no diachronic aspects were taken into account. Recently, as we shall illustrate in Section 6.1, the model here proposed has been adopted to convert this terminological resource from a static repository into a dynamic one.
   
@@ -338,7 +338,7 @@ The first extension of the tool LexO aimed at the inclusion of temporal informat
 [^1]: The term terminology is here to be understood as the set of  “lexical items belonging to specialized areas of usage of one or more languages”   [^sager1990].
 [^2]:  “Clavius on the Web”   [^piccini2016],  “Per un'edizione digitale dei manoscritti di Ferdinand de Saussure”   [^ruimy2013], and  “Totus Mundus”   [^piccini2017].
 [^3]: [https://www.w3.org/RDF/](https://www.w3.org/RDF/)
-[^4]: According to Gruber ([1993: 199](#gruber1993)),  “an ontology is a specification of a conceptualization” .
+[^4]: According to Gruber ([1991: 199](#gruber1991)),  “an ontology is a specification of a conceptualization” .
 [^5]: [https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 [^6]: [https://lemon-model.net/](https://lemon-model.net/) and [https://www.w3.org/2016/05/ontolex/](https://www.w3.org/2016/05/ontolex/) for details, see McCrae et al. ([2017](#mccrae2017))
 [^7]: Please refer to [https://www.w3.org/2016/05/ontolex/#core](https://www.w3.org/2016/05/ontolex/#core)

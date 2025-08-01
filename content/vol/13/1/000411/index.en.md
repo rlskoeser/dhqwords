@@ -13,6 +13,12 @@ authors:
 - Pam Mellen
 - Arianna Ciula
 translationType: original
+categories:
+- archives
+- infrastructure
+- project management
+- dh
+- digital
 abstract: |
    During the 2016–2017 financial year, King's Digital Lab (King's College London) undertook an extensive archiving and sustainability project to ensure the ongoing management, security, and sustainability of ~100 digital humanities projects, produced over a twenty-year period. Many of these projects, including seminal publications such as Aphrodisias in Late Antiquity, Inscriptions of Roman Tripolitania, Henry III Fine Rolls, Jonathan Swift Archive, Jane Austen Manuscripts, The Gascon Rolls, The Gough Map, and Inquisitions Post Mortem, occupy important positions in the history of digital humanities. Of the projects inherited by the lab, about half are either of exceptionally high quality or seminal in other ways but almost all of them struggled with funding and technical issues that threatened their survival. By taking a holistic approach to infrastructure, and software engineering and maintenance, the lab has resolved the majority of the issues and secured the short to medium term future of the projects in its care. This article details the conceptual, procedural, and technical approaches used to achieve that, and offers policy recommendations to prevent repetition of the situation in the future.
 teaser: "Details the conceptual, procedural, and technical approaches used to secure the short to medium term future of the King's Digital Lab projects, and offers policy recommendations to prevent repetition of the situation in the future."

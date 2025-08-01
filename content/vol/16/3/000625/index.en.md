@@ -177,7 +177,7 @@ This study is supported by the R+D+I projects:  _ Ballets Españoles (1927-1929)
 [^1]:  Some of the studies that recuperated the legacy of Antonia Mercé and mentioned the Ballets Espanols are: [^rodrigo1990]; [^manso1993]; [^bennahum2000]; [^murgacastro2017a]; [^murgacastro2019]; [^murgacastro2021]; [^alberdi2018].
 [^2]:   [https://accad.osu.edu/](https://accad.osu.edu/)
 [^3]:   [http://www.siobhandaviesreplay.com](http://www.siobhandaviesreplay.com)
-[^4]:   [http.//carmenbeuchat.org](http.//carmenbeuchat.org)
+[^4]:   [http://carmenbeuchat.org](http://carmenbeuchat.org)
 [^5]:   [https://movingbodiesmovingculture.wordpress.com](https://movingbodiesmovingculture.wordpress.com)
 [^6]:   [https://movementonthemove.osu.edu/project-mapping-touring](https://movementonthemove.osu.edu/project-mapping-touring)
 [^7]:   [https://www.dunhamsdata.org](https://www.dunhamsdata.org)

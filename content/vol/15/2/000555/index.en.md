@@ -4,7 +4,7 @@ dhqtype: article
 title: "Interpretable Outputs: Criteria for Machine Learning in the Humanities"
 date: 2020-06-25
 article_id: "000555"
-volume: 15
+volume: 015
 issue: 2
 authors:
 - James Dobson

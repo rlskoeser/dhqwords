@@ -9,6 +9,12 @@ issue: 4
 authors:
 - Samantha Blickhan
 translationType: original
+categories:
+- transcription
+- dh
+- ethics
+- history
+- access
 abstract: |
    This piece examines Academic Crowdsourcing in the Humanities: Crowds, Communities and Co-production, by Mark Hedges and Stuart Dunn, and considers the role it plays within existing literature about crowdsourcing and digital humanities.
 teaser: "Review of Academic Crowdsourcing in the Humanities: Crowds, Communities and Co-production, by Mark Hedges and Stuart Dunn."

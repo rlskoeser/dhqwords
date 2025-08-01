@@ -1,7 +1,7 @@
 ---
 type: article
 dhqtype: article
-title: "Making the Whole Greater than the Sum of its Parts: Taxonomy Development as a Site of Negotiation and Compromise in an Interdisciplinary Software Development Project"
+title: "Making the Whole Greater than the Sum of its Parts: Taxonomy development as a site of negotiation and compromise in an interdisciplinary software development project"
 date: 2023-07-10
 article_id: "000701"
 volume: 017
@@ -26,8 +26,7 @@ categories:
 abstract: |
    This paper describes the experience of a group of interdisciplinary researchers and research professionals involved in the PROgressive VIsual DEcision-making in Digital Humanities (PROVIDEDH) project, a four-year project funded within the CHIST-ERA call 2016 for the topic Visual Analytics for Decision Making under Uncertainty — VADMU. It contributes to the academic literature on how digital methods can enhance interdisciplinary cooperative work by exploring the collaboration involved in developing visualisations to lead decision-making in historical research in a specific interdisciplinary research setting. More specifically, we discuss how the cross-disciplinary design of a taxonomy of sources of uncertainty in Digital Humanities (DH), a profoundly collaborative enterprise built at the intersection of computer science and humanities research, became not just an instrument to organise data, but also a tool to negotiate and build compromises between different communities of practice.
 teaser: "We discuss how the cross-disciplinary design of a taxonomy of sources of uncertainty in Digital Humanities (DH) became not just an instrument to organise data, but also a tool to negotiate and build compromises between different communities of practice."
-order: 2
-draft: true
+order: 4
 cluster: "Categories in Digital Humanities"
 ---
   
@@ -96,7 +95,7 @@ The taxonomy developed in the project supports the Open Innovation paradigm by m
   
 To resolve the tensions raised by USAL in a manner able to meet the needs of both the professional historian and the citizen scientist, a particular development approach would be required. As with USAL, in recent years, researchers at PSNC had been involved as technical partners in a number of Digital Humanities projects. Through these projects in particular, they developed a sensitivity to the use of the TEI (Text Encoding Initiative) standard as an accepted mechanism for providing a common structure to digital editions and other digital artefacts created by humanistic researchers. The TEI standard enables simple text processing, corpus linguistic queries and other quantitative approaches to the texts. As such, understanding how the TEI might contribute to an accepted and ultimately sustainable expression of uncertainty seemed an exceptionally fertile approach.
   
-Although the TEI specification includes several mechanisms to express uncertainty or precision (e.g., the <certainty> element, the <precision> element, or the @cert attribute), using them is not a common practice. In an attempt to establish a baseline understanding of precisely how well used they were, project team members used their presentation slot at the TEI 2019 conference [^kozak_analyzing_2021] to ask an audience of nearly 100 TEI users how many of them used this markup in their research work: only one person responded positively.
+Although the TEI specification includes several mechanisms to express uncertainty or precision (e.g., the certainty element, the precision element, or the @cert attribute), using them is not a common practice. In an attempt to establish a baseline understanding of precisely how well used they were, project team members used their presentation slot at the TEI 2019 conference [^kozak_analyzing_2021] to ask an audience of nearly 100 TEI users how many of them used this markup in their research work: only one person responded positively.
   
 Clearly, the challenge is not just about having tags in the most widely accepted annotation standard to manage uncertainty in the humanities research process. It is about managing uncertainty within data and facilitating approaches to make it more explicit. To harness the affordances already inherent in the standard, however, the PROVIDEDH project focused its platform-building efforts on TEI-encoded texts, creating a collaborative platform  _([https://providedh.ehum.psnc.pl](https://providedh.ehum.psnc.pl))_  that allows users to load their TEI files and analyse them in many ways. The platform also allows users to enrich the annotation layer of files with new entities or doubts about existing (annotated) entities and fragments. Furthermore, the annotation scenarios implemented in the platform allow the TEI uncertainty annotation specification to be tested and ultimately expanded by the project.
   
@@ -190,7 +189,8 @@ Alejandro Benito-Santos acknowledges support from the postdoctoral grant ’Marg
 The authors declared that they have no conflict of interest.
   
     
-[^maceachren_visualizing_1992]:  MacEachren, A. M. (1992)  “Visualizing Uncertain Information” ,  _Cartographic Perspectives_ , 0(13), pp. 10-19. {Available at: [http://www.cartographicperspectives.org/index.php/journal/article/view/cp13-maceachren](http://www.cartographicperspectives.org/index.php/journal/article/view/cp13-maceachren) or [10.14714/CP13.1000](10.14714/CP13.1000) (Accessed: 14 February 2018)}  
+[^bruce_etal2004]: Bruce, A., Lyall, C., Tait, J., Williams, R. (2004)  “Interdisciplinary Integration in Europe: the Case of the Fifth Framework Programme” ,  _Futures_ , 36(4), pp. 457–470.  
+[^maceachren_visualizing_1992]:  MacEachren, A. M. (1992)  “Visualizing Uncertain Information” ,  _Cartographic Perspectives_ , 0(13), pp. 10-19. {Available at: [http://www.cartographicperspectives.org/index.php/journal/article/view/cp13-maceachren](http://www.cartographicperspectives.org/index.php/journal/article/view/cp13-maceachren) or [10.14714/CP13.1000](https://doi.org/10.14714/CP13.1000) (Accessed: 14 February 2018)}  
 [^pang_approaches_1997]:  Pang, A. T., Wittenbrink, C. M., and Lodha, S. K. (1997)  “Approaches to uncertainty visualization” ,  _The Visual Computer_ , 13(8), pp. 370-390. {Available at: [https://link.springer.com/article/10.1007/s003710050111](https://link.springer.com/article/10.1007/s003710050111) (Accessed: 14 February 2018).}  
 [^smithson_ignorance_1989]:  Smithson, Michael. (1989)  _Ignorance and uncertainty: emerging paradigms_ . New York: Springer-Verlag.   
 [^fisher_models_1999]:  Fisher, P. (1999)  “Models of uncertainty in spatial data” ,  _Geographical information systems_ , vol. 1, pp. 191–205.  

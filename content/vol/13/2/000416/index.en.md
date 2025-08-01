@@ -12,6 +12,11 @@ authors:
 - Allen Romano
 - Micah Vandegrift
 translationType: original
+categories:
+- collaboration
+- social justice
+- dh
+- ethics
 abstract: |
    An introduction to the Special Issue on Invisible Work in Digital Humanities where the authors address a 2016 symposium on the issue, interrogate critical factors which effect the invisibility of work, and offer a potential framework to move forward.
 teaser: "Introduction to a special issue of DHQ on Invisible Labor"

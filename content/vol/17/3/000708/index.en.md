@@ -21,8 +21,7 @@ categories:
 abstract: |
    Reprocessing printed source material and facilitating large-scale qualitative as well as quantitative analyses with digital methods poses many challenges. A case study on approximately 10,000 inventory entries for legal cases from the Special Court Munich (1933–1945) highlights those and offers a glimpse into a digitisation workflow that allows for in-depth computer-aided analysis. For this paper, different methods and procedures for developing categorisation systems for legal charges are discussed.
 teaser: "Three different approaches to categorising semi-structured information concerning legal history"
-order: 4
-draft: true
+order: 5
 cluster: "Categories in Digital Humanities"
 ---
   

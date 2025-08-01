@@ -4,7 +4,7 @@ dhqtype: article
 title: "Automatic Identification of Types of Alterations in Historical Manuscripts"
 date: 2021-11-15
 article_id: "000553"
-volume: 15
+volume: 015
 issue: 2
 authors:
 - David Lassner
@@ -331,8 +331,8 @@ In [Figure 13](#figure13), the results of such an evaluation over 324 different 
   
   
   
-[^1]: The encoding guidelines can be found at [berliner-intellektuelle.eu/encoding-guidelines.pdf](berliner-intellektuelle.eu/encoding-guidelines.pdf)
-[^2]: [gitlab.tubit.tu-berlin.de/david.lassner/shipping_alterLDA](gitlab.tubit.tu-berlin.de/david.lassner/shipping_alterLDA)
+[^1]: The encoding guidelines can be found at [berliner-intellektuelle.eu/encoding-guidelines.pdf](http://berliner-intellektuelle.eu/encoding-guidelines.pdf)
+[^2]: [gitlab.tubit.tu-berlin.de/david.lassner/shipping_alterLDA](http://gitlab.tubit.tu-berlin.de/david.lassner/shipping_alterLDA)
 [^3]:  “[..] Tieck plante aus finanzieller Bedrängnis heraus den Verkauf seiner Bibliothek an den Grafen Yorck von Wartenburg[..]”    _BI_ , comment by Johanna Preusse in letter from Ludwig Tieck to Friedrich von Raumer (Dresden, 11. November 1836)
 [^4]:  “Kontext der von Tieck angedeuteten Vorgänge waren Machtstreitigkeiten zwischen der katholischen Kirche und dem preußischen Staat. [..]”    _BI_ , comment by Johanna Preusse in letter from Ludwig Tieck to Friedrich von Raumer (Dresden, 27. März 1838)  
 [^andrews2013]: Andrews, T., 2013.  “The third way: philology and critical edition in the digital age.”    _Variants_ , pp. 61-76.  

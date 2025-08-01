@@ -10,6 +10,11 @@ authors:
 - Dawn Opel
 - Michael Simeone
 translationType: original
+categories:
+- pedagogy
+- tools
+- project management
+- ethics
 tags:
 - digital humanities labs
 - graduate students

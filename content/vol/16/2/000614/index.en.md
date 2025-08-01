@@ -4,7 +4,7 @@ dhqtype: article
 title: "Stitching the Fragmented: Feminist Maker Pedagogy and Immersive Technologies for Cultural Learning"
 date: 2022-05-03
 article_id: "000614"
-volume: 0016
+volume: 016
 issue: 2
 authors:
 - Mélanie Péron

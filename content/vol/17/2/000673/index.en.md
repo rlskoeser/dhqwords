@@ -2,7 +2,7 @@
 type: article
 dhqtype: article
 title: "Automatic Identification of Rhetorical Elements in classical Arabic Poetry"
-date: 
+date: 2023-07-07
 article_id: "000673"
 volume: 017
 issue: 2

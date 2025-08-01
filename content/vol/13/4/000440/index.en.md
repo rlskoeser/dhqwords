@@ -9,6 +9,13 @@ issue: 4
 authors:
 - Peter Meindertsma
 translationType: original
+categories:
+- music
+- history
+- area studies
+- digital libraries
+- nlp
+- data analytics
 tags:
 - Billboard
 - charts

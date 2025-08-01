@@ -94,7 +94,7 @@ We are grateful to our tireless authors, reviewers, and editors, as well as to  
 [^berry2011]:  Berry, David M. (David Michael).  _The Philosophy of Software: Code and Mediation in The Digital Age_ . Palgrave Macmillan, 2011.   
 [^binder2022]:  Binder, Jeffrey M.  _Language and the Rise of the Algorithm_ . First edition, University of Chicago Press, 2022.   
 [^blackwell2022]:  Blackwell, Alan F., et al.  _Live Coding: A User’s Manual_ . The MIT Press, 2022.   
-[^bogost_montfort2006]: Bogost, Ian and Nick Montfort. Platform Studies website. 2006. [http://platformstudies.com/](#http://platformstudies.com/).  
+[^bogost_montfort2006]: Bogost, Ian and Nick Montfort. Platform Studies website. 2006. [http://platformstudies.com/](http://platformstudies.com/).  
 [^brock2019]:  Brock, Kevin.  _Rhetorical Code Studies: Discovering Arguments in and around Code_ . University of Michigan Press, 2019.   
 [^brown2015]:  Brown, James J., Jr.  _Ethical Programs: Hospitality and the Rhetorics of Software_ . U OF M Digt Cult Books, 2015.   
 [^cardenas2022]:  cárdenas, micha.  _Poetic Operations: Trans of Color Art in Digital Media_ . Duke University Press Books, 2022.   

@@ -9,6 +9,14 @@ issue: 1
 authors:
 - Alan Bilansky
 translationType: original
+categories:
+- code studies
+- media studies
+- users
+- moving images
+- cs
+- visual art
+- cultural criticism
 abstract: |
    Lev Manovich presents a theory of software as simulation. To form the user interface for modern media software, older media are metaphorized, and then new features are added to the media by virtue of their being simulations, and finally the original media are combined to create new forms of cultural expression. Movies that seamlessly combine lens photography and 3D computer graphics are the best example of new cultural forms created by software.
 teaser: "Review of Lev Manovich's Software Takes Command."

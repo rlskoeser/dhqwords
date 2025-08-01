@@ -10,6 +10,14 @@ authors:
 - Jasmijn Van Gorp
 - Marc Bron
 translationType: original
+categories:
+- interdisciplinarity
+- collaboration
+- archives
+- project report
+- moving images
+- cs
+- media studies
 abstract: |
    This article sheds an empirical light on interdisciplinary collaboration within the Digital Humanities by investigating the daily research practice of the Dutch Digital Humanities-project BRIDGE. The project developed and tested methods for automatically creating meaningful links and expanding archival television data. In the project, a high level of collaboration was required between scholars from two different disciplines: computer sciences and media studies. The majority of the epistemological encounters between the two disciplines took place in the design of the developed tools and the user studies to test the tools. The article is based on structured conversations between the two central staff members in the project, i.e. the computer science PhD-student and the media studies postdoctoral researcher. By unravelling the research project as a process of confrontation, identification and acknowledgement of situated knowledges, the article shows when and how the boundaries between the two disciplines have been maintained, crossed and blurred. The authors point to the benefits and challenges of interdisciplinary collaboration in the Digital Humanities, and formulate some best practices for future Digital Humanities-projects.
 teaser: "Sheds empirical light on interdisciplinary collaboration between the computer sciences and media studies on the DH project BRIDGE."
@@ -357,7 +365,7 @@ The authors would like to thank all scholars, software developers and archivists
 [^haraway1988]: Haraway, D.  “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective.”    _Feminist Studies_ , 14. 3 (1988): 575-99.  
 [^haraway1991]: Haraway, D.  _Dimians, cyborgs, and women: the reinvention of nature_ . Routledge, New York (1991).  
 [^harding1987]: Harding, S.  “Introduction: Is there a feminist method?”  In S. Harding (ed),  _Feminism and methodology_ . University of Indiana Press, Bloomington (1987), pp. 1-14.  
-[^hartley2009]: Hartley, J.  “From Cultural Studies to Cultural Science” ,  _Cultural Science_ , 2.1. Available at: [www.cultural-science.org/journal](www.cultural-science.org/journal).   
+[^hartley2009]: Hartley, J.  “From Cultural Studies to Cultural Science” ,  _Cultural Science_ , 2.1. Available at: [www.cultural-science.org/journal](http://www.cultural-science.org/journal).   
 [^hessels2008]: Hessels, L.K. and van Lente, H.,  “Re-thinking New Knowledge Production: A Literature Review and a Research Agenda” ,  _Research Policy_  37 (2008): 740–760.  
 [^latour1987]: Latour, B.  _Science in Action: How to Follow Scientists and Engineers Through Societies_ . Harvard University Press, Cambridge MA (1987).  
 [^latour2005]: Latour, B.  _Reassembling the social. An introduction to actornetwork theory_ . Oxford University Press, Oxford and New York (2005).  

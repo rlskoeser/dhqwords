@@ -2,7 +2,7 @@
 type: article
 dhqtype: article
 title: "The Digital Environmental Humanities (DEH) in the Anthropocene: Challenges and Opportunities in an Era of Ecological Precarity"
-date: 
+date: 2023-08-10
 article_id: "000714"
 volume: 017
 issue: 3
@@ -29,8 +29,7 @@ tags:
 abstract: |
    Researchers in the complementary fields of the digital humanities and the environmental humanities have begun to collaborate under the auspices of the digital environmental humanities (DEH). The overarching aim of this emerging field is to leverage digital technologies in understanding and addressing the urgencies of the Anthropocene. Emphasizing DEH’s focus on natural and cultural vitality, this article begins with a historical overview of the field. Crafting an account of the field’s emergence, we argue that the present momentum toward DEH exhibits four broad thematic strains including perennial eco-archiving; Anthropocene narratives of loss; citizen ecohumanities; and human-plant-environment relations. Within each of the four areas, the article identifies how DEH ideas have been implemented in significant projects that engage with, envision, re-imagine, and devise communities for environmental action and transformation. We conclude with suggestions for further bolstering DEH by democratizing environmental knowledge through open, community-engaged methods.
 teaser: ""
-order: 12
-draft: true
+order: 21
 ---
   
   

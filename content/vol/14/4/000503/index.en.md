@@ -224,7 +224,7 @@ My thanks to Brett Barney, Matt Cohen, Mike Cohen, Ken Price, and Steve Ramsay f
 [^34]: See [Folsom (2007)](#folsom2007); [McGann (2007)](#mcgann2007); and [Hayles (2007)](#hayles2007).  
 [^allington2016]: Allington, Daniel, Sarah Brouillette, and David Golumbia.  “Neoliberal Tools (and Archives): A Political History of Digital Humanities.”    _Los Angeles Review of Books_  (May 1, 2016). [https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/](https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/) Accessed 13 September 2020.  
 [^bailey2011]: Bailey, Moya Z.  “All the Digital Humanists Are White, All the Nerds Are Men, but Some of Us Are Brave.”    _Journal of Digital Humanities_  1.1 (2011).  
-[^barnett2016]: Barnett, Fiona, Zach Blas, Micha Cárdenas, Jacob Gaboury, Jessica Marie Johnson, and Margaret Rhee.  “QueerOS: A User’s Manual.”  Klein and Gold, 2016. [dhdebates.gc.cuny.edu/debates/text/56](dhdebates.gc.cuny.edu/debates/text/56). Accessed 20 July 2018.  
+[^barnett2016]: Barnett, Fiona, Zach Blas, Micha Cárdenas, Jacob Gaboury, Jessica Marie Johnson, and Margaret Rhee.  “QueerOS: A User’s Manual.”  Klein and Gold, 2016. [dhdebates.gc.cuny.edu/debates/text/56](http://dhdebates.gc.cuny.edu/debates/text/56). Accessed 20 July 2018.  
 [^cohen2017]: Cohen, Matt.  _Whitman’s Drift: Imagining Literary Distribution_ . Iowa City: University of Iowa Press, 2017.  
 [^ccp]:    _Colored Conventions Project_ . University of Delaware. coloredconventions.org. Accessed 1 August 2018.  
 [^dhpoco]: dhpoco.org. Curated by Adeline Koh and Roopika Risam. Accessed 10 July 2018.  
@@ -239,7 +239,7 @@ My thanks to Brett Barney, Matt Cohen, Mike Cohen, Ken Price, and Steve Ramsay f
 [^folsom2000]: Folsom, Ed.  “Lucifer and Ethiopia: Whitman, Race, and Poetics before the Civil War and After.”    _A Historical Guide to Walt Whitman_ , ed. David S. Reynolds. New York: Oxford University Press, 2000. 45-96.  
 [^folsom2001]: Folsom, Ed.  “Walt Whitman’s  “The Sleepers.” ”    _The Classroom Electric: Dickinson, Whitman, and American Culture_ . 2001. [http://bailiwick.lib.uiowa.edu/whitman/sleepers/](http://bailiwick.lib.uiowa.edu/whitman/sleepers/). Accessed 18 April 2018.  
 [^french1990]: French, R. W.  “Whitman’s Dream Vision: A Reading of  “The Sleepers.” ”    _Walt Whitman Quarterly Review_  8.1 (Summer 1990): 1-15.  
-[^gallon2016]: Gallon, Kim.  “Making a Case for the Black Digital Humanities.”  Klein and Gold, 2016. [dhdebates.gc.cuny.edu/debates/text/55](dhdebates.gc.cuny.edu/debates/text/55). Accessed 10 July 2018.  
+[^gallon2016]: Gallon, Kim.  “Making a Case for the Black Digital Humanities.”  Klein and Gold, 2016. [dhdebates.gc.cuny.edu/debates/text/55](http://dhdebates.gc.cuny.edu/debates/text/55). Accessed 10 July 2018.  
 [^gilmore2009]: Gilmore, Paul.  _Aesthetic Materialism: Electricity and American Romanticism_ . Stanford: Stanford University Press, 2009.  
 [^gray2020]: Gray, Nicole, ed.  _Leaves of Grass (1855) Variorum_ . The Walt Whitman Archive, 2020. [https://whitmanarchive.org/published/LG/1855/variorum/index.html](https://whitmanarchive.org/published/LG/1855/variorum/index.html). Accessed 27 September 2020.  
 [^greenspan2019]: Greenspan, Brian.  “The Scandal of Digital Humanities.”  Klein and Gold, 2019. [https://dhdebates.gc.cuny.edu](https://dhdebates.gc.cuny.edu). Accessed 12 September 2020.   
@@ -254,7 +254,7 @@ My thanks to Brett Barney, Matt Cohen, Mike Cohen, Ken Price, and Steve Ramsay f
 [^kennedy1896]: Kennedy, William Sloane.  _Reminiscences of Walt Whitman_ . London: Alexander Gardner, 1896.  
 [^klammer2006]: Klammer, Martin.  “Slavery and Race.”    _A Companion to Walt Whitman_ , ed. Donald D. Kummings. Malden, MA: Blackwell, 2006. 101-121.  
 [^klein2012]: Klein, Lauren F., and Matthew K. Gold, eds.  _Debates in the Digital Humanities_ . Minneapolis: University of Minnesota Press, 2012, 2016, and 2019. [https://dhdebates.gc.cuny.edu/](https://dhdebates.gc.cuny.edu/).  
-[^kirschenbaum2012]: Kirschenbaum, Matthew.  “Digital Humanities As/Is a Tactical Term.”  Klein and Gold, 2012. [dhdebates.gc.cuny.edu/debates/text/48](dhdebates.gc.cuny.edu/debates/text/48). Accessed 20 July 2018.  
+[^kirschenbaum2012]: Kirschenbaum, Matthew.  “Digital Humanities As/Is a Tactical Term.”  Klein and Gold, 2012. [dhdebates.gc.cuny.edu/debates/text/48](http://dhdebates.gc.cuny.edu/debates/text/48). Accessed 20 July 2018.  
 [^kirschenbaum2010]: Kirschenbaum, Matthew.  “What Is Digital Humanities and What’s It Doing in English Departments?”    _ADE Bulletin_  150 (2010): 55-61.  
 [^knuth1973]: Knuth, Donald E.  _The Art of Computer Programming_ . Vol. 1. 2nd edition. Reading, MA: Addison-Wesley Publishing Company, 1973.  
 [^koh2013]: Koh, Adeline and Roopika Risam.  “The Origins of #DHpoco and the Art of Play.”    _Postcolonial Digital Humanities_  (20 March 2013). Dhpoco.org.  
@@ -262,7 +262,7 @@ My thanks to Brett Barney, Matt Cohen, Mike Cohen, Ken Price, and Steve Ramsay f
 [^latour1988]: Latour, Bruno [as Jim Johnson].  “Mixing Humans and Nonhumans Together: The Sociology of a Door-Closer.”    _Social Problems_  35.3 (June 1988): 298-210.  
 [^liu2004a]: Liu, Alan.  _The Laws of Cool: Knowledge Work and the Culture of Information_ . Chicago: University of Chicago Press, 2004.  
 [^liu2004b]: Liu, Alan.  “Transcendental Data: Toward a Cultural History and Aesthetics of the New Encoded Discourse.”    _Critical Inquiry_  31 (2004): 49-84.  
-[^oed]:  “logic,  _n_ .”    _OED Online_ . Oxford University Press. [www.oed.com/view/Entry/109788](www.oed.com/view/Entry/109788). Accessed 19 April 2018.  
+[^oed]:  “logic,  _n_ .”    _OED Online_ . Oxford University Press. [www.oed.com/view/Entry/109788](http://www.oed.com/view/Entry/109788). Accessed 19 April 2018.  
 [^liddell]:  “λόγος.”    _The Online Liddell-Scott-Jones Greek-English Lexicon_ . [http://stephanus.tlg.uci.edu/lsj/#eid=65855](http://stephanus.tlg.uci.edu/lsj/#eid=65855). Accessed 19 April 2018.   
 [^mancuso1997]: Mancuso, Luke.  _The Strange Sad War Revolving: Walt Whitman, Reconstruction, and the Emergence of Black Citizenship, 1865-1876_ . Columbia, SC: Camden House, 1997.   
 [^mccarty2016]: McCarty, Willard.  “Becoming Interdisciplinary.”  Schreibman et al., 67-83.  
@@ -270,7 +270,7 @@ My thanks to Brett Barney, Matt Cohen, Mike Cohen, Ken Price, and Steve Ramsay f
 [^mcgann2016]: McGann, Jerome.  “Marking Texts of Many Dimensions.”  Schreibman et al., 358-76.   
 [^mcgann2001]: McGann, Jerome.  _Radiant Textuality: Literature After the World Wide Web_ . New York: Palgrave, 2001.  
 [^mckenzie1999]: McKenzie, D. F.  _Bibliography and the Sociology of Texts._  Cambridge: Cambridge University Press, 1999.  
-[^mcpherson2012]: McPherson, Tara.  “Why Are the Digital Humanities So White? or Thinking the Histories of Race and Computation.”  Klein and Gold, 2012. [dhdebates.gc.cuny.edu/debates/text/29](dhdebates.gc.cuny.edu/debates/text/29). Accessed 20 July 2018.  
+[^mcpherson2012]: McPherson, Tara.  “Why Are the Digital Humanities So White? or Thinking the Histories of Race and Computation.”  Klein and Gold, 2012. [dhdebates.gc.cuny.edu/debates/text/29](http://dhdebates.gc.cuny.edu/debates/text/29). Accessed 20 July 2018.  
 [^miller2010]: Miller, Matt.  _Collage of Myself: Walt Whitman and the Making of Leaves of Grass_ . Lincoln, NE: University of Nebraska Press, 2010.  
 [^mott1939]: Mott, Frank Luther.  _A History of American Magazines_ . 4 vols. Cambridge: Belknap Press of Harvard University Press, 1939-57.   
 [^mott1941]: Mott, Frank Luther.  _American Journalism: A History of Newspapers in the United States through 250 Years, 1690 to 1940_ . New York: Macmillan Company, 1941.  
@@ -279,7 +279,7 @@ My thanks to Brett Barney, Matt Cohen, Mike Cohen, Ken Price, and Steve Ramsay f
 [^newman2017]: Newman, Daniel.  “Secret to Digital Transformation Success: Fail Fast to Innovate Faster.”    _Forbes_ . 16 May 2017. [www.forbes.com](http://www.forbes.com/). Accessed April 18, 2018.  
 [^oberhaus2018]: Oberhaus, Daniel.  “ Master/Slave  Terminology Was Removed from Python Programming Language.”    _Vice_ . 13 September 2018. [www.vice.com](http://www.vice.com/). Accessed September 30, 2018.  
 [^parks1995]: Parks, Suzan-Lori.  _The America Play and Other Works_ . New York: Theatre Communications Group, Inc., 1995.  
-[^posner2016]: Posner, Miriam.  “What’s Next: The Radical, Unrealized Potential of Digital Humanities.”  Klein and Gold, 2016. [dhdebates.gc.cuny.edu/debates/text/54](dhdebates.gc.cuny.edu/debates/text/54). Accessed 20 April 2018.  
+[^posner2016]: Posner, Miriam.  “What’s Next: The Radical, Unrealized Potential of Digital Humanities.”  Klein and Gold, 2016. [dhdebates.gc.cuny.edu/debates/text/54](http://dhdebates.gc.cuny.edu/debates/text/54). Accessed 20 April 2018.  
 [^price2004]: Price, Kenneth M.  _To Walt Whitman, America_ . Chapel Hill, NC: University of North Carolina Press, 2004.   
 [^raley2002]: Raley, Rita.  “Interferences: [Net.Writing] and the Practice of Codework.”    _Electronic Book Review_  (2002). [http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/](http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/). Accessed 31 July 2018.  
 [^ramsay2011]: Ramsay, Stephen.  _Reading Machines: Toward an Algorithmic Criticism_ . Urbana: University of Illinois Press, 2011.  

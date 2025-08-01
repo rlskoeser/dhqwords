@@ -9,6 +9,10 @@ issue: 4
 authors:
 - Nathan Sullivan
 translationType: original
+categories:
+- rhetoric
+- ar
+- materialisms
 abstract: |
    Suasive Iterations seeks to expand the repertoire of physical computing, rhetoric, and digital humanities research in an age of pervasive technology and virtual reality. The book provides a collection of theoretical frameworks with which digital humanists can craft projects to evert the virtual and the real towards suasive ends. Rieder argues that digital rhetors and authors should seek to use the affordances of technology to bring the virtual and the real together to create reality altering experiences that are persuasive and transductive. This book is an invaluable tool for those new to the digital humanities as well as experienced scholars as it provides strong theoretical guidance as well as project ideas to promote research in the field.
 teaser: "Review of David M. Rieder’s Suasive Iterations: Rhetoric, Writing, & Physical Computing"

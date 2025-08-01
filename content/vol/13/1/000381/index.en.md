@@ -12,6 +12,12 @@ authors:
 - Francesca Giannetti
 - Elizabeth Grumbach
 translationType: original
+categories:
+- tools
+- music
+- history
+- project report
+- information retrieval
 tags:
 - digital musicology
 - aggregation

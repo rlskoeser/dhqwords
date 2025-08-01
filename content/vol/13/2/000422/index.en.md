@@ -9,6 +9,11 @@ issue: 2
 authors:
 - Dr. Jeanie Austin
 translationType: original
+categories:
+- project report
+- social justice
+- archives
+- gender
 abstract: |
    FemTechNet is a relatively small and loosely affiliated feminist, anti-racist collective which focuses on overlaps between and implications of feminism and technology. It exists as a support and collaboration structure that challenges traditional hierarchies through distributed power and collective creation. In an examination of hidden labor and archival silences, this research addresses how ideological underpinnings shaped the process of envisioning an institutional archive of FemTechNet records, how principles held by FemTechNet reverberated through the archival process, and how FemTechNet members conceptualized the imagined institutionally-held archive. The research reveals that the collective navigated institutional requirements and resources, the risks inherent in the tensions between the personal and the collective, and affective presence as part of the creation of the records that form the archive.
 teaser: "What can be learned from the institutional FemTechNet archive."

@@ -10,6 +10,14 @@ authors:
 - Costas Papadopoulos
 - Susan Schreibman
 translationType: original
+categories:
+- history
+- geospatial
+- ar
+- data modeling
+- data visualization
+- project report
+- dh
 tags:
 - Virtual worlds
 - digital (re)constructions
@@ -159,7 +167,7 @@ Feedback from the group also strengthened our resolve to have users enter the wo
   
  Contrary to many digital (re)constructions of ancient spaces in which architecture is a fundamental research question that helps understand the relationship between people, artefacts, and movement, the area in which the Battle of Mount Street Bridge took place is more or less the same today as in 1916. Although there are buildings that were destroyed during the course of the battle and replaced by modern office blocks (such as Clanwilliam House and Robert’s Builders Yard) the rest of the buildings and the layout of the streets are virtually the same (the main difference being the trees on the street are 100 years older). 
   
-{{< figure src="resources/images/Figure4%20(2).jpg" caption="Photorealistic rendering of the battlefield in Autodesk 3dsMax including schematic representations of buildings in the adjacent streets." alt=""  >}}
+{{< figure src="resources/images/Figure4.jpg" caption="Photorealistic rendering of the battlefield in Autodesk 3dsMax including schematic representations of buildings in the adjacent streets." alt=""  >}}
 
   
 Unlike the challenges that many wargame designers have faced in terms of designing large battlefields that need to be compressed into a playing field, the Battle of Mount Street Bridge took place in a constrained environment with the majority of action taking place on one city block (Northumberland Road between the Grand Canal and Haddington Road), with forays down adjoining streets around the backs of buildings ([Figure 2](#figure02)). Moreover, there exists fairly detailed cross-referenced sources about how the battle was waged spatially, which provided the BMSB team with quite accurate means for the (re)construction. 
@@ -170,7 +178,7 @@ Constructing the area that was not covered by the point cloud as well as the bui
   
 Once the 3D model was completed in 3dsMax, it was exported as an FBX and imported into Unity 3D Version 5.0 as an Asset to enable an in-browser 3D world for users to explore (Figure 5). The real-time interactivity that the platform provides with the free-roaming, user-directed camera contrary to static renderings and predefined animations allows users to explore the space at their own pace without predetermined paths, views, and orientations, thus enabling new discoveries that the modeller or the researchers involved in the decision-making process may not have considered. The camera views in Unity were based on the functionalities developed by the HVWC: Bird’s-eye view (from above); near-field view based on movement with WSAD keys; and third-view in which the camera is orbited using the mouse. Users can also  “Fly”  to observe the scene from different heights. 
   
-{{< figure src="resources/images/Figure5%20(2).jpg" caption="The Battlefield in Unity 3D Webplayer" alt=""  >}}
+{{< figure src="resources/images/Figure5.jpg" caption="The Battlefield in Unity 3D Webplayer" alt=""  >}}
 
   
 The model for the project was developed to be viewed using the Unity Web Player, an NPAPI-based plugin. However, by the end of the first phase of the project in 2016, NPAPI, and consequently the Unity Web Player, was no longer supported by browsers. It was only Firefox that could run BMSB until Spring 2017, which also stopped supporting NPAPI later in the year.[^12]  For this reason, the BMSB, similarly to other Unity-based projects, stopped being accessible via a browser. Since the project was committed to providing a publicly-available, online version of our research, the model had to be optimised to run in Unity WebGL, which uses HTML5 technologies and the WebGL rendering API to run Unity content in a browser ([Figure 6](#figure06)). Due to the geometric and textural complexity of the original models, it was necessary to simplify them and find ways to reduce the complexity of the scene, e.g. by reducing the buildings in the background to geometry  “instances”  that have a much lower memory footprint since they only consist of a reference to the original vertices and textures. 
@@ -238,7 +246,7 @@ The authors acknowledge the many people who have contributed to the BSMB project
 [^9]:  In the war game, Battlefield 1 ([https://www.battlefield.com/](https://www.battlefield.com/)), players have to complete certain challenges, called Codex Entries, to unlock information written by military and WWI historians. One of these, refers to  “Dicta Boelcke” , a list of aerial combat techniques for attack procedures and tactics written by the German flying Ace, Oswald Boelcke.
 [^10]:  Battalion histories for the 2/7th and the 2/8th Battalions of the Sherwood Foresters exist, each with extensive accounts of the battle.
 [^11]:  For a detailed historical account of the battle, see [^hughes2017].
-[^12]:  Alternative web players, such as Gameload <www.gameload.top> can be installed as an extension to Chrome in Windows PCs, thus enabling an in-browser activation of a Unity game. Unity virtual worlds mentioned in Section 1  “Historical Virtual Worlds: The Challenges of the State-of-the-Art”  that were still available online were opened at the time of writing this paper using Gameload; however, due to the instability of the application (often needed to be reinstalled to run properly) navigation features were disabled in many of these.  
+[^12]:  Alternative web players, such as Gameload [www.gameload.top](http://www.gameload.top) can be installed as an extension to Chrome in Windows PCs, thus enabling an in-browser activation of a Unity game. Unity virtual worlds mentioned in Section 1  “Historical Virtual Worlds: The Challenges of the State-of-the-Art”  that were still available online were opened at the time of writing this paper using Gameload; however, due to the instability of the application (often needed to be reinstalled to run properly) navigation features were disabled in many of these.  
 [^anderson2010]: Anderson, E.F., McLoughlin, L., Liarokapis, F., Peters, C., Petridis, P., de Freitas, S.  “Developing Serious Games for Cultural Heritage: A State-of-the-Art Review” . Virtual Reality 14.4: 255-275. Retrieved November 5, 2017, DOI: [https://doi.org/10.1007/s10055-010-0177-3](https://doi.org/10.1007/s10055-010-0177-3)  
 [^antley2016]: Jeremy, A.  “Struggling with Deep Play.”  In P. Harringan and M. G. Kirschenbaum (eds) Zones of Control: Perspectives on Wargaming (2016), Cambridge, Massachusetts, MIT Press, pp. 463-470.  
 [^apollon2014]: Apollon D., Bélisle, C. and Régnier, P. (eds) Digital Critical Editions. Urbana, Illinois, University of Illinois Press (2014).  

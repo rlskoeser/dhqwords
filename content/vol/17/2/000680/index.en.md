@@ -2,7 +2,7 @@
 type: article
 dhqtype: article
 title: "Language, Materiality, and Digital Neapolitanitá"
-date: 
+date: 2023-06-21
 article_id: "000680"
 volume: 017
 issue: 2

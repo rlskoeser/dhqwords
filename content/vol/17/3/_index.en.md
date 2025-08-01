@@ -3,8 +3,7 @@ clusters:
   '1':
     editors: Dominik Gerstorfer, Evelyn Gius, and Janina Jacke
     title: Categories in Digital Humanities
-date: 2023-08-24
-draft: 'true'
+date: 2024-02-23
 layout: single
 number: '17.3'
 theme: Categories in Digital Humanities

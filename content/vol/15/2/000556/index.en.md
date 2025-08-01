@@ -157,7 +157,7 @@ There are wide-ranging benefits to speaking and writing about data, openly and o
 [^haraway1988]: Haraway, Donna.  “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,”    _Feminist Studies_  14, no. 3 (1988): 575–99, [https://doi.org/10.2307/3178066](https://doi.org/10.2307/3178066).  
 [^hayakawa1990]: Hayakawa, Samuel Ichiyé.  _Language in Thought and Action_ . New York: Houghton Mifflin Harcourt, 1990.  
 [^heath1921]: Heath, Sir Thomas.  _A History of Greek Mathematics Volume 1: From Thales to Euclid_ . Oxford: Clarendon Press, 1921.   
-[^justinian1972]:    _Justinian Institutes_ , Lib. 1, Tit. 3.,  “De Jure Personarum.”  Qtd. in Archibald Alexander Cameron,  _Protestantism and Its Relation to the Moral, Intellectual and Spiritual Developments of Modern Times_ . Ottawa: Joseph Loveday, 1972.  
+[^cameron1972]:    _Justinian Institutes_ , Lib. 1, Tit. 3.,  “De Jure Personarum.”  Qtd. in Archibald Alexander Cameron,  _Protestantism and Its Relation to the Moral, Intellectual and Spiritual Developments of Modern Times_ . Ottawa: Joseph Loveday, 1972.  
 [^kelly-bootle1995]: Kelly-Bootle, Stan. T _he Computer Contradictionary_ . Cambridge: MIT Press, 1995.  
 [^kitchin2014]: Kitchin, Rob.  “1. What Are Data?”  section on  “Conceptualizing Data,”    _The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences_ . Sage Publications e-book edition, 2014.  
 [^longino1990]: Longino, Helen E.  _Science as Social Knowledge: Values and Objectivity in Scientific Inquiry_ . Princeton: Princeton UP, 1990.  

@@ -2,7 +2,7 @@
 type: article
 dhqtype: article
 title: "Introduction: The Questions of Minimal Computing"
-date: 
+date: 2022-06-25
 article_id: "000646"
 volume: 016
 issue: 2

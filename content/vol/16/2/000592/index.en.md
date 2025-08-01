@@ -104,10 +104,10 @@ Since the content is lightweight, we designed an HTML5/PHP-based, highly flexibl
   
 color selection and matching in brocade making. All elements of the game are image-based and can be replaced and changed accordingly so the game can be extended to different patterns with different color palettes. For now, we use a line drawing named  _ 翠蓝地加金缠枝莲花牡丹妆花   _ from the book  _Yunjin Patterns _ (1959), drawn by Chen Zhifo, a very famous artist and educator of the last century, and a color palette digitized by us from the physical color card of a craftsman, Wang Jisheng, who has been working on silk dyes for decades. Users can easily interact with the pattern to make their own design and then download the image as a calendar page to their computer (see Figures 6, 7, and 8).
   
-{{< figure src="resources/images/image4.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: The Color Schemes of Yunjin; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](artlab.nju.edu.cn/heritage/manage)." alt="Screenshot of a content management system backend"  >}}
+{{< figure src="resources/images/image4.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: The Color Schemes of Yunjin; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](http://artlab.nju.edu.cn/heritage/manage)." alt="Screenshot of a content management system backend"  >}}
 
   
-{{< figure src="resources/images/image5.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: Design Rules about Yunjin Color; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](artlab.nju.edu.cn/heritage/manage)." alt="screenshot of a content management system backend"  >}}
+{{< figure src="resources/images/image5.png" caption="Screenshot of the content management system for Coloring Yunjin Brocade: Design Rules about Yunjin Color; _ZHI艺：非物质文化遗产虚拟展示平台_ , [artlab.nju.edu.cn/heritage/manage](http://artlab.nju.edu.cn/heritage/manage)." alt="screenshot of a content management system backend"  >}}
 
   
 {{< figure src="resources/images/image6.png" caption="Screenshot of the game page for Coloring Yunjin Brocade, where users choose one color palette for each flower, “云锦配色小游戏.” _ZHI艺：非物质文化遗产虚拟展示平台,_ [https://artlab.nju.edu.cn/heritage/game/brocade/](https://artlab.nju.edu.cn/heritage/game/brocade/)." alt="screenshot of the coloring yunjin brocade game"  >}}

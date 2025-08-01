@@ -12,6 +12,12 @@ authors:
 - Lauren Tilton
 translationType: original
 categories:
+- pedagogy
+- data visualization
+- collaboration
+- tools
+- ethics
+tags:
 - digital pedagogy
 - labor practices in DH
 - undergraduate research

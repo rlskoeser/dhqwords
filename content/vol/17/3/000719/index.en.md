@@ -21,8 +21,7 @@ tags:
 abstract: |
    Applying digital methods as inputs to an interpretive process, I expose compositional motifs within Sandro Botticelli's momentous Divina Commedia codex that depart from canonical manuscript illustrations. I then situate these visual findings within Quattrocento literary and artistic theory, arguing that Botticelli manipulated his compositional structures to harmonize with the humanist Cristoforo Landino's interpretation of the Commedia as an allegory for the soul's ascension from disorder to order. By leafing through the pages of Botticelli's manuscript and perceiving the striking structure and style of the illustrations, the observer could experience the incremental progress of Dante the Pilgrim’s soul — and perhaps the viewer’s own — through the different stages of hell to paradise. Ultimately, I reflect on the implications of digital methodologies within art history, and how these techniques may enrich or even challenge traditional modes of “seeing” works of art.
 teaser: "Botticelli's drawings of Dante's Divina Commedia — an enigmatic series of works that resists standard art-historical interpretation — take on new meaning when deciphered through digital art history techniques, exposing a nuanced interplay between image and text that departs from centuries of manuscript tradition."
-order: 14
-draft: true
+order: 23
 ---
   
   
@@ -51,21 +50,21 @@ One of my central claims is that Botticelli, unlike earlier  _Commedia_  illustr
 Paging through the manuscript, Botticelli's viewers intuitively experience the differing modes of representation. Within  _Inferno XXXIII_ , for instance, scientific perspective and chronological narrative are cast aside for a tumult of episodes and vanishing points (Figure 1). Dante's sinners sequester themselves into distinct paratactic spaces, and all attempts to glean the logic of the patchwork quilt of flesh and agony leave the viewer frustrated and unsatisfied. 
   
   
-{{< figure src="resources/figure01.png" caption="Sandro Botticelli, _Inferno XXXIII_ , c. 1481-90. Ink and metal point on parchment, Kupferstichakbinett, Berlin." alt=""  >}}
+{{< figure src="resources/figure01.png" caption="Sandro Botticelli, _Inferno XXXIII_ , c. 1481-90. Ink and metal point on parchment, Kupferstichakbinett, Berlin." alt="Botticelli's _Inferno 33_ drawing, depicting Dante and Virgil wandering through a field strewn with traitors against kin and country, most notably the Count Ugolino from Pisa."  >}}
 
   
   
 Yet a few cantos later, the cacophonous discord of  _Inferno_  gives way to cohesion and consonance within  _Purgatorio_ . Take  _Purgatorio XIII_ : assembled in symmetric groups of two and three, Botticelli's penitents huddle together for comfort and warmth (Figure 2). Each pyramidal cluster emanates stability and solidarity rather than disarray. 
   
   
-{{< figure src="resources/figure02.png" caption="Sandro Botticelli, _Purgatorio XIII_ . Ink and metal point on parchment. Kupferstichakbinett, Berlin" alt=""  >}}
+{{< figure src="resources/figure02.png" caption="Sandro Botticelli, _Purgatorio XIII_ . Ink and metal point on parchment. Kupferstichakbinett, Berlin" alt="Botticelli's _Purgatorio 13_ drawing, representing Dante and Virgil within the Terrace of Envy, where groups of penitents huddle together symmetrically around them."  >}}
 
   
   
 At last, Botticelli's  _Paradiso_  arrives with the reduction of structural principles to an ineffable simplicity characteristic of Dante's  _Earthly Paradise_ , as evident within  _Paradiso IX_ . Only two elegant figures — Dante and Beatrice — grace the page, at once distinct yet harmonious, engaged in an intricate dance about the central axis. Botticelli presents not only concord but also a simultaneous expression of intangibility, where either figure threatens to dissolve into the vellum's vast expanse (Figure 3). 
   
   
-{{< figure src="resources/figure03.png" caption="Sandro Botticelli, _Paradiso IX_ , c. 1481–90. Ink and metal point on parchment. Kupferstichkabinett, Berlin" alt=""  >}}
+{{< figure src="resources/figure03.png" caption="Sandro Botticelli, _Paradiso IX_ , c. 1481–90. Ink and metal point on parchment. Kupferstichkabinett, Berlin" alt="Botticelli's _Paradiso 9_ , Dante and Beatrice inscribed within a circle on an otherwise blank expanse of vellum."  >}}
 
   
   
@@ -80,19 +79,19 @@ To expedite the tedious procedure of labeling figure locations (as there are mor
 The heat map analysis revealed no structural differences between the compositions illustrating the canticles in either MS Holkham Misc. 48 or MS Yates Thompson 36 (Figure 4, Figure 5). From the visualizations, the spread of figures is relatively similar, as are the centralized regions of focus. While some variation persists — due in part to Dante the Pilgrim's dynamic environment — a single compositional paradigm of linear organization prevails. No hierarchy of form emerges, as all figures appear equal. 
   
   
-{{< figure src="resources/figure04.png" caption="Density maps of the figures throughout each canticle for MS Holkham Misc. 48. Darker red indicates greater figural density." alt=""  >}}
+{{< figure src="resources/figure04.png" caption="Density maps of the figures throughout each canticle for MS Holkham Misc. 48. Darker red indicates greater figural density." alt="Figure heatmaps of _Inferno_ , _Purgatorio_ , and _Paradiso_ for MS Holkham Misc. 48 showing how there is little compositional change across the series."  >}}
 
   
   
   
-{{< figure src="resources/figure05.png" caption="Density maps of the figures throughout each canticle for Yates Thompson MS 36. Darker red indicates great figure density." alt=""  >}}
+{{< figure src="resources/figure05.png" caption="Density maps of the figures throughout each canticle for Yates Thompson MS 36. Darker red indicates great figure density." alt="Figure heatmaps of _Inferno_ , _Purgatorio_ , and _Paradiso_ for Yates Thompson MS 36 showing how there is little compositional change across the series."  >}}
 
   
   
 Analysis of the heat maps of Botticelli's  _Inferno_ ,  _Purgatorio_ , and  _Paradiso_  illustrations, in contrast, expose how each canticle adheres to a distinct mode of representation (Figure 6). Take for example the  _Inferno_  compositions: the figures are spread across the page, with many banished to the fringes — a fitting locale for those souls who in life strayed from the righteous path. Returning to Botticelli's  _Inferno XXXIII_ , we find figures are juxtaposed without subordination; no social hierarchy or formal relationships arise from the diffuse chaos (Figure 1). Sinners are literally hewn in two at the edges of the parchment. The viewer's eye, desperate for an aesthetic focus, wanders across the page. The  _Purgatorio_  heatmap, meanwhile, reveals an underlying centripetal organization that is consistent with the introduction of compositional principles visible within  _Purgatorio XIII_  (Figure 2). No longer are figures clustered near the edges in isolation and distress. Instead, the central locations become the most prominent, radiating balance and harmony. And finally, the  _Paradiso_  heatmap illustrates the reduction of chaotic structure to a simple unity, as seen in  _Paradiso IX_  (Figure 3). Dante and Beatrice float untethered through the ocean of parchment as if engaged in a cosmic waltz; unconcerned with earthly troubles, they ascend towards the Empyrean. 
   
   
-{{< figure src="resources/figure06.png" caption="Density maps of the figures throughout each canticle for Botticelli's _Commedia_ drawings. Darker red indicates great figure density." alt=""  >}}
+{{< figure src="resources/figure06.png" caption="Density maps of the figures throughout each canticle for Botticelli's _Commedia_ drawings. Darker red indicates great figure density." alt="Figure heatmaps of _Inferno_ , _Purgatorio_ , and _Paradiso_ for Botticelli's _Commedia_ showing how his compositions simplify throughout the series."  >}}
 
   
   
@@ -107,7 +106,7 @@ And so, to analyze the  _Commedia_  illustrations through these methods, I took 
 What is more, close study of the series (conducted both on the drawings in the flesh and through high-quality visual reproductions) reveals that Botticelli adjusted more than his mode of representation: his drawing style exhibits stunning variation by canticle as well. Within  _Inferno_ , the artist sketched frantic, heavy lines in dark ink, evoking the chaotic energy endemic to Dante's hell. Consider the depiction of Dante the Pilgrim's figure within  _Inferno XXXIII_  (Figure 7).[^15]  Gestural lines start, stutter, and cease, conveying form but not volume. The strokes' weight lends Dante's figure material presence, yet their angularity insists that he exists outside of the human world. Botticelli's representation of the two wayfarers in  _Purgatorio XIII_ , meanwhile, typifies the greater sense of naturalism present within the second canticle's drawings (Figure 7). Sketched in a mixture of light and dark ink with significant metal point underdrawings, Botticelli's strokes are confident, deliberate, and measured. We here witness the series at its most tangible: the figures of Dante and Virgil threaten to wander off the page and into the profane world. The pen strokes of  _Paradiso_ , on the other hand, are thin and hesitant, with no signs of the dark ink that suffused the earlier canticles. As a demonstration, follow the line suggesting the outer fold of Beatrice's diaphanous drapery within  _Paradiso IX_  (circled in red in Figure 7). The stroke slopes gently downward, swerves abruptly, and terminates just short of Beatrice's sleeve. A second mark overlaps the first's lower section, but also ceases inexplicably. This is not an anomaly — Beatrice's whole ensemble consists not of continuous strokes, but instead a precarious assemblage of disembodied lines, each drifting unmoored from its neighbors. The artist's drawing mode thus mimics the evanescent nature of his subject. The wayfarers are both present and absent, flitting between the ordinary and the transcendental.[^16]   
   
   
-{{< figure src="resources/figure07.png" caption="Details of Botticelli's differing drawing style within _Inferno XXXIII_ , _Purgatorio XIII_ , and _Paradiso IX_ ." alt=""  >}}
+{{< figure src="resources/figure07.png" caption="Details of Botticelli's differing drawing style within _Inferno XXXIII_ , _Purgatorio XIII_ , and _Paradiso IX_ ." alt="Close-up details of Botticelli's handling of strokes, where the marks in _Inferno_ are far heavier and intentional than the marks in _Purgatorio_ or _Paradiso_ ."  >}}
 
   
   
@@ -123,12 +122,12 @@ Earlier  _Commedia_  illuminators were bound by a textual primacy that restricte
 Further, following the Renaissance ethos that  “a painting is indeed nothing else but a wordless poem” , scholarship on Botticelli's panel paintings demonstrates how the artist's compositions and iconography innovatively reinterpret classical sources.[^24]  Stanley Meltzoff, for instance, proposes that Politian was the rhetor (or architect) for Botticelli's c. 1494-95 panel painting,  _Calumny of Apelles_ , advising the artist on which moralizing vignettes to include, and how they ought to be represented, based on precedent from classical sources (Figure 8; [^meltzoff1987]). The sixty-four visible rilievo schiacciato reliefs, Meltzoff maintains, weave an intricate moral argument for the necessity of beauty and eloquence within the liberal arts.[^25]  Ernst Gombrich similarly relates Botticelli's  _Primavera_  (c. 1477–1482) to the philosopher Ficino's Neoplatonism, suggesting that the artist intended the work to impart a didactic lesson to its rebellious patron, Lorenzo di Pierfrancesco de' Medici (Figure 9; [^gombrich1945]). Charles Dempsey expands on Gombrich's thesis, arguing that in the  _Primavera_ , we witness the two great cultures of Italy — ancient Latin and vernacular Tuscan — brought together in indissoluble union.  “Botticelli's painting” , Dempsey writes,  “is informed by such a fine poetic instinct, combined with philological rigor and tact so exquisitely deployed, that it produces its own aesthetic response”   [^dempsey1992]. 
   
   
-{{< figure src="resources/figure08.png" caption="Sandro Botticelli, _Calumny of Apelles_ , 1494-95. Tempera on panel. Florence, Uffizi." alt=""  >}}
+{{< figure src="resources/figure08.png" caption="Sandro Botticelli, _Calumny of Apelles_ , 1494-95. Tempera on panel. Florence, Uffizi." alt="Botticeli's _Calumny of Apelles_ , depicting a falsely accused man dragged before a king, surrounded by allegorical figures of deceit, fraud, remorse, and a naked truth pointing skyward."  >}}
 
   
   
   
-{{< figure src="resources/figure09.png" caption="Sandro Botticelli, _Primavera_ , 1477–1482. Tempera on panel. Florence, Uffizi." alt=""  >}}
+{{< figure src="resources/figure09.png" caption="Sandro Botticelli, _Primavera_ , 1477–1482. Tempera on panel. Florence, Uffizi." alt="Botticelli's _Primavera_ , featuring a group of mythological figures in a lush garden, with Venus at the center, the Three Graces dancing, and Mercury dissipating clouds on the left."  >}}
 
   
   
@@ -162,17 +161,17 @@ This paper derives from the 2020 Amherst College Honors Thesis,  _The  “Art of
 ## Appendix
   
   
-{{< figure src="resources/supplementalfigure01.png" caption="Illustration of the geometric centroid (labeled G) for the triangle ABC. Mathematically, the centroid is the point where the medians intersect; or, equivalently, the arithmetic mean position of all points within a figure." alt=""  >}}
+{{< figure src="resources/supplementalfigure01.png" caption="Illustration of the geometric centroid (labeled G) for the triangle ABC. Mathematically, the centroid is the point where the medians intersect; or, equivalently, the arithmetic mean position of all points within a figure." alt="A diagram with a scalene triangle illustrating how to find the geometric sigmoid of a shape."  >}}
 
   
   
   
-{{< figure src="resources/supplementalfigure02.png" caption="Flowchart for statistical analysis of illuminated manuscript illustrations. Describes the step-by-step process that each manuscript underwent in order to determine whether the compositions within _Inferno_ , _Purgatorio_ , and _Paradiso_ differed statistically." alt=""  >}}
+{{< figure src="resources/supplementalfigure02.png" caption="Flowchart for statistical analysis of illuminated manuscript illustrations. Describes the step-by-step process that each manuscript underwent in order to determine whether the compositions within _Inferno_ , _Purgatorio_ , and _Paradiso_ differed statistically." alt="A flowchart detailing the statistical process employed: labeling points, computing the one-way ANOVA, and interpreting significance."  >}}
 
   
   
   
-{{< figure src="resources/supplementalfigure03.png" caption="Graphical representation of the post-hoc Tukey HSD test performed on Botticelli's _Commedia_ series. The boundaries indicate 95% confidence intervals — tellingly, none of them cover zero. The _p_ -values for the combinations were all extremely small, allowing for rejection of the null hypothesis. Thus, the mean distance to the centroid differed significantly for all possible combinations." alt=""  >}}
+{{< figure src="resources/supplementalfigure03.png" caption="Graphical representation of the post-hoc Tukey HSD test performed on Botticelli's _Commedia_ series. The boundaries indicate 95% confidence intervals — tellingly, none of them cover zero. The _p_ -values for the combinations were all extremely small, allowing for rejection of the null hypothesis. Thus, the mean distance to the centroid differed significantly for all possible combinations." alt="A chart showing the results of the Post-hoc Tukey HST, a test to confirm the significance of statistical findings."  >}}
 
   
   

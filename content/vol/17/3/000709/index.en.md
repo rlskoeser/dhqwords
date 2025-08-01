@@ -2,7 +2,7 @@
 type: article
 dhqtype: article
 title: "Project Quintessence: Examining Textual Dimensionality with a Dynamic Corpus Explorer"
-date: 
+date: 2023-08-10
 article_id: "000709"
 volume: 017
 issue: 3
@@ -30,8 +30,7 @@ tags:
 abstract: |
    In this paper, we present a free and open-access web tool for exploring the EEBO-TCP early modern English corpus. Our tool combines several unsupervised computational techniques into a coherent exploratory framework that allows for textual analysis at a variety of scales. Through this tool, we hope to integrate close-reading and corpus-wide analysis with the wider scope that computational analysis affords. This integration, we argue, allows for an augmentation of both methods: contextualizing close reading practices within historically- and regionally-specific word usage and semantics, on the one hand, and concretizing thematic and statistical trends by locating them at the textual level, on the other. We articulate a design principle of textual dimensionality or approximating through visualization the abstract relationships between words in any text. We argue that Project Quintessence represents a method for researchers to navigate archives at a variety of scales by helping to visualize the many latent dimensions present in texts.
 teaser: "We articulate a design principle of textual dimensionality in a free and open-access web tool for exploring the EEBO-TCP early modern English corpus"
-order: 11
-draft: true
+order: 20
 ---
   
   

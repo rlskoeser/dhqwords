@@ -11,6 +11,10 @@ authors:
 - Laura Costello
 - Darren Chase
 translationType: original
+categories:
+- project report
+- access
+- glam
 tags:
 - libraries
 - collaboration
@@ -170,7 +174,7 @@ Teplitsky, Joshua.  “Footprints: Jewish Books Through Time and Place.”  Digi
     
 [^]:   
 [^andrews2014]: Andrews, E.  “‘Ignore Them and They Will Come’: Attracting Students to Academic Library Events,”    _Public Services Quarterly_  10.2 (2014): 150-56. [http://dx.doi.org/10.1080/15228959.2014.904211](http://dx.doi.org/10.1080/15228959.2014.904211).  
-[^brantley2017]: Brantley, S., Bruns, T. A., and Duffin, K. I.  “Librarians in Transition: Scholarly Communication Support as a Developing Core Competency.”    _Journal of Electronic Resources Librarianship_  29.3 (2017): 137-150. DOI: [10.1080/1941126X.2017.1340718](10.1080/1941126X.2017.1340718).  
+[^brantley2017]: Brantley, S., Bruns, T. A., and Duffin, K. I.  “Librarians in Transition: Scholarly Communication Support as a Developing Core Competency.”    _Journal of Electronic Resources Librarianship_  29.3 (2017): 137-150. DOI: [10.1080/1941126X.2017.1340718](https://doi.org/10.1080/1941126X.2017.1340718).  
 [^gibson2010]: Gibson, C. and Coniglio, J. W.  “The New Liaison Librarian: Competencies for the 21st Century Academic Library.”  In S. Walter and K. Williams (eds),  _The Expert Library: Staffing, Sustaining, and Advancing the Academic Library in the 21st Century._  Association of College and Research Libraries, Chicago (2010), pp. 93-126.  
 [^gold2012]: Gold, M. K. (ed).  _Debates in the Digital Humanities._  University of Minnesota Press, Minneapolis (2012).  
 [^gold2016]: Gold, M. K. and Klein, L. F. (eds).  _Debates in the Digital Humanities._  University of Minnesota Press, Minneapolis (2016).  

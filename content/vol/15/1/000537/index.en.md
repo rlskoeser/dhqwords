@@ -100,7 +100,7 @@ Fleuron was launched in 2016; since then, a new collaboration has been establish
 [^arandjelovic2012]: Arandjelović, Relja and Andrew Zisserman.  “Three things everyone should know to improve object retrieval.”    _2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_ , (IEEE, 2012): 2911–2918.  
 [^baines1952]: Baines Reed, Talbot.  _A History of the Old English Letter Foundries_  (1887), rev. by A. F. Johnson. London: Faber and Faber, 1952.   
 [^barchas2003]: Barchas, Jeanine.  _Graphic Design, Print Culture, and the Eighteenth-Century Novel_ . Cambridge: Cambridge University Press, 2003.   
-[^bergel2016]: Bergel, Giles.  “Printing Cliches”  (2016). [www.printing-machine.org/notes/2016/6/4/printing-cliches](www.printing-machine.org/notes/2016/6/4/printing-cliches)  
+[^bergel2016]: Bergel, Giles.  “Printing Cliches”  (2016). [www.printing-machine.org/notes/2016/6/4/printing-cliches](http://www.printing-machine.org/notes/2016/6/4/printing-cliches)  
 [^bergel2013]: Bergel, G., A. Franklin. M. Heaney, R. Arandjelović, A. Zisserman, and D. Funke.  “Content-Based Image-Recognition on Printed Broadside Ballads: The Bodleian Libraries’ ImageMatch Tool.”    _IFLA WLIC_  (Singapore 2013). [http://library.ifla.org/209/1/202-bergel-en.pdf](http://library.ifla.org/209/1/202-bergel-en.pdf)    
 [^bigun1996]: Bigün, J., S. K. Bhattacharjee, and S. Michel.  “Orientation Radiograms for Image Retrieval: an Alternative to Segmentation.”    _ICPR ’96: Proceedings of the International Conference on Pattern Recognition_  (Vienna, 1996): 346–50.  
 [^corsini2001]: Corsini, Silvio.  “Passe-Partout.”    _Bulletin des bibliothèques de France_  5 (2001): 73–9.  

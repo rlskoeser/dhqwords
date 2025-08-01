@@ -4,11 +4,17 @@ dhqtype: review
 title: "Cosmopolitanism, Japaneseness, and Video Game Studies: A Review of Mia Consalvo's Atari to Zelda: Japan's Videogames in Global Contexts"
 date: 2019-12-14
 article_id: "000433"
-volume: 13
+volume: 013
 issue: 4
 authors:
 - Steven Braun
 translationType: 
+categories:
+- games
+- area studies
+- history
+- users
+- rhetoric
 abstract: |
    The field of Japanese studies occupies many spaces of inquiry in popular culture and academic scholarship alike, illustrating the diverse ways products of Japanese culture, society, and technology have broadly influenced the global market. In Atari to Zelda: Japan’s Videogames in Global Contexts, Mia Consalvo considers yet another lens through which to understand Japan’s influence, namely video games. Exploring Japan’s video games in a variety of contexts – ranging from how individual game players relate to the study of Japan via encounters with video games to how the Japanese game industry designs games for global consumption – Consalvo’s work considers intriguing relationships between cosmopolitanism, notions of Japaneseness, and globalization which open new directions of research for Japanese studies, game studies, and their intersection.
 teaser: "A Review of Mia Consalvo's Atati to Zelda: Japan's Videogames in Global Contexts"

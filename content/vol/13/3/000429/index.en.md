@@ -9,6 +9,11 @@ issue: 3
 authors:
 - Cara Marta Messina
 translationType: original
+categories:
+- games
+- media studies
+- users
+- ethics
 abstract: |
    Timothy J. Welsh’s monograph Mixed Realism: Videogames and the Violence of Fiction sets out to construct a new methodology, mixed realism, which analyzes the material consequences and experiences that occur from users’ interaction with virtuality and texts. This methodology centers the user, asking the user to reflect on and recognize their individual, social, and contextual positions as they consume texts as well as take responsibility for their interpretations of the narratives.
 teaser: "Review of Timothy J. Welsh's Mixed Realism: Videogames and the Violence of Fiction."

@@ -291,14 +291,14 @@ For their help in making the reflections in this article possible, the author wo
 [^8]: I co-lead this project with Dr. Laura Heffernan and Dr. Tru Leverette, both associate professors of English. Dixon's internship was in Fall 2021. Her work can be seen at [violamuse.unfdhi.org/](https://violamuse.unfdhi.org/).
 [^9]: I supervised Williams's internship, which took place in Spring 2018. The project uses TEI-XML and the edited documents are displayed in an adaptation of TEI-Boilerplate. See [unfdhi.org/earthawhite](https://unfdhi.org/earthawhite).
 [^10]: I was her supervisor for both internships, and she also worked closely with Dr. Felicia Bevel of the UNF Department of History, and Susan Swiatosz, head of Special Collections in UNF's Thomas G. Carpenter Library. These internships took place in Spring 2020 and Spring 2021. See [unfdhi.org/earthawhite](https://unfdhi.org/earthawhite).
-[^11]: See [vocesycaras.unfdhi.org](#https://vocesycaras.unfdhi.org/).
+[^11]: See [vocesycaras.unfdhi.org](https://vocesycaras.unfdhi.org/).
 [^12]: This internship took place in Fall 2019. See [adrela.net](https://adrela.net/).
 [^13]:  See [envirorightsmap.org](http://envirorightsmap.org). Cheatham's internship took place in the fall of 2017.
 [^14]: See [violamuse.unfdhi.org](https://violamuse.unfdhi.org).
 [^15]: Collaborating with Bennett on this aspect of the project helped me to develop the ideas expressed in a 2018 book chapter[^mccarl2018]. See [colonialab.org/epitome1629](https://colonialab.org/epitome1629/). This internship took place in Spring 2016.
 [^16]: See [unfdhi.org/nfew-editions/content/yearling.html](https://unfdhi.org/nfew-editions/content/yearling.html). Dumitrascu's internship took place in Spring 2021.
 [^17]: See [http://sacivilwararchive.com](http://sacivilwararchive.com). German's internship was in the spring of 2017.
-[^18]: I was Thom's mentor for the technical and editorial aspects of this project, but in order to understand and contextualize the documents, she also worked closely with Dr. Denise Bossy, associate professor of history. See [colonialab.org/et-prototype](#https://colonialab.org/et-prototype/).
+[^18]: I was Thom's mentor for the technical and editorial aspects of this project, but in order to understand and contextualize the documents, she also worked closely with Dr. Denise Bossy, associate professor of history. See [colonialab.org/et-prototype](https://colonialab.org/et-prototype/).
 [^19]: Redlhammer developed her prototype using ArcGIS in the spring of 2018.
 [^20]: Dr. Gordon and I supervised jointly these internships, which took place in Summer 2021. Peacock is completing a second internship with the project in Fall 2021, following a similar model.
 [^21]: See [refugeejax.unfdhi.org](https://refugeejax.unfdhi.org). These students received support from Dr. Rosa De Jorio, professor of anthropology, and the staff of Lutheran Social Services of Northeast Florida. This experience took place in the spring of 2018.
