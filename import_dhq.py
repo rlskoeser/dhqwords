@@ -8,7 +8,7 @@ import subprocess
 from pathlib import Path
 import yaml
 
-from eulxml import xmlmap
+from neuxml import xmlmap
 
 
 # make param
