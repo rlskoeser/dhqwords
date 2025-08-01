@@ -13,7 +13,16 @@ _Startwords_ is a research periodical irregularly published by the [Center for D
 [![Hugo](https://img.shields.io/badge/hugo-0.116-blue.svg)](https://gohugo.io)
 ![Node version](https://img.shields.io/badge/node-18-blue)
 
-## Developing
+## Development
+
+### Installation
+
+```sh
+uv venv
+source .venv/bin/activate.fish
+uv pip install . 
+
+```
 
 ### Hugo setup
 
